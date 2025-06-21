@@ -80,11 +80,20 @@ export async function getNewsData(): Promise<NewsData> {
     }
 
     const fileContent = fs.readFileSync(NEWS_FILE, 'utf8')
-    const data: NewsData = JSON.parse(fileContent)
+    const rawData = JSON.parse(fileContent)
+    
+    // publishedAtを適切なDateオブジェクトに変換
+    const data: NewsData = {
+      ...rawData,
+      articles: rawData.articles.map((article: any) => ({
+        ...article,
+        publishedAt: new Date(article.publishedAt)
+      }))
+    }
     
     // データを日付でソート
     data.articles.sort((a, b) => 
-      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+      b.publishedAt.getTime() - a.publishedAt.getTime()
     )
     
     return data
