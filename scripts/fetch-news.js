@@ -2,14 +2,20 @@ const fs = require('fs');
 const path = require('path');
 const Parser = require('rss-parser');
 
-const parser = new Parser();
+const parser = new Parser({
+  timeout: 10000,
+  maxRedirects: 5,
+  headers: {
+    'User-Agent': 'AI-News-Bot/1.0'
+  }
+});
 
 // ニュースソースの設定
 const NEWS_SOURCES = [
   {
     id: 'openai-blog',
     name: 'OpenAI Blog',
-    url: 'https://openai.com/blog/rss.xml',
+    url: 'https://openai.com/news/rss.xml',
     category: 'companies',
     company: 'OpenAI',
     priority: 'high'
