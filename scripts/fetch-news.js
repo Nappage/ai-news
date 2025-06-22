@@ -15,22 +15,6 @@ const NEWS_SOURCES = [
     priority: 'high'
   },
   {
-    id: 'anthropic-news',
-    name: 'Anthropic News',
-    url: 'https://www.anthropic.com/news/rss',
-    category: 'companies', 
-    company: 'Anthropic',
-    priority: 'high'
-  },
-  {
-    id: 'google-ai-blog',
-    name: 'Google AI Blog',
-    url: 'https://ai.googleblog.com/feeds/posts/default',
-    category: 'companies',
-    company: 'Google',
-    priority: 'high'
-  },
-  {
     id: 'huggingface-blog',
     name: 'Hugging Face Blog',
     url: 'https://huggingface.co/blog/feed.xml',
@@ -38,6 +22,8 @@ const NEWS_SOURCES = [
     company: 'Hugging Face',
     priority: 'medium'
   }
+  // Note: Anthropic and Google AI RSS URLs are currently returning 404
+  // Will be re-enabled when working URLs are found
 ];
 
 // データディレクトリの作成
@@ -163,15 +149,28 @@ async function main() {
   console.log('🚀 Starting news fetch process...');
   
   let allArticles = [];
+  let successfulSources = 0;
   
   // 各RSSソースから記事を取得
   for (const source of NEWS_SOURCES) {
-    const articles = await fetchFromRSS(source);
-    allArticles = allArticles.concat(articles);
+    try {
+      const articles = await fetchFromRSS(source);
+      if (articles.length > 0) {
+        allArticles = allArticles.concat(articles);
+        successfulSources++;
+        console.log(`✅ Successfully fetched ${articles.length} articles from ${source.name}`);
+      } else {
+        console.log(`⚠️  No articles found from ${source.name}`);
+      }
+    } catch (error) {
+      console.error(`❌ Failed to fetch from ${source.name}:`, error.message);
+    }
     
     // API制限を避けるため少し待機
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 2000));
   }
+  
+  console.log(`📊 Successfully fetched from ${successfulSources}/${NEWS_SOURCES.length} sources`);
   
   // RSSから記事が取得できなかった場合はサンプルニュースを使用
   if (allArticles.length === 0) {
@@ -222,6 +221,7 @@ async function main() {
 
 // エラーハンドリング付きで実行
 main().catch(error => {
-  console.error('❌ Error in news fetch process:', error);
+  console.error('❌ Critical error in news fetch process:', error);
+  console.error('Stack trace:', error.stack);
   process.exit(1);
 });
