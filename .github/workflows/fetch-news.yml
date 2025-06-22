@@ -11,8 +11,70 @@ permissions:
   actions: write
 
 jobs:
+  # Step 1: 環境準備とデバッグ情報収集
+  debug-environment:
+    runs-on: ubuntu-latest
+    outputs:
+      node-version: ${{ steps.node-info.outputs.node-version }}
+      npm-version: ${{ steps.node-info.outputs.npm-version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Collect environment info
+        id: node-info
+        run: |
+          echo "Node.js version: $(node --version)"
+          echo "npm version: $(npm --version)"
+          echo "Operating system: $(uname -a)"
+          echo "Current directory: $(pwd)"
+          echo "node-version=$(node --version)" >> $GITHUB_OUTPUT
+          echo "npm-version=$(npm --version)" >> $GITHUB_OUTPUT
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Verify package installation
+        run: |
+          echo "Installed packages:"
+          npm list --depth=0
+
+  # Step 2: RSS URLテスト（個別）
+  test-rss-feeds:
+    runs-on: ubuntu-latest
+    needs: debug-environment
+    strategy:
+      matrix:
+        feed:
+          - name: "OpenAI Blog"
+            url: "https://openai.com/news/rss.xml"
+          - name: "Hugging Face Blog"
+            url: "https://huggingface.co/blog/feed.xml"
+      fail-fast: false # 一つが失敗しても他を継続
+    steps:
+      - name: Test RSS feed accessibility
+        run: |
+          echo "Testing: ${{ matrix.feed.name }}"
+          echo "URL: ${{ matrix.feed.url }}"
+          
+          echo "=== HTTP Response Headers ==="
+          curl -I "${{ matrix.feed.url }}" || echo "curl failed with exit code $?"
+          
+          echo "=== HTTP Response Body (first 500 chars) ==="
+          curl -s "${{ matrix.feed.url }}" | head -c 500 || echo "curl body failed with exit code $?"
+          
+          echo "=== Test completed for ${{ matrix.feed.name }} ==="
+
+  # Step 3: ニュース取得スクリプト実行
   fetch-news:
     runs-on: ubuntu-latest
+    needs: [debug-environment, test-rss-feeds]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,12 +90,62 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
-      - name: Fetch news data
-        run: npm run fetch-news
+      - name: Debug script before execution
+        run: |
+          echo "Checking script file:"
+          ls -la scripts/
+          echo "Script content (first 50 lines):"
+          head -50 scripts/fetch-news.js
+          
+      - name: Test basic Node.js functionality
+        run: |
+          echo "Testing basic Node.js:"
+          node -e "console.log('Node.js is working')"
+          node -e "console.log('RSS Parser test:'); const Parser = require('rss-parser'); console.log('RSS Parser loaded successfully');"
+          
+      - name: Fetch news data (with detailed logging)
+        run: |
+          echo "Starting news fetch process..."
+          npm run fetch-news 2>&1 | tee fetch-news.log
+          echo "Exit code: $?"
+          echo "Log file content:"
+          cat fetch-news.log || echo "No log file found"
         env:
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          NODE_ENV: production
+          
+      - name: Verify data output
+        run: |
+          echo "Checking generated data:"
+          ls -la src/data/ || echo "No data directory"
+          if [ -f "src/data/news.json" ]; then
+            echo "news.json exists, size: $(wc -c < src/data/news.json) bytes"
+            echo "First 200 characters:"
+            head -c 200 src/data/news.json
+          else
+            echo "news.json not found"
+          fi
+
+  # Step 4: Git操作（データが生成された場合のみ）
+  commit-changes:
+    runs-on: ubuntu-latest
+    needs: fetch-news
+    if: success()
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies and fetch news
+        run: |
+          npm ci
+          npm run fetch-news
           
       - name: Check for changes
         id: check_changes
@@ -47,6 +159,8 @@ jobs:
           else
             echo "Changes detected"
             echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Changed files:"
+            git diff --staged --name-only
           fi
           
       - name: Commit and push changes
@@ -54,8 +168,3 @@ jobs:
         run: |
           git commit -m "Update news data - $(date +'%Y-%m-%d %H:%M:%S')"
           git push
-          
-      - name: Trigger deploy workflow
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          echo "News data updated. Deploy workflow will be triggered automatically by push."

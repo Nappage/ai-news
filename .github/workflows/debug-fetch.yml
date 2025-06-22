@@ -1,0 +1,113 @@
+name: Debug News Fetch
+
+on:
+  workflow_dispatch: # 手動実行のみ
+
+permissions:
+  contents: read
+
+jobs:
+  # 超シンプルなRSSテスト
+  simple-rss-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test OpenAI RSS directly
+        run: |
+          echo "=== Testing OpenAI RSS ==="
+          curl -v "https://openai.com/news/rss.xml" | head -20
+          
+      - name: Test Hugging Face RSS directly
+        run: |
+          echo "=== Testing Hugging Face RSS ==="
+          curl -v "https://huggingface.co/blog/feed.xml" | head -20
+
+  # Node.js基本テスト
+  nodejs-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Test Node.js basics
+        run: |
+          echo "Node.js version: $(node --version)"
+          echo "npm version: $(npm --version)"
+          
+      - name: Install only rss-parser
+        run: |
+          npm init -y
+          npm install rss-parser
+          
+      - name: Test RSS parser directly
+        run: |
+          node -e "
+          const Parser = require('rss-parser');
+          const parser = new Parser();
+          
+          console.log('Testing OpenAI RSS...');
+          parser.parseURL('https://openai.com/news/rss.xml')
+            .then(feed => {
+              console.log('✅ OpenAI RSS successful');
+              console.log('Feed title:', feed.title);
+              console.log('Items count:', feed.items.length);
+            })
+            .catch(err => {
+              console.log('❌ OpenAI RSS failed:', err.message);
+            });
+          "
+
+  # 実際のスクリプトテスト（最小限）
+  script-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Create minimal test script
+        run: |
+          cat > test-fetch.js << 'EOF'
+          const Parser = require('rss-parser');
+          
+          const parser = new Parser({
+            timeout: 10000,
+            maxRedirects: 5,
+            headers: {
+              'User-Agent': 'AI-News-Bot/1.0'
+            }
+          });
+          
+          async function test() {
+            try {
+              console.log('Testing OpenAI RSS...');
+              const feed = await parser.parseURL('https://openai.com/news/rss.xml');
+              console.log('✅ Success! Feed title:', feed.title);
+              console.log('Items:', feed.items.length);
+              return true;
+            } catch (error) {
+              console.log('❌ Error:', error.message);
+              console.log('Stack:', error.stack);
+              return false;
+            }
+          }
+          
+          test().then(success => {
+            process.exit(success ? 0 : 1);
+          });
+          EOF
+          
+      - name: Run minimal test
+        run: node test-fetch.js
