@@ -83,7 +83,19 @@ function extractTags(title, content) {
 async function fetchFromRSS(source) {
   try {
     console.log(`Fetching from ${source.name}...`);
-    const feed = await parser.parseURL(source.url);
+    
+    // タイムアウト設定付きでフェッチ
+    const feed = await Promise.race([
+      parser.parseURL(source.url),
+      new Promise((_, reject) => 
+        setTimeout(() => reject(new Error('Request timeout')), 10000)
+      )
+    ]);
+    
+    if (!feed || !feed.items) {
+      console.warn(`No items found in feed from ${source.name}`);
+      return [];
+    }
     
     const articles = feed.items.slice(0, 5).map(item => {
       const publishedAt = new Date(item.pubDate || item.isoDate || Date.now());
