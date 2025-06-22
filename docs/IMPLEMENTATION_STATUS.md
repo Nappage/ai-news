@@ -32,6 +32,17 @@
   - 静的生成対応
   - SEOメタデータ生成
 
+- **`/company`** - 企業一覧ページ ⭐ **NEW**
+  - 全企業の概要表示
+  - 各企業の記事数表示
+  - レスポンシブグリッドレイアウト
+  
+- **`/company/[company]`** - 動的企業ページ ⭐ **NEW**
+  - 企業別ニュース表示
+  - パンくずナビゲーション
+  - 静的生成対応
+  - SEOメタデータ生成
+
 ### ✅ 基盤システム
 - **レイアウト** (`layout.tsx`)
   - ヘッダー・フッター
@@ -52,13 +63,13 @@
 5. ~~**`/category/tools`** - ツール・アプリカテゴリ~~ ✅ **完了**
 6. ~~**`/category/industry`** - 業界・政策カテゴリ~~ ✅ **完了**
 
-### 🟡 中優先度（企業ページ）
-7. **`/company`** - 企業一覧ページ
-8. **`/company/openai`** - OpenAI企業ページ
-9. **`/company/anthropic`** - Anthropic企業ページ
-10. **`/company/google`** - Google企業ページ
-11. **`/company/meta`** - Meta企業ページ
-12. **`/company/others`** - その他企業ページ
+### ✅ 中優先度（企業ページ）⭐ **NEW**
+7. ~~**`/company`** - 企業一覧ページ~~ ✅ **完了**
+8. ~~**`/company/openai`** - OpenAI企業ページ~~ ✅ **完了**
+9. ~~**`/company/anthropic`** - Anthropic企業ページ~~ ✅ **完了**
+10. ~~**`/company/google`** - Google企業ページ~~ ✅ **完了**
+11. ~~**`/company/meta`** - Meta企業ページ~~ ✅ **完了**
+12. ~~**`/company/others`** - その他企業ページ~~ ✅ **完了**
 
 ### 🟢 低優先度（補助ページ）
 13. **`/archives`** - アーカイブページ
@@ -82,12 +93,12 @@
   - `CategoryHeader` コンポーネント  
   - `NewsFilter` コンポーネント
 
-#### 1.2 企業ページ群
-- **`/company/page.tsx`** - 企業一覧
-- **`/company/[company]/page.tsx`** - 動的企業ページ
-- 必要なコンポーネント:
-  - `CompanyGrid` コンポーネント
-  - `CompanyProfile` コンポーネント
+#### 1.2 企業ページ群 ✅ **完了**
+- **`/company/page.tsx`** - 企業一覧 ✅
+- **`/company/[company]/page.tsx`** - 動的企業ページ ✅
+- 必要なコンポーネント: ✅
+  - 企業グリッド表示
+  - 企業プロフィール表示
 
 ### Phase 2: 詳細ページ実装 (中優先度)
 - **`/news/[id]/page.tsx`** - 個別記事ページ
@@ -105,13 +116,13 @@ src/app/
 ├── layout.tsx                 ✅ 実装済み
 ├── page.tsx                   ✅ 実装済み
 ├── category/
-│   ├── page.tsx              ❌ 未実装
+│   ├── page.tsx              ✅ 実装済み
 │   └── [category]/
-│       └── page.tsx          ❌ 未実装
+│       └── page.tsx          ✅ 実装済み
 ├── company/
-│   ├── page.tsx              ❌ 未実装
+│   ├── page.tsx              ✅ 実装済み
 │   └── [company]/
-│       └── page.tsx          ❌ 未実装
+│       └── page.tsx          ✅ 実装済み
 ├── news/
 │   └── [id]/
 │       └── page.tsx          ❌ 未実装
@@ -153,10 +164,10 @@ src/app/
   - [x] `/category` ページ
   - [x] `/category/[category]` 動的ページ
   - [x] カテゴリ関連コンポーネント
-- [ ] Phase 1.2: 企業ページ群
-  - [ ] `/company` ページ
-  - [ ] `/company/[company]` 動的ページ
-  - [ ] 企業関連コンポーネント
+- [x] Phase 1.2: 企業ページ群 ✅ **2025/06/22 完了**
+  - [x] `/company` ページ
+  - [x] `/company/[company]` 動的ページ
+  - [x] 企業関連コンポーネント
 - [ ] Phase 2: 詳細ページ
   - [ ] 個別記事ページ
   - [ ] 検索ページ
@@ -181,11 +192,14 @@ src/app/
 
 ## 🚀 次のアクション
 
-**最優先で実装すべき:**
-1. **`/category`** ページ - カテゴリ一覧
-2. **`/category/[category]`** ページ - 動的カテゴリページ
+**Phase 1 完了済み:** ✅ **メインナビゲーションの404エラー解消**
 
-これにより、メインナビゲーションの404エラーが大幅に解消されます。
+**次に実装すべき (Phase 2):**
+1. **`/news/[id]`** ページ - 個別記事ページ
+2. **`/search`** ページ - 検索機能
+3. **`/archives`** ページ - アーカイブ
+
+これにより、ニュース記事の詳細表示と検索機能が利用可能になります。
 
 ---
 
