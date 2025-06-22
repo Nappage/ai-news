@@ -9,7 +9,11 @@
       "Bash(git commit:*)",
       "Bash(gh auth:*)",
       "Bash(git config:*)",
-      "Bash(npm run fetch-news:*)"
+      "Bash(npm run fetch-news:*)",
+      "Bash(git push:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
