@@ -1,9 +1,25 @@
 {
-  "lastUpdated": "2025-06-22T14:19:35.740Z",
+  "lastUpdated": "2025-06-24T12:36:36.186Z",
   "totalArticles": 10,
   "articles": [
     {
-      "id": "mc7r7rvt5ohvvpp4cfs",
+      "id": "mcaif11kr553qsmvtfm",
+      "title": "Transformers backend integration in SGLang",
+      "summary": "",
+      "content": "",
+      "publishedAt": "2025-06-23T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "sourceUrl": "https://huggingface.co/blog/transformers-backend-sglang",
+      "category": "tools",
+      "company": "Hugging Face",
+      "imageUrl": null,
+      "tags": [
+        "Transformer"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mcaif11kjoqro880q7j",
       "title": "(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware",
       "summary": "",
       "content": "",
@@ -17,7 +33,7 @@
       "featured": false
     },
     {
-      "id": "mc7r7q6sqry5vmdbt",
+      "id": "mcaiezbuiseiln9ct5",
       "title": "Preparing for future AI risks in biology",
       "summary": "Advanced AI can transform biology and medicine—but also raises biosecurity risks. We’re proactively assessing capabilities and implementing safeguards to prevent misuse.",
       "content": "Advanced AI can transform biology and medicine—but also raises biosecurity risks. We’re proactively assessing capabilities and implementing safeguards to prevent misuse.",
@@ -33,7 +49,7 @@
       "featured": false
     },
     {
-      "id": "mc7r7q6t7aeeyd3d6ge",
+      "id": "mcaiezbukeqpuww1k1r",
       "title": "Toward understanding and preventing misalignment generalization",
       "summary": "We study how training on incorrect responses can cause broader misalignment in language models and identify an internal feature driving this behavior—one that can be reversed with minimal fine-tuning.",
       "content": "We study how training on incorrect responses can cause broader misalignment in language models and identify an internal feature driving this behavior—one that can be reversed with minimal fine-tuning.",
@@ -46,10 +62,10 @@
       "tags": [
         "AI"
       ],
-      "featured": false
+      "featured": true
     },
     {
-      "id": "mc7r7q6ttlly3ex6xtg",
+      "id": "mcaiezbui8og1ktpj8m",
       "title": "Introducing OpenAI for Government",
       "summary": "We’re launching OpenAI for Government, a new initiative focused on bringing our most advanced AI tools to public servants across the United States. We're supporting the U.S. government's efforts in adopting best-in-class technology and deploying these tools in service of the public good.",
       "content": "We’re launching OpenAI for Government, a new initiative focused on bringing our most advanced AI tools to public servants across the United States. We're supporting the U.S. government's efforts in adopting best-in-class technology and deploying these tools in service of the public good.",
@@ -66,7 +82,7 @@
       "featured": false
     },
     {
-      "id": "mc7r7rvt29w5du8rv6i",
+      "id": "mcaif11kwiq37tkx4j",
       "title": "Groq on Hugging Face Inference Providers 🔥",
       "summary": "",
       "content": "",
@@ -80,7 +96,7 @@
       "featured": false
     },
     {
-      "id": "mc7r7q6tk1l68ucz9c",
+      "id": "mcaiezbuqpm59rm8mq",
       "title": "Bringing the Magic of AI to Mattel’s Iconic Brands",
       "summary": "OpenAI and Mattel are partnering to integrate AI into iconic brands such as Barbie and Hot Wheels, aiming to enhance creative development, streamline workflows, and create new ways for fans to engage.",
       "content": "OpenAI and Mattel are partnering to integrate AI into iconic brands such as Barbie and Hot Wheels, aiming to enhance creative development, streamline workflows, and create new ways for fans to engage.",
@@ -98,7 +114,7 @@
       "featured": true
     },
     {
-      "id": "mc7r7rvtmvc2evun9y",
+      "id": "mcaif11kj4f3grt7qff",
       "title": "Enhance Your Models in 5 Minutes with the Hugging Face Kernel Hub",
       "summary": "",
       "content": "",
@@ -112,7 +128,7 @@
       "featured": false
     },
     {
-      "id": "mc7r7rvtf5xqdqd308k",
+      "id": "mcaif11kuq0z21xy5ze",
       "title": "Featherless AI on Hugging Face Inference Providers 🔥",
       "summary": "",
       "content": "",
@@ -128,23 +144,7 @@
       "featured": false
     },
     {
-      "id": "mc7r7rvtoow2li9w9f",
-      "title": "Introducing Training Cluster as a Service - a new collaboration with NVIDIA",
-      "summary": "",
-      "content": "",
-      "publishedAt": "2025-06-11T00:00:00.000Z",
-      "source": "Hugging Face Blog",
-      "sourceUrl": "https://huggingface.co/blog/nvidia-training-cluster",
-      "category": "tools",
-      "company": "Hugging Face",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mc7r7q6tq8nlsbwdgmp",
+      "id": "mcaiezburyv9aygp5kl",
       "title": "Scaling security with responsible disclosure",
       "summary": "OpenAI introduces its Outbound Coordinated Disclosure Policy to guide how it responsibly reports vulnerabilities in third-party software—emphasizing integrity, collaboration, and proactive security at scale.",
       "content": "OpenAI introduces its Outbound Coordinated Disclosure Policy to guide how it responsibly reports vulnerabilities in third-party software—emphasizing integrity, collaboration, and proactive security at scale.",
