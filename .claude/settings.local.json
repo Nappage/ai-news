@@ -13,7 +13,10 @@
       "Bash(git push:*)",
       "Bash(find:*)",
       "Bash(ls:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(git pull:*)",
+      "Bash(gh run list:*)",
+      "Bash(node:*)"
     ],
     "deny": []
   }

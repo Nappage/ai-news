@@ -144,9 +144,28 @@ export function Header() {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <input
                 type="text"
-                placeholder="ニュースを検索..."
+                placeholder="ニュースを検索... (Enterで検索ページへ)"
                 className="w-full pl-10 pr-4 py-2 border border-input rounded-md bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent"
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    const query = e.currentTarget.value.trim()
+                    if (query) {
+                      window.location.href = `/search?q=${encodeURIComponent(query)}`
+                    } else {
+                      window.location.href = '/search'
+                    }
+                  }
+                }}
               />
+            </div>
+            <div className="mt-2">
+              <Link
+                href="/search"
+                className="text-sm text-primary hover:text-primary/80 transition-colors"
+                onClick={() => setSearchOpen(false)}
+              >
+                詳細検索ページへ →
+              </Link>
             </div>
           </div>
         )}

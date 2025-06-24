@@ -27,9 +27,39 @@ const NEWS_SOURCES = [
     category: 'tools',
     company: 'Hugging Face',
     priority: 'medium'
+  },
+  {
+    id: 'google-ai-blog',
+    name: 'Google AI Blog',
+    url: 'https://ai.googleblog.com/feeds/posts/default',
+    category: 'research',
+    company: 'Google',
+    priority: 'high'
+  },
+  {
+    id: 'anthropic-news',
+    name: 'Anthropic News', 
+    url: 'https://www.anthropic.com/news.rss',
+    category: 'companies',
+    company: 'Anthropic',
+    priority: 'high'
+  },
+  {
+    id: 'meta-ai-blog',
+    name: 'Meta AI Blog',
+    url: 'https://ai.meta.com/blog/rss/',
+    category: 'research',
+    company: 'Meta',
+    priority: 'medium'
+  },
+  {
+    id: 'deepmind-blog',
+    name: 'DeepMind Blog',
+    url: 'https://deepmind.google/blog/rss.xml',
+    category: 'research', 
+    company: 'Google',
+    priority: 'medium'
   }
-  // Note: Anthropic and Google AI RSS URLs are currently returning 404
-  // Will be re-enabled when working URLs are found
 ];
 
 // データディレクトリの作成
