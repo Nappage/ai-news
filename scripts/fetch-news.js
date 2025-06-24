@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const Parser = require('rss-parser');
+const https = require('https');
 
 const parser = new Parser({
   timeout: 10000,
@@ -62,6 +63,103 @@ const NEWS_SOURCES = [
   }
 ];
 
+// GitHub API設定（実在するリポジトリのみ）
+const GITHUB_REPOS = [
+  {
+    id: 'anthropic-claude-3-sonnet',
+    owner: 'anthropics',
+    repo: 'anthropic-sdk-python',
+    company: 'Anthropic',
+    category: 'tools',
+    priority: 'high'
+  },
+  {
+    id: 'meta-llama',
+    owner: 'meta-llama', 
+    repo: 'llama-models',
+    company: 'Meta',
+    category: 'research',
+    priority: 'high'
+  },
+  {
+    id: 'openai-cookbook',
+    owner: 'openai',
+    repo: 'openai-cookbook',
+    company: 'OpenAI',
+    category: 'tools',
+    priority: 'high'
+  },
+  {
+    id: 'google-gemini',
+    owner: 'google-gemini',
+    repo: 'cookbook',
+    company: 'Google',
+    category: 'tools', 
+    priority: 'high'
+  },
+  {
+    id: 'microsoft-deepspeed',
+    owner: 'microsoft',
+    repo: 'DeepSpeed',
+    company: 'Microsoft',
+    category: 'tools',
+    priority: 'medium'
+  },
+  {
+    id: 'huggingface-transformers',
+    owner: 'huggingface',
+    repo: 'transformers',
+    company: 'Hugging Face',
+    category: 'tools',
+    priority: 'medium'
+  }
+];
+
+// Reddit API設定
+const REDDIT_SUBREDDITS = [
+  {
+    id: 'r-machinelearning',
+    subreddit: 'MachineLearning',
+    category: 'research',
+    company: 'Community',
+    priority: 'medium'
+  },
+  {
+    id: 'r-openai',
+    subreddit: 'OpenAI',
+    category: 'companies',
+    company: 'OpenAI',
+    priority: 'medium'
+  },
+  {
+    id: 'r-localllama',
+    subreddit: 'LocalLLaMA',
+    category: 'tools',
+    company: 'Community',
+    priority: 'medium'
+  }
+];
+
+// Web Scraping設定
+const SCRAPING_SOURCES = [
+  {
+    id: 'hackernews-ai',
+    name: 'Hacker News AI',
+    url: 'https://hn.algolia.com/api/v1/search?query=AI%20OR%20machine%20learning%20OR%20GPT%20OR%20LLM&tags=story&hitsPerPage=10',
+    category: 'industry',
+    company: 'Community',
+    priority: 'low'
+  },
+  {
+    id: 'papers-with-code',
+    name: 'Papers with Code',
+    url: 'https://paperswithcode.com/api/v1/papers/?ordering=-published',
+    category: 'research',
+    company: 'Community',
+    priority: 'medium'
+  }
+];
+
 // データディレクトリの作成
 const DATA_DIR = path.join(__dirname, '../src/data');
 const NEWS_DIR = path.join(DATA_DIR, 'news');
@@ -99,6 +197,168 @@ function extractTags(title, content) {
   return keywords.filter(keyword => 
     text.includes(keyword.toLowerCase())
   ).slice(0, 5);
+}
+
+// HTTPリクエスト関数
+function makeRequest(url, options = {}) {
+  return new Promise((resolve, reject) => {
+    const req = https.get(url, {
+      headers: {
+        'User-Agent': 'AI-News-Bot/1.0',
+        ...options.headers
+      }
+    }, (res) => {
+      let data = '';
+      
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+      
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(data));
+        } catch (error) {
+          resolve({ error: 'Failed to parse JSON', raw: data });
+        }
+      });
+    });
+    
+    req.on('error', (error) => {
+      reject(error);
+    });
+    
+    req.setTimeout(10000, () => {
+      req.destroy();
+      reject(new Error('Request timeout'));
+    });
+  });
+}
+
+// GitHub APIからリポジトリ情報を取得
+async function fetchFromGitHub(repo) {
+  try {
+    console.log(`Fetching from GitHub: ${repo.owner}/${repo.repo}...`);
+    
+    // リリース情報を取得
+    const releasesUrl = `https://api.github.com/repos/${repo.owner}/${repo.repo}/releases?per_page=3`;
+    const releases = await makeRequest(releasesUrl);
+    
+    if (releases.error || !Array.isArray(releases)) {
+      console.warn(`No releases found for ${repo.owner}/${repo.repo}`);
+      return [];
+    }
+    
+    const articles = releases.slice(0, 2).map(release => ({
+      id: generateId(),
+      title: `${repo.company}: ${release.name || release.tag_name}`,
+      summary: release.body ? release.body.substring(0, 300) + '...' : `${repo.repo}の新しいリリース`,
+      content: release.body || '',
+      publishedAt: new Date(release.published_at || release.created_at).toISOString(),
+      source: `${repo.company} GitHub`,
+      sourceUrl: release.html_url,
+      category: repo.category,
+      company: repo.company,
+      imageUrl: null,
+      tags: extractTags(release.name || release.tag_name, release.body || ''),
+      featured: repo.priority === 'high' && Math.random() > 0.8
+    }));
+    
+    return articles;
+  } catch (error) {
+    console.error(`Error fetching from GitHub ${repo.owner}/${repo.repo}:`, error.message);
+    return [];
+  }
+}
+
+// Reddit APIからサブレディット情報を取得
+async function fetchFromReddit(subreddit) {
+  try {
+    console.log(`Fetching from Reddit: r/${subreddit.subreddit}...`);
+    
+    const url = `https://www.reddit.com/r/${subreddit.subreddit}/hot.json?limit=5`;
+    const data = await makeRequest(url);
+    
+    if (data.error || !data.data || !data.data.children) {
+      console.warn(`No posts found for r/${subreddit.subreddit}`);
+      return [];
+    }
+    
+    const articles = data.data.children
+      .filter(post => post.data && !post.data.is_self) // 外部リンクのみ
+      .slice(0, 3)
+      .map(post => ({
+        id: generateId(),
+        title: post.data.title,
+        summary: post.data.selftext ? post.data.selftext.substring(0, 300) + '...' : 'Reddit投稿',
+        content: post.data.selftext || '',
+        publishedAt: new Date(post.data.created_utc * 1000).toISOString(),
+        source: `Reddit r/${subreddit.subreddit}`,
+        sourceUrl: post.data.url || `https://reddit.com${post.data.permalink}`,
+        category: subreddit.category,
+        company: subreddit.company,
+        imageUrl: null,
+        tags: extractTags(post.data.title, post.data.selftext || ''),
+        featured: false
+      }));
+    
+    return articles;
+  } catch (error) {
+    console.error(`Error fetching from Reddit r/${subreddit.subreddit}:`, error.message);
+    return [];
+  }
+}
+
+// Web Scrapingソースから情報を取得
+async function fetchFromWebScraping(source) {
+  try {
+    console.log(`Fetching from ${source.name}...`);
+    
+    const data = await makeRequest(source.url);
+    
+    if (data.error) {
+      console.warn(`No data found for ${source.name}`);
+      return [];
+    }
+    
+    let articles = [];
+    
+    if (source.id === 'hackernews-ai') {
+      articles = data.hits.slice(0, 3).map(hit => ({
+        id: generateId(),
+        title: hit.title,
+        summary: hit.story_text ? hit.story_text.substring(0, 300) + '...' : 'Hacker News記事',
+        content: hit.story_text || '',
+        publishedAt: new Date(hit.created_at).toISOString(),
+        source: source.name,
+        sourceUrl: hit.url || `https://news.ycombinator.com/item?id=${hit.objectID}`,
+        category: source.category,
+        company: source.company,
+        imageUrl: null,
+        tags: extractTags(hit.title, hit.story_text || ''),
+        featured: false
+      }));
+    } else if (source.id === 'papers-with-code') {
+      articles = data.results.slice(0, 2).map(paper => ({
+        id: generateId(),
+        title: paper.title,
+        summary: paper.abstract ? paper.abstract.substring(0, 300) + '...' : '最新AI論文',
+        content: paper.abstract || '',
+        publishedAt: new Date(paper.published).toISOString(),
+        source: source.name,
+        sourceUrl: paper.url_pdf || paper.url_abs || `https://paperswithcode.com/paper/${paper.id}`,
+        category: source.category,
+        company: source.company,
+        imageUrl: null,
+        tags: extractTags(paper.title, paper.abstract || ''),
+        featured: false
+      }));
+    }
+    
+    return articles;
+  } catch (error) {
+    console.error(`Error fetching from ${source.name}:`, error.message);
+    return [];
+  }
 }
 
 // RSSフィードからニュースを取得
@@ -186,27 +446,85 @@ async function main() {
   
   let allArticles = [];
   let successfulSources = 0;
+  let totalSources = NEWS_SOURCES.length + GITHUB_REPOS.length + REDDIT_SUBREDDITS.length + SCRAPING_SOURCES.length;
   
   // 各RSSソースから記事を取得
+  console.log('\n📡 Fetching from RSS sources...');
   for (const source of NEWS_SOURCES) {
     try {
       const articles = await fetchFromRSS(source);
       if (articles.length > 0) {
         allArticles = allArticles.concat(articles);
         successfulSources++;
-        console.log(`✅ Successfully fetched ${articles.length} articles from ${source.name}`);
+        console.log(`✅ RSS: Successfully fetched ${articles.length} articles from ${source.name}`);
       } else {
-        console.log(`⚠️  No articles found from ${source.name}`);
+        console.log(`⚠️  RSS: No articles found from ${source.name}`);
       }
     } catch (error) {
-      console.error(`❌ Failed to fetch from ${source.name}:`, error.message);
+      console.error(`❌ RSS: Failed to fetch from ${source.name}:`, error.message);
     }
     
-    // API制限を避けるため少し待機
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 1000));
   }
   
-  console.log(`📊 Successfully fetched from ${successfulSources}/${NEWS_SOURCES.length} sources`);
+  // GitHub APIから情報を取得
+  console.log('\n🐙 Fetching from GitHub repositories...');
+  for (const repo of GITHUB_REPOS) {
+    try {
+      const articles = await fetchFromGitHub(repo);
+      if (articles.length > 0) {
+        allArticles = allArticles.concat(articles);
+        successfulSources++;
+        console.log(`✅ GitHub: Successfully fetched ${articles.length} releases from ${repo.owner}/${repo.repo}`);
+      } else {
+        console.log(`⚠️  GitHub: No releases found for ${repo.owner}/${repo.repo}`);
+      }
+    } catch (error) {
+      console.error(`❌ GitHub: Failed to fetch from ${repo.owner}/${repo.repo}:`, error.message);
+    }
+    
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+  
+  // Redditから情報を取得
+  console.log('\n🔴 Fetching from Reddit subreddits...');
+  for (const subreddit of REDDIT_SUBREDDITS) {
+    try {
+      const articles = await fetchFromReddit(subreddit);
+      if (articles.length > 0) {
+        allArticles = allArticles.concat(articles);
+        successfulSources++;
+        console.log(`✅ Reddit: Successfully fetched ${articles.length} posts from r/${subreddit.subreddit}`);
+      } else {
+        console.log(`⚠️  Reddit: No posts found from r/${subreddit.subreddit}`);
+      }
+    } catch (error) {
+      console.error(`❌ Reddit: Failed to fetch from r/${subreddit.subreddit}:`, error.message);
+    }
+    
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+  
+  // Web Scrapingソースから情報を取得
+  console.log('\n🌐 Fetching from web scraping sources...');
+  for (const source of SCRAPING_SOURCES) {
+    try {
+      const articles = await fetchFromWebScraping(source);
+      if (articles.length > 0) {
+        allArticles = allArticles.concat(articles);
+        successfulSources++;
+        console.log(`✅ Web: Successfully fetched ${articles.length} articles from ${source.name}`);
+      } else {
+        console.log(`⚠️  Web: No articles found from ${source.name}`);
+      }
+    } catch (error) {
+      console.error(`❌ Web: Failed to fetch from ${source.name}:`, error.message);
+    }
+    
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+  
+  console.log(`\n📊 Successfully fetched from ${successfulSources}/${totalSources} total sources`);
   
   // RSSから記事が取得できなかった場合はサンプルニュースを使用
   if (allArticles.length === 0) {
@@ -222,8 +540,8 @@ async function main() {
   // 公開日順でソート
   uniqueArticles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
-  // 最新の20件に制限
-  const recentArticles = uniqueArticles.slice(0, 20);
+  // 最新の30件に制限（より多くのソースがあるため）
+  const recentArticles = uniqueArticles.slice(0, 30);
   
   // JSONファイルとして保存
   const newsData = {
@@ -247,12 +565,29 @@ async function main() {
   console.log(`📊 Featured articles: ${recentArticles.filter(a => a.featured).length}`);
   
   // 統計情報の表示
-  const stats = recentArticles.reduce((acc, article) => {
+  const categoryStats = recentArticles.reduce((acc, article) => {
     acc[article.category] = (acc[article.category] || 0) + 1;
     return acc;
   }, {});
   
-  console.log('📈 Category distribution:', stats);
+  const sourceStats = recentArticles.reduce((acc, article) => {
+    acc[article.source] = (acc[article.source] || 0) + 1;
+    return acc;
+  }, {});
+  
+  const companyStats = recentArticles.reduce((acc, article) => {
+    acc[article.company] = (acc[article.company] || 0) + 1;
+    return acc;
+  }, {});
+  
+  console.log('📈 Statistics:');
+  console.log('  - Categories:', categoryStats);
+  console.log('  - Sources:', sourceStats);
+  console.log('  - Companies:', companyStats);
+  console.log(`  - RSS Sources: ${NEWS_SOURCES.length} configured`);
+  console.log(`  - GitHub Repos: ${GITHUB_REPOS.length} configured`);
+  console.log(`  - Reddit Subreddits: ${REDDIT_SUBREDDITS.length} configured`);
+  console.log(`  - Web Scraping: ${SCRAPING_SOURCES.length} configured`);
 }
 
 // エラーハンドリング付きで実行
