@@ -36,7 +36,7 @@ const navigation = [
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
-  const { theme, setTheme } = useTheme()
+  const { theme, setTheme, systemTheme, resolvedTheme } = useTheme()
 
   const toggleTheme = () => {
     if (theme === 'light') {
@@ -114,13 +114,28 @@ export function Header() {
             </button>
 
             {/* Theme toggle */}
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
-              aria-label="テーマ切り替え"
-            >
-              {getThemeIcon()}
-            </button>
+            <div className="relative group">
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
+                aria-label="テーマ切り替え"
+              >
+                {getThemeIcon()}
+              </button>
+              {/* Theme tooltip */}
+              <div className="absolute bottom-full right-0 mb-2 px-2 py-1 text-xs font-medium text-white bg-gray-900 rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 whitespace-nowrap z-50">
+                {theme === 'light' && 'ライトモード'}
+                {theme === 'dark' && 'ダークモード'}
+                {theme === 'system' && (
+                  <>
+                    システムモード<br />
+                    <span className="text-gray-300">
+                      現在: {systemTheme === 'dark' ? 'ダーク' : 'ライト'}
+                    </span>
+                  </>
+                )}
+              </div>
+            </div>
 
             {/* Mobile menu button */}
             <button
