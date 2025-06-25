@@ -1,0 +1,18 @@
+{
+  "id": "mccacf098fovfqb31n6",
+  "title": "Hugging Face: V-JEPA 2 (based on v4.52.4)",
+  "summary": "A new model is added to transformers: V-JEPA 2\r\nIt is added on top of the v4.52.4 release, and can be installed from the following tag: `v4.52.4-VJEPA-2-preview`.\r\n\r\nIn order to install this version, please install with the following command:\r\n\r\n```\r\npip install git+https://github.com/huggingface/tr...",
+  "content": "A new model is added to transformers: V-JEPA 2\r\nIt is added on top of the v4.52.4 release, and can be installed from the following tag: `v4.52.4-VJEPA-2-preview`.\r\n\r\nIn order to install this version, please install with the following command:\r\n\r\n```\r\npip install git+https://github.com/huggingface/transformers@v4.52.4-VJEPA-2-preview\r\n```\r\n\r\nIf fixes are needed, they will be applied to this release; this installation may therefore be considered as stable and improving.\r\n\r\nAs the tag implies, this tag is a **_preview_** of the VJEPA-2 model. This tag is a tagged version of the `main` branch and does not follow semantic versioning. This model will be included in the next minor release: `v4.53.0`.\r\n\r\n## VJEPA-2\r\n\r\n<div class=\"flex justify-center\">\r\n    <img src=\"https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/vjepa.gif\" alt=\"drawing\" width=\"600\"/>\r\n</div>\r\n\r\nV-JEPA 2 is a self-supervised approach to training video encoders developed by FAIR, Meta. Using internet-scale video data, V-JEPA 2 attains state-of-the-art performance on motion understanding and human action anticipation tasks. V-JEPA 2-AC is a latent action-conditioned world model post-trained from V-JEPA 2 (using a small amount of robot trajectory interaction data) that solves robot manipulation tasks without environment-specific data collection or task-specific training or calibration.\r\n\r\nThe abstract from the technical report is the following:\r\n\r\n\r\n## Usage example\r\n\r\nVJEPA-2 can be found on the [Huggingface Hub](https://huggingface.co/models?other=vjepa2). V-JEPA 2 is intended to represent any video (and image) to perform video classification, retrieval, or as a video encoder for VLMs.\r\n\r\nThe snippet below shows how to load the V-JEPA 2 model using the `AutoModel` class.\r\n\r\n```py\r\nimport torch\r\nfrom torchcodec.decoders import VideoDecoder\r\nimport numpy as np\r\n\r\nprocessor = AutoVideoProcessor.from_pretrained(\"facebook/vjepa2-vitl-fpc64-256\")\r\nmodel = AutoModel.from_pretrained(\r\n    \"facebook/vjepa2-vitl-fpc64-256\",\r\n    torch_dtype=torch.float16,\r\n    device_map=\"auto\",\r\n    attn_implementation=\"sdpa\"\r\n)\r\n\r\nvideo_url = \"https://huggingface.co/datasets/nateraw/kinetics-mini/resolve/main/val/archery/-Qz25rXdMjE_000014_000024.mp4\"\r\n\r\nvr = VideoDecoder(video_url)\r\nframe_idx = np.arange(0, 64) # choosing some frames. here, you can define more complex sampling strategy\r\nvideo = vr.get_frames_at(indices=frame_idx).data  # T x C x H x W\r\nvideo = processor(video, return_tensors=\"pt\").to(model.device)\r\noutputs = model(**video)\r\n\r\n# V-JEPA 2 encoder outputs, same as calling `model.get_vision_features()`\r\nencoder_outputs = outputs.last_hidden_state\r\n\r\n# V-JEPA 2 predictor outputs\r\npredictor_outputs = outputs.predictor_output.last_hidden_state\r\n```\r\n",
+  "publishedAt": "2025-06-11T14:59:35.000Z",
+  "source": "Hugging Face GitHub",
+  "sourceUrl": "https://github.com/huggingface/transformers/releases/tag/v4.52.4-VJEPA-2-preview",
+  "category": "tools",
+  "company": "Hugging Face",
+  "imageUrl": null,
+  "tags": [
+    "AI",
+    "Transformer",
+    "Meta"
+  ],
+  "featured": false
+}

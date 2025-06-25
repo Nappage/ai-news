@@ -1,0 +1,16 @@
+{
+  "id": "mccackdqvoa7mj8ifja",
+  "title": "Responsive Safety in Reinforcement Learning",
+  "summary": "CMDPs formalize the problem of safe reinforcement learning by exposing a cost signal alongside the reward and limiting its accumulation.  Lagrangian method are the most commonly used algorithms for the resulting constrained optimization problem.  Yet they are known to oscillate and overshoot cost li...",
+  "content": "CMDPs formalize the problem of safe reinforcement learning by exposing a cost signal alongside the reward and limiting its accumulation.  Lagrangian method are the most commonly used algorithms for the resulting constrained optimization problem.  Yet they are known to oscillate and overshoot cost limits, causing constraint-violating behavior during training.  In this paper, we aim to correct this shortcoming.  We begin by proposing a novel modification to the classic Lagrangian method: we add a ``proportional'' term to the Lagrange multiplier update and show that it induces favorable learning dynamics through damping.  This intuition leads to our introduction of PID control for the Lagrange multiplier in constrained RL, which we cast as a dynamical system.  We conduct extensive experiments in a deep RL setting, in which our methods set a new state of the art by dramatically reducing constraint violations while maintaining high returns.  Moreover, we show significant improvements in robustness to hyperparameters.  Unlike other recent algorithms, ours remains nearly as simple to derive and implement as the baseline Lagrangian method.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://proceedings.icml.cc/static/paper_files/icml/2020/2566-Paper.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
