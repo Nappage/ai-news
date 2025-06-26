@@ -1,0 +1,16 @@
+{
+  "id": "mccp7cnrj9dknz2juw8",
+  "title": "Modeling Content Importance for Summarization with Pre-trained Language Models",
+  "summary": "Modeling content importance is an essential yet challenging task for summarization. Previous work is mostly based on statistical methods that estimate word-level salience, which does not consider semantics and larger context when quantifying importance. It is thus hard for these methods to generaliz...",
+  "content": "Modeling content importance is an essential yet challenging task for summarization. Previous work is mostly based on statistical methods that estimate word-level salience, which does not consider semantics and larger context when quantifying importance. It is thus hard for these methods to generalize to semantic units of longer text spans. In this work, we apply information theory on top of pre-trained language models and define the concept of importance from the perspective of information amount. It considers both the semantics and context when evaluating the importance of each semantic unit. With the help of pre-trained language models, it can easily generalize to different kinds of semantic units n-grams or sentences. Experiments on CNN/Daily Mail and New York Times datasets demonstrate that our method can better model the importance of content than prior work based on F1 and ROUGE scores.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2020.emnlp-main.293.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
