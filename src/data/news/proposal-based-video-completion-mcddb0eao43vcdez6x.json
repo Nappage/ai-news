@@ -1,0 +1,16 @@
+{
+  "id": "mcddb0eao43vcdez6x",
+  "title": "Proposal-based Video Completion",
+  "summary": "Video inpainting is an important technique for a wide variety of applications from video content editing to video restoration. Early approaches follow image inpainting paradigms, but are challenged by complex camera motion and non-rigid deformations. To address these challenges flow-guided propagati...",
+  "content": "Video inpainting is an important technique for a wide variety of applications from video content editing to video restoration. Early approaches follow image inpainting paradigms, but are challenged by complex camera motion and non-rigid deformations. To address these challenges flow-guided propagation techniques have been proposed. However, computation of flow is non-trivial for unobserved regions and propagation across a whole video sequence is computationally demanding. In contrast, in this paper, we propose a video inpainting algorithm based on proposals: we use 3D convolutions to obtain an initial inpainting estimate which is subsequently refined by fusing a generated set of proposals. Different from existing approaches for video inpainting, and inspired by well-explored mechanisms for object detection, we argue that proposals provide a rich source of information that permits to combine similarly looking patches that may be spatially and temporally far from the region to be inpainted. We validate the effectiveness of our method on the challenging YouTube VOS and DAVIS datasets using different settings and demonstrate results outperforming state-of-the-art on standard metrics.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720035.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}

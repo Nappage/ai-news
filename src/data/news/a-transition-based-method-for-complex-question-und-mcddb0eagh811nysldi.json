@@ -1,0 +1,16 @@
+{
+  "id": "mcddb0eagh811nysldi",
+  "title": "A Transition-based Method for Complex Question Understanding",
+  "summary": "Complex Question Understanding (CQU) parses complex questions to Question Decomposition Meaning Representation (QDMR) which is a sequence of atomic operators. Existing works are based on end-to-end neural models which do not explicitly model the intermediate states and lack interpretability for the ...",
+  "content": "Complex Question Understanding (CQU) parses complex questions to Question Decomposition Meaning Representation (QDMR) which is a sequence of atomic operators. Existing works are based on end-to-end neural models which do not explicitly model the intermediate states and lack interpretability for the parsing process. Besides, they predict QDMR in a mismatched granularity and do not model the step-wise information which is an essential characteristic of QDMR. To alleviate the issues, we treat QDMR as a computational graph and propose a transition-based method where a decider predicts a sequence of actions to build the graph node-by-node. In this way, the partial graph at each step enables better representation of the intermediate states and better interpretability. At each step, the decider encodes the intermediate state with specially designed encoders and predicts several candidates of the next action and its confidence. For inference, a searcher seeks the optimal graph based on the predictions of the decider to alleviate the error propagation. Experimental results demonstrate the parsing accuracy of our method against several strong baselines. Moreover, our method has transparent and human-readable intermediate results, showing improved interpretability.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2022.coling-1.369.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}

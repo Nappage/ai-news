@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2025-06-26T06:27:24.071Z",
+  "lastUpdated": "2025-06-26T12:36:48.172Z",
   "totalArticles": 26,
   "articles": [
     {
-      "id": "mcd03nvd84l5joao4zc",
+      "id": "mcddapb9lmgaocgsqkq",
       "title": "AlphaGenome: AI for better understanding the genome",
       "summary": "Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API.",
       "content": "Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API.",
@@ -19,7 +19,7 @@
       "featured": false
     },
     {
-      "id": "mcd03szw9a4fm3m5kd",
+      "id": "mcddav0fyrg68z9ev",
       "title": "Hugging Face: Kyutai-STT (based on v4.52.4)",
       "summary": "A new model is added to transformers: Kyutai-STT\r\nIt is added on top of the v4.52.4 release, and can be installed from the following tag: `v4.52.4-Kyutai-STT-preview`.\r\n\r\nIn order to install this version, please install with the following command:\r\n\r\n```\r\npip install git+https://github.com/huggingfa...",
       "content": "A new model is added to transformers: Kyutai-STT\r\nIt is added on top of the v4.52.4 release, and can be installed from the following tag: `v4.52.4-Kyutai-STT-preview`.\r\n\r\nIn order to install this version, please install with the following command:\r\n\r\n```\r\npip install git+https://github.com/huggingface/transformers@v4.52.4-Kyutai-STT-preview\r\n```\r\n\r\nIf fixes are needed, they will be applied to this release; this installation may therefore be considered as stable and improving.\r\n\r\nAs the tag implies, this tag is a **_preview_** of the Kyutai-STT model. This tag is a tagged version of the `main` branch and does not follow semantic versioning. This model will be included in the next minor release: `v4.53.0`.\r\n\r\n## Kyutai-STT\r\n\r\n<img src=\"https://huggingface.co/datasets/eustlb/documentation-images/resolve/main/kyutai_stt.png\"/>\r\n\r\nKyutai STT is a speech-to-text model architecture based on the [Mimi codec](https://huggingface.co/docs/transformers/en/model_doc/mimi), which encodes audio into discrete tokens in a streaming fashion, and a [Moshi-like](https://huggingface.co/docs/transformers/en/model_doc/moshi) autoregressive decoder. Kyutai’s lab has released two model checkpoints:\r\n- [kyutai/stt-1b-en_fr](https://huggingface.co/kyutai/stt-1b-en_fr): a 1B-parameter model capable of transcribing both English and French\r\n- [kyutai/stt-2.6b-en](https://huggingface.co/kyutai/stt-2.6b-en): a 2.6B-parameter model focused solely on English, optimized for maximum transcription accuracy\r\n\r\n\r\n## Usage example\r\n\r\nKyutai-STT can be found on the [Huggingface Hub](https://huggingface.co/models?other=stt).\r\n\r\n### Inference\r\n\r\n```python\r\nimport torch\r\nfrom datasets import load_dataset, Audio\r\nfrom transformers import KyutaiSpeechToTextProcessor, KyutaiSpeechToTextForConditionalGeneration\r\n\r\n# 1. load the model and the processor\r\ntorch_device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\r\nmodel_id = \"kyutai/stt-2.6b-en\"\r\n\r\nprocessor = KyutaiSpeechToTextProcessor.from_pretrained(model_id)\r\nmodel = KyutaiSpeechToTextForConditionalGeneration.from_pretrained(model_id, device_map=torch_device)\r\n\r\n# 2. load audio samples\r\nds = load_dataset(\r\n    \"hf-internal-testing/librispeech_asr_dummy\", \"clean\", split=\"validation\"\r\n)\r\nds = ds.cast_column(\"audio\", Audio(sampling_rate=24000))\r\n\r\n# 3. prepare the model inputs\r\ninputs = processor(\r\n    ds[0][\"audio\"][\"array\"],\r\n)\r\ninputs.to(torch_device)\r\n\r\n# 4. infer the model\r\noutput_tokens = model.generate(**inputs)\r\n\r\n# 5. decode the generated tokens\r\nprint(processor.batch_decode(output_tokens, skip_special_tokens=True))\r\n```\r\n\r\n### Batched Inference\r\n\r\n```python\r\nimport torch\r\nfrom datasets import load_dataset, Audio\r\nfrom transformers import KyutaiSpeechToTextProcessor, KyutaiSpeechToTextForConditionalGeneration\r\n\r\n# 1. load the model and the processor\r\ntorch_device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\r\nmodel_id = \"kyutai/stt-2.6b-en\"\r\n\r\nprocessor = KyutaiSpeechToTextProcessor.from_pretrained(model_id)\r\nmodel = KyutaiSpeechToTextForConditionalGeneration.from_pretrained(model_id, device_map=torch_device)\r\n\r\n# 2. load audio samples\r\nds = load_dataset(\r\n    \"hf-internal-testing/librispeech_asr_dummy\", \"clean\", split=\"validation\"\r\n)\r\nds = ds.cast_column(\"audio\", Audio(sampling_rate=24000))\r\n\r\n# 3. prepare the model inputs\r\naudio_arrays = [ds[i][\"audio\"][\"array\"] for i in range(4)]\r\ninputs = processor(audio_arrays, return_tensors=\"pt\", padding=True)\r\ninputs = inputs.to(torch_device)\r\n\r\n# 4. infer the model\r\noutput_tokens = model.generate(**inputs)\r\n\r\n# 5. decode the generated tokens\r\ndecoded_outputs = processor.batch_decode(output_tokens, skip_special_tokens=True)\r\nfor output in decoded_outputs:\r\n    print(output)\r\n```",
@@ -36,11 +36,11 @@
       "featured": false
     },
     {
-      "id": "mcd03nveiy8mjmude0p",
+      "id": "mcddapb92fcg3d9ybdh",
       "title": "Gemini Robotics On-Device brings AI to local robotic devices",
       "summary": "We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation.",
       "content": "We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation.",
-      "publishedAt": "2025-06-24T14:00:36.000Z",
+      "publishedAt": "2025-06-24T14:00:00.000Z",
       "source": "DeepMind Blog",
       "sourceUrl": "https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
       "category": "research",
@@ -53,7 +53,7 @@
       "featured": false
     },
     {
-      "id": "mcd03i8sguzzhsr0e6s",
+      "id": "mcddak0smat9rk8q18k",
       "title": "Driving scalable growth with OpenAI o3, GPT-4.1, and CUA",
       "summary": "Unify, an AI-powered GTM platform, uses OpenAI’s o3, GPT-4.1, and CUA to automate prospecting, research, and outreach. With hyper-personalized messaging and an always-on workflow, Unify helps teams generate pipeline at scale while focusing on high-impact customer interactions.",
       "content": "Unify, an AI-powered GTM platform, uses OpenAI’s o3, GPT-4.1, and CUA to automate prospecting, research, and outreach. With hyper-personalized messaging and an always-on workflow, Unify helps teams generate pipeline at scale while focusing on high-impact customer interactions.",
@@ -68,10 +68,10 @@
         "AI",
         "OpenAI"
       ],
-      "featured": true
+      "featured": false
     },
     {
-      "id": "mcd03oqp7bhwjtl8ghc",
+      "id": "mcddaq9cw713e1i33n",
       "title": "Anthropic: v0.55.0",
       "summary": "## 0.55.0 (2025-06-23)\n\nFull Changelog: [v0.54.0...v0.55.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.54.0...v0.55.0)\n\n### Features\n\n* **api:** api update ([4b2134e](https://github.com/anthropics/anthropic-sdk-python/commit/4b2134e5ec3fecab7c56f483b8db87b403a08e05))\n* **api:** ap...",
       "content": "## 0.55.0 (2025-06-23)\n\nFull Changelog: [v0.54.0...v0.55.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.54.0...v0.55.0)\n\n### Features\n\n* **api:** api update ([4b2134e](https://github.com/anthropics/anthropic-sdk-python/commit/4b2134e5ec3fecab7c56f483b8db87b403a08e05))\n* **api:** api update ([2093bff](https://github.com/anthropics/anthropic-sdk-python/commit/2093bfff2a6c25573eaa2a4667f1e1d0e2d89e24))\n* **api:** manual updates ([c80fda8](https://github.com/anthropics/anthropic-sdk-python/commit/c80fda8cbd157fbbd23895d034cc7bb7a7614569))\n* **client:** add support for aiohttp ([3b03295](https://github.com/anthropics/anthropic-sdk-python/commit/3b03295f15a02ba629d1bdc77e330c2e6043b83e))\n\n\n### Bug Fixes\n\n* **client:** correctly parse binary response | stream ([d93817d](https://github.com/anthropics/anthropic-sdk-python/commit/d93817d9d761bd5e16b35f3c2973122a9c122240))\n* **internal:** revert unintentional changes ([bb3beab](https://github.com/anthropics/anthropic-sdk-python/commit/bb3beab10668be177d6bb573607ef6951a238b24))\n* **tests:** fix: tests which call HTTP endpoints directly with the example parameters ([ee69d74](https://github.com/anthropics/anthropic-sdk-python/commit/ee69d74cc40f749280a29afb12420c117d08ef34))\n* **tests:** suppress warnings in tests when running on the latest Python versions ([#982](https://github.com/anthropics/anthropic-sdk-python/issues/982)) ([740da21](https://github.com/anthropics/anthropic-sdk-python/commit/740da21b563c6ffe7618edf1dcd658bb894b2edf))\n\n\n### Chores\n\n* **ci:** enable for pull requests ([08f2dd2](https://github.com/anthropics/anthropic-sdk-python/commit/08f2dd2bd28958c08a3c82fcf00a0fc7d4e2807c))\n* **internal:** update conftest.py ([1174a62](https://github.com/anthropics/anthropic-sdk-python/commit/1174a6214624ff8cd64edb121d4ff09e9af6b717))\n* **internal:** version bump ([7241eaa](https://github.com/anthropics/anthropic-sdk-python/commit/7241eaa25b6f40bb55f61e766a996a3a18a53a02))\n* **readme:** update badges ([00661c2](https://github.com/anthropics/anthropic-sdk-python/commit/00661c275e120314f76bbd480c0267383e992638))\n* **tests:** add tests for httpx client instantiation & proxies ([b831d88](https://github.com/anthropics/anthropic-sdk-python/commit/b831d8833010c629143041b4b385929ca9c2198d))\n* **tests:** run tests in parallel ([4b24a79](https://github.com/anthropics/anthropic-sdk-python/commit/4b24a791b76c2176de1f35118901da533a10b991))\n\n\n### Documentation\n\n* **client:** fix httpx.Timeout documentation reference ([b0138b1](https://github.com/anthropics/anthropic-sdk-python/commit/b0138b1b2af3c73e568659c7e717fc955eb976b0))",
@@ -88,7 +88,7 @@
       "featured": false
     },
     {
-      "id": "mcd03j5jin078l5o458",
+      "id": "mcddakzjsxpfib37x4c",
       "title": "Transformers backend integration in SGLang",
       "summary": "",
       "content": "",
@@ -104,7 +104,7 @@
       "featured": false
     },
     {
-      "id": "mcd03j5j63vmt8opq1g",
+      "id": "mcddakzjvhs3bnvcuub",
       "title": "(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware",
       "summary": "",
       "content": "",
@@ -118,7 +118,7 @@
       "featured": false
     },
     {
-      "id": "mcd03i8s8kcg487bg4",
+      "id": "mcddak0s4ud7e5imln",
       "title": "Preparing for future AI risks in biology",
       "summary": "Advanced AI can transform biology and medicine—but also raises biosecurity risks. We’re proactively assessing capabilities and implementing safeguards to prevent misuse.",
       "content": "Advanced AI can transform biology and medicine—but also raises biosecurity risks. We’re proactively assessing capabilities and implementing safeguards to prevent misuse.",
@@ -134,7 +134,7 @@
       "featured": true
     },
     {
-      "id": "mcd03i8skcl6i99084l",
+      "id": "mcddak0szeauwmy2a4s",
       "title": "Toward understanding and preventing misalignment generalization",
       "summary": "We study how training on incorrect responses can cause broader misalignment in language models and identify an internal feature driving this behavior—one that can be reversed with minimal fine-tuning.",
       "content": "We study how training on incorrect responses can cause broader misalignment in language models and identify an internal feature driving this behavior—one that can be reversed with minimal fine-tuning.",
@@ -147,10 +147,10 @@
       "tags": [
         "AI"
       ],
-      "featured": false
+      "featured": true
     },
     {
-      "id": "mcd03nveyb093s1vcmn",
+      "id": "mcddapb9tge0vduqsv",
       "title": "Gemini 2.5: Updates to our family of thinking models",
       "summary": "Explore the latest Gemini 2.5 model updates with enhanced performance and accuracy: Gemini 2.5 Pro now stable, Flash generally available, and the new Flash-Lite in preview.",
       "content": "Explore the latest Gemini 2.5 model updates with enhanced performance and accuracy: Gemini 2.5 Pro now stable, Flash generally available, and the new Flash-Lite in preview.",
@@ -167,7 +167,7 @@
       "featured": false
     },
     {
-      "id": "mcd03nvefwtai1j01t7",
+      "id": "mcddapb9oqsnl7g9stj",
       "title": "We’re expanding our Gemini 2.5 family of models",
       "summary": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.",
       "content": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.",
@@ -184,7 +184,7 @@
       "featured": false
     },
     {
-      "id": "mcd03i8s6bsi7eus43e",
+      "id": "mcddak0s09bx1v4sm2ib",
       "title": "Introducing OpenAI for Government",
       "summary": "We’re launching OpenAI for Government, a new initiative focused on bringing our most advanced AI tools to public servants across the United States. We're supporting the U.S. government's efforts in adopting best-in-class technology and deploying these tools in service of the public good.",
       "content": "We’re launching OpenAI for Government, a new initiative focused on bringing our most advanced AI tools to public servants across the United States. We're supporting the U.S. government's efforts in adopting best-in-class technology and deploying these tools in service of the public good.",
@@ -201,7 +201,7 @@
       "featured": false
     },
     {
-      "id": "mcd03j5jwkidcjb8tdj",
+      "id": "mcddakzj1j7nq46u6c3",
       "title": "Groq on Hugging Face Inference Providers 🔥",
       "summary": "",
       "content": "",
@@ -215,7 +215,7 @@
       "featured": false
     },
     {
-      "id": "mcd03nvepr8uf8x37",
+      "id": "mcddapb9a4v4z50kxz7",
       "title": "Behind “ANCESTRA”: combining Veo with live-action filmmaking",
       "summary": "We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 people to make a film using Veo and live-action filmmaking.",
       "content": "We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 people to make a film using Veo and live-action filmmaking.",
@@ -229,7 +229,7 @@
       "featured": false
     },
     {
-      "id": "mcd03i8s6c6i2cdbo0b",
+      "id": "mcddak0sy7c1m6b3wap",
       "title": "Bringing the Magic of AI to Mattel’s Iconic Brands",
       "summary": "OpenAI and Mattel are partnering to integrate AI into iconic brands such as Barbie and Hot Wheels, aiming to enhance creative development, streamline workflows, and create new ways for fans to engage.",
       "content": "OpenAI and Mattel are partnering to integrate AI into iconic brands such as Barbie and Hot Wheels, aiming to enhance creative development, streamline workflows, and create new ways for fans to engage.",
@@ -247,7 +247,7 @@
       "featured": false
     },
     {
-      "id": "mcd03j5jocbdt9dt7j",
+      "id": "mcddakzjyectyt8uthj",
       "title": "Enhance Your Models in 5 Minutes with the Hugging Face Kernel Hub",
       "summary": "",
       "content": "",
@@ -261,7 +261,7 @@
       "featured": false
     },
     {
-      "id": "mcd03j5jrlystjwft3",
+      "id": "mcddakzjm9b9dkckfr",
       "title": "Featherless AI on Hugging Face Inference Providers 🔥",
       "summary": "",
       "content": "",
@@ -277,10 +277,10 @@
       "featured": false
     },
     {
-      "id": "mcd03szwkcnwf1q3fgg",
+      "id": "mcddav0f70c2riocot6",
       "title": "Hugging Face: V-JEPA 2 (based on v4.52.4)",
       "summary": "A new model is added to transformers: V-JEPA 2\r\nIt is added on top of the v4.52.4 release, and can be installed from the following tag: `v4.52.4-VJEPA-2-preview`.\r\n\r\nIn order to install this version, please install with the following command:\r\n\r\n```\r\npip install git+https://github.com/huggingface/tr...",
-      "content": "A new model is added to transformers: V-JEPA 2\r\nIt is added on top of the v4.52.4 release, and can be installed from the following tag: `v4.52.4-VJEPA-2-preview`.\r\n\r\nIn order to install this version, please install with the following command:\r\n\r\n```\r\npip install git+https://github.com/huggingface/transformers@v4.52.4-VJEPA-2-preview\r\n```\r\n\r\nIf fixes are needed, they will be applied to this release; this installation may therefore be considered as stable and improving.\r\n\r\nAs the tag implies, this tag is a **_preview_** of the VJEPA-2 model. This tag is a tagged version of the `main` branch and does not follow semantic versioning. This model will be included in the next minor release: `v4.53.0`.\r\n\r\n## VJEPA-2\r\n\r\n<div class=\"flex justify-center\">\r\n    <img src=\"https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/vjepa.gif\" alt=\"drawing\" width=\"600\"/>\r\n</div>\r\n\r\nV-JEPA 2 is a self-supervised approach to training video encoders developed by FAIR, Meta. Using internet-scale video data, V-JEPA 2 attains state-of-the-art performance on motion understanding and human action anticipation tasks. V-JEPA 2-AC is a latent action-conditioned world model post-trained from V-JEPA 2 (using a small amount of robot trajectory interaction data) that solves robot manipulation tasks without environment-specific data collection or task-specific training or calibration.\r\n\r\nThe abstract from the technical report is the following:\r\n\r\n\r\n## Usage example\r\n\r\nVJEPA-2 can be found on the [Huggingface Hub](https://huggingface.co/models?other=vjepa2). V-JEPA 2 is intended to represent any video (and image) to perform video classification, retrieval, or as a video encoder for VLMs.\r\n\r\nThe snippet below shows how to load the V-JEPA 2 model using the `AutoModel` class.\r\n\r\n```py\r\nimport torch\r\nfrom torchcodec.decoders import VideoDecoder\r\nimport numpy as np\r\n\r\nprocessor = AutoVideoProcessor.from_pretrained(\"facebook/vjepa2-vitl-fpc64-256\")\r\nmodel = AutoModel.from_pretrained(\r\n    \"facebook/vjepa2-vitl-fpc64-256\",\r\n    torch_dtype=torch.float16,\r\n    device_map=\"auto\",\r\n    attn_implementation=\"sdpa\"\r\n)\r\n\r\nvideo_url = \"https://huggingface.co/datasets/nateraw/kinetics-mini/resolve/main/val/archery/-Qz25rXdMjE_000014_000024.mp4\"\r\n\r\nvr = VideoDecoder(video_url)\r\nframe_idx = np.arange(0, 64) # choosing some frames. here, you can define more complex sampling strategy\r\nvideo = vr.get_frames_at(indices=frame_idx).data  # T x C x H x W\r\nvideo = processor(video, return_tensors=\"pt\").to(model.device)\r\noutputs = model(**video)\r\n\r\n# V-JEPA 2 encoder outputs, same as calling `model.get_vision_features()`\r\nencoder_outputs = outputs.last_hidden_state\r\n\r\n# V-JEPA 2 predictor outputs\r\npredictor_outputs = outputs.predictor_output.last_hidden_state\r\n```\r\n",
+      "content": "A new model is added to transformers: V-JEPA 2\r\nIt is added on top of the v4.52.4 release, and can be installed from the following tag: `v4.52.4-VJEPA-2-preview`.\r\n\r\nIn order to install this version, please install with the following command:\r\n\r\n```\r\npip install git+https://github.com/huggingface/transformers@v4.52.4-VJEPA-2-preview\r\n```\r\n\r\nIf fixes are needed, they will be applied to this release; this installation may therefore be considered as stable and improving.\r\n\r\nAs the tag implies, this tag is a **_preview_** of the VJEPA-2 model. This tag is a tagged version of the `main` branch and does not follow semantic versioning. This model will be included in the next minor release: `v4.53.0`.\r\n\r\n## VJEPA-2\r\n\r\n<div class=\"flex justify-center\">\r\n    <img src=\"https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/vjepa.gif\" alt=\"drawing\" width=\"600\"/>\r\n</div>\r\n\r\nV-JEPA 2 is a self-supervised approach to training video encoders developed by FAIR, Meta. Using internet-scale video data, V-JEPA 2 attains state-of-the-art performance on motion understanding and human action anticipation tasks. V-JEPA 2-AC is a latent action-conditioned world model post-trained from V-JEPA 2 (using a small amount of robot trajectory interaction data) that solves robot manipulation tasks without environment-specific data collection or task-specific training or calibration.\r\n\r\n## Usage example\r\n\r\nVJEPA-2 can be found on the [Huggingface Hub](https://huggingface.co/models?other=vjepa2). V-JEPA 2 is intended to represent any video (and image) to perform video classification, retrieval, or as a video encoder for VLMs.\r\n\r\nThe snippet below shows how to load the V-JEPA 2 model using the `AutoModel` class.\r\n\r\n```py\r\nimport torch\r\nfrom torchcodec.decoders import VideoDecoder\r\nimport numpy as np\r\n\r\nprocessor = AutoVideoProcessor.from_pretrained(\"facebook/vjepa2-vitl-fpc64-256\")\r\nmodel = AutoModel.from_pretrained(\r\n    \"facebook/vjepa2-vitl-fpc64-256\",\r\n    torch_dtype=torch.float16,\r\n    device_map=\"auto\",\r\n    attn_implementation=\"sdpa\"\r\n)\r\n\r\nvideo_url = \"https://huggingface.co/datasets/nateraw/kinetics-mini/resolve/main/val/archery/-Qz25rXdMjE_000014_000024.mp4\"\r\n\r\nvr = VideoDecoder(video_url)\r\nframe_idx = np.arange(0, 64) # choosing some frames. here, you can define more complex sampling strategy\r\nvideo = vr.get_frames_at(indices=frame_idx).data  # T x C x H x W\r\nvideo = processor(video, return_tensors=\"pt\").to(model.device)\r\noutputs = model(**video)\r\n\r\n# V-JEPA 2 encoder outputs, same as calling `model.get_vision_features()`\r\nencoder_outputs = outputs.last_hidden_state\r\n\r\n# V-JEPA 2 predictor outputs\r\npredictor_outputs = outputs.predictor_output.last_hidden_state\r\n```\r\n",
       "publishedAt": "2025-06-11T14:59:35.000Z",
       "source": "Hugging Face GitHub",
       "sourceUrl": "https://github.com/huggingface/transformers/releases/tag/v4.52.4-VJEPA-2-preview",
@@ -295,7 +295,7 @@
       "featured": false
     },
     {
-      "id": "mcd03oqpe5cu76w7fu",
+      "id": "mcddaq9c0tdvju52y3ir",
       "title": "Anthropic: v0.54.0",
       "summary": "## 0.54.0 (2025-06-10)\n\nFull Changelog: [v0.53.0...v0.54.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.53.0...v0.54.0)\n\n### Features\n\n* **client:** add support for fine-grained-tool-streaming-2025-05-14 ([07ec081](https://github.com/anthropics/anthropic-sdk-python/commit/07ec08119...",
       "content": "## 0.54.0 (2025-06-10)\n\nFull Changelog: [v0.53.0...v0.54.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.53.0...v0.54.0)\n\n### Features\n\n* **client:** add support for fine-grained-tool-streaming-2025-05-14 ([07ec081](https://github.com/anthropics/anthropic-sdk-python/commit/07ec08119dbc328934fea5ec6eacd00c8dbda089))\n\n\n### Bug Fixes\n\n* **httpx:** resolve conflict between default transport and proxy settings ([#969](https://github.com/anthropics/anthropic-sdk-python/issues/969)) ([a6efded](https://github.com/anthropics/anthropic-sdk-python/commit/a6efdedcfef881ae3466bb77d92d0338c8338e20))\n* **tests:** update test ([99c2433](https://github.com/anthropics/anthropic-sdk-python/commit/99c243363e94f5f3f627cb8b80e3f238503c89f5))\n\n\n### Chores\n\n* **internal:** version bump ([45029f4](https://github.com/anthropics/anthropic-sdk-python/commit/45029f41c96f62f26ead99a5989c9ad974fc21b9))\n\n\n### Documentation\n\n* **contributing:** fix uv script for bootstrapping ([d2bde52](https://github.com/anthropics/anthropic-sdk-python/commit/d2bde52286ee8fa65995e73c579a8962087c1da4))",
@@ -309,10 +309,10 @@
         "AI",
         "Anthropic"
       ],
-      "featured": true
+      "featured": false
     },
     {
-      "id": "mcd03pm9no1a9rlwmc",
+      "id": "mcddar9nalibtccdt2p",
       "title": "Meta: v0.2.0",
       "summary": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n...",
       "content": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
@@ -328,7 +328,7 @@
       "featured": false
     },
     {
-      "id": "mcd03pm9sg8iyyjnbek",
+      "id": "mcddar9nhh7tqwv1z8f",
       "title": "Meta: v0.1.4",
       "summary": "## What's Changed\r\n* fix: do not use python_tag when encoding non-code_interpreter tool_calls by @ehhuang in https://github.com/meta-llama/llama-models/pull/283\r\n* fix: tool_call was not encoded by @ehhuang in https://github.com/meta-llama/llama-models/pull/284\r\n\r\n\r\n**Full Changelog**: https://githu...",
       "content": "## What's Changed\r\n* fix: do not use python_tag when encoding non-code_interpreter tool_calls by @ehhuang in https://github.com/meta-llama/llama-models/pull/283\r\n* fix: tool_call was not encoded by @ehhuang in https://github.com/meta-llama/llama-models/pull/284\r\n\r\n\r\n**Full Changelog**: https://github.com/meta-llama/llama-models/compare/v0.1.3...v0.1.4",
@@ -345,7 +345,7 @@
       "featured": false
     },
     {
-      "id": "mcd03wleprphlgw0tt",
+      "id": "mcddaynju5778stuxyl",
       "title": "Ask HN: Have LLM or generative AI made you more productive?",
       "summary": "I work in the gaming industry, and while there was a push to try to find integrations for AI, the most promising usages of machine learning algorithms are in areas like anti-cheat. One engineer reported success using a GPT product to generate some code which he could then correct, but the majority o...",
       "content": "I work in the gaming industry, and while there was a push to try to find integrations for AI, the most promising usages of machine learning algorithms are in areas like anti-cheat. One engineer reported success using a GPT product to generate some code which he could then correct, but the majority of his job doesn&#x27;t actually involve writing large amounts of new code so the utility is extremely limited. I don&#x27;t know of any other usages of LLM across our teams.<p>I am extremely interested in hearing of success stories from other industries, or conversely I&#x27;d love to hear about what other experiments others have been doing.",
@@ -363,7 +363,7 @@
       "featured": false
     },
     {
-      "id": "mcd03wledcun6pami7q",
+      "id": "mcddaynj0p1tkh64c5t",
       "title": "Ask HN: What's the role GCP/Google's LLM play in GenAI market",
       "summary": "This ask post is very opinionated.<p>I used be a die-hard Google&#x2F;GCP lover, from wanting to enter Google as an engineer when I was a student, to proposing to try out GCP for a new project at my first internship (and succeeded). Used Firebase for my on-campus goods trading platform, course proje...",
       "content": "This ask post is very opinionated.<p>I used be a die-hard Google&#x2F;GCP lover, from wanting to enter Google as an engineer when I was a student, to proposing to try out GCP for a new project at my first internship (and succeeded). Used Firebase for my on-campus goods trading platform, course projects, and contract projects, and got good experiences. I also used Colab as my go-to choice for my study of machine learning, running models for tasks including object detection, image segmentation, basic machine learning projects, and fine-tuning transformer models for my NLP course projects.<p>I still remembered the release Google&#x27;s LaMDA model in 2021, and the beautiful blog post site. They used to be the leading role in GenAI or AI serving in general with TensorFlow serve on GCP. However, ever since last year, I really felt that Google is severely lagging behind in the cloud service or GenAI in general.<p>For GCP, especially the AI related workspace, I see no meaningful improvement over the years. The file system still has a weird triangle that when you click it does nothing, the UI is extremely laggy when the data is huge just like in colab. I don&#x27;t even want to mention the accidental deletion of Unisuper&#x27;s data.<p>For Gemini, despite it has large context window (2M for 1.5 Pro, 1M for 1.5 Flash), I see no value at all to use this. I generally judge a service&#x27;s usability on three things: model competency &gt; API (design, price, speed) &gt; playground ease of use (because you can always use other playgrounds when you have the API). Gemini sucks on every aspect. It&#x27;s never in par with GPT-4o (opinionated, tested on all my graduate CS quiz questions). The API is such a pain in the ass (500, 400 all over the place when I was following the cookbook and Gemini&#x27;s team could not even solve my issue at a hackathon!) They playground is the most counter-intuitive thing I&#x27;ve ever used in my life.<p>What&#x27;s more, the executive team of the Google seems to believe that Gemini 1.5 Pro is as satisfying as GPT-4, and Gemini 1.5 Flash is better, faster, and cheaper than GPT-3.5. First statement is false (to me). Second statement is meaningless, because you should be comparing Gemini 1.5 Flash to Llama 3 or Mistral instead of GPT-3.5. Don&#x27;t even bring up that Gemini is not fine-tunable at this moment.<p>They have a slide number that over 60% GenAI startup is using GCP. I simply don&#x27;t understand where this number is from. Almost every startup I encountered is either using OpenAI or Azure Studio (if they have some scale). I used to be a MSFT hater, but Azure AI Studio just has far better DX and model catalog compared to Vertex AI.<p>Therefore, unless my company has already signed a contract with GCP, I really don&#x27;t see the point of a new startup starting to use GCP or Gemini in general.",
@@ -383,7 +383,7 @@
       "featured": false
     },
     {
-      "id": "mcd03wlecvmqmcb7lgp",
+      "id": "mcddaynj6vq6bb92rbq",
       "title": "Show HN: UpTrain (YC W23) – open-source tool to evaluate LLM response quality",
       "summary": "Hello, we are Shikha and Sourabh, founders of UpTrain(YC W23) - an open-source tool to evaluate the performance of your LLM applications on aspects such as correctness, tonality, hallucination, fluency, etc.<p>The Problem: Unlike traditional Machine learning or Deep learning models where we always h...",
       "content": "Hello, we are Shikha and Sourabh, founders of UpTrain(YC W23) - an open-source tool to evaluate the performance of your LLM applications on aspects such as correctness, tonality, hallucination, fluency, etc.<p>The Problem: Unlike traditional Machine learning or Deep learning models where we always have a unique Ground Truth and can define metrics like Precision, Recall, accuracy, etc. to quantify the model’s performance, LLMs are trickier and it is very difficult to estimate if their response is correct or not. If you are using GPT-4 to write a recruitment email, there is no unique correct email to do a word-to-word comparison against.<p>As you build an LLM application, you want to compare it against different model providers, prompt configurations, etc., and figure out the best working combination. Instead of manually skimming through a couple of model responses, you want to run them through hundreds of test cases, aggregate their scores, and make an informed decision. Additionally, as your application generates responses for real user queries, you don’t want to wait for them to complain about the model inaccuracy, instead, you want to monitor the model’s performance over time and get alerted in case of any drifts.<p>Again, at the core of it, you want a tool to evaluate the quality of your LLM response and assign quantitative scores.<p>The Solution: To solve this, we are building UpTrain which has a set of evaluation metrics so that you can know when your application is going wrong. These metrics include traditional NLP metrics like Rogue, Bleu, etc., embeddings similarity metrics as well as model grading scores i.e. where we use LLMs to evaluate different aspects of your response. A few of these evaluation metrics include:<p>1. Response Relevancy: Measures if the response contains any irrelevant information\n2. Response Completeness: Measures if the response answers all aspects of the given question\n3. Factual Accuracy: Measures hallucinations i.e. if the response has any made-up information or not with respect to the provided context\n4. Retrieved Context Quality: Measures if the retrieved context has sufficient information to answer the given question\n5. Response Tonality: Measures if the response aligns with a specific persona or desired tone\netc.<p>We have designed workflows so that you can easily add your testing dataset, configure which checks you want to run (you can also define custom checks suitable for your use case) and conveniently access the results via Streamlit dashboards.<p>UpTrain also has experimentation capabilities where you can specify different prompt variations and models to test across and use these quantitative checks to find the best configuration for your application.<p>You can also use UpTrain to monitor your application’s performance and find avenues for improvement. We integrate directly with your databases (BigQuery, Postgres, MongoDB, etc.) and can run daily evaluations.<p>We’ve launched the tool under an Apache 2.0 license to make it easy for everyone to integrate it into their LLM workflows. Additionally, we also provide managed service (with a free trial) where you can run LLM evaluations via an API request or through UpTrain testing console.<p>We would love for you to try it out and give your feedback.<p>Links:\nDemo: <a href=\"https:&#x2F;&#x2F;demo.uptrain.ai&#x2F;evals_demo&#x2F;\">https:&#x2F;&#x2F;demo.uptrain.ai&#x2F;evals_demo&#x2F;</a>\nGithub repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;uptrain-ai&#x2F;uptrain\">https:&#x2F;&#x2F;github.com&#x2F;uptrain-ai&#x2F;uptrain</a>\nCreate an account (free): <a href=\"https:&#x2F;&#x2F;uptrain.ai&#x2F;dashboard\">https:&#x2F;&#x2F;uptrain.ai&#x2F;dashboard</a>\nUpTrain testing console (need an account): <a href=\"https:&#x2F;&#x2F;demo.uptrain.ai&#x2F;dashboard\">https:&#x2F;&#x2F;demo.uptrain.ai&#x2F;dashboard</a>\nWebsite: <a href=\"https:&#x2F;&#x2F;uptrain.ai&#x2F;\">https:&#x2F;&#x2F;uptrain.ai&#x2F;</a>",
@@ -403,13 +403,13 @@
       "featured": false
     },
     {
-      "id": "mcd03ygt5duhwrlla9",
-      "title": "Langues par défaut? Analyse contrastive et diachronique des langues non citées dans les articles de TALN et d’ACL (Contrastive and diachronic study of unmentioned (by default ?) languages in TALN and ACL We study the application of the #BenderRule in natural language processing articles, taking into account a contrastive and a diachronic dimensions, by examining the proceedings of two NLP conferences, TALN and ACL, over time)",
-      "summary": "Cet article étudie l’application de la #RègledeBender dans des articles de traitement automatique des langues (TAL), en prenant en compte une dimension contrastive, par l’examen des actes de deux conférences du domaine, TALN et ACL, et une dimension diachronique, en examinant ces conférences au fil ...",
-      "content": "Cet article étudie l’application de la #RègledeBender dans des articles de traitement automatique des langues (TAL), en prenant en compte une dimension contrastive, par l’examen des actes de deux conférences du domaine, TALN et ACL, et une dimension diachronique, en examinant ces conférences au fil du temps. Un échantillon d’articles a été annoté manuellement et deux classifieurs ont été développés afin d’annoter automatiquement les autres articles. Nous quantifions ainsi l’application de la #RègledeBender, et mettons en évidence un léger mieux en faveur de TALN sur cet aspect.",
+      "id": "mcddb0eagh811nysldi",
+      "title": "A Transition-based Method for Complex Question Understanding",
+      "summary": "Complex Question Understanding (CQU) parses complex questions to Question Decomposition Meaning Representation (QDMR) which is a sequence of atomic operators. Existing works are based on end-to-end neural models which do not explicitly model the intermediate states and lack interpretability for the ...",
+      "content": "Complex Question Understanding (CQU) parses complex questions to Question Decomposition Meaning Representation (QDMR) which is a sequence of atomic operators. Existing works are based on end-to-end neural models which do not explicitly model the intermediate states and lack interpretability for the parsing process. Besides, they predict QDMR in a mismatched granularity and do not model the step-wise information which is an essential characteristic of QDMR. To alleviate the issues, we treat QDMR as a computational graph and propose a transition-based method where a decider predicts a sequence of actions to build the graph node-by-node. In this way, the partial graph at each step enables better representation of the intermediate states and better interpretability. At each step, the decider encodes the intermediate state with specially designed encoders and predicts several candidates of the next action and its confidence. For inference, a searcher seeks the optimal graph based on the predictions of the decider to alleviate the error propagation. Experimental results demonstrate the parsing accuracy of our method against several strong baselines. Moreover, our method has transparent and human-readable intermediate results, showing improved interpretability.",
       "publishedAt": "1970-01-01T00:00:00.000Z",
       "source": "Papers with Code",
-      "sourceUrl": "https://aclanthology.org/2022.jeptalnrecital-taln.14.pdf",
+      "sourceUrl": "https://aclanthology.org/2022.coling-1.369.pdf",
       "category": "research",
       "company": "Community",
       "imageUrl": null,
@@ -419,17 +419,19 @@
       "featured": false
     },
     {
-      "id": "mcd03ygt8tn2ubkest5",
-      "title": "基于结构检索的汉语介动搭配知识库构建(Construction of Preposition-verb Knowledge Base Based on Structure Retrieval)",
-      "summary": "“以往的介词知识库构建重视介词语义和介宾的搭配研究,鲜有对介动搭配进行系统研究及知识获取的工作。而汉语介词发达及动词是句子中心的特征决定了介动搭配研究的重要性。本研究基于结构检索技术,充分借助短语结构属性和结构信息,从大规模语料中抽取介动搭配16033对。并提出了介动搭配紧密度的度量方法,初步分析证明其远优于依靠绝对频次进行搭配度量的方法。”...",
-      "content": "“以往的介词知识库构建重视介词语义和介宾的搭配研究,鲜有对介动搭配进行系统研究及知识获取的工作。而汉语介词发达及动词是句子中心的特征决定了介动搭配研究的重要性。本研究基于结构检索技术,充分借助短语结构属性和结构信息,从大规模语料中抽取介动搭配16033对。并提出了介动搭配紧密度的度量方法,初步分析证明其远优于依靠绝对频次进行搭配度量的方法。”",
+      "id": "mcddb0eao43vcdez6x",
+      "title": "Proposal-based Video Completion",
+      "summary": "Video inpainting is an important technique for a wide variety of applications from video content editing to video restoration. Early approaches follow image inpainting paradigms, but are challenged by complex camera motion and non-rigid deformations. To address these challenges flow-guided propagati...",
+      "content": "Video inpainting is an important technique for a wide variety of applications from video content editing to video restoration. Early approaches follow image inpainting paradigms, but are challenged by complex camera motion and non-rigid deformations. To address these challenges flow-guided propagation techniques have been proposed. However, computation of flow is non-trivial for unobserved regions and propagation across a whole video sequence is computationally demanding. In contrast, in this paper, we propose a video inpainting algorithm based on proposals: we use 3D convolutions to obtain an initial inpainting estimate which is subsequently refined by fusing a generated set of proposals. Different from existing approaches for video inpainting, and inspired by well-explored mechanisms for object detection, we argue that proposals provide a rich source of information that permits to combine similarly looking patches that may be spatially and temporally far from the region to be inpainted. We validate the effectiveness of our method on the challenging YouTube VOS and DAVIS datasets using different settings and demonstrate results outperforming state-of-the-art on standard metrics.",
       "publishedAt": "1970-01-01T00:00:00.000Z",
       "source": "Papers with Code",
-      "sourceUrl": "https://aclanthology.org/2021.ccl-1.47.pdf",
+      "sourceUrl": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720035.pdf",
       "category": "research",
       "company": "Community",
       "imageUrl": null,
-      "tags": [],
+      "tags": [
+        "AI"
+      ],
       "featured": false
     }
   ]
