@@ -16,7 +16,9 @@
       "Bash(mkdir:*)",
       "Bash(git pull:*)",
       "Bash(gh run list:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(jq:*)",
+      "WebFetch(domain:paperswithcode.com)"
     ],
     "deny": []
   }

@@ -1,0 +1,17 @@
+{
+  "id": "mceiqu6gr554cy0tols",
+  "title": "Hunyuan-A13B released",
+  "summary": "From HF repo:\n\n&gt;Model Introduction\n\n&gt;With the rapid advancement of artificial intelligence technology, large language models (LLMs) have achieved remarkable progress in natural language processing, computer vision, and scientific tasks. However, as model scales continue to expand, optimizing r...",
+  "content": "From HF repo:\n\n&gt;Model Introduction\n\n&gt;With the rapid advancement of artificial intelligence technology, large language models (LLMs) have achieved remarkable progress in natural language processing, computer vision, and scientific tasks. However, as model scales continue to expand, optimizing resource consumption while maintaining high performance has become a critical challenge. To address this, we have explored Mixture of Experts (MoE) architectures. The newly introduced Hunyuan-A13B model features a total of 80 billion parameters with 13 billion active parameters. It not only delivers high-performance results but also achieves optimal resource efficiency, successfully balancing computational power and resource utilization.\n\n&gt;Key Features and Advantages\n\n&gt;Compact yet Powerful: With only 13 billion active parameters (out of a total of 80 billion), the model delivers competitive performance on a wide range of benchmark tasks, rivaling much larger models.\n\n&gt;Hybrid Inference Support: Supports both fast and slow thinking modes, allowing users to flexibly choose according to their needs.\n\n&gt;Ultra-Long Context Understanding: Natively supports a 256K context window, maintaining stable performance on long-text tasks.\n\n&gt;Enhanced Agent Capabilities: Optimized for agent tasks, achieving leading results on benchmarks such as BFCL-v3 and τ-Bench.\n\n&gt;Efficient Inference: Utilizes Grouped Query Attention (GQA) and supports multiple quantization formats, enabling highly efficient inference.",
+  "publishedAt": "2025-06-27T06:59:21.000Z",
+  "source": "Reddit r/LocalLLaMA",
+  "sourceUrl": "https://huggingface.co/tencent/Hunyuan-A13B-Instruct",
+  "category": "tools",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "LLM",
+    "AI"
+  ],
+  "featured": false
+}

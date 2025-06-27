@@ -38,6 +38,22 @@ const NEWS_SOURCES = [
     priority: 'high'
   },
   {
+    id: 'google-developers-blog',
+    name: 'Google Developers Blog',
+    url: 'https://developers.googleblog.com/feeds/posts/default',
+    category: 'tools',
+    company: 'Google',
+    priority: 'high'
+  },
+  {
+    id: 'google-blog-technology',
+    name: 'Google Technology Blog',
+    url: 'https://blog.google/technology/rss/',
+    category: 'companies',
+    company: 'Google',
+    priority: 'high'
+  },
+  {
     id: 'anthropic-news',
     name: 'Anthropic News', 
     url: 'https://www.anthropic.com/news.rss',
@@ -90,9 +106,17 @@ const GITHUB_REPOS = [
     priority: 'high'
   },
   {
-    id: 'google-gemini',
+    id: 'google-gemini-cookbook',
     owner: 'google-gemini',
     repo: 'cookbook',
+    company: 'Google',
+    category: 'tools', 
+    priority: 'medium'
+  },
+  {
+    id: 'google-gemini-cli',
+    owner: 'google-gemini',
+    repo: 'gemini-cli',
     company: 'Google',
     category: 'tools', 
     priority: 'high'
@@ -145,10 +169,18 @@ const SCRAPING_SOURCES = [
   {
     id: 'hackernews-ai',
     name: 'Hacker News AI',
-    url: 'https://hn.algolia.com/api/v1/search?query=AI%20OR%20machine%20learning%20OR%20GPT%20OR%20LLM&tags=story&hitsPerPage=10',
+    url: 'https://hn.algolia.com/api/v1/search?query=AI%20OR%20machine%20learning%20OR%20GPT%20OR%20LLM%20OR%20Gemini%20OR%20Claude&tags=story&hitsPerPage=15',
     category: 'industry',
     company: 'Community',
-    priority: 'low'
+    priority: 'medium'
+  },
+  {
+    id: 'hackernews-google',
+    name: 'Hacker News Google',
+    url: 'https://hn.algolia.com/api/v1/search?query=Google%20AI%20OR%20Gemini%20OR%20DeepMind&tags=story&hitsPerPage=10',
+    category: 'companies',
+    company: 'Google',
+    priority: 'high'
   },
   {
     id: 'papers-with-code',
@@ -322,8 +354,9 @@ async function fetchFromWebScraping(source) {
     
     let articles = [];
     
-    if (source.id === 'hackernews-ai') {
-      articles = data.hits.slice(0, 3).map(hit => ({
+    if (source.id === 'hackernews-ai' || source.id === 'hackernews-google') {
+      const maxArticles = source.id === 'hackernews-google' ? 5 : 3; // Google関連は多めに取得
+      articles = data.hits.slice(0, maxArticles).map(hit => ({
         id: generateId(),
         title: hit.title,
         summary: hit.story_text ? hit.story_text.substring(0, 300) + '...' : 'Hacker News記事',
@@ -335,7 +368,7 @@ async function fetchFromWebScraping(source) {
         company: source.company,
         imageUrl: null,
         tags: extractTags(hit.title, hit.story_text || ''),
-        featured: false
+        featured: source.priority === 'high' && hit.title.toLowerCase().includes('gemini')
       }));
     } else if (source.id === 'papers-with-code') {
       articles = data.results.slice(0, 2).map(paper => ({
@@ -379,7 +412,9 @@ async function fetchFromRSS(source) {
       return [];
     }
     
-    const articles = feed.items.slice(0, 5).map(item => {
+    // Googleの重要ソースからはより多く取得
+    const maxItems = source.company === 'Google' && source.priority === 'high' ? 8 : 5;
+    const articles = feed.items.slice(0, maxItems).map(item => {
       const publishedAt = new Date(item.pubDate || item.isoDate || Date.now());
       const summary = item.contentSnippet || item.content || item.description || '';
       
@@ -395,7 +430,8 @@ async function fetchFromRSS(source) {
         company: source.company,
         imageUrl: item.enclosure?.url || null,
         tags: extractTags(item.title || '', summary),
-        featured: source.priority === 'high' && Math.random() > 0.7
+        featured: (source.priority === 'high' && Math.random() > 0.7) || 
+                 (item.title && item.title.toLowerCase().includes('gemini cli'))
       };
     });
     
@@ -540,8 +576,12 @@ async function main() {
   // 公開日順でソート
   uniqueArticles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
-  // 最新の30件に制限（より多くのソースがあるため）
-  const recentArticles = uniqueArticles.slice(0, 30);
+  // 注目記事を優先し、その後日付順で制限
+  const featuredArticles = uniqueArticles.filter(a => a.featured);
+  const otherArticles = uniqueArticles.filter(a => !a.featured);
+  
+  // 注目記事を先頭に、その後その他の記事を追加（最大35件）
+  const recentArticles = [...featuredArticles, ...otherArticles].slice(0, 35);
   
   // JSONファイルとして保存
   const newsData = {
