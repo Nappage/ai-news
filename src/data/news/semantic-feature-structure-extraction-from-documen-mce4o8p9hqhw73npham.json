@@ -1,0 +1,16 @@
+{
+  "id": "mce4o8p9hqhw73npham",
+  "title": "Semantic Feature Structure Extraction From Documents Based on Extended Lexical Chains",
+  "summary": "The meaning of a sentence in a document is more easily determined if its constituent words exhibit cohesion with respect to their individual semantics. This paper explores the degree of cohesion among a document’s words using lexical chains as a semantic representation of its meaning. Using a combin...",
+  "content": "The meaning of a sentence in a document is more easily determined if its constituent words exhibit cohesion with respect to their individual semantics. This paper explores the degree of cohesion among a document’s words using lexical chains as a semantic representation of its meaning. Using a combination of diverse types of lexical chains, we develop a text document representation that can be used for semantic document retrieval. For our approach, we develop two kinds of lexical chains: (i) a multilevel flexible chain representation of the extracted semantic values, which is used to construct a fixed segmentation of these chains and constituent words in the text; and (ii) a fixed lexical chain obtained directly from the initial semantic representation from a document. The extraction and processing of concepts is performed using WordNet as a lexical database. The segmentation then uses these lexical chains to model the dispersion of concepts in the document. Representing each document as a high-dimensional vector, we use spherical k-means clustering to demonstrate that our approach performs better than previous techniques.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2018.gwc-1.11.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
