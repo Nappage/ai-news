@@ -15,9 +15,10 @@ export function formatDate(date: Date): string {
   }).format(date)
 }
 
-export function formatRelativeTime(date: Date): string {
+export function formatRelativeTime(date: Date | string): string {
+  const dateObj = typeof date === 'string' ? new Date(date) : date;
   const now = new Date()
-  const diffInMs = now.getTime() - date.getTime()
+  const diffInMs = now.getTime() - dateObj.getTime()
   const diffInMinutes = Math.floor(diffInMs / (1000 * 60))
   const diffInHours = Math.floor(diffInMinutes / 60)
   const diffInDays = Math.floor(diffInHours / 24)
@@ -29,7 +30,7 @@ export function formatRelativeTime(date: Date): string {
   } else if (diffInDays < 7) {
     return `${diffInDays}日前`
   } else {
-    return formatDate(date)
+    return formatDate(dateObj)
   }
 }
 
