@@ -180,6 +180,42 @@ const REDDIT_SUBREDDITS = [
   }
 ];
 
+// GitHub Search設定（動的検索）
+const GITHUB_SEARCH_QUERIES = [
+  {
+    id: 'github-search-claude',
+    query: 'Claude in:name,description,readme language:python,javascript,typescript',
+    category: 'tools',
+    company: 'Community',
+    priority: 'medium'
+  },
+  {
+    id: 'github-search-anthropic',
+    query: 'Anthropic in:name,description,readme',
+    category: 'tools', 
+    company: 'Community',
+    priority: 'medium'
+  },
+  {
+    id: 'github-search-llm',
+    query: 'LLM OR "large language model" created:>2025-06-01',
+    category: 'research',
+    company: 'Community',
+    priority: 'low'
+  }
+];
+
+// GitHub Organizations設定（組織全体を動的監視）
+const GITHUB_ORGS = [
+  {
+    id: 'anthropics-org',
+    org: 'anthropics',
+    company: 'Anthropic',
+    category: 'tools',
+    priority: 'high'
+  }
+];
+
 // Web Scraping設定
 const SCRAPING_SOURCES = [
   {
@@ -196,6 +232,14 @@ const SCRAPING_SOURCES = [
     url: 'https://hn.algolia.com/api/v1/search?query=Google%20AI%20OR%20Gemini%20OR%20DeepMind&tags=story&hitsPerPage=10',
     category: 'companies',
     company: 'Google',
+    priority: 'high'
+  },
+  {
+    id: 'hackernews-claude',
+    name: 'Hacker News Claude/Anthropic',
+    url: 'https://hn.algolia.com/api/v1/search?query=Claude%20OR%20Anthropic%20OR%20"claude-code"&tags=story&hitsPerPage=10',
+    category: 'companies',
+    company: 'Anthropic',
     priority: 'high'
   },
   {
@@ -349,6 +393,84 @@ async function fetchFromGitHub(repo) {
   }
 }
 
+// GitHub Search APIから情報を取得
+async function fetchFromGitHubSearch(searchQuery) {
+  try {
+    console.log(`Searching GitHub: ${searchQuery.query}...`);
+    
+    const searchUrl = `https://api.github.com/search/repositories?q=${encodeURIComponent(searchQuery.query)}&sort=updated&order=desc&per_page=5`;
+    const results = await makeRequest(searchUrl);
+    
+    if (results.error || !results.items || results.items.length === 0) {
+      console.warn(`No repositories found for query: ${searchQuery.query}`);
+      return [];
+    }
+    
+    const articles = results.items.slice(0, 3).map(repo => ({
+      id: generateId(),
+      title: `発見: ${repo.full_name} - ${repo.description?.substring(0, 80) || 'GitHub新プロジェクト'}`,
+      summary: `新しいプロジェクトを発見: ${repo.description || 'GitHub上の注目プロジェクト'} (⭐${repo.stargazers_count} | 🍴${repo.forks_count})`,
+      content: `${repo.description || ''}\n\n言語: ${repo.language || 'N/A'}\nスター数: ${repo.stargazers_count}\nフォーク数: ${repo.forks_count}`,
+      publishedAt: new Date(repo.updated_at).toISOString(),
+      source: 'GitHub Search',
+      sourceUrl: repo.html_url,
+      category: searchQuery.category,
+      company: searchQuery.company,
+      imageUrl: null,
+      tags: extractTags(repo.name, repo.description || ''),
+      featured: repo.stargazers_count > 100 || searchQuery.priority === 'high'
+    }));
+    
+    return articles;
+  } catch (error) {
+    console.error(`Error searching GitHub: ${searchQuery.query}:`, error.message);
+    return [];
+  }
+}
+
+// GitHub Organization全体からリポジトリ情報を取得
+async function fetchFromGitHubOrg(orgConfig) {
+  try {
+    console.log(`Fetching from GitHub Org: ${orgConfig.org}...`);
+    
+    const orgUrl = `https://api.github.com/orgs/${orgConfig.org}/repos?sort=updated&per_page=10`;
+    const repos = await makeRequest(orgUrl);
+    
+    if (repos.error || !Array.isArray(repos) || repos.length === 0) {
+      console.warn(`No repositories found for org: ${orgConfig.org}`);
+      return [];
+    }
+    
+    // 最近更新されたリポジトリの中から重要なものを選択
+    const recentRepos = repos
+      .filter(repo => {
+        const daysSinceUpdate = (Date.now() - new Date(repo.updated_at)) / (1000 * 60 * 60 * 24);
+        return daysSinceUpdate <= 30; // 30日以内に更新されたもの
+      })
+      .slice(0, 3);
+    
+    const articles = recentRepos.map(repo => ({
+      id: generateId(),
+      title: `${orgConfig.company}: ${repo.name}の最新アップデート`,
+      summary: `${repo.description || repo.name}が更新されました (⭐${repo.stargazers_count})`,
+      content: `${repo.description || ''}\n\n最終更新: ${new Date(repo.updated_at).toLocaleDateString()}\nスター数: ${repo.stargazers_count}`,
+      publishedAt: new Date(repo.updated_at).toISOString(),
+      source: `${orgConfig.company} GitHub Org`,
+      sourceUrl: repo.html_url,
+      category: orgConfig.category,
+      company: orgConfig.company,
+      imageUrl: null,
+      tags: extractTags(repo.name, repo.description || ''),
+      featured: repo.stargazers_count > 50 || orgConfig.priority === 'high'
+    }));
+    
+    return articles;
+  } catch (error) {
+    console.error(`Error fetching from GitHub org ${orgConfig.org}:`, error.message);
+    return [];
+  }
+}
+
 // Reddit APIからサブレディット情報を取得
 async function fetchFromReddit(subreddit) {
   try {
@@ -401,8 +523,8 @@ async function fetchFromWebScraping(source) {
     
     let articles = [];
     
-    if (source.id === 'hackernews-ai' || source.id === 'hackernews-google') {
-      const maxArticles = source.id === 'hackernews-google' ? 5 : 3; // Google関連は多めに取得
+    if (source.id === 'hackernews-ai' || source.id === 'hackernews-google' || source.id === 'hackernews-claude') {
+      const maxArticles = (source.id === 'hackernews-google' || source.id === 'hackernews-claude') ? 5 : 3; // 企業関連は多めに取得
       articles = data.hits.slice(0, maxArticles).map(hit => ({
         id: generateId(),
         title: hit.title,
@@ -415,7 +537,11 @@ async function fetchFromWebScraping(source) {
         company: source.company,
         imageUrl: null,
         tags: extractTags(hit.title, hit.story_text || ''),
-        featured: source.priority === 'high' && hit.title.toLowerCase().includes('gemini')
+        featured: source.priority === 'high' && (
+          hit.title.toLowerCase().includes('gemini') ||
+          hit.title.toLowerCase().includes('claude') ||
+          hit.title.toLowerCase().includes('anthropic')
+        )
       }));
     } else if (source.id === 'papers-with-code') {
       articles = data.results.slice(0, 2).map(paper => ({
@@ -542,7 +668,7 @@ async function main() {
   
   let allArticles = [];
   let successfulSources = 0;
-  let totalSources = NEWS_SOURCES.length + GITHUB_REPOS.length + REDDIT_SUBREDDITS.length + SCRAPING_SOURCES.length;
+  let totalSources = NEWS_SOURCES.length + GITHUB_REPOS.length + GITHUB_SEARCH_QUERIES.length + GITHUB_ORGS.length + REDDIT_SUBREDDITS.length + SCRAPING_SOURCES.length;
   
   // 各RSSソースから記事を取得
   console.log('\n📡 Fetching from RSS sources...');
@@ -577,6 +703,44 @@ async function main() {
       }
     } catch (error) {
       console.error(`❌ GitHub: Failed to fetch from ${repo.owner}/${repo.repo}:`, error.message);
+    }
+    
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+  
+  // GitHub Search APIから情報を取得
+  console.log('\n🔍 Searching GitHub repositories...');
+  for (const searchQuery of GITHUB_SEARCH_QUERIES) {
+    try {
+      const articles = await fetchFromGitHubSearch(searchQuery);
+      if (articles.length > 0) {
+        allArticles = allArticles.concat(articles);
+        successfulSources++;
+        console.log(`✅ GitHub Search: Successfully found ${articles.length} repositories for "${searchQuery.query}"`);
+      } else {
+        console.log(`⚠️  GitHub Search: No repositories found for "${searchQuery.query}"`);
+      }
+    } catch (error) {
+      console.error(`❌ GitHub Search: Failed to search "${searchQuery.query}":`, error.message);
+    }
+    
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+  
+  // GitHub Organizationsから情報を取得
+  console.log('\n🏢 Fetching from GitHub organizations...');
+  for (const orgConfig of GITHUB_ORGS) {
+    try {
+      const articles = await fetchFromGitHubOrg(orgConfig);
+      if (articles.length > 0) {
+        allArticles = allArticles.concat(articles);
+        successfulSources++;
+        console.log(`✅ GitHub Org: Successfully fetched ${articles.length} repositories from ${orgConfig.org}`);
+      } else {
+        console.log(`⚠️  GitHub Org: No recent repositories found for ${orgConfig.org}`);
+      }
+    } catch (error) {
+      console.error(`❌ GitHub Org: Failed to fetch from ${orgConfig.org}:`, error.message);
     }
     
     await new Promise(resolve => setTimeout(resolve, 1000));
@@ -686,6 +850,8 @@ async function main() {
   console.log('  - Companies:', companyStats);
   console.log(`  - RSS Sources: ${NEWS_SOURCES.length} configured`);
   console.log(`  - GitHub Repos: ${GITHUB_REPOS.length} configured`);
+  console.log(`  - GitHub Search: ${GITHUB_SEARCH_QUERIES.length} queries configured`);
+  console.log(`  - GitHub Orgs: ${GITHUB_ORGS.length} organizations configured`);
   console.log(`  - Reddit Subreddits: ${REDDIT_SUBREDDITS.length} configured`);
   console.log(`  - Web Scraping: ${SCRAPING_SOURCES.length} configured`);
 }
