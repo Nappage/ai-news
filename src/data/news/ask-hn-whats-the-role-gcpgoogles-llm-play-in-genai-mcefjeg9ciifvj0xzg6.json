@@ -1,0 +1,20 @@
+{
+  "id": "mcefjeg9ciifvj0xzg6",
+  "title": "Ask HN: What's the role GCP/Google's LLM play in GenAI market",
+  "summary": "This ask post is very opinionated.<p>I used be a die-hard Google&#x2F;GCP lover, from wanting to enter Google as an engineer when I was a student, to proposing to try out GCP for a new project at my first internship (and succeeded). Used Firebase for my on-campus goods trading platform, course proje...",
+  "content": "This ask post is very opinionated.<p>I used be a die-hard Google&#x2F;GCP lover, from wanting to enter Google as an engineer when I was a student, to proposing to try out GCP for a new project at my first internship (and succeeded). Used Firebase for my on-campus goods trading platform, course projects, and contract projects, and got good experiences. I also used Colab as my go-to choice for my study of machine learning, running models for tasks including object detection, image segmentation, basic machine learning projects, and fine-tuning transformer models for my NLP course projects.<p>I still remembered the release Google&#x27;s LaMDA model in 2021, and the beautiful blog post site. They used to be the leading role in GenAI or AI serving in general with TensorFlow serve on GCP. However, ever since last year, I really felt that Google is severely lagging behind in the cloud service or GenAI in general.<p>For GCP, especially the AI related workspace, I see no meaningful improvement over the years. The file system still has a weird triangle that when you click it does nothing, the UI is extremely laggy when the data is huge just like in colab. I don&#x27;t even want to mention the accidental deletion of Unisuper&#x27;s data.<p>For Gemini, despite it has large context window (2M for 1.5 Pro, 1M for 1.5 Flash), I see no value at all to use this. I generally judge a service&#x27;s usability on three things: model competency &gt; API (design, price, speed) &gt; playground ease of use (because you can always use other playgrounds when you have the API). Gemini sucks on every aspect. It&#x27;s never in par with GPT-4o (opinionated, tested on all my graduate CS quiz questions). The API is such a pain in the ass (500, 400 all over the place when I was following the cookbook and Gemini&#x27;s team could not even solve my issue at a hackathon!) They playground is the most counter-intuitive thing I&#x27;ve ever used in my life.<p>What&#x27;s more, the executive team of the Google seems to believe that Gemini 1.5 Pro is as satisfying as GPT-4, and Gemini 1.5 Flash is better, faster, and cheaper than GPT-3.5. First statement is false (to me). Second statement is meaningless, because you should be comparing Gemini 1.5 Flash to Llama 3 or Mistral instead of GPT-3.5. Don&#x27;t even bring up that Gemini is not fine-tunable at this moment.<p>They have a slide number that over 60% GenAI startup is using GCP. I simply don&#x27;t understand where this number is from. Almost every startup I encountered is either using OpenAI or Azure Studio (if they have some scale). I used to be a MSFT hater, but Azure AI Studio just has far better DX and model catalog compared to Vertex AI.<p>Therefore, unless my company has already signed a contract with GCP, I really don&#x27;t see the point of a new startup starting to use GCP or Gemini in general.",
+  "publishedAt": "2024-05-16T07:04:28.000Z",
+  "source": "Hacker News AI",
+  "sourceUrl": "https://news.ycombinator.com/item?id=40375903",
+  "category": "industry",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "GPT",
+    "Gemini",
+    "Llama",
+    "LLM",
+    "AI"
+  ],
+  "featured": false
+}
