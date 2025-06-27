@@ -82,9 +82,25 @@ const NEWS_SOURCES = [
 // GitHub API設定（実在するリポジトリのみ）
 const GITHUB_REPOS = [
   {
-    id: 'anthropic-claude-3-sonnet',
+    id: 'anthropic-sdk-python',
     owner: 'anthropics',
     repo: 'anthropic-sdk-python',
+    company: 'Anthropic',
+    category: 'tools',
+    priority: 'high'
+  },
+  {
+    id: 'anthropic-claude-code',
+    owner: 'anthropics',
+    repo: 'claude-code',
+    company: 'Anthropic',
+    category: 'tools',
+    priority: 'high'
+  },
+  {
+    id: 'anthropic-dxt',
+    owner: 'anthropics',
+    repo: 'dxt',
     company: 'Anthropic',
     category: 'tools',
     priority: 'high'
@@ -275,9 +291,40 @@ async function fetchFromGitHub(repo) {
     const releasesUrl = `https://api.github.com/repos/${repo.owner}/${repo.repo}/releases?per_page=3`;
     const releases = await makeRequest(releasesUrl);
     
-    if (releases.error || !Array.isArray(releases)) {
-      console.warn(`No releases found for ${repo.owner}/${repo.repo}`);
-      return [];
+    if (releases.error || !Array.isArray(releases) || releases.length === 0) {
+      console.warn(`No releases found for ${repo.owner}/${repo.repo}, trying recent commits...`);
+      
+      // リリースがない場合は最近のコミットから情報を取得
+      const commitsUrl = `https://api.github.com/repos/${repo.owner}/${repo.repo}/commits?per_page=3`;
+      const commits = await makeRequest(commitsUrl);
+      
+      if (commits.error || !Array.isArray(commits) || commits.length === 0) {
+        console.warn(`No commits found for ${repo.owner}/${repo.repo}`);
+        return [];
+      }
+      
+      // 最新の重要なコミットから記事を生成
+      const recentCommit = commits[0];
+      const articles = [{
+        id: generateId(),
+        title: `${repo.company}: ${repo.repo}の最新アップデート`,
+        summary: `${repo.repo}リポジトリに新しい更新: ${recentCommit.commit.message.substring(0, 200)}...`,
+        content: recentCommit.commit.message,
+        publishedAt: new Date(recentCommit.commit.author.date).toISOString(),
+        source: `${repo.company} GitHub`,
+        sourceUrl: `https://github.com/${repo.owner}/${repo.repo}`,
+        category: repo.category,
+        company: repo.company,
+        imageUrl: null,
+        tags: extractTags(repo.repo, recentCommit.commit.message),
+        featured: repo.priority === 'high' && (
+          recentCommit.commit.message.toLowerCase().includes('release') ||
+          recentCommit.commit.message.toLowerCase().includes('desktop') ||
+          recentCommit.commit.message.toLowerCase().includes('app')
+        )
+      }];
+      
+      return articles;
     }
     
     const articles = releases.slice(0, 2).map(release => ({
