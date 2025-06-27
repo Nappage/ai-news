@@ -1,0 +1,18 @@
+{
+  "id": "mcetopeq2h16qkr281b",
+  "title": "Show HN: Claude Slash Command Suite inspired by Anthropics best practices guide",
+  "summary": "I built a collection of professional slash commands for Anthropic&#x27;s Claude Code that provide structured workflows for common software development tasks.<p><pre><code>  These commands are directly inspired by and adapted from Anthropic&#x27;s own claude-code-best-practices (https:&#x2F;&#x2F;www...",
+  "content": "I built a collection of professional slash commands for Anthropic&#x27;s Claude Code that provide structured workflows for common software development tasks.<p><pre><code>  These commands are directly inspired by and adapted from Anthropic&#x27;s own claude-code-best-practices (https:&#x2F;&#x2F;www.anthropic.com&#x2F;engineering&#x2F;claude-code-best-practices) documentation, translating their recommendations into executable workflows.\n\n  The suite includes commands for:\n  • Comprehensive code reviews with security and performance analysis\n  • End-to-end feature development with planning, implementation, and testing\n  • Architectural analysis and design pattern assessment\n • Security audits and vulnerability scanning\n  • GitHub issue resolution with root cause analysis\n  • Performance optimization and build improvements\n\n  Each command follows a systematic approach based on Anthropic&#x27;s\n  best practices, breaking complex tasks into manageable steps.\n  Instead of ad-hoc AI interactions, you get consistent, thorough\n   workflows that adapt to any codebase.\n\n  The commands work through Claude Code&#x27;s slash command system -\n  just type `&#x2F;project:code-review` or `&#x2F;project:create-feature\n  user-authentication` and Claude follows the predefined\n  workflow.\n\n  Installation is straightforward with an interactive script that\n   can install project-specific or globally. The commands are\n  fully customizable markdown files, so you can adapt them to\n  your team&#x27;s specific requirements.\n\n</code></pre>\nI hope others find it useful!",
+  "publishedAt": "2025-06-13T02:05:24.000Z",
+  "source": "Hacker News Claude/Anthropic",
+  "sourceUrl": "https://github.com/qdhenry/Claude-Command-Suite",
+  "category": "companies",
+  "company": "Anthropic",
+  "imageUrl": null,
+  "tags": [
+    "Claude",
+    "AI",
+    "Anthropic"
+  ],
+  "featured": true
+}

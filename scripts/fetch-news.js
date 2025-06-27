@@ -406,7 +406,7 @@ async function fetchFromGitHubSearch(searchQuery) {
       return [];
     }
     
-    const articles = results.items.slice(0, 3).map(repo => ({
+    const articles = results.items.slice(0, 5).map(repo => ({ // 検索結果も多めに取得
       id: generateId(),
       title: `発見: ${repo.full_name} - ${repo.description?.substring(0, 80) || 'GitHub新プロジェクト'}`,
       summary: `新しいプロジェクトを発見: ${repo.description || 'GitHub上の注目プロジェクト'} (⭐${repo.stargazers_count} | 🍴${repo.forks_count})`,
@@ -447,7 +447,7 @@ async function fetchFromGitHubOrg(orgConfig) {
         const daysSinceUpdate = (Date.now() - new Date(repo.updated_at)) / (1000 * 60 * 60 * 24);
         return daysSinceUpdate <= 30; // 30日以内に更新されたもの
       })
-      .slice(0, 3);
+      .slice(0, 6); // Anthropics組織は重要なので多めに取得
     
     const articles = recentRepos.map(repo => ({
       id: generateId(),
@@ -804,8 +804,8 @@ async function main() {
   const featuredArticles = uniqueArticles.filter(a => a.featured);
   const otherArticles = uniqueArticles.filter(a => !a.featured);
   
-  // 注目記事を先頭に、その後その他の記事を追加（最大35件）
-  const recentArticles = [...featuredArticles, ...otherArticles].slice(0, 35);
+  // 注目記事を先頭に、その他の記事を追加（最大50件に拡張）
+  const recentArticles = [...featuredArticles, ...otherArticles].slice(0, 50);
   
   // JSONファイルとして保存
   const newsData = {
