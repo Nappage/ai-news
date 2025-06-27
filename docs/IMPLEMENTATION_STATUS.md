@@ -1,7 +1,7 @@
 # 実装状況ドキュメント
 
-**最終更新:** 2025年6月24日  
-**バージョン:** 3.0.0
+**最終更新:** 2025年6月27日  
+**バージョン:** 4.0.0
 
 ## 📊 実装状況サマリー
 
@@ -10,7 +10,9 @@
 | **基盤システム** | ✅ 完了 | - | - |
 | **ページ実装** | ✅ 100% | - | 全機能完成 |
 | **ナビゲーション** | ✅ 完了 | - | メインナビ完成 |
-| **ニュース機能** | ✅ 完了 | - | - |
+| **ニュース機能** | ✅ 完了 | - | マルチソース対応 |
+| **情報収集システム** | ✅ 完了 | - | 21ソース監視 |
+| **テーマ機能** | ✅ 完了 | - | 3段階切り替え |
 
 ## 🏠 実装済みページ
 
@@ -84,10 +86,17 @@
   - ヘッダー・フッター
   - ダークモード対応
   - レスポンシブデザイン
-- **ニュース取得システム**
-  - RSS自動収集
+- **ニュース取得システム** ⭐ **拡張完了**
+  - RSS自動収集（8ソース）
+  - GitHub API監視（7リポジトリ）
+  - Reddit API監視（3サブレディット）
+  - Web Scraping（3ソース）
   - データ管理機能
   - GitHub Actions自動化
+- **テーマシステム** ⭐ **NEW**
+  - ライト/ダーク/システムモード
+  - リアルタイム切り替え
+  - OS設定自動追従
 
 ## ❌ 未実装ページ（404エラー）
 
@@ -265,10 +274,12 @@ src/app/
 ✅ 月別アーカイブ・統計
 ✅ サイト情報ページ群
 ✅ RSS自動収集 (24時間体制)
+✅ マルチソース情報収集 (21ソース)
+✅ 高度テーマシステム (3段階)
 ✅ 静的生成・SEO最適化
 ✅ レスポンシブデザイン
 
-**結果:** 完全機能的なAIニュースプラットフォームが運用開始。
+**結果:** 完全機能的なAIニュースプラットフォームが運用開始。**Google重要発表見逃し防止システム完備。**
 
 ## 📝 エラー履歴・トラブルシューティング
 
@@ -310,6 +321,24 @@ src/app/
 **解決策:** 最新コミットは正常、古いマージコミットはキャンセル対応  
 **予防策:** RSS取得スクリプトの重複防止機能強化（今後の改善点）
 
+#### 7. ダークモード機能不全 (2025/06/27)
+**エラー:** ダークモードボタンを押しても画面が切り替わらない  
+**原因:** CSS変数（--background, --foreground等）が未定義  
+**解決策:** globals.cssにHSLカラー変数を追加、tailwind.config.jsを更新  
+**予防策:** 新しいカラーシステム使用時は必ずCSS変数を先に定義
+
+#### 8. システムテーマ動作不明 (2025/06/27)
+**エラー:** PCマークの機能が分からない、何も起こらない  
+**原因:** システムテーマ状態のフィードバック不足  
+**解決策:** ツールチップで現在状態表示、OS設定変更監視を追加  
+**予防策:** UI要素には必ず説明的なフィードバックを提供
+
+#### 9. Gemini CLI発表見逃し (2025/06/27)
+**エラー:** 重要なGoogle発表（Gemini CLI）がAI Newsに掲載されない  
+**原因:** 記事数制限（30件）により重要記事が除外される  
+**解決策:** Google高優先度ソースの取得数拡張（5→8記事）、重要記事優先システム  
+**予防策:** 主要企業の発表は自動検出・優先表示システムで対応
+
 ### 🛡️ 予防チェックリスト
 
 #### デプロイ前チェック
@@ -347,6 +376,67 @@ src/app/
 1. **エラー対応:** タイムアウト、リダイレクト、404エラーに対する適切な処理
 2. **データ変換:** RSS→JSON変換時の日付・文字列処理に注意
 3. **フィルタリング:** 企業名・カテゴリの正規化とマッチング処理
+
+---
+
+## 🔄 マルチソース情報収集システム (v4.0.0)
+
+### 📡 情報収集ソース一覧
+
+#### RSS フィード (8ソース)
+1. **OpenAI Blog** - `https://openai.com/news/rss.xml` ✅ 取得成功
+2. **Hugging Face Blog** - `https://huggingface.co/blog/feed.xml` ✅ 取得成功  
+3. **Google Developers Blog** - `https://developers.googleblog.com/feeds/posts/default` ✅ 取得成功
+4. **Google Technology Blog** - `https://blog.google/technology/rss/` ✅ 取得成功
+5. **DeepMind Blog** - `https://deepmind.google/blog/rss.xml` ✅ 取得成功
+6. ~~Google AI Blog~~ - `https://ai.googleblog.com/feeds/posts/default` ❌ 404エラー
+7. ~~Anthropic News~~ - `https://www.anthropic.com/news.rss` ❌ 404エラー
+8. ~~Meta AI Blog~~ - `https://ai.meta.com/blog/rss/` ❌ 404エラー
+
+#### GitHub API (7リポジトリ)
+1. **Anthropic SDK** - `anthropics/anthropic-sdk-python` ✅ 取得成功
+2. **Meta LLaMA** - `meta-llama/llama-models` ✅ 取得成功
+3. **Google Gemini CLI** - `google-gemini/gemini-cli` ✅ 取得成功
+4. **Hugging Face Transformers** - `huggingface/transformers` ✅ 取得成功
+5. ~~OpenAI Cookbook~~ - `openai/openai-cookbook` ❌ リリース無し
+6. ~~Google Gemini Cookbook~~ - `google-gemini/cookbook` ❌ リリース無し
+7. ~~Microsoft DeepSpeed~~ - `microsoft/DeepSpeed` ❌ リリース無し
+
+#### Reddit API (3サブレディット)
+1. **r/MachineLearning** - 機械学習研究 ✅ 取得成功
+2. **r/OpenAI** - OpenAI関連ディスカッション ✅ 取得成功
+3. **r/LocalLLaMA** - オープンソースLLM ✅ 取得成功
+
+#### Web Scraping (3ソース)
+1. **Hacker News AI** - Algolia API使用 ⚠️ 一時的エラー
+2. **Hacker News Google** - Google専用検索 ✅ 取得成功
+3. **Papers with Code** - 最新AI論文 ✅ 取得成功
+
+### 📊 収集パフォーマンス
+
+**成功率:** 14/21 ソース (66.7%)  
+**総記事数:** 35記事/日  
+**Google記事:** 17記事 (48.6%)  
+**注目記事:** 8記事自動選定
+
+### 🔧 重要機能
+
+#### 重要記事優先システム
+- **自動検出:** "Gemini CLI"等の重要キーワード
+- **優先表示:** 注目記事を先頭配置
+- **記事数拡張:** Google重要ソースは8記事取得
+
+#### 規約準拠確認
+- **Hacker News:** Algolia公式API使用（規約準拠）
+- **Papers with Code:** robots.txt確認済み（許可）
+- **Reddit:** 公式JSON API使用（規約準拠）
+
+### 🚀 今後の改善点
+
+1. **RSS URLメンテナンス** - 404エラーソースの代替URL検索
+2. **API制限対応** - レート制限監視とバックオフ実装
+3. **重複除去強化** - タイトル以外の重複検出ロジック
+4. **ソース多様化** - YouTube API、TechCrunch等の追加検討
 
 ---
 
