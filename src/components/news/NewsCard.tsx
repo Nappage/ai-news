@@ -110,6 +110,7 @@ function getCategoryLabel(category: string): string {
     industry: '業界・政策',
     funding: '資金調達',
     policy: '政策・規制',
+    community: 'コミュニティ',
   }
   return labels[category] || category
 }

@@ -1,7 +1,7 @@
 import { Users, Github, MessageSquare, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { getNewsData } from '@/lib/news'
-import { NewsCard } from '@/components/NewsCard'
+import { NewsCard } from '@/components/news/NewsCard'
 import { Card, CardContent } from '@/components/ui/card'
 
 export default async function CommunityPage() {
@@ -90,7 +90,7 @@ export default async function CommunityPage() {
                 <NewsCard
                   key={article.id}
                   article={article}
-                  showExcerpt={true}
+                  size="medium"
                 />
               ))}
             </div>
