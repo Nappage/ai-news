@@ -65,6 +65,7 @@ interface NewsData {
   totalArticles: number
   articles: NewsArticle[]
   communityArticles?: NewsArticle[]
+  githubArticles?: NewsArticle[]
   featuredCount?: number
 }
 
@@ -78,7 +79,8 @@ export async function getNewsData(): Promise<NewsData> {
         lastUpdated: new Date().toISOString(),
         totalArticles: FALLBACK_NEWS.length,
         articles: FALLBACK_NEWS,
-        communityArticles: []
+        communityArticles: [],
+        githubArticles: []
       }
     }
 
@@ -93,6 +95,10 @@ export async function getNewsData(): Promise<NewsData> {
         publishedAt: new Date(article.publishedAt)
       })),
       communityArticles: rawData.communityArticles?.map((article: any) => ({
+        ...article,
+        publishedAt: new Date(article.publishedAt)
+      })) || [],
+      githubArticles: rawData.githubArticles?.map((article: any) => ({
         ...article,
         publishedAt: new Date(article.publishedAt)
       })) || []
@@ -110,6 +116,13 @@ export async function getNewsData(): Promise<NewsData> {
       )
     }
     
+    // GitHub記事もソート
+    if (data.githubArticles) {
+      data.githubArticles.sort((a, b) => 
+        b.publishedAt.getTime() - a.publishedAt.getTime()
+      )
+    }
+    
     return data
   } catch (error) {
     console.error('Error reading news data:', error)
@@ -117,7 +130,8 @@ export async function getNewsData(): Promise<NewsData> {
       lastUpdated: new Date().toISOString(),
       totalArticles: FALLBACK_NEWS.length,
       articles: FALLBACK_NEWS,
-      communityArticles: []
+      communityArticles: [],
+      githubArticles: []
     }
   }
 }

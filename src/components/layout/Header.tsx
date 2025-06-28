@@ -30,6 +30,7 @@ const navigation = [
       { name: 'その他', href: '/company/others' },
     ]
   },
+  { name: 'GitHub', href: '/github' },
   { name: 'コミュニティ', href: '/community' },
   { name: 'アーカイブ', href: '/archives' },
 ]
