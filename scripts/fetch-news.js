@@ -414,11 +414,12 @@ async function fetchFromGitHubSearch(searchQuery) {
       publishedAt: new Date(repo.updated_at).toISOString(),
       source: 'GitHub Search',
       sourceUrl: repo.html_url,
-      category: searchQuery.category,
+      category: 'community', // 非公式GitHub情報はcommunityカテゴリに変更
       company: searchQuery.company,
       imageUrl: null,
       tags: extractTags(repo.name, repo.description || ''),
-      featured: repo.stargazers_count > 100 || searchQuery.priority === 'high'
+      featured: false, // 非公式情報はfeaturedから除外
+      showOnTopPage: false // トップページには表示しない
     }));
     
     return articles;
