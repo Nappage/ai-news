@@ -1,0 +1,16 @@
+{
+  "id": "mcgkk31z2wbe1p10v79",
+  "title": "Integrated Steganography and Steganalysis with Generative Adversarial Networks",
+  "summary": "Recently, generative adversarial network is the hotspot in research areas and industrial application areas. It's application on data generation in computer vision is most common usage. This paper extends its application to data hiding and security area. In this paper, we propose the novel framework ...",
+  "content": "Recently, generative adversarial network is the hotspot in research areas and industrial application areas. It's application on data generation in computer vision is most common usage. This paper extends its application to data hiding and security area. In this paper, we propose the novel framework to integrate steganography and steganalysis processes. The proposed framework applies generative adversarial networks as the core structure. The discriminative model simulate the steganalysis process, which can help us understand the sensitivity of cover images to semantic changes. The steganography generative model is to generate stego image which is aligned with the original cover image, and attempts to confuse steganalysis discriminative model. The introduction of cycle discriminative model and inconsistent loss can help to enhance the quality and security of generated stego image in the iterative training process. Training dataset is mixed with intact images as well as intentional attacked images. The mix training process can further improve the robustness and security of new framework. Through the qualitative, quantitative experiments and analysis, this novel framework shows compelling performance and advantages over the current state-of-the-art methods in steganography and steganalysis benchmarks.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://openreview.net/pdf?id=r1Vx_oA5YQ",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
