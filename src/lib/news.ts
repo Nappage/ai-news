@@ -64,6 +64,8 @@ interface NewsData {
   lastUpdated: string
   totalArticles: number
   articles: NewsArticle[]
+  communityArticles?: NewsArticle[]
+  featuredCount?: number
 }
 
 // ニュースデータを読み込む
@@ -75,7 +77,8 @@ export async function getNewsData(): Promise<NewsData> {
       return {
         lastUpdated: new Date().toISOString(),
         totalArticles: FALLBACK_NEWS.length,
-        articles: FALLBACK_NEWS
+        articles: FALLBACK_NEWS,
+        communityArticles: []
       }
     }
 
@@ -88,7 +91,11 @@ export async function getNewsData(): Promise<NewsData> {
       articles: rawData.articles.map((article: any) => ({
         ...article,
         publishedAt: new Date(article.publishedAt)
-      }))
+      })),
+      communityArticles: rawData.communityArticles?.map((article: any) => ({
+        ...article,
+        publishedAt: new Date(article.publishedAt)
+      })) || []
     }
     
     // データを日付でソート
@@ -96,21 +103,29 @@ export async function getNewsData(): Promise<NewsData> {
       b.publishedAt.getTime() - a.publishedAt.getTime()
     )
     
+    // コミュニティ記事もソート
+    if (data.communityArticles) {
+      data.communityArticles.sort((a, b) => 
+        b.publishedAt.getTime() - a.publishedAt.getTime()
+      )
+    }
+    
     return data
   } catch (error) {
     console.error('Error reading news data:', error)
     return {
       lastUpdated: new Date().toISOString(),
       totalArticles: FALLBACK_NEWS.length,
-      articles: FALLBACK_NEWS
+      articles: FALLBACK_NEWS,
+      communityArticles: []
     }
   }
 }
 
-// 注目記事を取得
+// 注目記事を取得（数を増加）
 export async function getFeaturedNews(): Promise<NewsArticle[]> {
   const data = await getNewsData()
-  return data.articles.filter(article => article.featured).slice(0, 3)
+  return data.articles.filter(article => article.featured).slice(0, 6)
 }
 
 // 最新記事を取得

@@ -801,18 +801,24 @@ async function main() {
   // 公開日順でソート
   uniqueArticles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
-  // 注目記事を優先し、その後日付順で制限
-  const featuredArticles = uniqueArticles.filter(a => a.featured);
-  const otherArticles = uniqueArticles.filter(a => !a.featured);
+  // トップページ表示用記事（Communityカテゴリ以外）とCommunity記事を分離
+  const topPageArticles = uniqueArticles.filter(a => a.category !== 'community');
+  const communityArticles = uniqueArticles.filter(a => a.category === 'community');
   
-  // 注目記事を先頭に、その他の記事を追加（最大50件に拡張）
-  const recentArticles = [...featuredArticles, ...otherArticles].slice(0, 50);
+  // 注目記事と一般記事を分離（トップページのみ）
+  const featuredArticles = topPageArticles.filter(a => a.featured);
+  const otherTopArticles = topPageArticles.filter(a => !a.featured);
   
-  // JSONファイルとして保存
+  // トップページ記事を構成（注目記事を増量）
+  const recentArticles = [...featuredArticles, ...otherTopArticles].slice(0, 40);
+  
+  // JSONファイルとして保存（トップページとCommunityを分離）
   const newsData = {
     lastUpdated: new Date().toISOString(),
     totalArticles: recentArticles.length,
-    articles: recentArticles
+    articles: recentArticles,
+    communityArticles: communityArticles.slice(0, 20), // Community記事を別途保存
+    featuredCount: featuredArticles.length
   };
   
   const outputPath = path.join(DATA_DIR, 'news.json');
@@ -827,7 +833,9 @@ async function main() {
   
   console.log(`✅ Successfully fetched and saved ${recentArticles.length} articles`);
   console.log(`📁 Data saved to: ${outputPath}`);
-  console.log(`📊 Featured articles: ${recentArticles.filter(a => a.featured).length}`);
+  console.log(`📊 Featured articles: ${featuredArticles.length}`);
+  console.log(`🏠 Top page articles: ${recentArticles.length}`);
+  console.log(`👥 Community articles: ${communityArticles.length}`);
   
   // 統計情報の表示
   const categoryStats = recentArticles.reduce((acc, article) => {
