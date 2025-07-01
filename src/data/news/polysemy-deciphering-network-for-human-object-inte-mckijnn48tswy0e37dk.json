@@ -1,0 +1,16 @@
+{
+  "id": "mckijnn48tswy0e37dk",
+  "title": "Polysemy Deciphering Network for Human-Object Interaction Detection",
+  "summary": "Human-Object Interaction (HOI) detection is important in human-centric scene understanding. Existing works typically assume that the same verb in different HOI categories has similar visual characteristics, while ignoring the diverse semantic meanings of the verb. To address this issue, in this pape...",
+  "content": "Human-Object Interaction (HOI) detection is important in human-centric scene understanding. Existing works typically assume that the same verb in different HOI categories has similar visual characteristics, while ignoring the diverse semantic meanings of the verb. To address this issue, in this paper, we propose a novel Polysemy Deciphering Network (PD-Net), which decodes the visual polysemy of verbs for HOI detection in three ways. First, PD-Net augments human pose and spatial features for HOI detection using language priors, enabling the verb classifiers to receive language hints that reduce the intra-class variation of the same verb. Second, we introduce a novel Polysemy Attention Module (PAM) that guides PD-Net to make decisions based on more important feature types according to the language priors. Finally, the above two strategies are applied to two types of classifiers for verb recognition, i.e., object-shared and object-specific verb classifiers, whose combination further relieves the verb polysemy problem. By deciphering the visual polysemy of verbs, we achieve the best performance on both HICO-DET and V-COCO datasets. In particular, PD-Net outperforms state-of-the-art approaches by 3.81% mAP in the Known-Object evaluation mode of HICO-DET. Code of PD-Net will be released at https://github.com/MuchHair/PD-Net.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650069.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
