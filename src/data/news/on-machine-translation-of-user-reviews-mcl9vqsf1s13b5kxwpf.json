@@ -1,0 +1,16 @@
+{
+  "id": "mcl9vqsf1s13b5kxwpf",
+  "title": "On Machine Translation of User Reviews",
+  "summary": "This work investigates neural machine translation (NMT) systems for translating English user reviews into Croatian and Serbian, two similar morphologically complex languages. Two types of reviews are used for testing the systems: IMDb movie reviews and Amazon product reviews. Two types of training d...",
+  "content": "This work investigates neural machine translation (NMT) systems for translating English user reviews into Croatian and Serbian, two similar morphologically complex languages. Two types of reviews are used for testing the systems: IMDb movie reviews and Amazon product reviews. Two types of training data are explored: large out-of-domain bilingual parallel corpora, as well as small synthetic in-domain parallel corpus obtained by machine translation of monolingual English Amazon reviews into the target languages. Both automatic scores and human evaluation show that using the synthetic in-domain corpus together with a selected sub-set of out-of-domain data is the best option. Separated results on IMDb and Amazon reviews indicate that MT systems perform differently on different review types so that user reviews generally should not be considered as a homogeneous genre. Nevertheless, more detailed research on larger amount of different reviews covering different domains/topics is needed to fully understand these differences.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2021.ranlp-main.124.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}

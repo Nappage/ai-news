@@ -1,0 +1,16 @@
+{
+  "id": "mcl9vqsf95o81cd4f0v",
+  "title": "Boosted Histogram Transform for Regression",
+  "summary": "In this paper, we propose a boosting algorithm for regression problems called \\textit{boosted histogram transform for regression} (BHTR) based on histogram transforms composed of random rotations, stretchings, and translations. From the theoretical perspective, we first prove fast convergence rates ...",
+  "content": "In this paper, we propose a boosting algorithm for regression problems called \\textit{boosted histogram transform for regression} (BHTR) based on histogram transforms composed of random rotations, stretchings, and translations. From the theoretical perspective, we first prove fast convergence rates for BHTR under the assumption that the target function lies in the spaces $C^{0,\\alpha}$. Moreover, if the target function resides in the subspace $C^{1,\\alpha}$, by establishing the upper bound of the convergence rate for the boosted regressor, i.e. BHTR, and the lower bound for base regressors, i.e. histogram transform regressors (HTR), we manage to explain the benefits of the boosting procedure. In the experiments, compared with other state-of-the-art algorithms such as gradient boosted regression tree (GBRT), Breiman's forest, and kernel-based methods, our BHTR algorithm shows promising performance on both synthetic and real datasets.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://proceedings.icml.cc/static/paper_files/icml/2020/2360-Paper.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
