@@ -1,0 +1,14 @@
+{
+  "id": "mclkrjoxn4iwkovzgt",
+  "title": "Feature Normalized Knowledge Distillation for Image Classification",
+  "summary": "Knowledge Distillation (KD) transfers the knowledge from a cumbersome teacher model to a lightweight student network. Since a single image may reasonably relate to several categories, the one-hot label would inevitably introduce the encoding noise. From this perspective, we systematically analyze th...",
+  "content": "Knowledge Distillation (KD) transfers the knowledge from a cumbersome teacher model to a lightweight student network. Since a single image may reasonably relate to several categories, the one-hot label would inevitably introduce the encoding noise. From this perspective, we systematically analyze the distillation mechanism and demonstrate that the L2-norm of the feature in penultimate layer would be too large under the influence of label noise, and the temperature T in KD could be regarded as a correction factor for L2-norm to suppress the impact of noise. Noticing different samples suffer from varying intensities of label noise, we further propose a simple yet effective feature normalized knowledge distillation which introduces the sample specific correction factor to replace the unified temperature T for better reducing the impact of noise. Extensive experiments show that the proposed method surpasses standard KD as well as self-distillation significantly on Cifar-100, CUB-200-2011 and Stanford Cars datasets. The codes are in https://github.com/aztc/FNKD",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700664.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [],
+  "featured": false
+}
