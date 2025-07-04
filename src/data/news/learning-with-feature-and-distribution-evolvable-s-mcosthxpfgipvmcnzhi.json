@@ -1,0 +1,14 @@
+{
+  "id": "mcosthxpfgipvmcnzhi",
+  "title": "Learning with Feature and Distribution Evolvable Streams",
+  "summary": "In many real-world applications, data are often collected in the form of a stream, and thus the feature space of streaming data can evolve over time. For example, in the environmental monitoring task, features can be dynamically vanished or augmented due to the existence of expired old sensors and d...",
+  "content": "In many real-world applications, data are often collected in the form of a stream, and thus the feature space of streaming data can evolve over time. For example, in the environmental monitoring task, features can be dynamically vanished or augmented due to the existence of expired old sensors and deployed new sensors. Besides the feature space evolving, it is noteworthy that the data distribution often changes in streaming data. When both feature space and data distribution are evolvable, it is quite challenging to design algorithms with guarantees, particularly the theoretical understanding of generalization ability. To address this difficulty, we propose a novel discrepancy measure for evolving feature space and data distribution named the evolving discrepancy, based on which we provide the generalization error analysis. The theory motivates the design of a learning algorithm, which is further implemented by deep neural networks. We present empirical studies on synthetic data to verify the rationale of the proposed discrepancy measure. Extensive experiments on real-world tasks validate the effectiveness of our algorithm.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://proceedings.icml.cc/static/paper_files/icml/2020/2507-Paper.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [],
+  "featured": false
+}
