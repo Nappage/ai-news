@@ -1,0 +1,17 @@
+{
+  "id": "mcrnli10846oykzwyac",
+  "title": "HUB@DravidianLangTech-EACL2021: Identify and Classify Offensive Text in Multilingual Code Mixing in Social Media",
+  "summary": "This paper introduces the system description of the HUB team participating in DravidianLangTech - EACL2021: Offensive Language Identification in Dravidian Languages. The theme of this shared task is the detection of offensive content in social media. Among the known tasks related to offensive speech...",
+  "content": "This paper introduces the system description of the HUB team participating in DravidianLangTech - EACL2021: Offensive Language Identification in Dravidian Languages. The theme of this shared task is the detection of offensive content in social media. Among the known tasks related to offensive speech detection, this is the first task to detect offensive comments posted in social media comments in the Dravidian language. The task organizer team provided us with the code-mixing task data set mainly composed of three different languages: Malayalam, Kannada, and Tamil. The tasks on the code mixed data in these three different languages can be seen as three different comment/post-level classification tasks. The task on the Malayalam data set is a five-category classification task, and the Kannada and Tamil language data sets are two six-category classification tasks. Based on our analysis of the task description and task data set, we chose to use the multilingual BERT model to complete this task. In this paper, we will discuss our fine-tuning methods, models, experiments, and results.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2021.dravidianlangtech-1.27.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI",
+    "BERT"
+  ],
+  "featured": false
+}
