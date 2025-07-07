@@ -1,0 +1,16 @@
+{
+  "id": "mcspzrgacsbw1ljm2is",
+  "title": "Using KerasHub for easy end-to-end machine learning workflows with Hugging Face",
+  "summary": "KerasHub enables users to mix and match model architectures and weights across different machine learning frameworks, allowing checkpoints from sources like Hugging Face Hub (including those created with PyTorch) to be loaded into Keras models for use with JAX, PyTorch, or TensorFlow. This flexibili...",
+  "content": "KerasHub enables users to mix and match model architectures and weights across different machine learning frameworks, allowing checkpoints from sources like Hugging Face Hub (including those created with PyTorch) to be loaded into Keras models for use with JAX, PyTorch, or TensorFlow. This flexibility means you can leverage a vast array of community fine-tuned models while maintaining full control over your chosen backend framework.",
+  "publishedAt": "2025-06-30T06:28:30.010Z",
+  "source": "Google Developers Blog",
+  "sourceUrl": "https://developers.googleblog.com/en/load-model-weights-from-safetensors-into-kerashub-multi-framework-machine-learning/",
+  "category": "tools",
+  "company": "Google",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
