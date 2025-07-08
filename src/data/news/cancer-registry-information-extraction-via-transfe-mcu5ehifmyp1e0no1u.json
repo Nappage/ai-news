@@ -1,0 +1,16 @@
+{
+  "id": "mcu5ehifmyp1e0no1u",
+  "title": "Cancer Registry Information Extraction via Transfer Learning",
+  "summary": "A cancer registry is a critical and massive database for which various types of domain knowledge are needed and whose maintenance requires labor-intensive data curation. In order to facilitate the curation process for building a high-quality and integrated cancer registry database, we compiled a cro...",
+  "content": "A cancer registry is a critical and massive database for which various types of domain knowledge are needed and whose maintenance requires labor-intensive data curation. In order to facilitate the curation process for building a high-quality and integrated cancer registry database, we compiled a cross-hospital corpus and applied neural network methods to develop a natural language processing system for extracting cancer registry variables buried in unstructured pathology reports. The performance of the developed networks was compared with various baselines using standard micro-precision, recall and F-measure. Furthermore, we conducted experiments to study the feasibility of applying transfer learning to rapidly develop a well-performing system for processing reports from different sources that might be presented in different writing styles and formats. The results demonstrate that the transfer learning method enables us to develop a satisfactory system for a new hospital with only a few annotations and suggest more opportunities to reduce the burden of cancer registry curation.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2020.clinicalnlp-1.22.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
