@@ -1,0 +1,16 @@
+{
+  "id": "mcuimll0ffg49gbvakc",
+  "title": "CORN: Co-Reasoning Network for Commonsense Question Answering",
+  "summary": "Commonsense question answering (QA) requires machines to utilize the QA content and external commonsense knowledge graph (KG) for reasoning when answering questions. Existing work uses two independent modules to model the QA contextual text representation and relationships between QA entities in KG,...",
+  "content": "Commonsense question answering (QA) requires machines to utilize the QA content and external commonsense knowledge graph (KG) for reasoning when answering questions. Existing work uses two independent modules to model the QA contextual text representation and relationships between QA entities in KG, which prevents information sharing between modules for co-reasoning. In this paper, we propose a novel model, Co-Reasoning Network (CORN), which adopts a bidirectional multi-level connection structure based on Co-Attention Transformer. The structure builds bridges to connect each layer of the text encoder and graph encoder, which can introduce the QA entity relationship from KG to the text encoder and bring contextual text information to the graph encoder, so that these features can be deeply interactively fused to form comprehensive text and graph node representations. Meanwhile, we propose a QA-aware node based KG subgraph construction method. The QA-aware nodes aggregate the question entity nodes and the answer entity nodes, and further guide the expansion and construction process of the subgraph to enhance the connectivity and reduce the introduction of noise. We evaluate our model on QA benchmarks in the CommonsenseQA and OpenBookQA datasets, and CORN achieves state-of-the-art performance.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2022.coling-1.144.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "Transformer"
+  ],
+  "featured": false
+}
