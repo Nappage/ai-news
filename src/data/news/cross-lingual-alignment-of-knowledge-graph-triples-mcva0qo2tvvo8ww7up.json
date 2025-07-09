@@ -1,0 +1,16 @@
+{
+  "id": "mcva0qo2tvvo8ww7up",
+  "title": "Cross-lingual Alignment of Knowledge Graph Triples with Sentences",
+  "summary": "The pairing of natural language sentences with knowledge graph triples is essential for many downstream tasks like data-to-text generation, facts extraction from sentences (semantic parsing), knowledge graph completion, etc. Most existing methods solve these downstream tasks using neural-based end-t...",
+  "content": "The pairing of natural language sentences with knowledge graph triples is essential for many downstream tasks like data-to-text generation, facts extraction from sentences (semantic parsing), knowledge graph completion, etc. Most existing methods solve these downstream tasks using neural-based end-to-end approaches that require a large amount of well-aligned training data, which is difficult and expensive to acquire. Recently various unsupervised techniques have been proposed to alleviate this alignment step by automatically pairing the structured data (knowledge graph triples) with textual data. However, these approaches are not well suited for low resource languages that provide two major challenges: (1) unavailability of pair of triples and native text with the same content distribution and (2) limited Natural language Processing (NLP) resources. In this paper, we address the unsupervised pairing of knowledge graph triples with sentences for low resource languages, selecting Hindi as the low resource language. We propose cross-lingual pairing of English triples with Hindi sentences to mitigate the unavailability of content overlap. We propose two novel approaches: NER-based filtering with Semantic Similarity and Key-phrase Extraction with Relevance Ranking. We use our best method to create a collection of 29224 well-aligned English triples and Hindi sentence pairs. Additionally, we have also curated 350 human-annotated golden test datasets for evaluation. We make the code and dataset publicly available.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2021.icon-main.77.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
