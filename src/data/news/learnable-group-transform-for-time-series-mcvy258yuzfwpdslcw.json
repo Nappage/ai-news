@@ -1,0 +1,14 @@
+{
+  "id": "mcvy258yuzfwpdslcw",
+  "title": "Learnable Group Transform For Time-Series",
+  "summary": "We propose a novel approach to filter bank learning for time-series by considering spectral decompositions of signals defined as a Group Transform. This framework allows us to generalize classical time-frequency transformations such as the Wavelet Transform, and  to efficiently learn the representat...",
+  "content": "We propose a novel approach to filter bank learning for time-series by considering spectral decompositions of signals defined as a Group Transform. This framework allows us to generalize classical time-frequency transformations such as the Wavelet Transform, and  to efficiently learn the representation of signals. While the creation of the wavelet transform filter-bank relies on affine transformations of a mother filter, our approach allows for non-linear transformations. The transformations induced by such maps enable us to span a larger class of signal representations, from wavelet to chirplet-like filters. We propose a parameterization of such a non-linear map such that its sampling can be optimized for a specific task and signal. The Learnable Group Transform can be cast into a Deep Neural Network. The experiments on diverse time-series datasets demonstrate the expressivity of this framework, which competes with state-of-the-art performances.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://proceedings.icml.cc/static/paper_files/icml/2020/5795-Paper.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [],
+  "featured": false
+}
