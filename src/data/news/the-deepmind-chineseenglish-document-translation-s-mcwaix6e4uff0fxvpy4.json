@@ -1,0 +1,17 @@
+{
+  "id": "mcwaix6e4uff0fxvpy4",
+  "title": "The DeepMind Chinese–English Document Translation System at WMT2020",
+  "summary": "This paper describes the DeepMind submission to the Chinese\\rightarrowEnglish constrained data track of the WMT2020 Shared Task on News Translation. The submission employs a noisy channel factorization as the backbone of a document translation system. This approach allows the flexible combination of...",
+  "content": "This paper describes the DeepMind submission to the Chinese\\rightarrowEnglish constrained data track of the WMT2020 Shared Task on News Translation. The submission employs a noisy channel factorization as the backbone of a document translation system. This approach allows the flexible combination of a number of independent component models which are further augmented with back-translation, distillation, fine-tuning with in-domain data, Monte-Carlo Tree Search decoding, and improved uncertainty estimation. In order to address persistent issues with the premature truncation of long sequences we included specialized length models and sentence segmentation techniques. Our final system provides a 9.9 BLEU points improvement over a baseline Transformer on our test set (newstest 2019).",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2020.wmt-1.36.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI",
+    "Transformer"
+  ],
+  "featured": false
+}
