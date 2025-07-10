@@ -1,0 +1,16 @@
+{
+  "id": "mcxdip3l0fyju2bpkhz8",
+  "title": "Computational and Statistical Tradeoffs in Inferring Combinatorial Structures of Ising Model",
+  "summary": "We study the computational and statistical tradeoffs in inferring combinatorial structures of high dimensional simple zero-field ferromagnetic Ising model. Under the framework of oracle computational model where an algorithm interacts with an oracle that discourses a randomized version of truth, we ...",
+  "content": "We study the computational and statistical tradeoffs in inferring combinatorial structures of high dimensional simple zero-field ferromagnetic Ising model. Under the framework of oracle computational model where an algorithm interacts with an oracle that discourses a randomized version of truth, we characterize the computational lower bounds of learning combinatorial structures in polynomial time, under which no algorithms within polynomial-time can distinguish between graphs with and without certain structures. This hardness of learning with limited computational budget is shown to be characterized by a novel quantity called vertex overlap ratio. Such quantity is universally valid for many specific graph structures including cliques and nearest neighbors. On the other side, we attain the optimal rates for testing these structures against empty graph by proposing the quadratic testing statistics to match the lower bounds. We also investigate the relationship between computational bounds and information-theoretic bounds for such problems, and found gaps between the two boundaries in inferring some particular structures, especially for those with dense edges.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://proceedings.icml.cc/static/paper_files/icml/2020/208-Paper.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}

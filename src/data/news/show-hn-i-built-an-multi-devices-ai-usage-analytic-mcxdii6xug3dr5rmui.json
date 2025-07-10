@@ -1,0 +1,18 @@
+{
+  "id": "mcxdii6xug3dr5rmui",
+  "title": "Show HN: I built an multi-devices AI usage analytics app for Claude Code",
+  "summary": "Hi! This app helps you get a clear view of how you are using Claude Code. It shows stats like message counts, token usage, sessions, projects, and even estimates your API costs. One of its best features is the ability to sync your usage across devices, giving you a complete picture over different ti...",
+  "content": "Hi! This app helps you get a clear view of how you are using Claude Code. It shows stats like message counts, token usage, sessions, projects, and even estimates your API costs. One of its best features is the ability to sync your usage across devices, giving you a complete picture over different time periods. It respects your privacy by only collecting aggregated usage data. No conversation or code details are ever touched.<p>There has been some controversy around tracking usage and whether it might lead to price hikes or limits, but honestly, Anthropic probably already knows this data. The app is more about helping you optimise your workflow, not exposing anything sensitive. It also includes a ranking system so you can get a sense of how others are using Claude Code and maybe learn from their patterns.<p>I built it with a solid backend architecture to be scalable and responsive, running on a small Kubernetes cluster. The goal is to help people like us understand and improve how we work with Claude Code, all wrapped up in a simple web and CLI interface.",
+  "publishedAt": "2025-07-05T18:59:32.000Z",
+  "source": "Hacker News Claude/Anthropic",
+  "sourceUrl": "https://roiai.fyi",
+  "category": "companies",
+  "company": "Anthropic",
+  "imageUrl": null,
+  "tags": [
+    "Claude",
+    "AI",
+    "Anthropic"
+  ],
+  "featured": true
+}
