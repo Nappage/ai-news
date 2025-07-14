@@ -1,0 +1,16 @@
+{
+  "id": "md3fsznxqkvddmka7g",
+  "title": "Multi-Source Open-Set Deep Adversarial Domain Adaptation",
+  "summary": "We introduce a novel learning paradigm based on multi-source open-set unsupervised domain adaptation (MS-OSDA). Recently, the notion of single-source open-set domain adaptation (OSDA) has drawn much attention which considers the presence of previously unseen open-set (unknown) classes in the target-...",
+  "content": "We introduce a novel learning paradigm based on multi-source open-set unsupervised domain adaptation (MS-OSDA). Recently, the notion of single-source open-set domain adaptation (OSDA) has drawn much attention which considers the presence of previously unseen open-set (unknown) classes in the target-domain in addition to the source-domain closed-set (known) classes. It is reasonable to assume that labeled samples may be distributed over multiple source-domains while the target-domain is equipped with both the closed-set and open-set data. However, the existing single-source OSDA techniques cannot be directly extended to such a multi-source scenario considering the inhomogeneities present among the different source-domains. As a remedy, we propose a novel adversarial learning-driven approach to deal with the MS-OSDA setup. Precisely, we model a shared feature space for all the domains while encouraging fine-grained alignment among the known-class samples. Besides, an adversarial learning strategy is followed to model the discriminator between the target-domain known and unknown classes. We validate our method on the Office-31, Office-Home, Office-CalTech, and Digits datasets and find our model to consistently outperform the relevant literature.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710732.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}

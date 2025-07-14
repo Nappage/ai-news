@@ -1,0 +1,17 @@
+{
+  "id": "md3fsznxhag0o0wc2w",
+  "title": "Multi-source Multi-domain Sentiment Analysis with BERT-based Models",
+  "summary": "Sentiment analysis is one of the most widely studied tasks in natural language processing. While BERT-based models have achieved state-of-the-art results in this task, little attention has been given to its performance variability across class labels, multi-source and multi-domain corpora. In this p...",
+  "content": "Sentiment analysis is one of the most widely studied tasks in natural language processing. While BERT-based models have achieved state-of-the-art results in this task, little attention has been given to its performance variability across class labels, multi-source and multi-domain corpora. In this paper, we present an improved state-of-the-art and comparatively evaluate BERT-based models for sentiment analysis on Italian corpora. The proposed model is evaluated over eight sentiment analysis corpora from different domains (social media, finance, e-commerce, health, travel) and sources (Twitter, YouTube, Facebook, Amazon, Tripadvisor, Opera and Personal Healthcare Agent) on the prediction of positive, negative and neutral classes. Our findings suggest that BERT-based models are confident in predicting positive and negative examples but not as much with neutral examples. We release the sentiment analysis model as well as a newly financial domain sentiment corpus.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2022.lrec-1.62.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI",
+    "BERT"
+  ],
+  "featured": false
+}
