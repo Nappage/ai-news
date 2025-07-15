@@ -1,0 +1,17 @@
+{
+  "id": "md4v8bvvva6ammjn7m",
+  "title": "NLP-PINGAN-TECH @ CL-SciSumm 2020",
+  "summary": "We focus on systems for TASK1 (TASK 1A and TASK 1B) of CL-SciSumm Shared Task 2020 in this paper. Task 1A is regarded as a binary classification task of sentence pairs. The strategies of domain-specific embedding and special tokens based on language models are proposed. Fusion of contextualized embe...",
+  "content": "We focus on systems for TASK1 (TASK 1A and TASK 1B) of CL-SciSumm Shared Task 2020 in this paper. Task 1A is regarded as a binary classification task of sentence pairs. The strategies of domain-specific embedding and special tokens based on language models are proposed. Fusion of contextualized embedding and extra information is further explored in this article. We leverage Sembert to capture the structured semantic information. The joint of BERT-based model and classifiers without neural networks is also exploited. For the Task 1B, a language model with different weights for classes is fine-tuned to accomplish a multi-label classification task. The results show that extra information can improve the identification of cited text spans. The end-to-end trained models outperform models trained with two stages, and the averaged prediction of multi-models is more accurate than an individual one.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2020.sdp-1.26.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI",
+    "BERT"
+  ],
+  "featured": false
+}
