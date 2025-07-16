@@ -1,0 +1,16 @@
+{
+  "id": "md6amyjzzbdrsizizc",
+  "title": "Every time I fire a conversational designer, the performance of the dialogue system goes down",
+  "summary": "Incorporating handwritten domain scripts into neural-based task-oriented dialogue systems may be an effective way to reduce the need for large sets of annotated dialogues. In this paper, we investigate how the use of domain scripts written by conversational designers affects the performance of neura...",
+  "content": "Incorporating handwritten domain scripts into neural-based task-oriented dialogue systems may be an effective way to reduce the need for large sets of annotated dialogues. In this paper, we investigate how the use of domain scripts written by conversational designers affects the performance of neural-based dialogue systems. To support this investigation, we propose the Conversational-Logic-Injection-in-Neural-Network system (CLINN) where domain scripts are coded in semi-logical rules. By using CLINN, we evaluated semi-logical rules produced by a team of differently-skilled conversational designers. We experimented with the Restaurant domain of the MultiWOZ dataset. Results show that external knowledge is extremely important for reducing the need for annotated examples for conversational systems. In fact, rules from conversational designers used in CLINN significantly outperform a state-of-the-art neural-based dialogue system when trained with smaller sets of annotated dialogues.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2022.lrec-1.15.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
