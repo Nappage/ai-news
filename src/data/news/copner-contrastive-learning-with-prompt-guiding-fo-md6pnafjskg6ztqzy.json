@@ -1,0 +1,16 @@
+{
+  "id": "md6pnafjskg6ztqzy",
+  "title": "COPNER: Contrastive Learning with Prompt Guiding for Few-shot Named Entity Recognition",
+  "summary": "Distance metric learning has become a popular solution for few-shot Named Entity Recognition (NER). The typical setup aims to learn a similarity metric for measuring the semantic similarity between test samples and referents, where each referent represents an entity class. The effect of this setup m...",
+  "content": "Distance metric learning has become a popular solution for few-shot Named Entity Recognition (NER). The typical setup aims to learn a similarity metric for measuring the semantic similarity between test samples and referents, where each referent represents an entity class. The effect of this setup may, however, be compromised for two reasons. First, there is typically a limited optimization exerted on the representations of entity tokens after initing by pre-trained language models. Second, the referents may be far from representing corresponding entity classes due to the label scarcity in the few-shot setting. To address these challenges, we propose a novel approach named COntrastive learning with Prompt guiding for few-shot NER (COPNER). We introduce a novel prompt composed of class-specific words to COPNER to serve as 1) supervision signals for conducting contrastive learning to optimize token representations; 2) metric referents for distance-metric inference on test samples. Experimental results demonstrate that COPNER outperforms state-of-the-art models with a significant margin in most cases. Moreover, COPNER shows great potential in the zero-shot setting.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2022.coling-1.222.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
