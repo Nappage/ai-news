@@ -1,0 +1,16 @@
+{
+  "id": "md7dm69obzorlidhtb",
+  "title": "DeepBlueAI at WANLP-EACL2021 task 2: A Deep Ensemble-based Method for Sarcasm and Sentiment Detection in Arabic",
+  "summary": "Sarcasm is one of the main challenges for sentiment analysis systems due to using implicit indirect phrasing for expressing opinions, especially in Arabic. This paper presents the system we submitted to the Sarcasm and Sentiment Detection task of WANLP-2021 that is capable of dealing with both two s...",
+  "content": "Sarcasm is one of the main challenges for sentiment analysis systems due to using implicit indirect phrasing for expressing opinions, especially in Arabic. This paper presents the system we submitted to the Sarcasm and Sentiment Detection task of WANLP-2021 that is capable of dealing with both two subtasks. We first perform fine-tuning on two kinds of pre-trained language models (PLMs) with different training strategies. Then an effective stacking mechanism is applied on top of the fine-tuned PLMs to obtain the final prediction. Experimental results on ArSarcasm-v2 dataset show the effectiveness of our method and we rank third and second for subtask 1 and 2.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2021.wanlp-1.52.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
