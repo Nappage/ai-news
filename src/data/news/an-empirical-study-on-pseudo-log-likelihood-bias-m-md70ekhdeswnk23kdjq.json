@@ -1,0 +1,17 @@
+{
+  "id": "md70ekhdeswnk23kdjq",
+  "title": "An Empirical Study on Pseudo-log-likelihood Bias Measures for Masked Language Models Using Paraphrased Sentences",
+  "summary": "In this paper, we conduct an empirical study on a bias measure, log-likelihood Masked Language Model (MLM) scoring, on a benchmark dataset. Previous work evaluates whether MLMs are biased or not for certain protected attributes (e.g., race) by comparing the log-likelihood scores of sentences that co...",
+  "content": "In this paper, we conduct an empirical study on a bias measure, log-likelihood Masked Language Model (MLM) scoring, on a benchmark dataset. Previous work evaluates whether MLMs are biased or not for certain protected attributes (e.g., race) by comparing the log-likelihood scores of sentences that contain stereotypical characteristics with one category (e.g., black) versus another (e.g., white). We hypothesized that this approach might be too sensitive to the choice of contextual words than the meaning of the sentence. Therefore, we computed the same measure after paraphrasing the sentences with different words but with same meaning. Our results demonstrate that the log-likelihood scoring can be more sensitive to utterance of specific words than to meaning behind a given sentence. Our paper reveals a shortcoming of the current log-likelihood-based bias measures for MLMs and calls for new ways to improve the robustness of it",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2022.trustnlp-1.7.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI",
+    "ML"
+  ],
+  "featured": false
+}
