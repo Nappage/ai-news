@@ -1,0 +1,16 @@
+{
+  "id": "mda8dydeaohhvtudqhl",
+  "title": "Rotation-robust Intersection over Union for 3D Object Detection",
+  "summary": "In this paper, we propose a Rotation-robust Intersection over Union ($ extit{RIoU}$) for 3D object detection, which aims to jointly learn the overlap of rotated bounding boxes. In most existing 3D object detection methods, the norm-based loss is adopted to individually regress the parameters of boun...",
+  "content": "In this paper, we propose a Rotation-robust Intersection over Union ($ extit{RIoU}$) for 3D object detection, which aims to jointly learn the overlap of rotated bounding boxes. In most existing 3D object detection methods, the norm-based loss is adopted to individually regress the parameters of bounding boxes, which may suffer from the loss-metric mismatch due to the scaling problem. Motivated by the IoU loss in the axis-aligned 2D object detection which is invariant to the scale, our method jointly optimizes the parameters via the $ extit{RIoU}$ loss. To tackle the uncertainty of convex caused by rotation, a projection operation is defined to estimate the intersection area. The calculation process of $ extit{RIoU}$ and its loss function is robust to the rotation condition and feasible for back-propagation, which only comprises basic numerical operations. By incorporating the $ extit{RIoU}$ loss with the conventional norm-based loss function, we enforce the network to directly optimize the $ extit{RIoU}$ . Experimental results on the KITTI and nuScenes datasets validate the effectiveness of our proposed method. Moreover, we show that our method is suitable for the detection task of 2D rotated objects, such as text boxes and cluttered targets in the aerial images.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650460.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
