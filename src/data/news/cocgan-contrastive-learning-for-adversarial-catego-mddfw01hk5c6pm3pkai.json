@@ -1,0 +1,16 @@
+{
+  "id": "mddfw01hk5c6pm3pkai",
+  "title": "CoCGAN: Contrastive Learning for Adversarial Category Text Generation",
+  "summary": "The task of generating texts of different categories has attracted more and more attention in the area of natural language generation recently. Meanwhile, generative adversarial net (GAN) has demonstrated its effectiveness on text generation, and is further applied to category text generation in lat...",
+  "content": "The task of generating texts of different categories has attracted more and more attention in the area of natural language generation recently. Meanwhile, generative adversarial net (GAN) has demonstrated its effectiveness on text generation, and is further applied to category text generation in later works. Different from existing methods, which mainly consider the pairwise relations between the text embedding and the corresponding fixed one-hot class label (data-to-class relations), this paper proposes a novel Contrastive Category Generative Adversarial Net (CoCGAN) to incorporate contrastive learning into adversarial category text generation, considering more flexible data-to-class relations as well as relations between the multiple text embeddings in the same batch (data-to-data relations). The discriminator of CoCGAN discriminates the authenticity of given samples and optimizes a contrastive learning objective to capture both more flexible data-to-class relations and data-to-data relations among training samples. Accordingly, the generator tries to produce more realistic samples which can confuse the discriminator. Experimental results on both synthetic and real category text generation datasets demonstrate that CoCGAN can achieve significant improvements over the baseline category text generation models.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2022.coling-1.557.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
