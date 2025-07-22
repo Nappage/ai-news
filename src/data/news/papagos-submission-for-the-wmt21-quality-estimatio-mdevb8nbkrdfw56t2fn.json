@@ -1,0 +1,16 @@
+{
+  "id": "mdevb8nbkrdfw56t2fn",
+  "title": "Papago’s Submission for the WMT21 Quality Estimation Shared Task",
+  "summary": "This paper describes Papago submission to the WMT 2021 Quality Estimation Task 1: Sentence-level Direct Assessment. Our multilingual Quality Estimation system explores the combination of Pretrained Language Models and Multi-task Learning architectures. We propose an iterative training pipeline based...",
+  "content": "This paper describes Papago submission to the WMT 2021 Quality Estimation Task 1: Sentence-level Direct Assessment. Our multilingual Quality Estimation system explores the combination of Pretrained Language Models and Multi-task Learning architectures. We propose an iterative training pipeline based on pretraining with large amounts of in-domain synthetic data and finetuning with gold (labeled) data. We then compress our system via knowledge distillation in order to reduce parameters yet maintain strong performance. Our submitted multilingual systems perform competitively in multilingual and all 11 individual language pair settings including zero-shot.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2021.wmt-1.98.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
