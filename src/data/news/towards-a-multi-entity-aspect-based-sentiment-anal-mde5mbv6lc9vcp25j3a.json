@@ -1,0 +1,17 @@
+{
+  "id": "mde5mbv6lc9vcp25j3a",
+  "title": "Towards a Multi-Entity Aspect-Based Sentiment Analysis for Characterizing Directed Social Regard in Online Messaging",
+  "summary": "Online messaging is dynamic, influential, and highly contextual, and a single post may contain contrasting sentiments towards multiple entities, such as dehumanizing one actor while empathizing with another in the same message.These complexities are important to capture for understanding the systema...",
+  "content": "Online messaging is dynamic, influential, and highly contextual, and a single post may contain contrasting sentiments towards multiple entities, such as dehumanizing one actor while empathizing with another in the same message.These complexities are important to capture for understanding the systematic abuse voiced within an online community, or for determining whether individuals are advocating for abuse, opposing abuse, or simply reporting abuse. In this work, we describe a formulation of directed social regard (DSR) as a problem of multi-entity aspect-based sentiment analysis (ME-ABSA), which models the degree of intensity of multiple sentiments that are associated with entities described by a text document. Our DSR schema is informed by Bandura’s psychosocial theory of moral disengagement and by recent work in ABSA. We present a dataset of over 2,900 posts and sentences, comprising over 24,000 entities annotated for DSR over nine psychosocial dimensions by three annotators. We present a novel transformer-based ME-ABSA model for DSR, achieving favorable preliminary results on this dataset.",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "source": "Papers with Code",
+  "sourceUrl": "https://aclanthology.org/2022.woah-1.19.pdf",
+  "category": "research",
+  "company": "Community",
+  "imageUrl": null,
+  "tags": [
+    "AI",
+    "Transformer"
+  ],
+  "featured": false
+}
