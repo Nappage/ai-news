@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2025-08-30T06:23:13.744Z",
-  "totalArticles": 36,
+  "lastUpdated": "2025-08-30T12:31:44.931Z",
+  "totalArticles": 35,
   "articles": [
     {
-      "id": "mexvkbf1mqo0ccx438d",
+      "id": "mey8qagodawx1eqnjoi",
       "title": "Learn what makes Pixel 10’s camera tech and AI features so special.",
       "summary": "To kick off the second episode in Season 8 of the Made by Google podcast, host Rachid Finge asks Pixel Product Manager Stephanie Scott to describe the Pixel 10 phones in…",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MadeByGoogle_8_2_YouTube_B_2.max-600x600.format-webp.webp\">To kick off the second episode in Season 8 of the Made by Google podcast, host Rachid Finge asks Pixel Product Manager Stephanie Scott to describe the Pixel 10 phones in…",
@@ -20,11 +20,11 @@
       "featured": true
     },
     {
-      "id": "mexvkahd311sn3hwchg",
+      "id": "mey8q9lrnp8vzviewb",
       "title": "Beyond the terminal: Gemini CLI comes to Zed",
       "summary": "Google and Zed have partnered to integrate Gemini CLI directly into the Zed code editor, bringing AI capabilities directly into the editor for developers and allowing for faster and more focused coding, enabling tasks like in-place code generation, instant answers, and natural chat within the termin...",
       "content": "Google and Zed have partnered to integrate Gemini CLI directly into the Zed code editor, bringing AI capabilities directly into the editor for developers and allowing for faster and more focused coding, enabling tasks like in-place code generation, instant answers, and natural chat within the terminal with a seamless review workflow for AI-generated changes.",
-      "publishedAt": "2025-08-29T06:22:41.425Z",
+      "publishedAt": "2025-08-29T12:31:15.231Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/en/gemini-cli-is-now-integrated-into-zed/",
       "category": "tools",
@@ -39,11 +39,11 @@
       "featured": true
     },
     {
-      "id": "mexvkaheuvegr89m8z",
+      "id": "mey8q9lrnwpl49nq27",
       "title": "Stop “vibe testing” your LLMs. It's time for real evals.",
       "summary": "Stax, an experimental developer tool, addresses the insufficient nature of \"vibe testing\" LLMs by streamlining the LLM evaluation lifecycle, allowing users to rigorously test their AI stack and make data-driven decisions through human labeling and scalable LLM-as-a-judge auto-raters.",
       "content": "Stax, an experimental developer tool, addresses the insufficient nature of \"vibe testing\" LLMs by streamlining the LLM evaluation lifecycle, allowing users to rigorously test their AI stack and make data-driven decisions through human labeling and scalable LLM-as-a-judge auto-raters.",
-      "publishedAt": "2025-08-28T06:22:41.426Z",
+      "publishedAt": "2025-08-29T12:31:15.231Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/",
       "category": "tools",
@@ -57,7 +57,7 @@
       "featured": true
     },
     {
-      "id": "mexvkbf1tmg8rjdw8l",
+      "id": "mey8qagoaww4kdx6yv",
       "title": "How Google is investing in Virginia to accelerate innovation for the U.S.",
       "summary": "Google is investing an additional $9 billion in Virginia through 2026 in cloud and AI infrastructure. As we expand our local presence, including a new data center in Che…",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Untitled_1000_x_600_px_YK2kTsG.jpg\">Google is investing an additional $9 billion in Virginia through 2026 in cloud and AI infrastructure. As we expand our local presence, including a new data center in Che…",
@@ -74,7 +74,7 @@
       "featured": true
     },
     {
-      "id": "mexvkbf13nkxfceafub",
+      "id": "mey8qagpcxxm1fye8ns",
       "title": "Tips for getting the best image generation and editing in the Gemini app",
       "summary": "Here are some tips for writing more effective prompts for image generation and editing in Gemini.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gempix_hero.max-600x600.format-webp.webp\">Here are some tips for writing more effective prompts for image generation and editing in Gemini.",
@@ -90,41 +90,41 @@
       "featured": true
     },
     {
-      "id": "mexvkahe009h6jjy5t59r",
-      "title": "URL context tool for Gemini API now generally available",
-      "summary": "The Gemini API's URL Context tool is now generally available, allowing developers to ground prompts using web content instead of manual uploads. This release expands support to PDFs and images.",
-      "content": "The Gemini API's URL Context tool is now generally available, allowing developers to ground prompts using web content instead of manual uploads. This release expands support to PDFs and images.",
-      "publishedAt": "2025-08-26T06:22:41.426Z",
+      "id": "mey8q9lrvr0m2d4e5hq",
+      "title": "What's new in Gemini Code Assist",
+      "summary": "Gemini Code Assist's Agent Mode, now available in VS Code (Preview) and IntelliJ (Stable), streamlines complex coding tasks by proposing detailed plans for user review and approval. This intelligent, collaborative approach, enhanced with features like inline diffs and persistent chat history, aims t...",
+      "content": "Gemini Code Assist's Agent Mode, now available in VS Code (Preview) and IntelliJ (Stable), streamlines complex coding tasks by proposing detailed plans for user review and approval. This intelligent, collaborative approach, enhanced with features like inline diffs and persistent chat history, aims to boost developer productivity and efficiency.",
+      "publishedAt": "2025-08-25T12:31:15.231Z",
       "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/en/url-context-tool-for-gemini-api-now-generally-available/",
+      "sourceUrl": "https://developers.googleblog.com/en/new-in-gemini-code-assist/",
       "category": "tools",
       "company": "Google",
       "imageUrl": null,
       "tags": [
         "Gemini",
-        "AI"
+        "AI",
+        "ML"
       ],
       "featured": true
     },
     {
-      "id": "mexvkahe53q2jf0ek0m",
-      "title": "Introducing Gemma 3 270M: The compact model for hyper-efficient AI",
-      "summary": "Google's new Gemma 3 270M is a compact, 270-million parameter model offering energy efficiency, production-ready quantization, and strong instruction-following, making it a powerful solution for task-specific fine-tuning in on-device and research settings.",
-      "content": "Google's new Gemma 3 270M is a compact, 270-million parameter model offering energy efficiency, production-ready quantization, and strong instruction-following, making it a powerful solution for task-specific fine-tuning in on-device and research settings.",
-      "publishedAt": "2025-08-25T06:22:41.426Z",
-      "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/en/introducing-gemma-3-270m/",
-      "category": "tools",
+      "id": "mey8qagpaiv110mbybs",
+      "title": "Explore all the Made by Google news with NotebookLM.",
+      "summary": "Learn more about all the announcements from Made by Google 2025 with NotebookLM, Audio and Video Overviews.",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NotebookLM_Mind_Map_5.max-600x600.format-webp.webp\">Learn more about all the announcements from Made by Google 2025 with NotebookLM, Audio and Video Overviews.",
+      "publishedAt": "2025-08-21T20:00:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/products/pixel/made-by-google-2025-notebook-video-overview/",
+      "category": "companies",
       "company": "Google",
       "imageUrl": null,
       "tags": [
-        "AI",
         "Google"
       ],
       "featured": true
     },
     {
-      "id": "mexvkxqe79hmqruzga8",
+      "id": "mey8quubafsn4g1jmdv",
       "title": "Claude.ai do not deliver what I payed for",
       "summary": "Hi,<p>is someone else encountering difficulties in usage? I have a pro-plan - even if its not the MAX, I still pay for Opus 4 model and can&#x27;t use it since hours. Its &quot;overloaded&quot; - without my money, it wouldn&#x27;t even load - is Anthropic misunderstanding this fact???<p>I&#x27;ll ca...",
       "content": "Hi,<p>is someone else encountering difficulties in usage? I have a pro-plan - even if its not the MAX, I still pay for Opus 4 model and can&#x27;t use it since hours. Its &quot;overloaded&quot; - without my money, it wouldn&#x27;t even load - is Anthropic misunderstanding this fact???<p>I&#x27;ll cancel my subscription. I can&#x27;t use Opus 4 without paying either. That&#x27;s such a bad move.<p>What legal options do I have to get my money back or a compensation for not being able to use what I pay for? I&#x27;m really upset on such behavior.<p>I don&#x27;t do Claude Code or do have a large codebase, nor do I feed in image-files or do voice data - I just want it to help me code in my hobby project wit &lt; 2000 lines of python.<p>I hate it!",
@@ -142,7 +142,7 @@
       "featured": true
     },
     {
-      "id": "mexvkxqesz6ypm8m3m",
+      "id": "mey8quubjf4d84ouxl",
       "title": "Claude Code weekly rate limits",
       "summary": "Hi there,<p>Next month, we&#x27;re introducing new weekly rate limits for Claude subscribers, affecting less than 5% of users based on current usage patterns.<p>Claude Code, especially as part of our subscription bundle, has seen unprecedented growth. At the same time, we’ve identified policy violat...",
       "content": "Hi there,<p>Next month, we&#x27;re introducing new weekly rate limits for Claude subscribers, affecting less than 5% of users based on current usage patterns.<p>Claude Code, especially as part of our subscription bundle, has seen unprecedented growth. At the same time, we’ve identified policy violations like account sharing and reselling access—and advanced usage patterns like running Claude 24&#x2F;7 in the background—that are impacting system capacity for all. Our new rate limits address these issues and provide a more equitable experience for all users.<p>What’s changing:\nStarting August 28, we&#x27;re introducing weekly usage limits alongside our existing 5-hour limits:\nCurrent: Usage limit that resets every 5 hours (no change)\nNew: Overall weekly limit that resets every 7 days\nNew: Claude Opus 4 weekly limit that resets every 7 days\nAs we learn more about how developers use Claude Code, we may adjust usage limits to better serve our community. \nWhat this means for you:\nMost users won&#x27;t notice any difference. The weekly limits are designed to support typical daily use across your projects. \nMost Max 5x users can expect 140-280 hours of Sonnet 4 and 15-35 hours of Opus 4 within their weekly rate limits. Heavy Opus users with large codebases or those running multiple Claude Code instances in parallel will hit their limits sooner.\nYou can manage or cancel your subscription anytime in Settings.\nWe take these decisions seriously. We&#x27;re committed to supporting long-running use cases through other options in the future, but until then, weekly limits will help us maintain reliable service for everyone.<p>We also recognize that during this same period, users have encountered several reliability and performance issues. We&#x27;ve been working to fix these as quickly as possible, and will continue addressing any remaining issues over the coming days and weeks.<p>–The Anthropic Team",
@@ -160,7 +160,7 @@
       "featured": true
     },
     {
-      "id": "mexvkxqefugjljxd589",
+      "id": "mey8quub1xi1h25romz",
       "title": "Anthropic email to Max customers Re: Max account usage limits",
       "summary": "Hi there,<p>Next month, we&#x27;re introducing new weekly rate limits for Claude subscribers, affecting less than 5% of users based on current usage patterns.<p>Claude Code, especially as part of our subscription bundle, has seen unprecedented growth. At the same time, we’ve identified policy violat...",
       "content": "Hi there,<p>Next month, we&#x27;re introducing new weekly rate limits for Claude subscribers, affecting less than 5% of users based on current usage patterns.<p>Claude Code, especially as part of our subscription bundle, has seen unprecedented growth. At the same time, we’ve identified policy violations like account sharing and reselling access—and advanced usage patterns like running Claude 24&#x2F;7 in the background—that are impacting system capacity for all. Our new rate limits address these issues and provide a more equitable experience for all users.<p>What’s changing:<p>Starting August 28, we&#x27;re introducing weekly usage limits alongside our existing 5-hour limits:<p><pre><code>    Current: Usage limit that resets every 5 hours (no change)\n    New: Overall weekly limit that resets every 7 days\n    New: Claude Opus 4 weekly limit that resets every 7 days\n    As we learn more about how developers use Claude Code, we may adjust usage limits to better serve our community. \n</code></pre>\nWhat this means for you:<p><pre><code>    Most users won&#x27;t notice any difference. The weekly limits are designed to support typical daily use across your projects. \n    Most Max 20x users can expect 240-480 hours of Sonnet 4 and 24-40 hours of Opus 4 within their weekly rate limits. Heavy Opus users with large codebases or those running multiple Claude Code instances in parallel will hit their limits sooner.\n    If you do reach a weekly usage limit, you’ll have the option to purchase more usage at standard API rates to continue working without interruption. This is completely optional.\n    You can manage or cancel your subscription anytime in Settings.\n</code></pre>\nWe take these decisions seriously. We&#x27;re committed to supporting long-running use cases through other options in the future, but until then, weekly limits will help us maintain reliable service for everyone. Max 20x subscribers can purchase additional usage at standard API rates if needed.<p>We also recognize that during this same period, users have encountered several reliability and performance issues. We&#x27;ve been working to fix these as quickly as possible and will continue addressing any remaining issues over the coming days and weeks.<p>–The Anthropic Team",
@@ -178,7 +178,7 @@
       "featured": true
     },
     {
-      "id": "mexvkxqeynttqadpn0r",
+      "id": "mey8quub6judcyjvben",
       "title": "Anthropic introduces new weekly limits for paid subs",
       "summary": "Hi there,<p>Next month, we&#x27;re introducing new weekly rate limits for Claude subscribers, affecting less than 5% of users based on current usage patterns.<p>Claude Code, especially as part of our subscription bundle, has seen unprecedented growth. At the same time, we’ve identified policy violat...",
       "content": "Hi there,<p>Next month, we&#x27;re introducing new weekly rate limits for Claude subscribers, affecting less than 5% of users based on current usage patterns.<p>Claude Code, especially as part of our subscription bundle, has seen unprecedented growth. At the same time, we’ve identified policy violations like account sharing and reselling access—and advanced usage patterns like running Claude 24&#x2F;7 in the background—that are impacting system capacity for all. Our new rate limits address these issues and provide a more equitable experience for all users.<p>What’s changing:<p>Starting August 28, we&#x27;re introducing weekly usage limits alongside our existing 5-hour limits:<p><pre><code>    Current: Usage limit that resets every 5 hours (no change)\n    New: Overall weekly limit that resets every 7 days\n    New: Claude Opus 4 weekly limit that resets every 7 days\n    As we learn more about how developers use Claude Code, we may adjust usage limits to better serve our community. \n</code></pre>\nWhat this means for you:<p><pre><code>    Most users won&#x27;t notice any difference. The weekly limits are designed to support typical daily use across your projects. \n    Most Max 5x users can expect 140-280 hours of Sonnet 4 and 15-35 hours of Opus 4 within their weekly rate limits. Heavy Opus users with large codebases or those running multiple Claude Code instances in parallel will hit their limits sooner.\n    You can manage or cancel your subscription anytime in Settings.\n</code></pre>\nWe take these decisions seriously. We&#x27;re committed to supporting long-running use cases through other options in the future, but until then, weekly limits will help us maintain reliable service for everyone.<p>We also recognize that during this same period, users have encountered several reliability and performance issues. We&#x27;ve been working to fix these as quickly as possible, and will continue addressing any remaining issues over the coming days and weeks.<p>–The Anthropic Team",
@@ -196,7 +196,7 @@
       "featured": true
     },
     {
-      "id": "mexvkxqeiszl6c6yg0h",
+      "id": "mey8quub13ne6pa8lkq9",
       "title": "Show HN: I built an multi-devices AI usage analytics app for Claude Code",
       "summary": "Hi! This app helps you get a clear view of how you are using Claude Code. It shows stats like message counts, token usage, sessions, projects, and even estimates your API costs. One of its best features is the ability to sync your usage across devices, giving you a complete picture over different ti...",
       "content": "Hi! This app helps you get a clear view of how you are using Claude Code. It shows stats like message counts, token usage, sessions, projects, and even estimates your API costs. One of its best features is the ability to sync your usage across devices, giving you a complete picture over different time periods. It respects your privacy by only collecting aggregated usage data. No conversation or code details are ever touched.<p>There has been some controversy around tracking usage and whether it might lead to price hikes or limits, but honestly, Anthropic probably already knows this data. The app is more about helping you optimise your workflow, not exposing anything sensitive. It also includes a ranking system so you can get a sense of how others are using Claude Code and maybe learn from their patterns.<p>I built it with a solid backend architecture to be scalable and responsive, running on a small Kubernetes cluster. The goal is to help people like us understand and improve how we work with Claude Code, all wrapped up in a simple web and CLI interface.",
@@ -214,7 +214,7 @@
       "featured": true
     },
     {
-      "id": "mexvkbf157kk28gynyk",
+      "id": "mey8qago41imu1411nu",
       "title": "4 easy ways to personalize your Pixel 10",
       "summary": "Make your Pixel 10 yours with Magic Cue, Material 3 Expressive and more.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PersonalizePixel_PixelPro_Hero.max-600x600.format-webp.webp\">Make your Pixel 10 yours with Magic Cue, Material 3 Expressive and more.",
@@ -228,7 +228,7 @@
       "featured": false
     },
     {
-      "id": "mexvk7iqy60seh2uz6j",
+      "id": "mey8q6re5yswdyy363q",
       "title": "Introducing gpt-realtime and Realtime API updates",
       "summary": "We’re releasing a more advanced speech-to-speech model and new API capabilities including MCP server support, image input, and SIP phone calling support.",
       "content": "We’re releasing a more advanced speech-to-speech model and new API capabilities including MCP server support, image input, and SIP phone calling support.",
@@ -244,7 +244,7 @@
       "featured": false
     },
     {
-      "id": "mexvk7iqd9sczt5m8b",
+      "id": "mey8q6reh5ldfxxygj",
       "title": "Supporting nonprofit and community innovation",
       "summary": "OpenAI launches a $50M People-First AI Fund to help U.S. nonprofits scale impact with AI. Applications open Sept 8–Oct 8, 2025 for grants in education, healthcare, research, and more.",
       "content": "OpenAI launches a $50M People-First AI Fund to help U.S. nonprofits scale impact with AI. Applications open Sept 8–Oct 8, 2025 for grants in education, healthcare, research, and more.",
@@ -261,7 +261,7 @@
       "featured": false
     },
     {
-      "id": "mexvk7iqjqdrhszgfuq",
+      "id": "mey8q6re07ay26tlt8kx",
       "title": "Collective alignment: public input on our Model Spec",
       "summary": "OpenAI surveyed over 1,000 people worldwide on how AI should behave and compared their views to our Model Spec. Learn how collective alignment is shaping AI defaults to better reflect diverse human values and perspectives.",
       "content": "OpenAI surveyed over 1,000 people worldwide on how AI should behave and compared their views to our Model Spec. Learn how collective alignment is shaping AI defaults to better reflect diverse human values and perspectives.",
@@ -278,7 +278,7 @@
       "featured": false
     },
     {
-      "id": "mexvk7iqketkt8j81r",
+      "id": "mey8q6reqyt4kobcda",
       "title": "OpenAI and Anthropic share findings from a joint safety evaluation",
       "summary": "OpenAI and Anthropic share findings from a first-of-its-kind joint safety evaluation, testing each other’s models for misalignment, instruction following, hallucinations, jailbreaking, and more—highlighting progress, challenges, and the value of cross-lab collaboration.",
       "content": "OpenAI and Anthropic share findings from a first-of-its-kind joint safety evaluation, testing each other’s models for misalignment, instruction following, hallucinations, jailbreaking, and more—highlighting progress, challenges, and the value of cross-lab collaboration.",
@@ -296,7 +296,7 @@
       "featured": false
     },
     {
-      "id": "mexvkbf13ju21lotomj",
+      "id": "mey8qagp8ktcknujgex",
       "title": "New AI-powered live translation and language learning tools in Google Translate",
       "summary": "Google Translate is using AI to make live translation and language learning even more helpful.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Translate_with_AI.max-600x600.format-webp.webp\">Google Translate is using AI to make live translation and language learning even more helpful.",
@@ -313,7 +313,7 @@
       "featured": false
     },
     {
-      "id": "mexvkf8mhx7c7pw5vmm",
+      "id": "mey8qdt9e807ep1bptu",
       "title": "Image editing in Gemini just got a major upgrade",
       "summary": "Transform images in amazing new ways with updated native image editing in the Gemini app.",
       "content": "Transform images in amazing new ways with updated native image editing in the Gemini app.",
@@ -329,25 +329,25 @@
       "featured": false
     },
     {
-      "id": "mexvkaheizv03sw5hl",
-      "title": "What's new in Gemini Code Assist",
-      "summary": "Gemini Code Assist's Agent Mode, now available in VS Code (Preview) and IntelliJ (Stable), streamlines complex coding tasks by proposing detailed plans for user review and approval. This intelligent, collaborative approach, enhanced with features like inline diffs and persistent chat history, aims t...",
-      "content": "Gemini Code Assist's Agent Mode, now available in VS Code (Preview) and IntelliJ (Stable), streamlines complex coding tasks by proposing detailed plans for user review and approval. This intelligent, collaborative approach, enhanced with features like inline diffs and persistent chat history, aims to boost developer productivity and efficiency.",
-      "publishedAt": "2025-08-26T06:22:41.426Z",
+      "id": "mey8q9lrpxmmgy6jq8",
+      "title": "Introducing Gemini 2.5 Flash Image, our state-of-the-art image model",
+      "summary": "Gemini 2.5 Flash Image is a new state-of-the-art image generation and editing model that allows for blending multiple images, maintaining character consistency, and targeted transformations using natural language, leveraging Gemini's world knowledge, now available through the Gemini API, Google AI S...",
+      "content": "Gemini 2.5 Flash Image is a new state-of-the-art image generation and editing model that allows for blending multiple images, maintaining character consistency, and targeted transformations using natural language, leveraging Gemini's world knowledge, now available through the Gemini API, Google AI Studio, and Vertex AI.",
+      "publishedAt": "2025-08-26T12:31:15.231Z",
       "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/en/new-in-gemini-code-assist/",
+      "sourceUrl": "https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/",
       "category": "tools",
       "company": "Google",
       "imageUrl": null,
       "tags": [
         "Gemini",
         "AI",
-        "ML"
+        "Google"
       ],
       "featured": false
     },
     {
-      "id": "mexvk7iqwv5iwpaiono",
+      "id": "mey8q6re0yktoc02kvzl",
       "title": "Helping people when they need it most",
       "summary": "How we think about safety for users experiencing mental or emotional distress, the limits of today’s systems, and the work underway to refine them.",
       "content": "How we think about safety for users experiencing mental or emotional distress, the limits of today’s systems, and the work underway to refine them.",
@@ -361,7 +361,7 @@
       "featured": false
     },
     {
-      "id": "mexvkbf147gb46fn7fq",
+      "id": "mey8qagp9jyq02evd9n",
       "title": "NotebookLM's Video Overviews are now available in 80 languages",
       "summary": "Learn more about updates to NotebookLM’s Audio and Video Overview tools.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Copy_of_VO_MultiLanguageLaunch_.max-600x600.format-webp.webp\">Learn more about updates to NotebookLM’s Audio and Video Overview tools.",
@@ -377,29 +377,28 @@
       "featured": false
     },
     {
-      "id": "mexvkahdqmeff5e6eg",
-      "title": "How to prompt Gemini 2.5 Flash Image Generation for the best results",
-      "summary": "Detailed prompting techniques and best practices for various applications, including photorealistic scenes, stylized illustrations, product mockups, and more using Google's newly released Gemini 2.5 Flash Image; a natively multimodal model capable of generating, editing, and composing images using t...",
-      "content": "Detailed prompting techniques and best practices for various applications, including photorealistic scenes, stylized illustrations, product mockups, and more using Google's newly released Gemini 2.5 Flash Image; a natively multimodal model capable of generating, editing, and composing images using text, supporting capabilities like text-to-image, image editing, style transfer, and multi-image composition.",
-      "publishedAt": "2025-08-25T06:22:41.425Z",
+      "id": "mey8q9lrrxitd7praj",
+      "title": "URL context tool for Gemini API now generally available",
+      "summary": "The Gemini API's URL Context tool is now generally available, allowing developers to ground prompts using web content instead of manual uploads. This release expands support to PDFs and images.",
+      "content": "The Gemini API's URL Context tool is now generally available, allowing developers to ground prompts using web content instead of manual uploads. This release expands support to PDFs and images.",
+      "publishedAt": "2025-08-25T12:31:15.231Z",
       "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/en/how-to-prompt-gemini-2-5-flash-image-generation-for-the-best-results/",
+      "sourceUrl": "https://developers.googleblog.com/en/url-context-tool-for-gemini-api-now-generally-available/",
       "category": "tools",
       "company": "Google",
       "imageUrl": null,
       "tags": [
         "Gemini",
-        "AI",
-        "Google"
+        "AI"
       ],
       "featured": false
     },
     {
-      "id": "mexvkahe7niplebxwse",
+      "id": "mey8q9lr26jx59zmyaw",
       "title": "Announcing Imagen 4 Fast and the general availability of the Imagen 4 family in the Gemini API",
       "summary": "Google announces the general availability of Imagen 4, its advanced text-to-image model, in the Gemini API and Google AI Studio, featuring significant improvements in text rendering. The new Imagen 4 Fast model, designed for speed and rapid image generation, is now available alongside Imagen 4 and I...",
       "content": "Google announces the general availability of Imagen 4, its advanced text-to-image model, in the Gemini API and Google AI Studio, featuring significant improvements in text rendering. The new Imagen 4 Fast model, designed for speed and rapid image generation, is now available alongside Imagen 4 and Imagen 4 Ultra, with Imagen 4 and Imagen 4 Ultra also supporting up to 2K resolution image generation.",
-      "publishedAt": "2025-08-24T06:22:41.426Z",
+      "publishedAt": "2025-08-25T12:31:15.231Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/en/announcing-imagen-4-fast-and-imagen-4-family-generally-available-in-the-gemini-api/",
       "category": "tools",
@@ -413,13 +412,30 @@
       "featured": false
     },
     {
-      "id": "mexvkahesxxdeg3cdn",
-      "title": "Introducing Gemini 2.5 Flash Image, our state-of-the-art image model",
-      "summary": "Gemini 2.5 Flash Image is a new state-of-the-art image generation and editing model that allows for blending multiple images, maintaining character consistency, and targeted transformations using natural language, leveraging Gemini's world knowledge, now available through the Gemini API, Google AI S...",
-      "content": "Gemini 2.5 Flash Image is a new state-of-the-art image generation and editing model that allows for blending multiple images, maintaining character consistency, and targeted transformations using natural language, leveraging Gemini's world knowledge, now available through the Gemini API, Google AI Studio, and Vertex AI.",
-      "publishedAt": "2025-08-23T06:22:41.426Z",
+      "id": "mey8q9lrxdyp7qlnm7",
+      "title": "Introducing Gemma 3 270M: The compact model for hyper-efficient AI",
+      "summary": "Google's new Gemma 3 270M is a compact, 270-million parameter model offering energy efficiency, production-ready quantization, and strong instruction-following, making it a powerful solution for task-specific fine-tuning in on-device and research settings.",
+      "content": "Google's new Gemma 3 270M is a compact, 270-million parameter model offering energy efficiency, production-ready quantization, and strong instruction-following, making it a powerful solution for task-specific fine-tuning in on-device and research settings.",
+      "publishedAt": "2025-08-25T12:31:15.231Z",
       "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/",
+      "sourceUrl": "https://developers.googleblog.com/en/introducing-gemma-3-270m/",
+      "category": "tools",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "AI",
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mey8q9lroezeuevek9q",
+      "title": "How to prompt Gemini 2.5 Flash Image Generation for the best results",
+      "summary": "Detailed prompting techniques and best practices for various applications, including photorealistic scenes, stylized illustrations, product mockups, and more using Google's newly released Gemini 2.5 Flash Image; a natively multimodal model capable of generating, editing, and composing images using t...",
+      "content": "Detailed prompting techniques and best practices for various applications, including photorealistic scenes, stylized illustrations, product mockups, and more using Google's newly released Gemini 2.5 Flash Image; a natively multimodal model capable of generating, editing, and composing images using text, supporting capabilities like text-to-image, image editing, style transfer, and multi-image composition.",
+      "publishedAt": "2025-08-23T12:31:15.231Z",
+      "source": "Google Developers Blog",
+      "sourceUrl": "https://developers.googleblog.com/en/how-to-prompt-gemini-2-5-flash-image-generation-for-the-best-results/",
       "category": "tools",
       "company": "Google",
       "imageUrl": null,
@@ -431,7 +447,7 @@
       "featured": false
     },
     {
-      "id": "mexvkbf1aftxlpkhjpf",
+      "id": "mey8qagp02jnxcejmoza",
       "title": "AI breakthroughs are transforming industries, from healthcare to finance",
       "summary": "Remarks from Ruth Porat, President and Chief Investment Officer, Alphabet and Google at the Jackson Hole Economic Symposium.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/12-ways-Googlers-use-AI-to-work.max-600x600.format-webp.webp\">Remarks from Ruth Porat, President and Chief Investment Officer, Alphabet and Google at the Jackson Hole Economic Symposium.",
@@ -448,23 +464,7 @@
       "featured": false
     },
     {
-      "id": "mexvkbf1uuxrfxnz04",
-      "title": "Explore all the Made by Google news with NotebookLM.",
-      "summary": "Learn more about all the announcements from Made by Google 2025 with NotebookLM, Audio and Video Overviews.",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NotebookLM_Mind_Map_5.max-600x600.format-webp.webp\">Learn more about all the announcements from Made by Google 2025 with NotebookLM, Audio and Video Overviews.",
-      "publishedAt": "2025-08-21T20:00:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/products/pixel/made-by-google-2025-notebook-video-overview/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "Google"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mexvk8h2wwavj4ls2ac",
+      "id": "mey8q7mvzhiuxfk6put",
       "title": "Generate Images with Claude and Hugging Face",
       "summary": "",
       "content": "",
@@ -480,7 +480,7 @@
       "featured": false
     },
     {
-      "id": "mexvk8h21piq3o97asah",
+      "id": "mey8q7mvkncr86k8yio",
       "title": "From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels",
       "summary": "",
       "content": "",
@@ -494,7 +494,7 @@
       "featured": false
     },
     {
-      "id": "mexvk8h2cmqwgpabrb8",
+      "id": "mey8q7mvuek6ajgah1",
       "title": "MCP for Research: How to Connect AI to Research Tools",
       "summary": "",
       "content": "",
@@ -510,7 +510,7 @@
       "featured": false
     },
     {
-      "id": "mexvk8h26rgh5ckvp7n",
+      "id": "mey8q7mw2uc0uwquo5o",
       "title": "TextQuests: How Good are LLMs at Text-Based Video Games?",
       "summary": "",
       "content": "",
@@ -526,7 +526,7 @@
       "featured": false
     },
     {
-      "id": "mexvk8h2cl5a7qx4td9",
+      "id": "mey8q7mw9ltxf1p2mrr",
       "title": "Introducing AI Sheets: a tool to work with datasets using open AI models!",
       "summary": "",
       "content": "",
@@ -542,7 +542,7 @@
       "featured": false
     },
     {
-      "id": "mexvkf8ms9towbism1",
+      "id": "mey8qdt9weetpsh64hj",
       "title": "How AI is helping advance the science of bioacoustics to save endangered species",
       "summary": "Our new Perch model helps conservationists analyze audio faster to protect endangered species, from Hawaiian honeycreepers to coral reefs.",
       "content": "Our new Perch model helps conservationists analyze audio faster to protect endangered species, from Hawaiian honeycreepers to coral reefs.",
@@ -558,7 +558,7 @@
       "featured": false
     },
     {
-      "id": "mexvkf8m8gk7y72e7sv",
+      "id": "mey8qdt9wy3e71muvw",
       "title": "Genie 3: A new frontier for world models",
       "summary": "Genie 3 can generate dynamic worlds that you can navigate in real time at 24 frames per second, retaining consistency for a few minutes at a resolution of 720p.",
       "content": "Genie 3 can generate dynamic worlds that you can navigate in real time at 24 frames per second, retaining consistency for a few minutes at a resolution of 720p.",
@@ -574,7 +574,7 @@
       "featured": false
     },
     {
-      "id": "mexvkf8mwi9dm7s7jso",
+      "id": "mey8qdt949d0zk60ocp",
       "title": "Rethinking how we measure AI intelligence",
       "summary": "Game Arena is a new, open-source platform for rigorous evaluation of AI models. It allows for head-to-head comparison of frontier systems in environments with clear winning conditions.",
       "content": "Game Arena is a new, open-source platform for rigorous evaluation of AI models. It allows for head-to-head comparison of frontier systems in environments with clear winning conditions.",
@@ -588,52 +588,50 @@
         "AI"
       ],
       "featured": false
-    },
-    {
-      "id": "mexvkwqfuszy3mshm1n",
-      "title": "Show HN: I build an AI-powered recipe app solving „what's for dinner?\" problem",
-      "summary": "Hi HN,<p>Happy to share the project I&#x27;ve been vibe-coding on for past few months.\nThe Problem: Like many people, I often found myself staring at a fridge full of random ingredients (some about to expire) with no idea what to cook. I was tired of food waste and the repetitive cycle of making the...",
-      "content": "Hi HN,<p>Happy to share the project I&#x27;ve been vibe-coding on for past few months.\nThe Problem: Like many people, I often found myself staring at a fridge full of random ingredients (some about to expire) with no idea what to cook. I was tired of food waste and the repetitive cycle of making the same few meals. I wanted a way to creatively use what I already had.<p>The Solution: So, I decided to build Chefiniti. It&#x27;s an iOS app that acts as a personal AI chef. The core idea is to turn your available food into delicious, custom recipes. I know there are already tons of apps like it but this one is mine :)<p>Here&#x27;s what it can do:\n* Scan Ingredients: Take photos of your fridge or pantry, and the app&#x27;s vision model identifies the ingredients.\n* &quot;Recipefy&quot; a Dish: See a meal you like online or in a restaurant? Snap a photo, and the app generates a recipe to help you recreate it.\n* Generate from Prompt: Just describe what you&#x27;re in the mood for (e.g., &quot;a spicy, gluten-free pasta dish&quot;), and it will create a recipe from scratch.\n* Import from URL: Paste a link from a recipe website to import it into your cookbook.<p>You can also save all these recipes, create shopping lists, and set detailed preferences for diet, allergies, cuisine, and even the cookware you own.\nApp is in a freemium model, within limits you can really test out core features without any payment or even account creation.<p>The Tech Stack: For those interested, the app is built with:\n* Frontend: React Native (with Expo)\n* Backend: Firebase Functions for the API layer.\n* Database &amp; Storage: Firestore and Firebase Cloud Storage.\n* AI: Google&#x27;s Gemini API for recipe generation and analysis.\n* Image Generation: DeepInfra API (for Stable Diffusion).\n* Subscriptions: RevenueCat.<p>I&#x27;ve just launched on the App Store and would be incredibly grateful for any feedback, thoughts, or questions you might have.<p>You can check it out here: \n<a href=\"https:&#x2F;&#x2F;chefiniti.app\" rel=\"nofollow\">https:&#x2F;&#x2F;chefiniti.app</a>\nOr download directly\n<a href=\"https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;chefiniti-smart-recipe-creator&#x2F;id6745801080\">https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;chefiniti-smart-recipe-creator...</a>\nThanks for taking a look!",
-      "publishedAt": "2025-06-12T10:38:34.000Z",
-      "source": "Hacker News Google",
-      "sourceUrl": "https://chefiniti.app",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "Gemini",
-        "AI",
-        "Google"
-      ],
-      "featured": false
     }
   ],
   "communityArticles": [
     {
-      "id": "mexvkqyk93enljlg33",
-      "title": "発見: Liranitz/PragmaticQA-NLPWithLLMs - GitHub新プロジェクト",
+      "id": "mey8qnpbo9qf2a9f7cb",
+      "title": "発見: 23f2003713/PPT-Generator - GitHub新プロジェクト",
       "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:56.000Z",
+      "content": "\n\n言語: HTML\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:26.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Liranitz/PragmaticQA-NLPWithLLMs",
+      "sourceUrl": "https://github.com/23f2003713/PPT-Generator",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mey8qmthzfdql0aa96",
+      "title": "発見: stevezhong9/pageeditor - Claude AI 导购页编辑器 - AI-powered landing page editor",
+      "summary": "新しいプロジェクトを発見: Claude AI 导购页编辑器 - AI-powered landing page editor (⭐0 | 🍴0)",
+      "content": "Claude AI 导购页编辑器 - AI-powered landing page editor\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:22.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/stevezhong9/pageeditor",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
       "tags": [
-        "LLM"
+        "Claude",
+        "AI"
       ],
       "featured": false,
       "showOnTopPage": false
     },
     {
-      "id": "mexvkp04c9heqgxu9s7",
-      "title": "発見: Prince-singh-1619/AI-model - A custom built AI UI inspired by several other AI UIs.",
-      "summary": "新しいプロジェクトを発見: A custom built AI UI inspired by several other AI UIs. (⭐0 | 🍴0)",
-      "content": "A custom built AI UI inspired by several other AI UIs.\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:52.000Z",
+      "id": "mey8qmthti9nhnx97es",
+      "title": "発見: rohit-hub1/my-ai-app - A premium look AI interface",
+      "summary": "新しいプロジェクトを発見: A premium look AI interface (⭐0 | 🍴0)",
+      "content": "A premium look AI interface\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:20.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Prince-singh-1619/AI-model",
+      "sourceUrl": "https://github.com/rohit-hub1/my-ai-app",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -644,73 +642,13 @@
       "showOnTopPage": false
     },
     {
-      "id": "mexvkpy4acsm8fzxrel",
-      "title": "発見: yks0000/starred-repo-toc - Generates Markdown table for all Starred Repositories by a GitHub user.",
-      "summary": "新しいプロジェクトを発見: Generates Markdown table for all Starred Repositories by a GitHub user. (⭐40 | 🍴10)",
-      "content": "Generates Markdown table for all Starred Repositories by a GitHub user.\n\n言語: Go\nスター数: 40\nフォーク数: 10",
-      "publishedAt": "2025-08-30T06:22:51.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/yks0000/starred-repo-toc",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkp04rmep6tzo0zm",
-      "title": "発見: awano27/career-info - GitHub新プロジェクト",
+      "id": "mey8qmth6sguyt7bc4i",
+      "title": "発見: sumit-kumar-2104/TDS-LLM-Agent - GitHub新プロジェクト",
       "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
       "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:46.000Z",
+      "publishedAt": "2025-08-30T12:31:13.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/awano27/career-info",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkp048xz1rtofs8",
-      "title": "発見: swenkerorg/eum-facilis-esse - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:43.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/swenkerorg/eum-facilis-esse",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkpy50d9ihwz5ftc8",
-      "title": "発見: xixiguo888/xixiguo888 - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:37.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/xixiguo888/xixiguo888",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkqykh5kqw8vsq3h",
-      "title": "発見: jiakaiy/llm-adaptive-attacks - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:37.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/jiakaiy/llm-adaptive-attacks",
+      "sourceUrl": "https://github.com/sumit-kumar-2104/TDS-LLM-Agent",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -721,45 +659,13 @@
       "showOnTopPage": false
     },
     {
-      "id": "mexvkp04f89d4j7c55r",
-      "title": "発見: junjzhang/mycc - My claude code setting",
-      "summary": "新しいプロジェクトを発見: My claude code setting (⭐0 | 🍴0)",
-      "content": "My claude code setting\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:36.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/junjzhang/mycc",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkp040snzdb6g1va",
-      "title": "発見: Himanshukabsuri/CareerCraft - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:32.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Himanshukabsuri/CareerCraft",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkqykehheky58vbc",
-      "title": "発見: Celestial317/HackLLM - GitHub新プロジェクト",
+      "id": "mey8qolnpm3c1u97kz",
+      "title": "発見: akhil324/LLM-Prompts - GitHub新プロジェクト",
       "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
       "content": "\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:31.000Z",
+      "publishedAt": "2025-08-30T12:31:05.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Celestial317/HackLLM",
+      "sourceUrl": "https://github.com/akhil324/LLM-Prompts",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -770,13 +676,49 @@
       "showOnTopPage": false
     },
     {
-      "id": "mexvkqykjpoaoz4odvm",
-      "title": "発見: karmaniverous/stan - STAN is a CLI that bridges your IDE with your favorite LLM and drives a rapid, p",
-      "summary": "新しいプロジェクトを発見: STAN is a CLI that bridges your IDE with your favorite LLM and drives a rapid, powerful, low-friction, design-first iterative development process. Real-world AI-assisted development for professional engineers! (⭐1 | 🍴0)",
-      "content": "STAN is a CLI that bridges your IDE with your favorite LLM and drives a rapid, powerful, low-friction, design-first iterative development process. Real-world AI-assisted development for professional engineers!\n\n言語: TypeScript\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:28.000Z",
+      "id": "mey8qmth5z0n21r24y5",
+      "title": "発見: lukaso/gimp-ai - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐2 | 🍴0)",
+      "content": "\n\n言語: Python\nスター数: 2\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:04.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/karmaniverous/stan",
+      "sourceUrl": "https://github.com/lukaso/gimp-ai",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mey8qmti0mt0ykxo7i29",
+      "title": "発見: yousef-elgarch1/metis-ai - 🚀 Advanced AI Assistant with Claude 3.5 + GPT-4, 15+ tools, MongoDB, React fron",
+      "summary": "新しいプロジェクトを発見: 🚀 Advanced AI Assistant with Claude 3.5 + GPT-4, 15+ tools, MongoDB, React frontend - Production ready (⭐0 | 🍴0)",
+      "content": "🚀 Advanced AI Assistant with Claude 3.5 + GPT-4, 15+ tools, MongoDB, React frontend - Production ready\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:02.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/yousef-elgarch1/metis-ai",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "GPT",
+        "Claude",
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mey8qolnxvs1wophpfh",
+      "title": "発見: Gelcaa/ai-llm-engineering-1 - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: Jupyter Notebook\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:30:11.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/Gelcaa/ai-llm-engineering-1",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -788,62 +730,82 @@
       "showOnTopPage": false
     },
     {
-      "id": "mexvkpy5xbmssz5kgyn",
-      "title": "発見: kleinwizard/prompt-engineering-platform - GitHub新プロジェクト",
+      "id": "mey8qolna20bykfx6x",
+      "title": "発見: isaacvrb/ia-llm-node-base - GitHub新プロジェクト",
       "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
       "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:21.000Z",
+      "publishedAt": "2025-08-30T12:30:04.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/kleinwizard/prompt-engineering-platform",
+      "sourceUrl": "https://github.com/isaacvrb/ia-llm-node-base",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
-      "tags": [],
+      "tags": [
+        "LLM"
+      ],
       "featured": false,
       "showOnTopPage": false
     },
     {
-      "id": "mexvkqykmdtjdq84lwl",
-      "title": "発見: genai-rs/langfuse-client-base - Auto-generated Rust client for Langfuse API from OpenAPI specification",
-      "summary": "新しいプロジェクトを発見: Auto-generated Rust client for Langfuse API from OpenAPI specification (⭐0 | 🍴0)",
-      "content": "Auto-generated Rust client for Langfuse API from OpenAPI specification\n\n言語: Rust\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:21:57.000Z",
+      "id": "mey8qolnssdge661b8",
+      "title": "発見: aadityadeshmukh/minimal-resume-generator - A LinkedIn style resume generator. The resume format was discontinued by LinkedI",
+      "summary": "新しいプロジェクトを発見: A LinkedIn style resume generator. The resume format was discontinued by LinkedIn sometime back. Its not feature complete but it comes close. It has an additional json import export functionality to be usable with LLMs (⭐0 | 🍴0)",
+      "content": "A LinkedIn style resume generator. The resume format was discontinued by LinkedIn sometime back. Its not feature complete but it comes close. It has an additional json import export functionality to be usable with LLMs\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:29:38.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/genai-rs/langfuse-client-base",
+      "sourceUrl": "https://github.com/aadityadeshmukh/minimal-resume-generator",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
-      "tags": [],
+      "tags": [
+        "LLM"
+      ],
       "featured": false,
       "showOnTopPage": false
     }
   ],
   "githubArticles": [
     {
-      "id": "mexvkqyk93enljlg33",
-      "title": "発見: Liranitz/PragmaticQA-NLPWithLLMs - GitHub新プロジェクト",
+      "id": "mey8qnpbo9qf2a9f7cb",
+      "title": "発見: 23f2003713/PPT-Generator - GitHub新プロジェクト",
       "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:56.000Z",
+      "content": "\n\n言語: HTML\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:26.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Liranitz/PragmaticQA-NLPWithLLMs",
+      "sourceUrl": "https://github.com/23f2003713/PPT-Generator",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mey8qmthzfdql0aa96",
+      "title": "発見: stevezhong9/pageeditor - Claude AI 导购页编辑器 - AI-powered landing page editor",
+      "summary": "新しいプロジェクトを発見: Claude AI 导购页编辑器 - AI-powered landing page editor (⭐0 | 🍴0)",
+      "content": "Claude AI 导购页编辑器 - AI-powered landing page editor\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:22.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/stevezhong9/pageeditor",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
       "tags": [
-        "LLM"
+        "Claude",
+        "AI"
       ],
       "featured": false,
       "showOnTopPage": false
     },
     {
-      "id": "mexvkp04c9heqgxu9s7",
-      "title": "発見: Prince-singh-1619/AI-model - A custom built AI UI inspired by several other AI UIs.",
-      "summary": "新しいプロジェクトを発見: A custom built AI UI inspired by several other AI UIs. (⭐0 | 🍴0)",
-      "content": "A custom built AI UI inspired by several other AI UIs.\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:52.000Z",
+      "id": "mey8qmthti9nhnx97es",
+      "title": "発見: rohit-hub1/my-ai-app - A premium look AI interface",
+      "summary": "新しいプロジェクトを発見: A premium look AI interface (⭐0 | 🍴0)",
+      "content": "A premium look AI interface\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:20.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Prince-singh-1619/AI-model",
+      "sourceUrl": "https://github.com/rohit-hub1/my-ai-app",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -854,73 +816,13 @@
       "showOnTopPage": false
     },
     {
-      "id": "mexvkpy4acsm8fzxrel",
-      "title": "発見: yks0000/starred-repo-toc - Generates Markdown table for all Starred Repositories by a GitHub user.",
-      "summary": "新しいプロジェクトを発見: Generates Markdown table for all Starred Repositories by a GitHub user. (⭐40 | 🍴10)",
-      "content": "Generates Markdown table for all Starred Repositories by a GitHub user.\n\n言語: Go\nスター数: 40\nフォーク数: 10",
-      "publishedAt": "2025-08-30T06:22:51.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/yks0000/starred-repo-toc",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkp04rmep6tzo0zm",
-      "title": "発見: awano27/career-info - GitHub新プロジェクト",
+      "id": "mey8qmth6sguyt7bc4i",
+      "title": "発見: sumit-kumar-2104/TDS-LLM-Agent - GitHub新プロジェクト",
       "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
       "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:46.000Z",
+      "publishedAt": "2025-08-30T12:31:13.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/awano27/career-info",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkp048xz1rtofs8",
-      "title": "発見: swenkerorg/eum-facilis-esse - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:43.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/swenkerorg/eum-facilis-esse",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkpy50d9ihwz5ftc8",
-      "title": "発見: xixiguo888/xixiguo888 - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:37.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/xixiguo888/xixiguo888",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkqykh5kqw8vsq3h",
-      "title": "発見: jiakaiy/llm-adaptive-attacks - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:37.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/jiakaiy/llm-adaptive-attacks",
+      "sourceUrl": "https://github.com/sumit-kumar-2104/TDS-LLM-Agent",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -931,45 +833,13 @@
       "showOnTopPage": false
     },
     {
-      "id": "mexvkp04f89d4j7c55r",
-      "title": "発見: junjzhang/mycc - My claude code setting",
-      "summary": "新しいプロジェクトを発見: My claude code setting (⭐0 | 🍴0)",
-      "content": "My claude code setting\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:36.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/junjzhang/mycc",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkp040snzdb6g1va",
-      "title": "発見: Himanshukabsuri/CareerCraft - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:32.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Himanshukabsuri/CareerCraft",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkqykehheky58vbc",
-      "title": "発見: Celestial317/HackLLM - GitHub新プロジェクト",
+      "id": "mey8qolnpm3c1u97kz",
+      "title": "発見: akhil324/LLM-Prompts - GitHub新プロジェクト",
       "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
       "content": "\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:31.000Z",
+      "publishedAt": "2025-08-30T12:31:05.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Celestial317/HackLLM",
+      "sourceUrl": "https://github.com/akhil324/LLM-Prompts",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -980,13 +850,49 @@
       "showOnTopPage": false
     },
     {
-      "id": "mexvkqykjpoaoz4odvm",
-      "title": "発見: karmaniverous/stan - STAN is a CLI that bridges your IDE with your favorite LLM and drives a rapid, p",
-      "summary": "新しいプロジェクトを発見: STAN is a CLI that bridges your IDE with your favorite LLM and drives a rapid, powerful, low-friction, design-first iterative development process. Real-world AI-assisted development for professional engineers! (⭐1 | 🍴0)",
-      "content": "STAN is a CLI that bridges your IDE with your favorite LLM and drives a rapid, powerful, low-friction, design-first iterative development process. Real-world AI-assisted development for professional engineers!\n\n言語: TypeScript\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:28.000Z",
+      "id": "mey8qmth5z0n21r24y5",
+      "title": "発見: lukaso/gimp-ai - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐2 | 🍴0)",
+      "content": "\n\n言語: Python\nスター数: 2\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:04.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/karmaniverous/stan",
+      "sourceUrl": "https://github.com/lukaso/gimp-ai",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mey8qmti0mt0ykxo7i29",
+      "title": "発見: yousef-elgarch1/metis-ai - 🚀 Advanced AI Assistant with Claude 3.5 + GPT-4, 15+ tools, MongoDB, React fron",
+      "summary": "新しいプロジェクトを発見: 🚀 Advanced AI Assistant with Claude 3.5 + GPT-4, 15+ tools, MongoDB, React frontend - Production ready (⭐0 | 🍴0)",
+      "content": "🚀 Advanced AI Assistant with Claude 3.5 + GPT-4, 15+ tools, MongoDB, React frontend - Production ready\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:31:02.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/yousef-elgarch1/metis-ai",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "GPT",
+        "Claude",
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mey8qolnxvs1wophpfh",
+      "title": "発見: Gelcaa/ai-llm-engineering-1 - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: Jupyter Notebook\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:30:11.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/Gelcaa/ai-llm-engineering-1",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -998,41 +904,11 @@
       "showOnTopPage": false
     },
     {
-      "id": "mexvkpy5xbmssz5kgyn",
-      "title": "発見: kleinwizard/prompt-engineering-platform - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:22:21.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/kleinwizard/prompt-engineering-platform",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkqykmdtjdq84lwl",
-      "title": "発見: genai-rs/langfuse-client-base - Auto-generated Rust client for Langfuse API from OpenAPI specification",
-      "summary": "新しいプロジェクトを発見: Auto-generated Rust client for Langfuse API from OpenAPI specification (⭐0 | 🍴0)",
-      "content": "Auto-generated Rust client for Langfuse API from OpenAPI specification\n\n言語: Rust\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2025-08-30T06:21:57.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/genai-rs/langfuse-client-base",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mexvkrznt2m8ihe4zlr",
+      "id": "mey8qpl7cnob8j6xtcw",
       "title": "Anthropic: anthropic-cookbookの最新アップデート",
-      "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.が更新されました (⭐19577)",
-      "content": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.\n\n最終更新: 8/30/2025\nスター数: 19577",
-      "publishedAt": "2025-08-30T05:53:59.000Z",
+      "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.が更新されました (⭐19583)",
+      "content": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.\n\n最終更新: 8/30/2025\nスター数: 19583",
+      "publishedAt": "2025-08-30T12:30:10.000Z",
       "source": "Anthropic GitHub Org",
       "sourceUrl": "https://github.com/anthropics/anthropic-cookbook",
       "category": "tools",
@@ -1045,11 +921,61 @@
       "featured": true
     },
     {
-      "id": "mexvks6lhtdesmempqn",
+      "id": "mey8qolna20bykfx6x",
+      "title": "発見: isaacvrb/ia-llm-node-base - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:30:04.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/isaacvrb/ia-llm-node-base",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "LLM"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mey8qolnssdge661b8",
+      "title": "発見: aadityadeshmukh/minimal-resume-generator - A LinkedIn style resume generator. The resume format was discontinued by LinkedI",
+      "summary": "新しいプロジェクトを発見: A LinkedIn style resume generator. The resume format was discontinued by LinkedIn sometime back. Its not feature complete but it comes close. It has an additional json import export functionality to be usable with LLMs (⭐0 | 🍴0)",
+      "content": "A LinkedIn style resume generator. The resume format was discontinued by LinkedIn sometime back. Its not feature complete but it comes close. It has an additional json import export functionality to be usable with LLMs\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2025-08-30T12:29:38.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/aadityadeshmukh/minimal-resume-generator",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "LLM"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mey8qplkdbezbyvuzju",
+      "title": "Anthropic: claude-code-actionの最新アップデート",
+      "summary": "claude-code-actionが更新されました (⭐2904)",
+      "content": "\n\n最終更新: 8/30/2025\nスター数: 2904",
+      "publishedAt": "2025-08-30T12:21:58.000Z",
+      "source": "Anthropic GitHub Org",
+      "sourceUrl": "https://github.com/anthropics/claude-code-action",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [
+        "Claude"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mey8qplk7zkzey9nca8",
       "title": "Anthropic: prompt-eng-interactive-tutorialの最新アップデート",
-      "summary": "Anthropic's Interactive Prompt Engineering Tutorialが更新されました (⭐17847)",
-      "content": "Anthropic's Interactive Prompt Engineering Tutorial\n\n最終更新: 8/30/2025\nスター数: 17847",
-      "publishedAt": "2025-08-30T05:43:07.000Z",
+      "summary": "Anthropic's Interactive Prompt Engineering Tutorialが更新されました (⭐17862)",
+      "content": "Anthropic's Interactive Prompt Engineering Tutorial\n\n最終更新: 8/30/2025\nスター数: 17862",
+      "publishedAt": "2025-08-30T12:13:59.000Z",
       "source": "Anthropic GitHub Org",
       "sourceUrl": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
       "category": "tools",
@@ -1061,11 +987,11 @@
       "featured": true
     },
     {
-      "id": "mexvks6lxwhah7sscdc",
+      "id": "mey8qplkqr0ti408gbo",
       "title": "Anthropic: claude-code-sdk-pythonの最新アップデート",
-      "summary": "claude-code-sdk-pythonが更新されました (⭐909)",
-      "content": "\n\n最終更新: 8/30/2025\nスター数: 909",
-      "publishedAt": "2025-08-30T05:36:56.000Z",
+      "summary": "claude-code-sdk-pythonが更新されました (⭐911)",
+      "content": "\n\n最終更新: 8/30/2025\nスター数: 911",
+      "publishedAt": "2025-08-30T11:02:08.000Z",
       "source": "Anthropic GitHub Org",
       "sourceUrl": "https://github.com/anthropics/claude-code-sdk-python",
       "category": "tools",
@@ -1077,11 +1003,11 @@
       "featured": true
     },
     {
-      "id": "mexvks6l0jzxca7h0r0h",
+      "id": "mey8qplk8bidtx2vidv",
       "title": "Anthropic: coursesの最新アップデート",
-      "summary": "Anthropic's educational coursesが更新されました (⭐16991)",
-      "content": "Anthropic's educational courses\n\n最終更新: 8/30/2025\nスター数: 16991",
-      "publishedAt": "2025-08-30T05:17:31.000Z",
+      "summary": "Anthropic's educational coursesが更新されました (⭐16994)",
+      "content": "Anthropic's educational courses\n\n最終更新: 8/30/2025\nスター数: 16994",
+      "publishedAt": "2025-08-30T08:44:58.000Z",
       "source": "Anthropic GitHub Org",
       "sourceUrl": "https://github.com/anthropics/courses",
       "category": "tools",
@@ -1093,24 +1019,7 @@
       "featured": true
     },
     {
-      "id": "mexvks6lbnfyu5p1rsj",
-      "title": "Anthropic: claude-code-security-reviewの最新アップデート",
-      "summary": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.が更新されました (⭐2192)",
-      "content": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.\n\n最終更新: 8/30/2025\nスター数: 2192",
-      "publishedAt": "2025-08-30T04:59:25.000Z",
-      "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/claude-code-security-review",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [
-        "Claude",
-        "AI"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mexvkk0h1cdlmvnq1od",
+      "id": "mey8qi6r4i01egd8bbc",
       "title": "OpenAI: openai-cookbookの最新アップデート",
       "summary": "openai-cookbookリポジトリに新しい更新: Update markdown for sidebar, move images to accessible path (#2100)...",
       "content": "Update markdown for sidebar, move images to accessible path (#2100)",
@@ -1127,7 +1036,7 @@
       "featured": false
     },
     {
-      "id": "mexvkh5waioqmcn5rxk",
+      "id": "mey8qfkvsb1gdbzjb6",
       "title": "Anthropic: claude-codeの最新アップデート",
       "summary": "claude-codeリポジトリに新しい更新: chore: Update CHANGELOG.md...",
       "content": "chore: Update CHANGELOG.md",
@@ -1143,10 +1052,10 @@
       "featured": false
     },
     {
-      "id": "mexvko0zxmxsq61zm9",
+      "id": "mey8qlwbz94by9yt4fs",
       "title": "Hugging Face: v4.56: Dino v3, X-Codec, Ovis 2, MetaCLIP 2, Florence 2, SAM 2, Kosmos 2.5, HunYuan, GLMV-4.5",
       "summary": "## New model additions\r\n\r\n### Dino v3\r\n\r\nDINOv3 is a family of versatile vision foundation models that outperforms the specialized state of the art across a broad range of settings, without fine-tuning. DINOv3 produces high-quality dense features that achieve outstanding performance on various visio...",
-      "content": "## New model additions\r\n\r\n### Dino v3\r\n\r\nDINOv3 is a family of versatile vision foundation models that outperforms the specialized state of the art across a broad range of settings, without fine-tuning. DINOv3 produces high-quality dense features that achieve outstanding performance on various vision tasks, significantly surpassing previous self- and weakly-supervised foundation models.\r\n\r\nYou can find all the original DINOv3 checkpoints under the [DINOv3](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009) collection.\r\n\r\n<img width=\"814\" height=\"658\" alt=\"image\" src=\"https://github.com/user-attachments/assets/740a5c3d-a5a1-45d9-9e4c-d9117837205d\" />\r\n\r\n* Add Dino v3 by @qubvel in #40167\r\n\r\n### X-Codec\r\n\r\nhe X-Codec model was proposed in [Codec Does Matter: Exploring the Semantic Shortcoming of Codec for Audio Language Model](https://arxiv.org/abs/2408.17175) by Zhen Ye, Peiwen Sun, Jiahe Lei, Hongzhan Lin, Xu Tan, Zheqi Dai, Qiuqiang Kong, Jianyi Chen, Jiahao Pan, Qifeng Liu, Yike Guo, Wei Xue\r\n\r\nThe X-Codec model is a neural audio codec that integrates semantic information from self-supervised models (e.g., HuBERT) alongside traditional acoustic information. This enables :\r\n\r\n- **Music continuation** : Better modeling of musical semantics yields more coherent continuations.\r\n- **Text-to-Sound Synthesis** : X-Codec captures semantic alignment between text prompts and generated audio.\r\n- **Semantic aware audio tokenization**: X-Codec is used as an audio tokenizer in the YuE lyrics to song generation model.\r\n\r\n<img width=\"1958\" height=\"949\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e36552d0-6465-4921-8208-3f7d3c9087f1\" />\r\n\r\n\r\n* Add X-Codec model  by @Manalelaidouni in #38248\r\n\r\n### Ovis 2\r\n\r\nThe [Ovis2](https://github.com/AIDC-AI/Ovis) is an updated version of the [Ovis](https://arxiv.org/abs/2405.20797) model developed by the AIDC-AI team at Alibaba International Digital Commerce Group. \r\n\r\nOvis2 is the latest advancement in multi-modal large language models (MLLMs), succeeding Ovis1.6. It retains the architectural design of the Ovis series, which focuses on aligning visual and textual embeddings, and introduces major improvements in data curation and training methods.\r\n\r\n<img src=\"https://cdn-uploads.huggingface.co/production/uploads/637aebed7ce76c3b834cea37/XB-vgzDL6FshrSNGyZvzc.png\"  width=\"600\">\r\n\r\n* Add Ovis2 model and processor implementation  by @thisisiron in #37088\r\n\r\n### MetaCLIP 2\r\n\r\nMetaCLIP 2 is a replication of the original CLIP model trained on 300+ languages. It achieves state-of-the-art (SOTA) results on multilingual benchmarks (e.g., XM3600, CVQA, Babel‑ImageNet), surpassing previous SOTA such as [mSigLIP](siglip) and [SigLIP‑2](siglip2). The authors show that English and non-English worlds can mutually benefit and elevate each other.\r\n\r\n<img width=\"805\" height=\"408\" alt=\"image\" src=\"https://github.com/user-attachments/assets/72eaa441-9362-4a6a-a834-f505d6727a2a\" />\r\n\r\n* Add MetaCLIP 2  by @NielsRogge in #39826\r\n\r\n### Florence 2\r\n\r\n[Florence-2](https://arxiv.org/abs/2311.06242) is an advanced vision foundation model that uses a prompt-based approach to handle a wide range of vision and vision-language tasks. Florence-2 can interpret simple text prompts to perform tasks like captioning, object detection, and segmentation. It leverages the FLD-5B dataset, containing 5.4 billion annotations across 126 million images, to master multi-task learning. The model's sequence-to-sequence architecture enables it to excel in both zero-shot and fine-tuned settings, proving to be a competitive vision foundation model.\r\n\r\n<img width=\"864\" height=\"565\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d09dfe3a-6dda-45a3-8dd3-0254d8503b4e\" />\r\n\r\n* Add support for Florence-2  by @ducviet00 in #38188\r\n\r\n### SAM 2\r\n\r\nSAM2 (Segment Anything Model 2) was proposed in [Segment Anything in Images and Videos](https://ai.meta.com/research/publications/sam-2-segment-anything-in-images-and-videos/) by Nikhila Ravi, Valentin Gabeur, Yuan-Ting Hu, Ronghang Hu, Chaitanya Ryali, Tengyu Ma, Haitham Khedr, Roman Rädle, Chloe Rolland, Laura Gustafson, Eric Mintun, Junting Pan, Kalyan Vasudev Alwala, Nicolas Carion, Chao-Yuan Wu, Ross Girshick, Piotr Dollár, Christoph Feichtenhofer.\r\n\r\nThe model can be used to predict segmentation masks of any object of interest given an input image or video, and input points or bounding boxes.\r\n\r\n<img width=\"960\" height=\"540\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0ab42e5c-6951-4cbc-9d5d-ff8bf0c2dbf1\" />\r\n\r\n* Add Segment Anything 2 (SAM2)  by @SangbumChoi in #32317\r\n\r\n### Kosmos 2.5\r\n\r\nThe Kosmos-2.5 model was proposed in [KOSMOS-2.5: A Multimodal Literate Model](https://arxiv.org/abs/2309.11419/) by Microsoft.\r\n\r\nThe abstract from the paper is the following:\r\n\r\n*We present Kosmos-2.5, a multimodal literate model for machine reading of text-intensive images. Pre-trained on large-scale text-intensive images, Kosmos-2.5 excels in two distinct yet cooperative transcription tasks: (1) generating spatially-aware text blocks, where each block of text is assigned its spatial coordinates within the image, and (2) producing structured text output that captures styles and structures into the markdown format. This unified multimodal literate capability is achieved through a shared Transformer architecture, task-specific prompts, and flexible text representations. We evaluate Kosmos-2.5 on end-to-end document-level text recognition and image-to-markdown text generation. Furthermore, the model can be readily adapted for any text-intensive image understanding task with different prompts through supervised fine-tuning, making it a general-purpose tool for real-world applications involving text-rich images. This work also paves the way for the future scaling of multimodal large language models.*\r\n\r\n<img src=\"https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/kosmos2_5_ocr.png\"\r\nalt=\"drawing\" width=\"600\"/>\r\n\r\n* Add Kosmos-2.5  by @tic-top in #31711\r\n\r\n### HunYuan\r\n\r\n<img width=\"674\" height=\"402\" alt=\"image\" src=\"https://github.com/user-attachments/assets/230f83f0-870c-4b31-b8b7-738116761457\" />\r\n\r\nMore information at release 🤗\r\n\r\n* HunYuan opensource  by @yjc9696 in #39606\r\n\r\n### Seed OSS\r\n\r\n<img width=\"858\" height=\"537\" alt=\"image\" src=\"https://github.com/user-attachments/assets/29ccc3c2-9b85-4d89-935a-1e1c28d173fd\" />\r\n\r\nMore information at release 🤗\r\n\r\n* Adding ByteDance Seed Seed-OSS  by @Fazziekey in #40272\r\n\r\n### GLM-4.5V\r\n\r\nMore information at release 🤗\r\n\r\n* GLM-4.5V Model Support  by @zRzRzRzRzRzRzR in #39805\r\n\r\n## Cache\r\n\r\nBeyond a large refactor of the caching system in Transformers, making it much more practical and general, models using sliding window attention/chunk attention do not waste memory anymore when caching past states. It was allowed most notable by:\r\n\r\n* New DynamicSlidingWindowLayer & associated Cache by @Cyrilvallez  in #40039\r\n\r\nSee the following improvements on memory usage for Mistral (using only sliding layers) and GPT-OSS (1 out of 2 layers is sliding) respectively:\r\n<img width=\"569\" height=\"431\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7f1688f4-b077-4840-a62c-bfa6131fe806\" />\r\n<img width=\"574\" height=\"431\" alt=\"image\" src=\"https://github.com/user-attachments/assets/bb4a284f-961e-413d-b7e1-783bb5d8fb39\" />\r\n\r\nBeyond memory usage, it will also improve generation/forward speed by a large margin for large contexts, as only necessary states are passed to the attention computation, which is very sensitive to the sequence length.\r\n\r\n## Quantization\r\n\r\n### MXFP4\r\n\r\nSince the GPT-OSS release which introduced the MXPF4 quantization type, several improvements have been made to the support, which should now stabilize.\r\n\r\n* Fix MXFP4 quantizer validation to allow CPU inference with dequantize option  by @returnL in #39953\r\n* Enable gpt-oss mxfp4 on older hardware (sm75+)  by @matthewdouglas in #39940\r\n* Fix typo and improve GPU kernel check error message in MXFP4 quantization  by @akintunero in #40349) \r\n* Default to dequantize if cpu in device_map for mxfp4  by @MekkCyber in #39993\r\n* Fix GPT-OSS `swiglu_limit` not passed in for MXFP4  by @danielhanchen in #40197\r\n* [`Mxfp4`] Add a way to save with a quantization method  by @ArthurZucker in #40176\r\n\r\n## New standard \r\n\r\nNow that we deprecated tensorflow and jax, we felt that `torch_dtype` was not only misaligned with torch, but was redundant and hard to remember. For this reason, we switched to a much more standard `dtype` argument!\r\n\r\n* ⚠���⚠️ Use dtype instead of torch_dtype everywhere! by @Cyrilvallez in #39782\r\n\r\n`torch_dtype` will still be a valid usage for as long as needed to ensure a smooth transition, but new code should use `dtype`, and we encourage you to update older code as well!\r\n\r\n## Breaking changes\r\n\r\nThe following commits are breaking changes in workflows that were either buggy or not working as expected. \r\n\r\n### Saner hub-defaults for hybrid cache implementation\r\n\r\nOn models where the hub checkpoint specifies cache_implementation=\"hybrid\" (static sliding window hybrid cache), UNSETS this value. This will make the model use the dynamic sliding window layers by default.\r\n\r\nThis default meant that there were widespread super slow 1st generate calls on models with hybrid caches, which should nol onger be the case.\r\n\r\n* 🚨🚨  [generate] ignore `cache_implementation=\"hybrid\"` hub defaults  by @gante in #40135\r\n\r\n### Sine positional embeddings for MaskFormer & LRU cache\r\n\r\nCache the computation of sine positional embeddings for MaskFormer; results in a 6% performance improvement.\r\n\r\n* 🚨 Use lru_cache for sine pos embeddings MaskFormer  by @yonigozlan in #40007\r\n\r\n### Explicit cache initialization\r\n\r\nAdds explicit cache initialization to prepare for the deprecation of the `from_legacy_cache` utility.\r\n\r\n* ���� Always return Cache objects in modelings (to align with generate)  by @manueldeprada in #39765\r\n\r\n### Default compilation with `fullgraph=False`\r\n\r\nHaving `fullgraph` set to `True` during compilation ended up being very restrictive, especially with the arrival of widely-used MoEs.\r\n\r\n* 🚨🚨 Switch default compilation to fullgraph=False  by @Cyrilvallez in #40137\r\n\r\n### Remove decoding strategies\r\n\r\nThe DoLa decoding strategy has been moved to the following remote-code repository a few versions ago: https://huggingface.co/transformers-community/dola\r\n\r\nThe Contrastive Search decoding strategy has been moved to the following remote-code repository a few versions ago: https://huggingface.co/transformers-community/contrastive-search\r\n\r\nBoth have now been removed from the library as a result.\r\n\r\n* 🚨 Remove DoLa decoding strategy  by @manueldeprada in #40082\r\n* 🚨 Remove Contrastive Search decoding strategy  by @manueldeprada in #40428\r\n\r\n### Fix sliding window in flash attention\r\n\r\nFlash attention has used sliding window sizes which were off by one. This affected generations that had initially bigger contexts than the sliding window size.\r\n\r\n* :rotating_light: [`Flash Attention`] Fix sliding window size  by @vasqu in #40163\r\n\r\n### Minimum Torch version is now 2.2\r\n\r\nTorch 2.1 support has been unreliable for some time, so we've now made it official and bumped our minimum version to 2.2.\r\n\r\n* byebye torch 2.1 by @Rocketknight1 in #40317\r\n\r\n## Bugfixes and improvements\r\n\r\n* [CI] post-`GptOss` fixes for green CI  by @gante in #39929\r\n* Avoid `utils/check_bad_commit.py` failing due to rate limit (requesting  `api.github.com`)  by @ydshieh in #39918\r\n* Fix CI: Tests failing on CPU due to `torch.device('cpu').index` being None  by @manueldeprada in #39933\r\n* circleci: pin torch 2.7.1 until `torchcodec` is updated  by @ydshieh in #39951\r\n* [docs] ko toc fix  by @gante in #39927\r\n* docs: fix typo in 'quantization-aware training'  by @luckyvickyricky in #39904\r\n* Fix grammatical error in MoE variable name: expert_hitted → expert_hit, hitted_experts → hit_experts  by @Mihonarium in #39959\r\n* fix typo  by @Tialo in #39936\r\n* [image processor] fix glm4v  by @KeyKy in #39964\r\n* remove `triton_kernels` dep with `kernels` instead  by @SunMarc in #39926\r\n* Fix `fix_and_overwrite` mode of `utils/check_docstring.py`  by @manueldeprada in #39369\r\n* [bugfix] fix flash_attention_2 unavailable error on Ascend NPU  by @FightingZhen in #39844\r\n* chore: update Deformable_Detr model card  by @arpon-kapuria in #39902\r\n* Modular fix: remove the model name in `find_file_type`  by @yonigozlan in #39897\r\n* Gemma3 fixes  by @remi-or in #39960\r\n* [superglue] Fixed the way batch mask was applied to the scores before match assignment computation  by @sbucaille in #39968\r\n* Support input_embeds in torch exportable decoders  by @jackzhxng in #39836\r\n* Various test fixes for AMD  by @remi-or in #39978\r\n* [Idefics] fix device mismatch  by @zucchini-nlp in #39981\r\n* Fix gemma3n feature extractor's incorrect squeeze  by @Isotr0py in #39919\r\n* [typing] Fix return typehint for decoder and inv_freq annotation  by @qubvel in #39610\r\n* Fix consistency  by @Cyrilvallez in #39995\r\n* Update expected output values after #39885 (part 1)  by @ydshieh in #39990\r\n* Fix int4 quantized model cannot work with cpu  by @yuanwu2017 in #39724\r\n* Fix missing video inputs for PerceptionLM.  by @shuminghu in #39971\r\n* fix: remove CHAT_TEMPLATE import in tests for deepseek-vl  by @geetu040 in #40003\r\n* Fix HGNetV2 Model Card and Image Classification Pipeline Usage Tips  by @ducviet00 in #39965\r\n* Fix default values of getenv  by @cyyever in #39867\r\n* FA2 can continue generation from cache  by @zucchini-nlp in #39843\r\n* unpin torch<2.8 on circleci  by @ydshieh in #40012\r\n* docs: fix duplication in 'en/optimizers.md'  by @luckyvickyricky in #40014\r\n* Raising error when quantizing a quantized model  by @MekkCyber in #39998\r\n* Update expected output values after #39885 (part 2)  by @ydshieh in #40015\r\n* pin torchcodec==0.5.0 for now with torch 2.7.1 on daily CI  by @ydshieh in #40013\r\n* Fix broken image inference for Fuyu model  by @Isotr0py in #39915\r\n* Higgs modules_to_not_convert standardization  by @MekkCyber in #39989\r\n* Fix an annoying flaky test  by @zucchini-nlp in #40000\r\n* Harmonize `past_key_value` to `past_key_valueS` everywhere  by @Cyrilvallez in #39956\r\n* Fix missing None default values for Gemma3n model in get_placeholder_mask  by @Znerual in #39991) \r\n* [core] Refactor the Cache logic to make it simpler and more general  by @Cyrilvallez in #39797\r\n* Tie weights recursively on all submodels  by @Cyrilvallez in #39996\r\n* Bnb failling tests  by @MekkCyber in #40026\r\n* fix `notification_service.py` about `time_spent`  by @ydshieh in #40037\r\n* Revert \"fix `notification_service.py` about `time_spent`\"  by @ydshieh in #40044\r\n* Update HuBERT model card according to template  by @reedrya in #39742\r\n* unpin `torchcodec==0.5.0` and use `torch 2.8` on daily CI  by @ydshieh in #40072\r\n* fix: resolve triton version check compatibility on windows  by @Tsumugii24 in #39986\r\n* [qwen-vl] fix beam search with videos  by @zucchini-nlp in #39726\r\n* [gemma3] update conversion key mapping  by @zucchini-nlp in #39778\r\n* fix: move super().__init__ after vision_config init in Mistral3Config  by @starcatmeow in #40063\r\n* Remove deprecated cache-related objects  by @Cyrilvallez in #40035\r\n* guard on model.eval when using torch.compile + FSDP2  by @winglian in #37413\r\n* Fix repo consistency  by @zucchini-nlp in #40077\r\n* added Textnet fast image processor  by @rahzaazhar in #39884\r\n* Fix `time_spent ` in `notification_service.py`.  by @ydshieh in #40081\r\n* chore: standardize DeBERTa model card  by @Shoumik-Gandre in #37409\r\n* [`GPT Big Code`] Fix attention scaling  by @vasqu in #40041\r\n* feat: extract rev in attn_implementation kernels via @  by @drbh in #40009\r\n* Update notification service MI325  by @ivarflakstad in #40078\r\n* Fix PerceptionLM image preprocessing for non-tiled image input.  by @shuminghu in #40006\r\n* Revert FA2 kwargs construction  by @zucchini-nlp in #40029\r\n* [fix] batch inference for llava_onevision  by @cyr0930 in #40021\r\n* [docs] Zero Shot Object Detection Task  by @ariG23498 in #40096\r\n* Update Glm4V processor and add tests  by @zucchini-nlp in #39988\r\n* Add glm4.5&&glm4.5V doc  by @lambertwjh in #40095\r\n* Causal loss for `ForConditionalGeneration`  by @qgallouedec in #39973\r\n* Audio encodings now match conv2d weight dtype in Gemma3nAudioSSCPConvBlock  by @Malav-P in #39743\r\n* New DynamicSlidingWindowLayer & associated Cache  by @Cyrilvallez in #40039\r\n* Enable SIM rules  by @cyyever in #39806\r\n* feat: add `is_fast` to ImageProcessor  by @MilkClouds in #39603\r\n* Re-apply make style  by @Cyrilvallez in #40106\r\n* Replace `logger.warning` with `logger.warning_once` in `GradientCheckpointingLayer`  by @qgallouedec in #40091\r\n* Fix regression in mllama vision encoder  by @Isotr0py in #40083\r\n* Switch the order of args in StaticCache (for BC and future logic)  by @Cyrilvallez in #40100\r\n* Fix Qwen3 MoE GGUF architecture mismatch  by @ctcanbol in #39976\r\n* Fix error on importing unavailable torch.distributed  by @m-gallus in #40038\r\n* [`Flash Attention`] Fix flash attention integration  by @vasqu in #40002\r\n* [trainer] ensure special tokens in model configs are aligned with tokenizer at train time  by @gante in #38441\r\n* Fix Causality Handling in Flash Attention to Support Bidirectional Attention  by @lucaswychan in #39707\r\n* [docs] Add reference to HF-maintained `custom_generate` collections  by @gante in #39894\r\n* Add model card for MobileViT  by @Shivamjan in #40033\r\n* remove sequence parallel in llama4  by @3outeille in #40084\r\n* 🌐 [i18n-KO] Translated `tiny_agents.md` to Korean  by @AhnJoonSung in #39913\r\n* [bugfix] Fix tensor device in Idefics2, Idefics3, and SmolVLM  by @qgallouedec in #39975\r\n* changed xLSTMRMSNorm to RMSNorm  by @nikitazuevblago in #40113\r\n* Fix QuantoQuantizedCache import issues  by @manueldeprada in #40109\r\n* [serve] allow array `content` inputs for LLMs  by @gante in #39829\r\n* `decoding_method` argument in generate  by @manueldeprada in #40085\r\n* Collated reports  by @ivarflakstad in #40080\r\n* DOCS: Add missing space in SECURITY.md  by @shivaheidari in #40087\r\n* [trainer] handle case where EOS token is None in `generation_config`  by @gante in #40127\r\n* Fix hidden torchvision>=0.15 dependency issue  by @yonigozlan in #39928\r\n* 🌐 [i18n-KO] Translated `main_classes/processors.md` to Korean  by @TaskerJang in #39519\r\n* 🌐 [i18n-KO] Translated `jamba.md` to Korean  by @skwh54 in #39890\r\n* 🌐 [i18n-KO] Translated `main_classes/optimizer_schedules.md` to Korean  by @luckyvickyricky in #39713\r\n* 🌐 [i18n-KO] Translated `gpt2.md` to Korean  by @taemincode in #39808\r\n* 🌐 [i18n-KO] Translated `optimizers.md` to Korean  by @chelsseeey in #40011\r\n* 🌐 [i18n-KO] Translated grounding-dino.md to Korean  by @TaskerJang in #39861\r\n* 🌐 [i18n-KO] Translated `pipelines.md` to Korean  by @xhaktm00 in #39577\r\n* gpt oss is important  by @ArthurZucker in #40139\r\n* Fix Janus  by @Cyrilvallez in #40140\r\n* [docs] Fix ko toctree  by @stevhliu in #40138\r\n* Remove an old badly designed test  by @Cyrilvallez in #40142\r\n* updated visualBERT modelcard  by @Anil-Red in #40057\r\n* 🌐 [i18n-KO] Translated `gemma3.md` to Korean  by @seopp in #39865\r\n* Fix quantized cache with only cache_implementation in generate  by @Cyrilvallez in #40144\r\n* Add pytest marker: `torch_compile_test` and `torch_export_test`  by @ydshieh in #39950\r\n* Update Dockerfiles to install packages inside a virtual environment  by @Sai-Suraj-27 in #39098\r\n* Create self-scheduled-amd-mi355-caller.yml  by @glegendre01 in #40134\r\n* [Cohere2Vision] remove unused arg  by @zucchini-nlp in #40103\r\n* [efficientloftr] fix bugs and follow original cross attn implementation strictly  by @sbucaille in #40141\r\n* Fix CI: Use correct import in SAM for torchvision InterpolationMode  by @manueldeprada in #40160\r\n* [Continous Batching] set head_dim when config.head_dim is None  by @kashif in #40159\r\n* Replace `self.tokenizer` by `self.processing_class`  by @qgallouedec in #40119\r\n* [FA2] Fix it finally - revert fa kwargs preparation  by @Cyrilvallez in #40161\r\n* [bugfix] fix flash-attention2 unavailable error for Ascend NPU  by @FightingZhen in #40151\r\n* build: Add fast image processor tvp  by @adutchengineer in #39529\r\n* Add GptOssForSequenceClassification for GPT-OSS models  by @zyfedward in #40043\r\n* Standardize BARTpho model card: badges, new examples, fixed broken im…  by @eshwanthkartitr in #40051\r\n* Add dates to the model docs  by @MHRDYN7 in #39320\r\n* Pin torch to 2.7.1 on CircleCI for now  by @ydshieh in #40174\r\n* Update dynamic attnt setter for multimodals  by @zucchini-nlp in #39908\r\n* [MINOR:TYPO] Update base.py  by @cakiki in #40169\r\n* make model doc device agnostic  by @yao-matrix in #40143\r\n* fix to avoid modifying a view in place  by @3outeille in #40162\r\n* Fix fsdp for generic-task models  by @Cyrilvallez in #40191\r\n* Add repr to EncoderDecoderCache  by @Cyrilvallez in #40195\r\n* Fix typos  by @cyyever in #40175\r\n* Remove _prepare_flash_attention_from_position_ids  by @cyyever in #40069\r\n* Avoid CUDA stream sync  by @cyyever in #40060\r\n* Fix various Pylint warnings  by @cyyever in #40107\r\n* Update: add type hints to check_tokenizers.py  by @ajeet214 in #40094\r\n* Benchmarking improvements  by @ahadnagy in #39768\r\n* docs: Update LayoutLM model card according to new standardized format  by @Jin-HoMLee in #40129\r\n* Revert \"Pin torch to 2.7.1 on CircleCI for now\" + Final fix for `too long with no output`  by @ydshieh in #40201\r\n* Use correct `model_input_names` for PixtralImageProcessor  by @rohitrango in #40226\r\n* fix error vocab_size at Qwen2_5_VLForConditionalGeneration loss_function  by @killight98 in #40130\r\n* [SAM 2] Change checkpoints in docs and tests  by @yonigozlan in #40213\r\n* Fix more typos  by @cyyever in #40212\r\n* Fix ESM token_dropout crash when using inputs_embeds instead of input_ids  by @notkisk in #40181\r\n* AMD scheduled CI ref env file  by @ivarflakstad in #40243\r\n* Fix more pylint warnings  by @cyyever in #40204\r\n* remove transpose_for_scores call in ESM-2  by @pstjohn in #40210\r\n* Add `chat_template` (`jinja2`) as an extra dependency  by @tboerstad in #40128\r\n* [typing] fix type annotation error in DepthPro model image processor  by @MengAiDev in #40238\r\n* [serve] guard imports  by @gante in #39825\r\n* [`CI`] Fix repo consistency  by @vasqu in #40249\r\n* Fixes for EncoderDecoderCache  by @remi-or in #40008\r\n* fix: Catch correct ConnectionError for additional_chat_templates  by @akug in #39874\r\n* Model card for NLLB  by @sahil-kabir in #40074\r\n* Correct typo and update notes in docs Readme  by @PavloFesenko in #40234\r\n* Fix benchmark workflow  by @ahadnagy in #40254\r\n* docs: Update OLMo model card  by @rafakatri in #40233\r\n* Skip broken tests  by @zucchini-nlp in #40157\r\n* Remove MI300 CI  by @ivarflakstad in #40270\r\n* set inputs_embeds to None while generate to avoid audio encoder forward in generation process  by @BakerBunker in #40248\r\n* [detection] fix attention mask for RT-DETR-based models  by @materight in #40269\r\n* Fix slow static cache export tests  by @jackzhxng in #40261\r\n* Fix setting attention for multimodal models  by @zucchini-nlp in #39984\r\n* [detection] fix correct `k_proj` weight and bias slicing in D-FINE  by @notkisk in #40257\r\n* Skipping pytree registration in case fsdp is enabled  by @romitjain in #40075\r\n* Update image_processing_perception_lm_fast.py to allow for proper override of vision_input_type  by @tyleryzhu in #40252\r\n* fix which routing method  by @ArthurZucker in #40283\r\n* Fix chat CLI GPU loading and request_id validation issues  by @robin-ede in #40230) \r\n* docs(layoutlm): add missing `id=usage` to `<hfoptions>` tag in LayoutLM model card  by @Jin-HoMLee in #40273\r\n* Standardize RAG model card  by @aayush226 in #40222\r\n* docs: Update TrOCR model card to new format  by @AceHunterr in #40240\r\n* Update model card for gpt neox japanese  by @ahnjj in #39862\r\n* SmolVLM and InternVL: Ensure pixel values are converted to the correct dtype for fp16/bf16  by @qgallouedec in #40121\r\n* Standardize BertGeneration model card  by @nemitha2005 in #40250\r\n* Adjust ROCm test output expectations  by @ahadnagy in #40279\r\n* SmolVLM test fixes  by @ahadnagy in #40275\r\n* make model docs device agnostic (2)  by @yao-matrix in #40256\r\n* [3/3] make docs device agnostic, all en docs for existing models done   by @yao-matrix in #40298\r\n* Allow to be able to run `torch.compile` tests with `fullgraph=True`  by @ydshieh in #40164\r\n* [`FA`] Fix dtype in varlen with position ids  by @vasqu in #40295\r\n* [docs] delete more TF/Flax docs  by @gante in #40289\r\n* Clean up X-Codec.  by @ebezzam in #40271\r\n* Remove OTel SDK dependencies  by @anuraaga in #40305\r\n* Fix GOT-OCR2 and Cohere2Vision image processor patches caculation  by @Isotr0py in #40312\r\n* [`fix`] Pass adamw optimizer parameters to StableAdamW  by @emapco in #40184\r\n* chore: fix typo in `find_executable_batch_size` to match new 0.9 ratio  by @MilkClouds in #40206\r\n* :rotating_light: [`Flash Attention`] Fix sliding window size  by @vasqu in #40163\r\n* Remove unnecessary contiguous calls for modern torch  by @Rocketknight1 in #40315\r\n* Qwen2.5-Omni test fixes  by @ahadnagy in #40307\r\n* Add back `_tp_plan` attribute  by @rishub-tamirisa in #39944\r\n* byebye torch 2.1  by @Rocketknight1 in #40317\r\n* No more `natten`  by @ydshieh in #40287\r\n* [`GPT OSS`] Refactor the tests as it was not properly checking the outputs  by @ArthurZucker in #40288\r\n* Update CI with nightly torch workflow file  by @ydshieh in #40306\r\n* Fix: Apply `get_placeholder_mask` in Ovis2  by @thisisiron in #40280\r\n* Update notification service amd_daily_ci_workflows definition  by @ivarflakstad in #40314\r\n* One cache class to rule them all  by @Cyrilvallez in #40276\r\n* Fix chunked attention mask with left-padding  by @Cyrilvallez in #40324\r\n* [docs] remove flax references from `/en/model_doc`  by @gante in #40311\r\n* Fix qwen-omni processor text only mode  by @yuekaizhang in #40336\r\n* Change Qwen2RMSNorm to RMSNorm from PyTorch  by @cyyever in #40066\r\n* Add DeepseekV3ForSequenceClassification for Deepseek V3 models  by @abdokaseb in #40200\r\n* Fix deprecation warning version  by @Cyrilvallez in #40343\r\n* Add missing arguments to class constructors  by @cyyever in #40068\r\n* [docs] remove TF references from `/en/model_doc`  by @gante in #40344\r\n* Fix: Only call Trainer.align_special_tokens if model has \"config\" attribute  by @tomaarsen in #40322\r\n* add type hints  by @wirthual in #40319\r\n* Fix an infinite loop bug in recursive search of relative imports  by @eladsegal in #40326\r\n* Fix links in Glm4vMoe configuration classes to point to the correct H…  by @vvvdwbvvv in #40310\r\n* T5 test and target device fixes  by @ahadnagy in #40313\r\n* Update `test_spm_converter_bytefallback_warning`  by @ydshieh in #40284\r\n* (small) fix conditional for input_ids and input_embeds in marian  by @cyntqliu in #40045\r\n* Fix attention vizualizer  by @molbap in #40285\r\n* [ModernBert] Prevent the attention mask from being None in ModernBertForSequenceClassification  by @ashmikuz in #35991\r\n* Clean up XCodec and other codecs  by @ebezzam in #40348\r\n* [serve] add cors warnings  by @gante in #40112\r\n* [detection] use consistent dtype for Conditional and DAB DETR positional embeddings  by @agkphysics in #40300\r\n* Remove more PyTorch 2.2 compatible code  by @cyyever in #40337\r\n* [`FA`] Fix some model tests  by @vasqu in #40350\r\n* Qwen2.5-VL test fixes for ROCm  by @ahadnagy in #40308\r\n* [generate] handle support for cache classes when num enc layers != num dec layers  by @gante in #40277\r\n* [4/N]more docs to device agnostic  by @yao-matrix in #40355\r\n* DOCS: Clarification on the use of `label_names` as an argument to TrainingArguments  by @huzaifa-jawad367 in #40353\r\n* Fix idefics3 vision embeddings indices dtype  by @Isotr0py in #40360\r\n* wav2vec2 fixes  by @remi-or in #40341\r\n* Change multimodal data links to HF hub  by @zucchini-nlp in #40309\r\n* [pipelines] add support to `skip_special_tokens` in the main text generation pipelines  by @gante in #40356\r\n* ⚠️⚠️ Use `dtype` instead of `torch_dtype` everywhere!  by @Cyrilvallez in #39782\r\n* [processor] move commonalities to mixin  by @zucchini-nlp in #40339\r\n* [configuration] allow to overwrite kwargs from subconfigs  by @zucchini-nlp in #40241\r\n* fix(example): align parameter names with the latest function definition for gdino  by @developer0hye in #40369\r\n* Add GptOssForTokenClassification for GPT-OSS models  by @abdokaseb in #40190\r\n* Bug Fix: Dynamically set return_lse flag in FlexAttention  by @amd-lalithnc in #40352\r\n* Chat Template Doc Fixes  by @Rocketknight1 in #40173\r\n* Rework the Cache documentation  by @Cyrilvallez in #40373\r\n* Update README_zh-hans.md  by @TardC in #40380\r\n* HF papers in doc  by @qgallouedec in #40381\r\n* Run FA2 tests in CI  by @ydshieh in #40397\r\n* Reactivate a lot of tests skipped for no reason anymore  by @Cyrilvallez in #40378\r\n* :broom: :broom: :broom: Get set decoder cleanup  by @molbap in #39509\r\n* fix to accept cumulative_seqlens from TransformersKwargs in FA  by @Kurt232 in #40194\r\n* [docs] flax/jax purge  by @gante in #40372\r\n* Fix typo: 'casual' -> 'causal' in code and documentation  by @akintunero in #40371) \r\n* Fix CI (hunyuan moe does not support fullgraph)  by @Cyrilvallez in #40423\r\n* Fix typo: 'seperator' to 'separator' in variable names  by @Prawal-Sharma in #40389\r\n* Fix UnboundLocalError in WER metric computation  by @prxshetty in #40402\r\n* Gpt oss optim  by @jiqing-feng in #40304\r\n* Fix processing tests  by @zucchini-nlp in #40379\r\n* Fix label smoothing incompatibility with multi-label classification  by @avchauzov in #40296\r\n* Fix modular for modernbert-decoder  by @Cyrilvallez in #40431\r\n* Update collated reports working directory and --path  by @ivarflakstad in #40433\r\n* Add `tokenizer_kwargs`  argument to the text generation pipeline  by @Joshua-Chin in #40364\r\n* [docs] remove last references to `transformers` TF classes/methods  by @gante in #40429\r\n* Remove working-dir from collated reports job  by @ivarflakstad in #40435\r\n* 🌐 [i18n-KO] Translated `models.md` to Korean  by @Judy-Choi in #39518\r\n* Gemma3 text fixes: Add expectations for MI325  by @ahadnagy in #40384\r\n* Fix collated reports model directory traversal  by @ivarflakstad in #40437\r\n* Fix https://github.com/huggingface/transformers/issues/40292  by @id01 in #40439\r\n* Fix collated reports uploading  by @ivarflakstad in #40440\r\n* InternVL MI325 test expectations  by @ahadnagy in #40387\r\n* Fix collated reports model name entry  by @ivarflakstad in #40441\r\n* Fix non FA2 tests after FA2 installed in CI docker image  by @ydshieh in #40430\r\n* Refactor ViT-like models  by @qubvel in #39816\r\n* [Trainer] accelerate contextparallel support in trainer  by @kashif in #40205\r\n* fix qwen25-vl grad acc  by @iMountTai in #40333\r\n* [video processors] decode only sampled videos -> less RAM and faster processing  by @zucchini-nlp in #39600\r\n* rename get_cuda_warm_up_factor to get_accelerator_warm_up_factor  by @yao-matrix in #40363\r\n* Make cache_config not mandatory  by @remi-or in #40316\r\n* Continuous batching refactor  by @remi-or in #40426\r\n* flash_paged: s_aux may not exist  by @pcuenca in #40434\r\n* Fix extra template loading  by @Rocketknight1 in #40455\r\n* deci gguf support  by @ved1beta in #38669\r\n* [fast_image_processor] fix image normalization for resize  by @audioXD in #40436\r\n* [RoPE] explicit factor > implicit factor in YaRN  by @gante in #40320\r\n* [pipeline] Add Keypoint Matching pipeline  by @sbucaille in #39970\r\n* Update SegFormer model card  by @GSNCodes in #40417\r\n* Not to shock AMD team by the cancelled workflow run notification ❤️ 💖  by @ydshieh in #40467\r\n* Fix nightly torch CI  by @ydshieh in #40469\r\n* CI when PR merged to `main`  by @ydshieh in #40451\r\n* Validate GptOssConfig rope config after it's fully initialized  by @zifeitong in #40474\r\n* [modular] Use multi-processing + fix model import issue  by @Cyrilvallez in #40481\r\n* [modular] Remove ambiguity in all calls to parent class methods + fix dependency graph  by @Cyrilvallez in #40456\r\n* [ESM] support attention API  by @zucchini-nlp in #40370\r\n* [EfficientLoFTR] dynamic image size support  by @sbucaille in #40329\r\n* Fix `qwen2_moe` tests  by @ydshieh in #40494\r\n* [Whisper] Add rocm expected results to certain tests  by @ivarflakstad in #40482\r\n* Collated reports: no need to upload artifact  by @ivarflakstad in #40502\r\n* Fix the CI workflow of `merge to main`  by @ydshieh in #40503\r\n* docs(pixtral): Update Pixtral model card to new format  by @BryanBradfo in #40442\r\n* [modular] Classes can now be defined and referenced in arbitrary order (without bringing unwanted dependencies)  by @Cyrilvallez in #40507\r\n* Include machine type in collated reports filename  by @ivarflakstad in #40514\r\n\r\n## Significant community contributions\r\n\r\nThe following contributors have made significant changes to the library over the last release:\r\n\r\n* @remi-or\r\n    * Gemma3 fixes (#39960)\r\n    * Various test fixes for AMD (#39978)\r\n    * Fixes for EncoderDecoderCache (#40008)\r\n    * wav2vec2 fixes (#40341)\r\n    * Make cache_config not mandatory (#40316)\r\n    * Continuous batching refactor (#40426)\r\n* @sbucaille\r\n    * [superglue] Fixed the way batch mask was applied to the scores before match assignment computation (#39968)\r\n    * [efficientloftr] fix bugs and follow original cross attn implementation strictly (#40141)\r\n    * [pipeline] Add Keypoint Matching pipeline (#39970)\r\n    * [EfficientLoFTR] dynamic image size support (#40329)\r\n* @ducviet00\r\n    * Fix HGNetV2 Model Card and Image Classification Pipeline Usage Tips (#39965)\r\n    * Add support for Florence-2 (#38188)\r\n* @cyyever\r\n    * Fix default values of getenv (#39867)\r\n    * Enable SIM rules (#39806)\r\n    * Fix typos (#40175)\r\n    * Remove _prepare_flash_attention_from_position_ids (#40069)\r\n    * Avoid CUDA stream sync (#40060)\r\n    * Fix various Pylint warnings (#40107)\r\n    * Fix more typos (#40212)\r\n    * Fix more pylint warnings (#40204)\r\n    * Change Qwen2RMSNorm to RMSNorm from PyTorch (#40066)\r\n    * Add missing arguments to class constructors (#40068)\r\n    * Remove more PyTorch 2.2 compatible code (#40337)\r\n* @zRzRzRzRzRzRzR\r\n    * GLM-4.5V Model Support (#39805)\r\n* @SangbumChoi\r\n    * Add Segment Anything 2 (SAM2) (#32317)\r\n* @adutchengineer\r\n    * build: Add fast image processor tvp (#39529)\r\n* @MHRDYN7\r\n    * Add dates to the model docs (#39320)\r\n* @yao-matrix\r\n    * make model doc device agnostic (#40143)\r\n    * make model docs device agnostic (2) (#40256)\r\n    * [3/3] make docs device agnostic, all en docs for existing models done  (#40298)\r\n    * [4/N]more docs to device agnostic (#40355)\r\n    * rename get_cuda_warm_up_factor to get_accelerator_warm_up_factor (#40363)\r\n* @Manalelaidouni\r\n    * Add X-Codec model (#38248)\r\n* @thisisiron\r\n    * Add Ovis2 model and processor implementation (#37088)\r\n    * Fix: Apply `get_placeholder_mask` in Ovis2 (#40280)\r\n* @tic-top\r\n    * Add Kosmos-2.5 (#31711)\r\n* @yjc9696\r\n    * HunYuan opensource (#39606)\r\n* @Fazziekey\r\n    * Addiing ByteDance Seed Seed-OSS (#40272)",
+      "content": "## New model additions\r\n\r\n### Dino v3\r\n\r\nDINOv3 is a family of versatile vision foundation models that outperforms the specialized state of the art across a broad range of settings, without fine-tuning. DINOv3 produces high-quality dense features that achieve outstanding performance on various vision tasks, significantly surpassing previous self- and weakly-supervised foundation models.\r\n\r\nYou can find all the original DINOv3 checkpoints under the [DINOv3](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009) collection.\r\n\r\n<img width=\"814\" height=\"658\" alt=\"image\" src=\"https://github.com/user-attachments/assets/740a5c3d-a5a1-45d9-9e4c-d9117837205d\" />\r\n\r\n* Add Dino v3 by @qubvel in #40167\r\n\r\n### X-Codec\r\n\r\nhe X-Codec model was proposed in [Codec Does Matter: Exploring the Semantic Shortcoming of Codec for Audio Language Model](https://arxiv.org/abs/2408.17175) by Zhen Ye, Peiwen Sun, Jiahe Lei, Hongzhan Lin, Xu Tan, Zheqi Dai, Qiuqiang Kong, Jianyi Chen, Jiahao Pan, Qifeng Liu, Yike Guo, Wei Xue\r\n\r\nThe X-Codec model is a neural audio codec that integrates semantic information from self-supervised models (e.g., HuBERT) alongside traditional acoustic information. This enables :\r\n\r\n- **Music continuation** : Better modeling of musical semantics yields more coherent continuations.\r\n- **Text-to-Sound Synthesis** : X-Codec captures semantic alignment between text prompts and generated audio.\r\n- **Semantic aware audio tokenization**: X-Codec is used as an audio tokenizer in the YuE lyrics to song generation model.\r\n\r\n<img width=\"1958\" height=\"949\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e36552d0-6465-4921-8208-3f7d3c9087f1\" />\r\n\r\n\r\n* Add X-Codec model  by @Manalelaidouni in #38248\r\n\r\n### Ovis 2\r\n\r\nThe [Ovis2](https://github.com/AIDC-AI/Ovis) is an updated version of the [Ovis](https://arxiv.org/abs/2405.20797) model developed by the AIDC-AI team at Alibaba International Digital Commerce Group. \r\n\r\nOvis2 is the latest advancement in multi-modal large language models (MLLMs), succeeding Ovis1.6. It retains the architectural design of the Ovis series, which focuses on aligning visual and textual embeddings, and introduces major improvements in data curation and training methods.\r\n\r\n<img src=\"https://cdn-uploads.huggingface.co/production/uploads/637aebed7ce76c3b834cea37/XB-vgzDL6FshrSNGyZvzc.png\"  width=\"600\">\r\n\r\n* Add Ovis2 model and processor implementation  by @thisisiron in #37088\r\n\r\n### MetaCLIP 2\r\n\r\nMetaCLIP 2 is a replication of the original CLIP model trained on 300+ languages. It achieves state-of-the-art (SOTA) results on multilingual benchmarks (e.g., XM3600, CVQA, Babel‑ImageNet), surpassing previous SOTA such as [mSigLIP](siglip) and [SigLIP‑2](siglip2). The authors show that English and non-English worlds can mutually benefit and elevate each other.\r\n\r\n<img width=\"805\" height=\"408\" alt=\"image\" src=\"https://github.com/user-attachments/assets/72eaa441-9362-4a6a-a834-f505d6727a2a\" />\r\n\r\n* Add MetaCLIP 2  by @NielsRogge in #39826\r\n\r\n### Florence 2\r\n\r\n[Florence-2](https://arxiv.org/abs/2311.06242) is an advanced vision foundation model that uses a prompt-based approach to handle a wide range of vision and vision-language tasks. Florence-2 can interpret simple text prompts to perform tasks like captioning, object detection, and segmentation. It leverages the FLD-5B dataset, containing 5.4 billion annotations across 126 million images, to master multi-task learning. The model's sequence-to-sequence architecture enables it to excel in both zero-shot and fine-tuned settings, proving to be a competitive vision foundation model.\r\n\r\n<img width=\"864\" height=\"565\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d09dfe3a-6dda-45a3-8dd3-0254d8503b4e\" />\r\n\r\n* Add support for Florence-2  by @ducviet00 in #38188\r\n\r\n### SAM 2\r\n\r\nSAM2 (Segment Anything Model 2) was proposed in [Segment Anything in Images and Videos](https://ai.meta.com/research/publications/sam-2-segment-anything-in-images-and-videos/) by Nikhila Ravi, Valentin Gabeur, Yuan-Ting Hu, Ronghang Hu, Chaitanya Ryali, Tengyu Ma, Haitham Khedr, Roman Rädle, Chloe Rolland, Laura Gustafson, Eric Mintun, Junting Pan, Kalyan Vasudev Alwala, Nicolas Carion, Chao-Yuan Wu, Ross Girshick, Piotr Dollár, Christoph Feichtenhofer.\r\n\r\nThe model can be used to predict segmentation masks of any object of interest given an input image or video, and input points or bounding boxes.\r\n\r\n<img width=\"960\" height=\"540\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0ab42e5c-6951-4cbc-9d5d-ff8bf0c2dbf1\" />\r\n\r\n* Add Segment Anything 2 (SAM2)  by @SangbumChoi in #32317\r\n\r\n### Kosmos 2.5\r\n\r\nThe Kosmos-2.5 model was proposed in [KOSMOS-2.5: A Multimodal Literate Model](https://arxiv.org/abs/2309.11419/) by Microsoft.\r\n\r\nThe abstract from the paper is the following:\r\n\r\n*We present Kosmos-2.5, a multimodal literate model for machine reading of text-intensive images. Pre-trained on large-scale text-intensive images, Kosmos-2.5 excels in two distinct yet cooperative transcription tasks: (1) generating spatially-aware text blocks, where each block of text is assigned its spatial coordinates within the image, and (2) producing structured text output that captures styles and structures into the markdown format. This unified multimodal literate capability is achieved through a shared Transformer architecture, task-specific prompts, and flexible text representations. We evaluate Kosmos-2.5 on end-to-end document-level text recognition and image-to-markdown text generation. Furthermore, the model can be readily adapted for any text-intensive image understanding task with different prompts through supervised fine-tuning, making it a general-purpose tool for real-world applications involving text-rich images. This work also paves the way for the future scaling of multimodal large language models.*\r\n\r\n<img src=\"https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/kosmos2_5_ocr.png\"\r\nalt=\"drawing\" width=\"600\"/>\r\n\r\n* Add Kosmos-2.5  by @tic-top in #31711\r\n\r\n### HunYuan\r\n\r\n<img width=\"674\" height=\"402\" alt=\"image\" src=\"https://github.com/user-attachments/assets/230f83f0-870c-4b31-b8b7-738116761457\" />\r\n\r\nMore information at release 🤗\r\n\r\n* HunYuan opensource  by @yjc9696 in #39606\r\n\r\n### Seed OSS\r\n\r\n<img width=\"858\" height=\"537\" alt=\"image\" src=\"https://github.com/user-attachments/assets/29ccc3c2-9b85-4d89-935a-1e1c28d173fd\" />\r\n\r\nMore information at release 🤗\r\n\r\n* Adding ByteDance Seed Seed-OSS  by @Fazziekey in #40272\r\n\r\n### GLM-4.5V\r\n\r\nMore information at release 🤗\r\n\r\n* GLM-4.5V Model Support  by @zRzRzRzRzRzRzR in #39805\r\n\r\n## Cache\r\n\r\nBeyond a large refactor of the caching system in Transformers, making it much more practical and general, models using sliding window attention/chunk attention do not waste memory anymore when caching past states. It was allowed most notable by:\r\n\r\n* New DynamicSlidingWindowLayer & associated Cache by @Cyrilvallez  in #40039\r\n\r\nSee the following improvements on memory usage for Mistral (using only sliding layers) and GPT-OSS (1 out of 2 layers is sliding) respectively:\r\n<img width=\"569\" height=\"431\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7f1688f4-b077-4840-a62c-bfa6131fe806\" />\r\n<img width=\"574\" height=\"431\" alt=\"image\" src=\"https://github.com/user-attachments/assets/bb4a284f-961e-413d-b7e1-783bb5d8fb39\" />\r\n\r\nBeyond memory usage, it will also improve generation/forward speed by a large margin for large contexts, as only necessary states are passed to the attention computation, which is very sensitive to the sequence length.\r\n\r\n## Quantization\r\n\r\n### MXFP4\r\n\r\nSince the GPT-OSS release which introduced the MXPF4 quantization type, several improvements have been made to the support, which should now stabilize.\r\n\r\n* Fix MXFP4 quantizer validation to allow CPU inference with dequantize option  by @returnL in #39953\r\n* Enable gpt-oss mxfp4 on older hardware (sm75+)  by @matthewdouglas in #39940\r\n* Fix typo and improve GPU kernel check error message in MXFP4 quantization  by @akintunero in #40349) \r\n* Default to dequantize if cpu in device_map for mxfp4  by @MekkCyber in #39993\r\n* Fix GPT-OSS `swiglu_limit` not passed in for MXFP4  by @danielhanchen in #40197\r\n* [`Mxfp4`] Add a way to save with a quantization method  by @ArthurZucker in #40176\r\n\r\n## New standard \r\n\r\nNow that we deprecated tensorflow and jax, we felt that `torch_dtype` was not only misaligned with torch, but was redundant and hard to remember. For this reason, we switched to a much more standard `dtype` argument!\r\n\r\n* ⚠️⚠️ Use dtype instead of torch_dtype everywhere! by @Cyrilvallez in #39782\r\n\r\n`torch_dtype` will still be a valid usage for as long as needed to ensure a smooth transition, but new code should use `dtype`, and we encourage you to update older code as well!\r\n\r\n## Breaking changes\r\n\r\nThe following commits are breaking changes in workflows that were either buggy or not working as expected. \r\n\r\n### Saner hub-defaults for hybrid cache implementation\r\n\r\nOn models where the hub checkpoint specifies cache_implementation=\"hybrid\" (static sliding window hybrid cache), UNSETS this value. This will make the model use the dynamic sliding window layers by default.\r\n\r\nThis default meant that there were widespread super slow 1st generate calls on models with hybrid caches, which should nol onger be the case.\r\n\r\n* 🚨🚨  [generate] ignore `cache_implementation=\"hybrid\"` hub defaults  by @gante in #40135\r\n\r\n### Sine positional embeddings for MaskFormer & LRU cache\r\n\r\nCache the computation of sine positional embeddings for MaskFormer; results in a 6% performance improvement.\r\n\r\n* 🚨 Use lru_cache for sine pos embeddings MaskFormer  by @yonigozlan in #40007\r\n\r\n### Explicit cache initialization\r\n\r\nAdds explicit cache initialization to prepare for the deprecation of the `from_legacy_cache` utility.\r\n\r\n* 🚨 Always return Cache objects in modelings (to align with generate)  by @manueldeprada in #39765\r\n\r\n### Default compilation with `fullgraph=False`\r\n\r\nHaving `fullgraph` set to `True` during compilation ended up being very restrictive, especially with the arrival of widely-used MoEs.\r\n\r\n* 🚨🚨 Switch default compilation to fullgraph=False  by @Cyrilvallez in #40137\r\n\r\n### Remove decoding strategies\r\n\r\nThe DoLa decoding strategy has been moved to the following remote-code repository a few versions ago: https://huggingface.co/transformers-community/dola\r\n\r\nThe Contrastive Search decoding strategy has been moved to the following remote-code repository a few versions ago: https://huggingface.co/transformers-community/contrastive-search\r\n\r\nBoth have now been removed from the library as a result.\r\n\r\n* 🚨 Remove DoLa decoding strategy  by @manueldeprada in #40082\r\n* 🚨 Remove Contrastive Search decoding strategy  by @manueldeprada in #40428\r\n\r\n### Fix sliding window in flash attention\r\n\r\nFlash attention has used sliding window sizes which were off by one. This affected generations that had initially bigger contexts than the sliding window size.\r\n\r\n* :rotating_light: [`Flash Attention`] Fix sliding window size  by @vasqu in #40163\r\n\r\n### Minimum Torch version is now 2.2\r\n\r\nTorch 2.1 support has been unreliable for some time, so we've now made it official and bumped our minimum version to 2.2.\r\n\r\n* byebye torch 2.1 by @Rocketknight1 in #40317\r\n\r\n## Bugfixes and improvements\r\n\r\n* [CI] post-`GptOss` fixes for green CI  by @gante in #39929\r\n* Avoid `utils/check_bad_commit.py` failing due to rate limit (requesting  `api.github.com`)  by @ydshieh in #39918\r\n* Fix CI: Tests failing on CPU due to `torch.device('cpu').index` being None  by @manueldeprada in #39933\r\n* circleci: pin torch 2.7.1 until `torchcodec` is updated  by @ydshieh in #39951\r\n* [docs] ko toc fix  by @gante in #39927\r\n* docs: fix typo in 'quantization-aware training'  by @luckyvickyricky in #39904\r\n* Fix grammatical error in MoE variable name: expert_hitted → expert_hit, hitted_experts → hit_experts  by @Mihonarium in #39959\r\n* fix typo  by @Tialo in #39936\r\n* [image processor] fix glm4v  by @KeyKy in #39964\r\n* remove `triton_kernels` dep with `kernels` instead  by @SunMarc in #39926\r\n* Fix `fix_and_overwrite` mode of `utils/check_docstring.py`  by @manueldeprada in #39369\r\n* [bugfix] fix flash_attention_2 unavailable error on Ascend NPU  by @FightingZhen in #39844\r\n* chore: update Deformable_Detr model card  by @arpon-kapuria in #39902\r\n* Modular fix: remove the model name in `find_file_type`  by @yonigozlan in #39897\r\n* Gemma3 fixes  by @remi-or in #39960\r\n* [superglue] Fixed the way batch mask was applied to the scores before match assignment computation  by @sbucaille in #39968\r\n* Support input_embeds in torch exportable decoders  by @jackzhxng in #39836\r\n* Various test fixes for AMD  by @remi-or in #39978\r\n* [Idefics] fix device mismatch  by @zucchini-nlp in #39981\r\n* Fix gemma3n feature extractor's incorrect squeeze  by @Isotr0py in #39919\r\n* [typing] Fix return typehint for decoder and inv_freq annotation  by @qubvel in #39610\r\n* Fix consistency  by @Cyrilvallez in #39995\r\n* Update expected output values after #39885 (part 1)  by @ydshieh in #39990\r\n* Fix int4 quantized model cannot work with cpu  by @yuanwu2017 in #39724\r\n* Fix missing video inputs for PerceptionLM.  by @shuminghu in #39971\r\n* fix: remove CHAT_TEMPLATE import in tests for deepseek-vl  by @geetu040 in #40003\r\n* Fix HGNetV2 Model Card and Image Classification Pipeline Usage Tips  by @ducviet00 in #39965\r\n* Fix default values of getenv  by @cyyever in #39867\r\n* FA2 can continue generation from cache  by @zucchini-nlp in #39843\r\n* unpin torch<2.8 on circleci  by @ydshieh in #40012\r\n* docs: fix duplication in 'en/optimizers.md'  by @luckyvickyricky in #40014\r\n* Raising error when quantizing a quantized model  by @MekkCyber in #39998\r\n* Update expected output values after #39885 (part 2)  by @ydshieh in #40015\r\n* pin torchcodec==0.5.0 for now with torch 2.7.1 on daily CI  by @ydshieh in #40013\r\n* Fix broken image inference for Fuyu model  by @Isotr0py in #39915\r\n* Higgs modules_to_not_convert standardization  by @MekkCyber in #39989\r\n* Fix an annoying flaky test  by @zucchini-nlp in #40000\r\n* Harmonize `past_key_value` to `past_key_valueS` everywhere  by @Cyrilvallez in #39956\r\n* Fix missing None default values for Gemma3n model in get_placeholder_mask  by @Znerual in #39991) \r\n* [core] Refactor the Cache logic to make it simpler and more general  by @Cyrilvallez in #39797\r\n* Tie weights recursively on all submodels  by @Cyrilvallez in #39996\r\n* Bnb failling tests  by @MekkCyber in #40026\r\n* fix `notification_service.py` about `time_spent`  by @ydshieh in #40037\r\n* Revert \"fix `notification_service.py` about `time_spent`\"  by @ydshieh in #40044\r\n* Update HuBERT model card according to template  by @reedrya in #39742\r\n* unpin `torchcodec==0.5.0` and use `torch 2.8` on daily CI  by @ydshieh in #40072\r\n* fix: resolve triton version check compatibility on windows  by @Tsumugii24 in #39986\r\n* [qwen-vl] fix beam search with videos  by @zucchini-nlp in #39726\r\n* [gemma3] update conversion key mapping  by @zucchini-nlp in #39778\r\n* fix: move super().__init__ after vision_config init in Mistral3Config  by @starcatmeow in #40063\r\n* Remove deprecated cache-related objects  by @Cyrilvallez in #40035\r\n* guard on model.eval when using torch.compile + FSDP2  by @winglian in #37413\r\n* Fix repo consistency  by @zucchini-nlp in #40077\r\n* added Textnet fast image processor  by @rahzaazhar in #39884\r\n* Fix `time_spent ` in `notification_service.py`.  by @ydshieh in #40081\r\n* chore: standardize DeBERTa model card  by @Shoumik-Gandre in #37409\r\n* [`GPT Big Code`] Fix attention scaling  by @vasqu in #40041\r\n* feat: extract rev in attn_implementation kernels via @  by @drbh in #40009\r\n* Update notification service MI325  by @ivarflakstad in #40078\r\n* Fix PerceptionLM image preprocessing for non-tiled image input.  by @shuminghu in #40006\r\n* Revert FA2 kwargs construction  by @zucchini-nlp in #40029\r\n* [fix] batch inference for llava_onevision  by @cyr0930 in #40021\r\n* [docs] Zero Shot Object Detection Task  by @ariG23498 in #40096\r\n* Update Glm4V processor and add tests  by @zucchini-nlp in #39988\r\n* Add glm4.5&&glm4.5V doc  by @lambertwjh in #40095\r\n* Causal loss for `ForConditionalGeneration`  by @qgallouedec in #39973\r\n* Audio encodings now match conv2d weight dtype in Gemma3nAudioSSCPConvBlock  by @Malav-P in #39743\r\n* New DynamicSlidingWindowLayer & associated Cache  by @Cyrilvallez in #40039\r\n* Enable SIM rules  by @cyyever in #39806\r\n* feat: add `is_fast` to ImageProcessor  by @MilkClouds in #39603\r\n* Re-apply make style  by @Cyrilvallez in #40106\r\n* Replace `logger.warning` with `logger.warning_once` in `GradientCheckpointingLayer`  by @qgallouedec in #40091\r\n* Fix regression in mllama vision encoder  by @Isotr0py in #40083\r\n* Switch the order of args in StaticCache (for BC and future logic)  by @Cyrilvallez in #40100\r\n* Fix Qwen3 MoE GGUF architecture mismatch  by @ctcanbol in #39976\r\n* Fix error on importing unavailable torch.distributed  by @m-gallus in #40038\r\n* [`Flash Attention`] Fix flash attention integration  by @vasqu in #40002\r\n* [trainer] ensure special tokens in model configs are aligned with tokenizer at train time  by @gante in #38441\r\n* Fix Causality Handling in Flash Attention to Support Bidirectional Attention  by @lucaswychan in #39707\r\n* [docs] Add reference to HF-maintained `custom_generate` collections  by @gante in #39894\r\n* Add model card for MobileViT  by @Shivamjan in #40033\r\n* remove sequence parallel in llama4  by @3outeille in #40084\r\n* 🌐 [i18n-KO] Translated `tiny_agents.md` to Korean  by @AhnJoonSung in #39913\r\n* [bugfix] Fix tensor device in Idefics2, Idefics3, and SmolVLM  by @qgallouedec in #39975\r\n* changed xLSTMRMSNorm to RMSNorm  by @nikitazuevblago in #40113\r\n* Fix QuantoQuantizedCache import issues  by @manueldeprada in #40109\r\n* [serve] allow array `content` inputs for LLMs  by @gante in #39829\r\n* `decoding_method` argument in generate  by @manueldeprada in #40085\r\n* Collated reports  by @ivarflakstad in #40080\r\n* DOCS: Add missing space in SECURITY.md  by @shivaheidari in #40087\r\n* [trainer] handle case where EOS token is None in `generation_config`  by @gante in #40127\r\n* Fix hidden torchvision>=0.15 dependency issue  by @yonigozlan in #39928\r\n* 🌐 [i18n-KO] Translated `main_classes/processors.md` to Korean  by @TaskerJang in #39519\r\n* 🌐 [i18n-KO] Translated `jamba.md` to Korean  by @skwh54 in #39890\r\n* 🌐 [i18n-KO] Translated `main_classes/optimizer_schedules.md` to Korean  by @luckyvickyricky in #39713\r\n* 🌐 [i18n-KO] Translated `gpt2.md` to Korean  by @taemincode in #39808\r\n* 🌐 [i18n-KO] Translated `optimizers.md` to Korean  by @chelsseeey in #40011\r\n* 🌐 [i18n-KO] Translated grounding-dino.md to Korean  by @TaskerJang in #39861\r\n* 🌐 [i18n-KO] Translated `pipelines.md` to Korean  by @xhaktm00 in #39577\r\n* gpt oss is important  by @ArthurZucker in #40139\r\n* Fix Janus  by @Cyrilvallez in #40140\r\n* [docs] Fix ko toctree  by @stevhliu in #40138\r\n* Remove an old badly designed test  by @Cyrilvallez in #40142\r\n* updated visualBERT modelcard  by @Anil-Red in #40057\r\n* 🌐 [i18n-KO] Translated `gemma3.md` to Korean  by @seopp in #39865\r\n* Fix quantized cache with only cache_implementation in generate  by @Cyrilvallez in #40144\r\n* Add pytest marker: `torch_compile_test` and `torch_export_test`  by @ydshieh in #39950\r\n* Update Dockerfiles to install packages inside a virtual environment  by @Sai-Suraj-27 in #39098\r\n* Create self-scheduled-amd-mi355-caller.yml  by @glegendre01 in #40134\r\n* [Cohere2Vision] remove unused arg  by @zucchini-nlp in #40103\r\n* [efficientloftr] fix bugs and follow original cross attn implementation strictly  by @sbucaille in #40141\r\n* Fix CI: Use correct import in SAM for torchvision InterpolationMode  by @manueldeprada in #40160\r\n* [Continous Batching] set head_dim when config.head_dim is None  by @kashif in #40159\r\n* Replace `self.tokenizer` by `self.processing_class`  by @qgallouedec in #40119\r\n* [FA2] Fix it finally - revert fa kwargs preparation  by @Cyrilvallez in #40161\r\n* [bugfix] fix flash-attention2 unavailable error for Ascend NPU  by @FightingZhen in #40151\r\n* build: Add fast image processor tvp  by @adutchengineer in #39529\r\n* Add GptOssForSequenceClassification for GPT-OSS models  by @zyfedward in #40043\r\n* Standardize BARTpho model card: badges, new examples, fixed broken im…  by @eshwanthkartitr in #40051\r\n* Add dates to the model docs  by @MHRDYN7 in #39320\r\n* Pin torch to 2.7.1 on CircleCI for now  by @ydshieh in #40174\r\n* Update dynamic attnt setter for multimodals  by @zucchini-nlp in #39908\r\n* [MINOR:TYPO] Update base.py  by @cakiki in #40169\r\n* make model doc device agnostic  by @yao-matrix in #40143\r\n* fix to avoid modifying a view in place  by @3outeille in #40162\r\n* Fix fsdp for generic-task models  by @Cyrilvallez in #40191\r\n* Add repr to EncoderDecoderCache  by @Cyrilvallez in #40195\r\n* Fix typos  by @cyyever in #40175\r\n* Remove _prepare_flash_attention_from_position_ids  by @cyyever in #40069\r\n* Avoid CUDA stream sync  by @cyyever in #40060\r\n* Fix various Pylint warnings  by @cyyever in #40107\r\n* Update: add type hints to check_tokenizers.py  by @ajeet214 in #40094\r\n* Benchmarking improvements  by @ahadnagy in #39768\r\n* docs: Update LayoutLM model card according to new standardized format  by @Jin-HoMLee in #40129\r\n* Revert \"Pin torch to 2.7.1 on CircleCI for now\" + Final fix for `too long with no output`  by @ydshieh in #40201\r\n* Use correct `model_input_names` for PixtralImageProcessor  by @rohitrango in #40226\r\n* fix error vocab_size at Qwen2_5_VLForConditionalGeneration loss_function  by @killight98 in #40130\r\n* [SAM 2] Change checkpoints in docs and tests  by @yonigozlan in #40213\r\n* Fix more typos  by @cyyever in #40212\r\n* Fix ESM token_dropout crash when using inputs_embeds instead of input_ids  by @notkisk in #40181\r\n* AMD scheduled CI ref env file  by @ivarflakstad in #40243\r\n* Fix more pylint warnings  by @cyyever in #40204\r\n* remove transpose_for_scores call in ESM-2  by @pstjohn in #40210\r\n* Add `chat_template` (`jinja2`) as an extra dependency  by @tboerstad in #40128\r\n* [typing] fix type annotation error in DepthPro model image processor  by @MengAiDev in #40238\r\n* [serve] guard imports  by @gante in #39825\r\n* [`CI`] Fix repo consistency  by @vasqu in #40249\r\n* Fixes for EncoderDecoderCache  by @remi-or in #40008\r\n* fix: Catch correct ConnectionError for additional_chat_templates  by @akug in #39874\r\n* Model card for NLLB  by @sahil-kabir in #40074\r\n* Correct typo and update notes in docs Readme  by @PavloFesenko in #40234\r\n* Fix benchmark workflow  by @ahadnagy in #40254\r\n* docs: Update OLMo model card  by @rafakatri in #40233\r\n* Skip broken tests  by @zucchini-nlp in #40157\r\n* Remove MI300 CI  by @ivarflakstad in #40270\r\n* set inputs_embeds to None while generate to avoid audio encoder forward in generation process  by @BakerBunker in #40248\r\n* [detection] fix attention mask for RT-DETR-based models  by @materight in #40269\r\n* Fix slow static cache export tests  by @jackzhxng in #40261\r\n* Fix setting attention for multimodal models  by @zucchini-nlp in #39984\r\n* [detection] fix correct `k_proj` weight and bias slicing in D-FINE  by @notkisk in #40257\r\n* Skipping pytree registration in case fsdp is enabled  by @romitjain in #40075\r\n* Update image_processing_perception_lm_fast.py to allow for proper override of vision_input_type  by @tyleryzhu in #40252\r\n* fix which routing method  by @ArthurZucker in #40283\r\n* Fix chat CLI GPU loading and request_id validation issues  by @robin-ede in #40230) \r\n* docs(layoutlm): add missing `id=usage` to `<hfoptions>` tag in LayoutLM model card  by @Jin-HoMLee in #40273\r\n* Standardize RAG model card  by @aayush226 in #40222\r\n* docs: Update TrOCR model card to new format  by @AceHunterr in #40240\r\n* Update model card for gpt neox japanese  by @ahnjj in #39862\r\n* SmolVLM and InternVL: Ensure pixel values are converted to the correct dtype for fp16/bf16  by @qgallouedec in #40121\r\n* Standardize BertGeneration model card  by @nemitha2005 in #40250\r\n* Adjust ROCm test output expectations  by @ahadnagy in #40279\r\n* SmolVLM test fixes  by @ahadnagy in #40275\r\n* make model docs device agnostic (2)  by @yao-matrix in #40256\r\n* [3/3] make docs device agnostic, all en docs for existing models done   by @yao-matrix in #40298\r\n* Allow to be able to run `torch.compile` tests with `fullgraph=True`  by @ydshieh in #40164\r\n* [`FA`] Fix dtype in varlen with position ids  by @vasqu in #40295\r\n* [docs] delete more TF/Flax docs  by @gante in #40289\r\n* Clean up X-Codec.  by @ebezzam in #40271\r\n* Remove OTel SDK dependencies  by @anuraaga in #40305\r\n* Fix GOT-OCR2 and Cohere2Vision image processor patches caculation  by @Isotr0py in #40312\r\n* [`fix`] Pass adamw optimizer parameters to StableAdamW  by @emapco in #40184\r\n* chore: fix typo in `find_executable_batch_size` to match new 0.9 ratio  by @MilkClouds in #40206\r\n* :rotating_light: [`Flash Attention`] Fix sliding window size  by @vasqu in #40163\r\n* Remove unnecessary contiguous calls for modern torch  by @Rocketknight1 in #40315\r\n* Qwen2.5-Omni test fixes  by @ahadnagy in #40307\r\n* Add back `_tp_plan` attribute  by @rishub-tamirisa in #39944\r\n* byebye torch 2.1  by @Rocketknight1 in #40317\r\n* No more `natten`  by @ydshieh in #40287\r\n* [`GPT OSS`] Refactor the tests as it was not properly checking the outputs  by @ArthurZucker in #40288\r\n* Update CI with nightly torch workflow file  by @ydshieh in #40306\r\n* Fix: Apply `get_placeholder_mask` in Ovis2  by @thisisiron in #40280\r\n* Update notification service amd_daily_ci_workflows definition  by @ivarflakstad in #40314\r\n* One cache class to rule them all  by @Cyrilvallez in #40276\r\n* Fix chunked attention mask with left-padding  by @Cyrilvallez in #40324\r\n* [docs] remove flax references from `/en/model_doc`  by @gante in #40311\r\n* Fix qwen-omni processor text only mode  by @yuekaizhang in #40336\r\n* Change Qwen2RMSNorm to RMSNorm from PyTorch  by @cyyever in #40066\r\n* Add DeepseekV3ForSequenceClassification for Deepseek V3 models  by @abdokaseb in #40200\r\n* Fix deprecation warning version  by @Cyrilvallez in #40343\r\n* Add missing arguments to class constructors  by @cyyever in #40068\r\n* [docs] remove TF references from `/en/model_doc`  by @gante in #40344\r\n* Fix: Only call Trainer.align_special_tokens if model has \"config\" attribute  by @tomaarsen in #40322\r\n* add type hints  by @wirthual in #40319\r\n* Fix an infinite loop bug in recursive search of relative imports  by @eladsegal in #40326\r\n* Fix links in Glm4vMoe configuration classes to point to the correct H…  by @vvvdwbvvv in #40310\r\n* T5 test and target device fixes  by @ahadnagy in #40313\r\n* Update `test_spm_converter_bytefallback_warning`  by @ydshieh in #40284\r\n* (small) fix conditional for input_ids and input_embeds in marian  by @cyntqliu in #40045\r\n* Fix attention vizualizer  by @molbap in #40285\r\n* [ModernBert] Prevent the attention mask from being None in ModernBertForSequenceClassification  by @ashmikuz in #35991\r\n* Clean up XCodec and other codecs  by @ebezzam in #40348\r\n* [serve] add cors warnings  by @gante in #40112\r\n* [detection] use consistent dtype for Conditional and DAB DETR positional embeddings  by @agkphysics in #40300\r\n* Remove more PyTorch 2.2 compatible code  by @cyyever in #40337\r\n* [`FA`] Fix some model tests  by @vasqu in #40350\r\n* Qwen2.5-VL test fixes for ROCm  by @ahadnagy in #40308\r\n* [generate] handle support for cache classes when num enc layers != num dec layers  by @gante in #40277\r\n* [4/N]more docs to device agnostic  by @yao-matrix in #40355\r\n* DOCS: Clarification on the use of `label_names` as an argument to TrainingArguments  by @huzaifa-jawad367 in #40353\r\n* Fix idefics3 vision embeddings indices dtype  by @Isotr0py in #40360\r\n* wav2vec2 fixes  by @remi-or in #40341\r\n* Change multimodal data links to HF hub  by @zucchini-nlp in #40309\r\n* [pipelines] add support to `skip_special_tokens` in the main text generation pipelines  by @gante in #40356\r\n* ⚠️⚠️ Use `dtype` instead of `torch_dtype` everywhere!  by @Cyrilvallez in #39782\r\n* [processor] move commonalities to mixin  by @zucchini-nlp in #40339\r\n* [configuration] allow to overwrite kwargs from subconfigs  by @zucchini-nlp in #40241\r\n* fix(example): align parameter names with the latest function definition for gdino  by @developer0hye in #40369\r\n* Add GptOssForTokenClassification for GPT-OSS models  by @abdokaseb in #40190\r\n* Bug Fix: Dynamically set return_lse flag in FlexAttention  by @amd-lalithnc in #40352\r\n* Chat Template Doc Fixes  by @Rocketknight1 in #40173\r\n* Rework the Cache documentation  by @Cyrilvallez in #40373\r\n* Update README_zh-hans.md  by @TardC in #40380\r\n* HF papers in doc  by @qgallouedec in #40381\r\n* Run FA2 tests in CI  by @ydshieh in #40397\r\n* Reactivate a lot of tests skipped for no reason anymore  by @Cyrilvallez in #40378\r\n* :broom: :broom: :broom: Get set decoder cleanup  by @molbap in #39509\r\n* fix to accept cumulative_seqlens from TransformersKwargs in FA  by @Kurt232 in #40194\r\n* [docs] flax/jax purge  by @gante in #40372\r\n* Fix typo: 'casual' -> 'causal' in code and documentation  by @akintunero in #40371) \r\n* Fix CI (hunyuan moe does not support fullgraph)  by @Cyrilvallez in #40423\r\n* Fix typo: 'seperator' to 'separator' in variable names  by @Prawal-Sharma in #40389\r\n* Fix UnboundLocalError in WER metric computation  by @prxshetty in #40402\r\n* Gpt oss optim  by @jiqing-feng in #40304\r\n* Fix processing tests  by @zucchini-nlp in #40379\r\n* Fix label smoothing incompatibility with multi-label classification  by @avchauzov in #40296\r\n* Fix modular for modernbert-decoder  by @Cyrilvallez in #40431\r\n* Update collated reports working directory and --path  by @ivarflakstad in #40433\r\n* Add `tokenizer_kwargs`  argument to the text generation pipeline  by @Joshua-Chin in #40364\r\n* [docs] remove last references to `transformers` TF classes/methods  by @gante in #40429\r\n* Remove working-dir from collated reports job  by @ivarflakstad in #40435\r\n* 🌐 [i18n-KO] Translated `models.md` to Korean  by @Judy-Choi in #39518\r\n* Gemma3 text fixes: Add expectations for MI325  by @ahadnagy in #40384\r\n* Fix collated reports model directory traversal  by @ivarflakstad in #40437\r\n* Fix https://github.com/huggingface/transformers/issues/40292  by @id01 in #40439\r\n* Fix collated reports uploading  by @ivarflakstad in #40440\r\n* InternVL MI325 test expectations  by @ahadnagy in #40387\r\n* Fix collated reports model name entry  by @ivarflakstad in #40441\r\n* Fix non FA2 tests after FA2 installed in CI docker image  by @ydshieh in #40430\r\n* Refactor ViT-like models  by @qubvel in #39816\r\n* [Trainer] accelerate contextparallel support in trainer  by @kashif in #40205\r\n* fix qwen25-vl grad acc  by @iMountTai in #40333\r\n* [video processors] decode only sampled videos -> less RAM and faster processing  by @zucchini-nlp in #39600\r\n* rename get_cuda_warm_up_factor to get_accelerator_warm_up_factor  by @yao-matrix in #40363\r\n* Make cache_config not mandatory  by @remi-or in #40316\r\n* Continuous batching refactor  by @remi-or in #40426\r\n* flash_paged: s_aux may not exist  by @pcuenca in #40434\r\n* Fix extra template loading  by @Rocketknight1 in #40455\r\n* deci gguf support  by @ved1beta in #38669\r\n* [fast_image_processor] fix image normalization for resize  by @audioXD in #40436\r\n* [RoPE] explicit factor > implicit factor in YaRN  by @gante in #40320\r\n* [pipeline] Add Keypoint Matching pipeline  by @sbucaille in #39970\r\n* Update SegFormer model card  by @GSNCodes in #40417\r\n* Not to shock AMD team by the cancelled workflow run notification ❤️ 💖  by @ydshieh in #40467\r\n* Fix nightly torch CI  by @ydshieh in #40469\r\n* CI when PR merged to `main`  by @ydshieh in #40451\r\n* Validate GptOssConfig rope config after it's fully initialized  by @zifeitong in #40474\r\n* [modular] Use multi-processing + fix model import issue  by @Cyrilvallez in #40481\r\n* [modular] Remove ambiguity in all calls to parent class methods + fix dependency graph  by @Cyrilvallez in #40456\r\n* [ESM] support attention API  by @zucchini-nlp in #40370\r\n* [EfficientLoFTR] dynamic image size support  by @sbucaille in #40329\r\n* Fix `qwen2_moe` tests  by @ydshieh in #40494\r\n* [Whisper] Add rocm expected results to certain tests  by @ivarflakstad in #40482\r\n* Collated reports: no need to upload artifact  by @ivarflakstad in #40502\r\n* Fix the CI workflow of `merge to main`  by @ydshieh in #40503\r\n* docs(pixtral): Update Pixtral model card to new format  by @BryanBradfo in #40442\r\n* [modular] Classes can now be defined and referenced in arbitrary order (without bringing unwanted dependencies)  by @Cyrilvallez in #40507\r\n* Include machine type in collated reports filename  by @ivarflakstad in #40514\r\n\r\n## Significant community contributions\r\n\r\nThe following contributors have made significant changes to the library over the last release:\r\n\r\n* @remi-or\r\n    * Gemma3 fixes (#39960)\r\n    * Various test fixes for AMD (#39978)\r\n    * Fixes for EncoderDecoderCache (#40008)\r\n    * wav2vec2 fixes (#40341)\r\n    * Make cache_config not mandatory (#40316)\r\n    * Continuous batching refactor (#40426)\r\n* @sbucaille\r\n    * [superglue] Fixed the way batch mask was applied to the scores before match assignment computation (#39968)\r\n    * [efficientloftr] fix bugs and follow original cross attn implementation strictly (#40141)\r\n    * [pipeline] Add Keypoint Matching pipeline (#39970)\r\n    * [EfficientLoFTR] dynamic image size support (#40329)\r\n* @ducviet00\r\n    * Fix HGNetV2 Model Card and Image Classification Pipeline Usage Tips (#39965)\r\n    * Add support for Florence-2 (#38188)\r\n* @cyyever\r\n    * Fix default values of getenv (#39867)\r\n    * Enable SIM rules (#39806)\r\n    * Fix typos (#40175)\r\n    * Remove _prepare_flash_attention_from_position_ids (#40069)\r\n    * Avoid CUDA stream sync (#40060)\r\n    * Fix various Pylint warnings (#40107)\r\n    * Fix more typos (#40212)\r\n    * Fix more pylint warnings (#40204)\r\n    * Change Qwen2RMSNorm to RMSNorm from PyTorch (#40066)\r\n    * Add missing arguments to class constructors (#40068)\r\n    * Remove more PyTorch 2.2 compatible code (#40337)\r\n* @zRzRzRzRzRzRzR\r\n    * GLM-4.5V Model Support (#39805)\r\n* @SangbumChoi\r\n    * Add Segment Anything 2 (SAM2) (#32317)\r\n* @adutchengineer\r\n    * build: Add fast image processor tvp (#39529)\r\n* @MHRDYN7\r\n    * Add dates to the model docs (#39320)\r\n* @yao-matrix\r\n    * make model doc device agnostic (#40143)\r\n    * make model docs device agnostic (2) (#40256)\r\n    * [3/3] make docs device agnostic, all en docs for existing models done  (#40298)\r\n    * [4/N]more docs to device agnostic (#40355)\r\n    * rename get_cuda_warm_up_factor to get_accelerator_warm_up_factor (#40363)\r\n* @Manalelaidouni\r\n    * Add X-Codec model (#38248)\r\n* @thisisiron\r\n    * Add Ovis2 model and processor implementation (#37088)\r\n    * Fix: Apply `get_placeholder_mask` in Ovis2 (#40280)\r\n* @tic-top\r\n    * Add Kosmos-2.5 (#31711)\r\n* @yjc9696\r\n    * HunYuan opensource (#39606)\r\n* @Fazziekey\r\n    * Addiing ByteDance Seed Seed-OSS (#40272)",
       "publishedAt": "2025-08-29T18:24:00.000Z",
       "source": "Hugging Face GitHub",
       "sourceUrl": "https://github.com/huggingface/transformers/releases/tag/v4.56.0",
@@ -1163,7 +1072,7 @@
       "featured": false
     },
     {
-      "id": "mexvkm4ciqdwgfun5qs",
+      "id": "mey8qjywqjm9zj189sk",
       "title": "Google: Release v0.2.2",
       "summary": "## What's Changed\n* Merge #6677 into release branch for hot fix. by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6850\n* chore(release): v0.2.0-preview.2 by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6868\n* Hotfix/retry stream from PR #6777 (retry stream) by @silvi...",
       "content": "## What's Changed\n* Merge #6677 into release branch for hot fix. by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6850\n* chore(release): v0.2.0-preview.2 by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6868\n* Hotfix/retry stream from PR #6777 (retry stream) by @silviojr in https://github.com/google-gemini/gemini-cli/pull/6881\n* Zed preview patches by @ConradIrwin in https://github.com/google-gemini/gemini-cli/pull/7036\n* cherrypick workflow fixes into preview release branch by @jerop in https://github.com/google-gemini/gemini-cli/pull/7052\n* fix(keyboard): Implement Tab and Backspace handling for Kitty Protocol (#7006) (Cherry-pick) by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/7051\n* fix(ci): allow release branches to run (#7060) by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/7061\n* [cherrypic][hotfix] Do not call nextSpeakerCheck in case of API error by @silviojr in https://github.com/google-gemini/gemini-cli/pull/7140\n* Hotfix/metrics stream error by @silviojr in https://github.com/google-gemini/gemini-cli/pull/7156\n* Fix sandbox npm command by @skeshive in https://github.com/google-gemini/gemini-cli/pull/7176\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.3.0-preview.1...v0.2.2",
@@ -1180,7 +1089,7 @@
       "featured": false
     },
     {
-      "id": "mexvkl3lg03825195uw",
+      "id": "mey8qj35889j2pt1rnl",
       "title": "Google: cookbookの最新アップデート",
       "summary": "cookbookリポジトリに新しい更新: Updating the banner (#921)...",
       "content": "Updating the banner (#921)",
@@ -1194,7 +1103,7 @@
       "featured": false
     },
     {
-      "id": "mexvkm4b66sjj0wgx2",
+      "id": "mey8qjyvprwy3g4tuh",
       "title": "Google: Release v0.3.0-preview.1",
       "summary": "## What's Changed\n* feat: update .gitignore in /setup-github by @jerop in https://github.com/google-gemini/gemini-cli/pull/6591\n* Refac: Centralize storage file management by @y-okt in https://github.com/google-gemini/gemini-cli/pull/4078\n* Update README.md by @mattKorwel in https://github.com/googl...",
       "content": "## What's Changed\n* feat: update .gitignore in /setup-github by @jerop in https://github.com/google-gemini/gemini-cli/pull/6591\n* Refac: Centralize storage file management by @y-okt in https://github.com/google-gemini/gemini-cli/pull/4078\n* Update README.md by @mattKorwel in https://github.com/google-gemini/gemini-cli/pull/6603\n* feat: add dependabot configuration by @cornmander in https://github.com/google-gemini/gemini-cli/pull/6604\n* Ignore workspace settings for untrusted folders by @shrutip90 in https://github.com/google-gemini/gemini-cli/pull/6606\n* Add permissions specs to token generation. by @cornmander in https://github.com/google-gemini/gemini-cli/pull/6595\n* docs: Update keyboard shortcuts for input clearing functionality by @lifefloating in https://github.com/google-gemini/gemini-cli/pull/6627\n* chore(deps)(deps): bump google-github-actions/run-gemini-cli from 0.1.10 to 0.1.11 by @dependabot[bot] in https://github.com/google-gemini/gemini-cli/pull/6614\n* Changes to add MCP tool count, and MCP tool name as dimension by @agarwalravikant in https://github.com/google-gemini/gemini-cli/pull/6631\n* test(logging): Add tests for default log fields by @leehagoodjames in https://github.com/google-gemini/gemini-cli/pull/6583\n* Fix formatting in README.md by @aaabramov in https://github.com/google-gemini/gemini-cli/pull/6621\n* feat(release): update release process for nightly and preview builds by @mattKorwel in https://github.com/google-gemini/gemini-cli/pull/6643\n* Add enterprise settings docs by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/6076\n* fix: typo in readme by @bravetux in https://github.com/google-gemini/gemini-cli/pull/6669\n* fix: copy command gets stuck by @hritan in https://github.com/google-gemini/gemini-cli/pull/6482\n* Revert \"Ignore workspace settings for untrusted folders\" by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/6672\n* Fixing at command race condition by @mrcabbage972 in https://github.com/google-gemini/gemini-cli/pull/6663\n* return the JSON stringified parameters from getDescription for MCP tools and Discovered tools by @jakemac53 in https://github.com/google-gemini/gemini-cli/pull/6655\n* fix: typos/grammar in roadmap by @bravetux in https://github.com/google-gemini/gemini-cli/pull/6675\n* feat(core): Handle special characters in file search paths by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/6680\n* feat(ide ext): Write workspace path to port file by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6659\n* feat(ide): improve IDE installation UX and feedback by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6677\n* Limit dependabot PRs to security updates by @cornmander in https://github.com/google-gemini/gemini-cli/pull/6657\n* Remove unnecessary FileErrorType. by @scidomino in https://github.com/google-gemini/gemini-cli/pull/6697\n* Remove unused attribute by @scidomino in https://github.com/google-gemini/gemini-cli/pull/6661\n* test(integration): add failing test for stdin context with prompt by @allenhutchison in https://github.com/google-gemini/gemini-cli/pull/6158\n* Add integration test to confirm environment variable propagation. by @cornmander in https://github.com/google-gemini/gemini-cli/pull/6696\n* (fix): Change broken emojis by @bonggwan in https://github.com/google-gemini/gemini-cli/pull/6725\n* feat(mcp-client): Handle 401 error for httpUrl by @yoichiro in https://github.com/google-gemini/gemini-cli/pull/6640\n* fix(core): avoid error handling on cancelled requests to prevent crash by @pwrwpw in https://github.com/google-gemini/gemini-cli/pull/6039\n* fix(metrics): Do not convert numerical metrics to strings by @kiranani in https://github.com/google-gemini/gemini-cli/pull/6701\n* Force restart on trust level change to reload settings by @shrutip90 in https://github.com/google-gemini/gemini-cli/pull/6713\n* feat(cli): prompt completion by @3ks in https://github.com/google-gemini/gemini-cli/pull/4691\n* Quick fix for enterprise docs by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/6753\n* Fix stats display layout by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/6758\n* chore(lint config): add test-utils to eslint config by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/6768\n* perf(core): parallelize memory discovery file operations performance gain by @mag123c in https://github.com/google-gemini/gemini-cli/pull/5751\n* At Command Race Condition Bugfix For Non-Interactive Mode by @mrcabbage972 in https://github.com/google-gemini/gemini-cli/pull/6676\n* fix: handle extra text in gemini output for dedup workflow by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/6771\n* feat(core): Annotate remaining error paths in tools with type. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/6699\n* Support IDE connections via stdio MCP by @bbiggs in https://github.com/google-gemini/gemini-cli/pull/6417\n* fix(docs): path of chat checkpoints in manual by @rfabbri in https://github.com/google-gemini/gemini-cli/pull/6303\n* Introduce initial screen reader mode handling and flag by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/6653\n* feat(settings) support editing string settings. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/6732\n* Reuse CoreToolScheduler for nonInteractiveToolExecutor by @scidomino in https://github.com/google-gemini/gemini-cli/pull/6714\n* test(integration-tests): isolate user memory from test runs by @galz10 in https://github.com/google-gemini/gemini-cli/pull/6790\n* fix(ide): preserve focus when showing diff view by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6795\n* fix(console): fix debug icon rendering in \"Debug Console\" Box by @HunDun0Ben in https://github.com/google-gemini/gemini-cli/pull/6737\n* fix: Ctrl+E should move to current line end, not buffer end by @mkusaka in https://github.com/google-gemini/gemini-cli/pull/6729\n* Fix(grep): memory overflow in grep search and enhance test coverage by @lifefloating in https://github.com/google-gemini/gemini-cli/pull/5911\n* feat(search): Add option to disable fuzzy search by @brychanrobot in https://github.com/google-gemini/gemini-cli/pull/6510\n* feat: Add programming language to CLI events by @nandakishorereddy-chundi in https://github.com/google-gemini/gemini-cli/pull/6071\n* fix(tools): Add an end of file list marker to ReadManyFilesTool by @vmiura in https://github.com/google-gemini/gemini-cli/pull/5967\n* fix(checkpointing): improve error handling and messaging for Git issues by @bulkypanda in https://github.com/google-gemini/gemini-cli/pull/6801\n* fix(cli): improve stdin handling and add initial state check by @lifefloating in https://github.com/google-gemini/gemini-cli/pull/6747\n* fix(core): citation markers misplaced in search results containing multibyte characters by @pokutuna in https://github.com/google-gemini/gemini-cli/pull/5956\n* fix invalid json in workflow settings by @jerop in https://github.com/google-gemini/gemini-cli/pull/6831\n* fix(copyCommand): provide friendlier error messages for `/copy` command by @HunDun0Ben in https://github.com/google-gemini/gemini-cli/pull/6723\n* fix(core): correctly consolidate multi-part text content by @thisisrick25 in https://github.com/google-gemini/gemini-cli/pull/6235\n* feat(mcp): Improve MCP prompt argument parsing by @jakemac53 in https://github.com/google-gemini/gemini-cli/pull/6779\n* bug(core): Fix for \"no changes\" edits. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/6836\n* fix(editors): fix neovim closing when using `modify with editor` by @redoxahmii in https://github.com/google-gemini/gemini-cli/pull/5337\n* feat(mcp): log include MCP request with error by @leehagoodjames in https://github.com/google-gemini/gemini-cli/pull/6778\n* fix(release): fallback to github.sha when ref is not provided by @mattKorwel in https://github.com/google-gemini/gemini-cli/pull/6862\n* feat: add explicit license selection and status visibility by @JeongJaeSoon in https://github.com/google-gemini/gemini-cli/pull/6751\n* Retry Message Stream on Empty Chunks by @mrcabbage972 in https://github.com/google-gemini/gemini-cli/pull/6777\n* feat(cli): Allow themes to be specified as file paths by @santhoshkumarCodes in https://github.com/google-gemini/gemini-cli/pull/6828\n* feat(ci): add self-assign workflow for issues by @davideast in https://github.com/google-gemini/gemini-cli/pull/6840\n* Log all parts of a streaming response by @silviojr in https://github.com/google-gemini/gemini-cli/pull/6855\n* Support all content types in prompts from Zed by @agu-z in https://github.com/google-gemini/gemini-cli/pull/6756\n* Fix crash when encountering an included directory which doesn't exist by @gbbosak in https://github.com/google-gemini/gemini-cli/pull/6497\n* Change the type of ToolResult.responseParts by @scidomino in https://github.com/google-gemini/gemini-cli/pull/6875\n* fix(cli): Support special characters in sandbox profile path by @georgesmith46 in https://github.com/google-gemini/gemini-cli/pull/2038\n* Metrics for Retries on Content Errors by @mrcabbage972 in https://github.com/google-gemini/gemini-cli/pull/6870\n* Filter thought parts before passing them to CountToken by @bdmorgan in https://github.com/google-gemini/gemini-cli/pull/6859\n* Add support for debug logging of keystrokes to investigate #6227 by @deepankarsharma in https://github.com/google-gemini/gemini-cli/pull/6844\n* fix: slash command completion menu column width and spacing issues by @naaa760 in https://github.com/google-gemini/gemini-cli/pull/5797\n* fix(core): Skip loop check for dividers by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/6893\n* fix(cli): gemini command stuck in git bash by @dumbbellcode in https://github.com/google-gemini/gemini-cli/pull/6397\n* Update instructions for patching a release by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6871\n* feat(core): share file list patterns between glob and grep tools by @Han5991 in https://github.com/google-gemini/gemini-cli/pull/6359\n* fix(cli): Improve proxy test isolation and sandbox path resolution by @kookyleo in https://github.com/google-gemini/gemini-cli/pull/6555\n* Support JSON schema formats using ajv-formats by @bbiggs in https://github.com/google-gemini/gemini-cli/pull/6949\n* Add `.prettierignore` file by @swissspidy in https://github.com/google-gemini/gemini-cli/pull/6914\n* add(OTel): Add OTel logging for MalformedJsonEvent by @kiranani in https://github.com/google-gemini/gemini-cli/pull/6912\n* Introduce system defaults (vs system overrides) by @bbiggs in https://github.com/google-gemini/gemini-cli/pull/6724\n* chore(test): install and configure vitest eslint plugin by @swissspidy in https://github.com/google-gemini/gemini-cli/pull/3228\n* [extensions] Add extension management install command by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/6703\n* [extensions] Add extensions uninstall command by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/6877\n* Show error instead of aborting if model fails to call tool by @as-cii in https://github.com/google-gemini/gemini-cli/pull/7005\n* fix: misaligned right border on tool calls ui and spacing in multiple tool calls ui by @bulkypanda in https://github.com/google-gemini/gemini-cli/pull/6941\n* [extensions] Add extensions list command by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/6879\n* refactor(ide): Improve IDE detection discovery by @skeshive in https://github.com/google-gemini/gemini-cli/pull/6765\n* fix(keyboard): Implement Tab and Backspace handling for Kitty Protocol by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/7006\n* [extensions] Add extensions update command by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/6878\n* Log yolo mode + number of turns by @shishu314 in https://github.com/google-gemini/gemini-cli/pull/6055\n* feat(telemetry): Add email to telemetry prompt by @steventohme in https://github.com/google-gemini/gemini-cli/pull/6339\n* chore: consistently import node modules with prefix by @swissspidy in https://github.com/google-gemini/gemini-cli/pull/3013\n* feat: Update GitHub workflow configurations by @jerop in https://github.com/google-gemini/gemini-cli/pull/7004\n* feat(ide): Enable Firebase Studio install now that FS has updated VsCode by @richieforeman in https://github.com/google-gemini/gemini-cli/pull/7027\n* refactor(cli): Improve Kitty keycode handling and tests by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/7046\n* fix(telemetry): Update logger tests to handle user email field by @bulkypanda in https://github.com/google-gemini/gemini-cli/pull/7050\n* feat: add golden snapshot test for ToolGroupMessage and improve success symbol by @bulkypanda in https://github.com/google-gemini/gemini-cli/pull/7037\n* Explict imports & exports with `type` modifier by @swissspidy in https://github.com/google-gemini/gemini-cli/pull/3774\n* unused deps by @yoshi-taka in https://github.com/google-gemini/gemini-cli/pull/4732\n* Added session id logging for non-interactive sessions in debug mode by @owenofbrien in https://github.com/google-gemini/gemini-cli/pull/7032\n* fix(core): enable thinking explicitly in flash-lite models by @ei-grad in https://github.com/google-gemini/gemini-cli/pull/3033\n* Revert \"feat: add explicit license selection and status visibility (#6751)\" by @scidomino in https://github.com/google-gemini/gemini-cli/pull/7057\n* fix(ci): allow release branches to run by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/7060\n* chore: remove CLI flags `all_files` and `show_memory_usage` by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/7059\n* fix: resolve three flaky tests by @bulkypanda in https://github.com/google-gemini/gemini-cli/pull/7058\n* feat: Disable YOLO and AUTO_EDIT modes for untrusted folders by @shrutip90 in https://github.com/google-gemini/gemini-cli/pull/7041\n* fix(ide): remove noisy error log by @skeshive in https://github.com/google-gemini/gemini-cli/pull/7066\n* [extensions] Add an initial set of extension variables  by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/7035\n* Treat undefined same as true for isTrustedFolder by @shrutip90 in https://github.com/google-gemini/gemini-cli/pull/7073\n* Fix(command): line/block Comments Incorrectly Parsed as Slash Commands by @lifefloating in https://github.com/google-gemini/gemini-cli/pull/6957\n* Do not call nextSpeakerCheck if there was an error processing the stream.  by @silviojr in https://github.com/google-gemini/gemini-cli/pull/7048\n* Standardize exit codes by @scidomino in https://github.com/google-gemini/gemini-cli/pull/7055\n* Downgrade branch_protection to `log` by @markmcd in https://github.com/google-gemini/gemini-cli/pull/2934\n* [extensions] Add disable command by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/7001\n* chore: format & imports by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/7030\n* chore: unused deps by @yoshi-taka in https://github.com/google-gemini/gemini-cli/pull/7109\n* Add extensions enable command by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/7042\n* feat(mcp): Add ODIC fallback to OAuth metadata look up by @xiaoheh in https://github.com/google-gemini/gemini-cli/pull/6863\n* feat(cli): Add --allowed-tools flag to bypass tool confirmation (#2417) by @werdnum in https://github.com/google-gemini/gemini-cli/pull/6453\n* Make config non optional in ToolConfirmationMessage by @shrutip90 in https://github.com/google-gemini/gemini-cli/pull/7083\n* Ensure a Strictly Alternating Message History by @mrcabbage972 in https://github.com/google-gemini/gemini-cli/pull/6995\n* fix(#6392): latest prompt being reloaded when ending a persistent process by @hugomurillomtz in https://github.com/google-gemini/gemini-cli/pull/6857\n* Added usage details to /tools command. by @psimakov in https://github.com/google-gemini/gemini-cli/pull/6849\n* feat(subagent): Enable incremental output streaming by @allenhutchison in https://github.com/google-gemini/gemini-cli/pull/5819\n* Fix cloudbuild step. by @cornmander in https://github.com/google-gemini/gemini-cli/pull/7131\n* Downgrade version of ripgrep to the version from 7 months ago without a node 22 dependency by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/7132\n* fix(cli) - Add logging for shell errors by @shishu314 in https://github.com/google-gemini/gemini-cli/pull/7007\n* Clearcut Logging of Content Error Metrics by @mrcabbage972 in https://github.com/google-gemini/gemini-cli/pull/7099\n* Add a2a-server package to gemini-cli by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/6597\n* feat(cli) - Define shared interface for storage by @shishu314 in https://github.com/google-gemini/gemini-cli/pull/7049\n* Print error when failing to build sandbox by @cornmander in https://github.com/google-gemini/gemini-cli/pull/7149\n* Update colors tokens for inputer/footer by @miguelsolorio in https://github.com/google-gemini/gemini-cli/pull/6523\n* feat(errors): Make errors more informative by @leehagoodjames in https://github.com/google-gemini/gemini-cli/pull/7133\n* Update build command to set GEMINI_SANDBOX var. by @cornmander in https://github.com/google-gemini/gemini-cli/pull/7159\n* fix(cli): make Ctrl+C UI test less flaky by @davideast in https://github.com/google-gemini/gemini-cli/pull/7166\n* fix(ci): Fix self assign action permissions by @davideast in https://github.com/google-gemini/gemini-cli/pull/7130\n* Add prompt to migrate workspace extensions by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/7065\n* chore(release): v0.2.1 by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/7200\n* Log Gemini CLI OS / Process platform in the clearcut by @uttamkanodia14 in https://github.com/google-gemini/gemini-cli/pull/7086\n* feat(actions): create initial eval workflow by @agmsb in https://github.com/google-gemini/gemini-cli/pull/7127\n* fix: unset GEMINI_API_KEY env var if empty by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/7214\n* refactor: centralize tool status symbols in constants by @bulkypanda in https://github.com/google-gemini/gemini-cli/pull/7054\n* fix: Enable disableFuzzySearch config option propagation by @brychanrobot in https://github.com/google-gemini/gemini-cli/pull/7002\n* fix: make test more reliable by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/7233\n* refactor: improve intermediate result parsing in issue dedup workflow by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/7218\n* fix(tests): Fix Firebase Studio IDE detection tests by @davideast in https://github.com/google-gemini/gemini-cli/pull/7163\n* feat(cli) - Define base class for token storage by @shishu314 in https://github.com/google-gemini/gemini-cli/pull/7221\n* chore(cleanup): Consolidate MockTool definitions by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/7228\n* fix(bug): correct /about command in bug report template by @allenhutchison in https://github.com/google-gemini/gemini-cli/pull/7235\n* Fix shell argument parsing in windows by @scidomino in https://github.com/google-gemini/gemini-cli/pull/7160\n* Move mockTool into test-utils by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/7245\n* fix(compression): Discard compression result if it results in more token usage by @richieforeman in https://github.com/google-gemini/gemini-cli/pull/7047\n* Fix diff rendering in windows. by @scidomino in https://github.com/google-gemini/gemini-cli/pull/7254\n* fix(e2e): add missing deps to fix sandbox module not found errors in cli/core by @agmsb in https://github.com/google-gemini/gemini-cli/pull/7256\n* fix(e2e): skip flaky stdin context test by @agmsb in https://github.com/google-gemini/gemini-cli/pull/7264\n* refactor: refactor settings to a nested structure by @galz10 in https://github.com/google-gemini/gemini-cli/pull/7244\n* add(telemetry): Add missing telemetry for UserPromptEvent by @kiranani in https://github.com/google-gemini/gemini-cli/pull/6885\n* Revert \"Move mockTool into test-utils (#7245)\" by @galz10 in https://github.com/google-gemini/gemini-cli/pull/7277\n* feat(commands): Enable @file processing in TOML commands by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/6716\n* Revert \"chore(cleanup): Consolidate MockTool definitions (#7228)\" by @galz10 in https://github.com/google-gemini/gemini-cli/pull/7283\n\n## New Contributors\n* @aaabramov made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6621\n* @bravetux made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6669\n* @bonggwan made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6725\n* @pwrwpw made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6039\n* @3ks made their first contribution in https://github.com/google-gemini/gemini-cli/pull/4691\n* @mag123c made their first contribution in https://github.com/google-gemini/gemini-cli/pull/5751\n* @rfabbri made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6303\n* @mkusaka made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6729\n* @nandakishorereddy-chundi made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6071\n* @vmiura made their first contribution in https://github.com/google-gemini/gemini-cli/pull/5967\n* @pokutuna made their first contribution in https://github.com/google-gemini/gemini-cli/pull/5956\n* @thisisrick25 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6235\n* @redoxahmii made their first contribution in https://github.com/google-gemini/gemini-cli/pull/5337\n* @JeongJaeSoon made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6751\n* @gbbosak made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6497\n* @georgesmith46 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/2038\n* @dumbbellcode made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6397\n* @kookyleo made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6555\n* @as-cii made their first contribution in https://github.com/google-gemini/gemini-cli/pull/7005\n* @steventohme made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6339\n* @yoshi-taka made their first contribution in https://github.com/google-gemini/gemini-cli/pull/4732\n* @ei-grad made their first contribution in https://github.com/google-gemini/gemini-cli/pull/3033\n* @xiaoheh made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6863\n* @werdnum made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6453\n* @psimakov made their first contribution in https://github.com/google-gemini/gemini-cli/pull/6849\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.2.1...v0.3.0-preview.1",
@@ -1214,7 +1123,7 @@
       "featured": false
     },
     {
-      "id": "mexvkvpxp5v53u6d6rf",
+      "id": "mey8qszfhtoay946w75",
       "title": "Show HN: Pantheon-CLI – Open-Source Python Claude Code and Smart Notebook",
       "summary": "Hi, We’ve built Pantheon-CLI, an fully open-source project that aims to be the “Python Claude Code + Notebook” — but designed for data analysis instead of just coding.<p>Unlike most AI coding assistants, Pantheon-CLI runs entirely on your machine (or server). No data upload required. It blends natur...",
       "content": "Hi, We’ve built Pantheon-CLI, an fully open-source project that aims to be the “Python Claude Code + Notebook” — but designed for data analysis instead of just coding.<p>Unlike most AI coding assistants, Pantheon-CLI runs entirely on your machine (or server). No data upload required. It blends natural language and code in a single workflow, keeping variables in memory and letting you switch seamlessly between typing code and asking in plain English.<p>What it does:\n1. Chat with your data: Directly process CSV, Excel, AnnData, Pickle, Torch tensors, or any format supported by Python&#x2F;R&#x2F;Julia.\n2. Mixed programming: Variables persist across natural language and code; the CLI auto-generates and runs code for you.\n3. MCP-like agent integration: Read&#x2F;create files, run commands, fetch web pages, generate&#x2F;revise code.\n4. Human-like learning: Feed it a PDF paper or tutorial—Pantheon-CLI reads it, plans steps, and replicates methods before analysis.\n5. Task planning: Builds scientific agents by learning from papers&#x2F;tutorials (not just fixed, human-predefined steps).\n6. Multi-model support: Works with OpenAI, Anthropic, Gemini, DeepSeek, Qwen, etc. + offline local LLMs (ollama, deepseek, gpt-oss).\n7. Multi-RAG support: Pre-learns from docs&#x2F;web into a local “brain” for more credible outputs without massive token costs.\n8. Built-in biology toolsets: For omics analysis (alignment, annotation, differential expression, full paper reproduction).\n9. Notebook mode: Brings the same agentic workflow into Jupyter—automatically runs and revises code, operates on files, and learns from tutorials&#x2F;papers.<p>Pantheon-CLI is our attempt to push beyond “AI writes code for you.” Instead, it’s an agentic operating system for data analysis, spanning both terminal and notebook.<p>Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;aristoteleo&#x2F;pantheon-cli\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;aristoteleo&#x2F;pantheon-cli</a><p>Tutorial: <a href=\"https:&#x2F;&#x2F;pantheonos.stanford.edu&#x2F;cli&#x2F;docs&#x2F;intro&#x2F;getting-started\" rel=\"nofollow\">https:&#x2F;&#x2F;pantheonos.stanford.edu&#x2F;cli&#x2F;docs&#x2F;intro&#x2F;getting-start...</a><p>Home page: <a href=\"https:&#x2F;&#x2F;pantheonos.stanford.edu&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;pantheonos.stanford.edu&#x2F;</a><p>Would love to hear feedback from the HN community—what use cases would you try this for, and what features would make it more useful to you?",
@@ -1234,7 +1143,7 @@
       "featured": false
     },
     {
-      "id": "mexvko0zqzl0oaed81l",
+      "id": "mey8qlwbm52pixefqmd",
       "title": "Hugging Face: Patch v4.55.4",
       "summary": "# Patch v4.55.4\r\nThere was a mick mack on our side when cherry-picking the commit #40197 which led to a wrong commit in the patch! \r\nSorry everyone 😭 \r\n\r\nThis patch is just the official fix for #40197!...",
       "content": "# Patch v4.55.4\r\nThere was a mick mack on our side when cherry-picking the commit #40197 which led to a wrong commit in the patch! \r\nSorry everyone 😭 \r\n\r\nThis patch is just the official fix for #40197!",
@@ -1248,7 +1157,7 @@
       "featured": false
     },
     {
-      "id": "mexvkg5ympwogdcjcli",
+      "id": "mey8qeofnut90uuncle",
       "title": "Anthropic: v0.64.0",
       "summary": "## 0.64.0 (2025-08-13)\n\nFull Changelog: [v0.63.0...v0.64.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.63.0...v0.64.0)\n\n### Features\n\n* **api:** makes 1 hour TTL Cache Control generally available ([35201ba](https://github.com/anthropics/anthropic-sdk-python/commit/35201baef190c354...",
       "content": "## 0.64.0 (2025-08-13)\n\nFull Changelog: [v0.63.0...v0.64.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.63.0...v0.64.0)\n\n### Features\n\n* **api:** makes 1 hour TTL Cache Control generally available ([35201ba](https://github.com/anthropics/anthropic-sdk-python/commit/35201baef190c354a803278aa926490ff6069abf))\n\n\n### Chores\n\n* deprecate older claude-3-5 sonnet models ([#1116](https://github.com/anthropics/anthropic-sdk-python/issues/1116)) ([3e8e10d](https://github.com/anthropics/anthropic-sdk-python/commit/3e8e10dc706e4fb272db78aec4c7678f842c54af))",
@@ -1266,7 +1175,7 @@
       "featured": false
     },
     {
-      "id": "mexvkg5yx38r1x3h5l",
+      "id": "mey8qeofwgq51gjrbd",
       "title": "Anthropic: v0.63.0",
       "summary": "## 0.63.0 (2025-08-12)\n\nFull Changelog: [v0.62.0...v0.63.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.62.0...v0.63.0)\n\n### Features\n\n* **betas:** add context-1m-2025-08-07 ([57a80e7](https://github.com/anthropics/anthropic-sdk-python/commit/57a80e7a2cf6813db6633516dbb5bb65a6e8512...",
       "content": "## 0.63.0 (2025-08-12)\n\nFull Changelog: [v0.62.0...v0.63.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.62.0...v0.63.0)\n\n### Features\n\n* **betas:** add context-1m-2025-08-07 ([57a80e7](https://github.com/anthropics/anthropic-sdk-python/commit/57a80e7a2cf6813db6633516dbb5bb65a6e85122))\n\n\n### Chores\n\n* **internal:** detect breaking changes when removing endpoints ([5c62d7b](https://github.com/anthropics/anthropic-sdk-python/commit/5c62d7bdaf8a180dcb6bc30c17a6bdf13d976ab2))\n* **internal:** update comment in script ([9e9d69c](https://github.com/anthropics/anthropic-sdk-python/commit/9e9d69cdd98a838adac734a0748e1f52ccd4faa4))\n* **internal:** update test skipping reason ([b18a3d5](https://github.com/anthropics/anthropic-sdk-python/commit/b18a3d55a8f75ba3257ec83283d31bcb82548713))\n* update @stainless-api/prism-cli to v5.15.0 ([55cb0a1](https://github.com/anthropics/anthropic-sdk-python/commit/55cb0a1d1f42f6bcae74c6d1946f927534e30276))",
@@ -1280,10 +1189,10 @@
         "AI",
         "Anthropic"
       ],
-      "featured": false
+      "featured": true
     },
     {
-      "id": "mexvkj0vir7dhj12ezp",
+      "id": "mey8qhavwlr35nyqgx",
       "title": "Meta: v0.2.0",
       "summary": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n...",
       "content": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
@@ -1299,7 +1208,7 @@
       "featured": false
     },
     {
-      "id": "mexvkj0v7onj8mmcx7a",
+      "id": "mey8qhavtczamrb9sss",
       "title": "Meta: v0.1.4",
       "summary": "## What's Changed\r\n* fix: do not use python_tag when encoding non-code_interpreter tool_calls by @ehhuang in https://github.com/meta-llama/llama-models/pull/283\r\n* fix: tool_call was not encoded by @ehhuang in https://github.com/meta-llama/llama-models/pull/284\r\n\r\n\r\n**Full Changelog**: https://githu...",
       "content": "## What's Changed\r\n* fix: do not use python_tag when encoding non-code_interpreter tool_calls by @ehhuang in https://github.com/meta-llama/llama-models/pull/283\r\n* fix: tool_call was not encoded by @ehhuang in https://github.com/meta-llama/llama-models/pull/284\r\n\r\n\r\n**Full Changelog**: https://github.com/meta-llama/llama-models/compare/v0.1.3...v0.1.4",
