@@ -1,0 +1,17 @@
+{
+  "id": "mi9wn0ac93np8sxmdlu",
+  "title": "Introducing Metrax: performant, efficient, and robust model evaluation metrics in JAX",
+  "summary": "Metrax is a high-performance JAX-based metrics library developed by Google. It standardizes model evaluation by offering robust, efficient metrics for classification, NLP, and vision, eliminating manual re-implementation after migrating from TensorFlow. Key strengths include parallel computation of ...",
+  "content": "Metrax is a high-performance JAX-based metrics library developed by Google. It standardizes model evaluation by offering robust, efficient metrics for classification, NLP, and vision, eliminating manual re-implementation after migrating from TensorFlow. Key strengths include parallel computation of \"at K\" metrics (e.g., PrecisionAtK) for multiple K values and strong integration with the JAX AI Stack, leveraging JAX's performance features. It is open-source on GitHub.",
+  "publishedAt": "2025-11-19T06:25:08.916Z",
+  "source": "Google Developers Blog",
+  "sourceUrl": "https://developers.googleblog.com/introducing-metrax-performant-efficient-and-robust-model-evaluation-metrics-in-jax/",
+  "category": "tools",
+  "company": "Google",
+  "imageUrl": null,
+  "tags": [
+    "AI",
+    "Google"
+  ],
+  "featured": false
+}
