@@ -1,0 +1,16 @@
+{
+  "id": "mj9brs6r5lnbngffx3j",
+  "title": "Architecting efficient context-aware multi-agent framework for production",
+  "summary": "ADK introduces **Context Engineering** to scale AI agents beyond large context windows. It treats context as a compiled view over a tiered, stateful system (**Session, Memory, Artifacts**). This architecture uses explicit processors for transformation, enables efficient compaction and caching, and a...",
+  "content": "ADK introduces **Context Engineering** to scale AI agents beyond large context windows. It treats context as a compiled view over a tiered, stateful system (**Session, Memory, Artifacts**). This architecture uses explicit processors for transformation, enables efficient compaction and caching, and allows for strict, scoped context handoffs in multi-agent workflows to ensure reliability and cost-effectiveness in production.",
+  "publishedAt": "2025-12-14T01:20:42.099Z",
+  "source": "Google Developers Blog",
+  "sourceUrl": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/",
+  "category": "tools",
+  "company": "Google",
+  "imageUrl": null,
+  "tags": [
+    "AI"
+  ],
+  "featured": false
+}
