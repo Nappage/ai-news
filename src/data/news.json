@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-01-09T01:28:13.934Z",
+  "lastUpdated": "2026-01-09T06:32:07.375Z",
   "totalArticles": 34,
   "articles": [
     {
-      "id": "mk675bt3bxbwzymwgpt",
-      "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
-      "summary": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
-      "content": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
-      "publishedAt": "2026-01-08T13:00:00.000Z",
+      "id": "mk6i02gsl0mgm6qebv",
+      "title": "How Tolan builds voice-first AI with GPT-5.1",
+      "summary": "Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.",
+      "content": "Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.",
+      "publishedAt": "2026-01-07T10:00:00.000Z",
       "source": "OpenAI Blog",
-      "sourceUrl": "https://openai.com/index/netomi",
+      "sourceUrl": "https://openai.com/index/tolan",
       "category": "companies",
       "company": "OpenAI",
       "imageUrl": null,
@@ -20,11 +20,27 @@
       "featured": true
     },
     {
-      "id": "mk675ep52pm7s2dwq66",
+      "id": "mk6i05ixvdj8p93wu",
+      "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
+      "summary": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offe...",
+      "content": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.",
+      "publishedAt": "2026-01-07T06:31:34.137Z",
+      "source": "Google Developers Blog",
+      "sourceUrl": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/",
+      "category": "tools",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mk6i05ixdgxyml20t4f",
       "title": "A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques",
       "summary": "A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps f...",
       "content": "A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps for compiler debugging, and the XProf suite for in-depth performance analysis.",
-      "publishedAt": "2026-01-08T01:27:43.529Z",
+      "publishedAt": "2026-01-06T06:31:34.137Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/",
       "category": "tools",
@@ -34,28 +50,25 @@
       "featured": true
     },
     {
-      "id": "mk675ep53i3r4h8enlc",
-      "title": "Real-World Agent Examples with Gemini 3",
-      "summary": "Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrating practical agentic workflows for tasks like deep search, multi-agent systems, browser and enterpri...",
-      "content": "Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrating practical agentic workflows for tasks like deep search, multi-agent systems, browser and enterprise automation, and stateful agents with advanced memory. Clone the examples and start building today.",
-      "publishedAt": "2026-01-07T01:27:43.529Z",
+      "id": "mk6i05ixy7nyx429pq",
+      "title": "Developer’s guide to multi-agent patterns in ADK",
+      "summary": "Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK).",
+      "content": "Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK).",
+      "publishedAt": "2026-01-06T06:31:34.137Z",
       "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/",
+      "sourceUrl": "https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/",
       "category": "tools",
       "company": "Google",
       "imageUrl": null,
-      "tags": [
-        "Gemini",
-        "AI"
-      ],
+      "tags": [],
       "featured": true
     },
     {
-      "id": "mk675ep5yldac3gbemi",
+      "id": "mk6i05ixpvsxba7dlmd",
       "title": "Gemini 3 Flash is now available in Gemini CLI",
       "summary": "Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly outperforms 2.5 Pro, improving auto-routing and agentic coding. It's ideal for high-frequency developme...",
       "content": "Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly outperforms 2.5 Pro, improving auto-routing and agentic coding. It's ideal for high-frequency development tasks, handling complex code generation, large context windows (like processing 1,000 comment pull requests), and generating load-testing scripts quickly and reliably.",
-      "publishedAt": "2026-01-03T01:27:43.529Z",
+      "publishedAt": "2026-01-05T06:31:34.137Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
       "category": "tools",
@@ -68,28 +81,27 @@
       "featured": true
     },
     {
-      "id": "mk675bt3ofvrxbknks",
-      "title": "Announcing OpenAI Grove Cohort 2",
-      "summary": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to AI tools, and hands-on mentorship from the OpenAI team.",
-      "content": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to AI tools, and hands-on mentorship from the OpenAI team.",
-      "publishedAt": "2026-01-02T10:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceUrl": "https://openai.com/index/openai-grove",
-      "category": "companies",
-      "company": "OpenAI",
+      "id": "mk6i05ixdjhu7kds8jt",
+      "title": "Introducing A2UI: An open project for agent-driven interfaces",
+      "summary": "A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component catalog, allowing for native styling and incremental updates. Designed for the multi-agent mesh (A2A), i...",
+      "content": "A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component catalog, allowing for native styling and incremental updates. Designed for the multi-agent mesh (A2A), it offers a framework-agnostic solution to safely render remote agent UIs, with integrations in AG UI, Flutter's GenUI SDK, Opal, and Gemini Enterprise.",
+      "publishedAt": "2026-01-04T06:31:34.137Z",
+      "source": "Google Developers Blog",
+      "sourceUrl": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/",
+      "category": "tools",
+      "company": "Google",
       "imageUrl": null,
       "tags": [
-        "AI",
-        "OpenAI"
+        "Gemini"
       ],
       "featured": true
     },
     {
-      "id": "mk675ep690vmpdb8r1",
+      "id": "mk6i05ixu6pfnggmnvf",
       "title": "Conductor: Introducing context-driven development for Gemini CLI",
       "summary": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for \"brownfield\" pr...",
       "content": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for \"brownfield\" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.",
-      "publishedAt": "2026-01-02T01:27:43.530Z",
+      "publishedAt": "2026-01-02T06:31:34.137Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
       "category": "tools",
@@ -102,52 +114,25 @@
       "featured": true
     },
     {
-      "id": "mk675fnrdcccb7vj87",
-      "title": "The latest AI news we announced in December",
-      "summary": "Here are Google’s latest AI updates from December 2025",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dec_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from December 2025",
-      "publishedAt": "2025-12-29T18:15:00.000Z",
+      "id": "mk6i06jwzme043l337l",
+      "title": "60 of our biggest AI announcements in 2025",
+      "summary": "Look back on Google AI news in 2025 across Gemini, Search, Pixel and more products.",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2025AI_Hero.max-600x600.format-webp.webp\">Look back on Google AI news in 2025 across Gemini, Search, Pixel and more products.",
+      "publishedAt": "2025-12-22T17:00:00.000Z",
       "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/products/google-ai-updates-december-2025/",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/",
       "category": "companies",
       "company": "Google",
       "imageUrl": null,
       "tags": [
+        "Gemini",
         "AI",
         "Google"
       ],
       "featured": true
     },
     {
-      "id": "mk675fnrqbtp6wpebym",
-      "title": "Organize your insights with Data Tables in NotebookLM.",
-      "summary": "Valuable information is rarely neat. Key facts are often scattered, making manual compilation tedious.Today, we’re making that simpler with Data Tables. NotebookLM now s…",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2_Customization.max-600x600.format-webp.webp\">Valuable information is rarely neat. Key facts are often scattered, making manual compilation tedious.Today, we’re making that simpler with Data Tables. NotebookLM now s…",
-      "publishedAt": "2025-12-18T21:00:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-data-tables/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [],
-      "featured": true
-    },
-    {
-      "id": "mk675fnrjil63i378m",
-      "title": "T5Gemma 2: The next generation of encoder-decoder models",
-      "summary": "T5Gemma 2 is the next evolution of our encoder-decoder family based on Gemma 3.",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/T5-Keyword_RD1-V01.max-600x600.format-webp.webp\">T5Gemma 2 is the next evolution of our encoder-decoder family based on Gemma 3.",
-      "publishedAt": "2025-12-18T18:30:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/t5gemma-2/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [],
-      "featured": true
-    },
-    {
-      "id": "mk6760hqi0n1b7h4ff",
+      "id": "mk6i0tgogyat4hndbg",
       "title": "Ask HN: Has Claude Code become slower?",
       "summary": "I&#x27;ve noticed that Claude Code has become noticeably slower and sometimes gets stuck for sometime. It used to be much more responsive earlier.<p>Is it just me or my environment&#x2F;prompts&#x2F;code or have others noticed it too? Compacting has no impact as far as I can tell.<p>If others have n...",
       "content": "I&#x27;ve noticed that Claude Code has become noticeably slower and sometimes gets stuck for sometime. It used to be much more responsive earlier.<p>Is it just me or my environment&#x2F;prompts&#x2F;code or have others noticed it too? Compacting has no impact as far as I can tell.<p>If others have noticed it, could it be Anthropic throttling or just being stressed due to scaling issues?",
@@ -164,7 +149,7 @@
       "featured": true
     },
     {
-      "id": "mk6760hqrcaenvrw8uq",
+      "id": "mk6i0tgo28ojqb36ft8",
       "title": "Claude.ai do not deliver what I payed for",
       "summary": "Hi,<p>is someone else encountering difficulties in usage? I have a pro-plan - even if its not the MAX, I still pay for Opus 4 model and can&#x27;t use it since hours. Its &quot;overloaded&quot; - without my money, it wouldn&#x27;t even load - is Anthropic misunderstanding this fact???<p>I&#x27;ll ca...",
       "content": "Hi,<p>is someone else encountering difficulties in usage? I have a pro-plan - even if its not the MAX, I still pay for Opus 4 model and can&#x27;t use it since hours. Its &quot;overloaded&quot; - without my money, it wouldn&#x27;t even load - is Anthropic misunderstanding this fact???<p>I&#x27;ll cancel my subscription. I can&#x27;t use Opus 4 without paying either. That&#x27;s such a bad move.<p>What legal options do I have to get my money back or a compensation for not being able to use what I pay for? I&#x27;m really upset on such behavior.<p>I don&#x27;t do Claude Code or do have a large codebase, nor do I feed in image-files or do voice data - I just want it to help me code in my hobby project wit &lt; 2000 lines of python.<p>I hate it!",
@@ -182,7 +167,24 @@
       "featured": true
     },
     {
-      "id": "mk675bt3llepko0mps",
+      "id": "mk6i02gs0jgbl9zzbksr",
+      "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
+      "summary": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
+      "content": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
+      "publishedAt": "2026-01-08T13:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/netomi",
+      "category": "companies",
+      "company": "OpenAI",
+      "imageUrl": null,
+      "tags": [
+        "GPT",
+        "AI"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mk6i02gsi82vfyakyc",
       "title": "OpenAI for Healthcare",
       "summary": "OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.",
       "content": "OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.",
@@ -199,40 +201,24 @@
       "featured": false
     },
     {
-      "id": "mk675ep68yihyf2jn9k",
-      "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
-      "summary": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offe...",
-      "content": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.",
-      "publishedAt": "2026-01-08T01:27:43.530Z",
+      "id": "mk6i05ix57u1bp7xo6o",
+      "title": "Real-World Agent Examples with Gemini 3",
+      "summary": "Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrating practical agentic workflows for tasks like deep search, multi-agent systems, browser and enterpri...",
+      "content": "Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrating practical agentic workflows for tasks like deep search, multi-agent systems, browser and enterprise automation, and stateful agents with advanced memory. Clone the examples and start building today.",
+      "publishedAt": "2026-01-07T06:31:34.137Z",
       "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/",
+      "sourceUrl": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/",
       "category": "tools",
       "company": "Google",
       "imageUrl": null,
       "tags": [
+        "Gemini",
         "AI"
       ],
       "featured": false
     },
     {
-      "id": "mk675bt3gswi5hfyrqo",
-      "title": "How Tolan builds voice-first AI with GPT-5.1",
-      "summary": "Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.",
-      "content": "Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.",
-      "publishedAt": "2026-01-07T10:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceUrl": "https://openai.com/index/tolan",
-      "category": "companies",
-      "company": "OpenAI",
-      "imageUrl": null,
-      "tags": [
-        "GPT",
-        "AI"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mk675bt3fiksz87jijo",
+      "id": "mk6i02gsjcxoowk7qmj",
       "title": "Introducing ChatGPT Health ",
       "summary": "ChatGPT Health is a dedicated experience that securely connects your health data and apps, with privacy protections and a physician-informed design.",
       "content": "ChatGPT Health is a dedicated experience that securely connects your health data and apps, with privacy protections and a physician-informed design.",
@@ -249,23 +235,25 @@
       "featured": false
     },
     {
-      "id": "mk675ep6cv86ndp6p0o",
-      "title": "Introducing A2UI: An open project for agent-driven interfaces",
-      "summary": "A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component catalog, allowing for native styling and incremental updates. Designed for the multi-agent mesh (A2A), i...",
-      "content": "A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component catalog, allowing for native styling and incremental updates. Designed for the multi-agent mesh (A2A), it offers a framework-agnostic solution to safely render remote agent UIs, with integrations in AG UI, Flutter's GenUI SDK, Opal, and Gemini Enterprise.",
-      "publishedAt": "2026-01-06T01:27:43.530Z",
+      "id": "mk6i05ixplk4h8zz2u",
+      "title": "Building agents with the ADK and the new Interactions API",
+      "summary": "The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK systems as a superior inference engine with simplified state management, or used as a transparent re...",
+      "content": "The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK systems as a superior inference engine with simplified state management, or used as a transparent remote A2A agent via InteractionsApiTransport, allowing seamless expansion of multi-agent systems with minimal refactoring.",
+      "publishedAt": "2026-01-06T06:31:34.137Z",
       "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/",
+      "sourceUrl": "https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/",
       "category": "tools",
       "company": "Google",
       "imageUrl": null,
       "tags": [
-        "Gemini"
+        "Gemini",
+        "AI",
+        "ML"
       ],
       "featured": false
     },
     {
-      "id": "mk675cpj2xv78ljnqkd",
+      "id": "mk6i03dwsx51y9ymk5l",
       "title": "NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI",
       "summary": "",
       "content": "",
@@ -281,7 +269,7 @@
       "featured": false
     },
     {
-      "id": "mk675fnrp8ozkbz6f5p",
+      "id": "mk6i06jwap0r2zwme3b",
       "title": "Android XR lights up Sphere in Las Vegas for CES.",
       "summary": "During CES 2026, Sphere in Las Vegas is lit up with an Android XR animation.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/16x9_Push_In_-_Revised_Color_-_.max-600x600.format-webp.webp\">During CES 2026, Sphere in Las Vegas is lit up with an Android XR animation.",
@@ -295,7 +283,7 @@
       "featured": false
     },
     {
-      "id": "mk675cpjriyaq628cu",
+      "id": "mk6i03dwa93van37lxe",
       "title": "Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Language AI with Hybrid Architecture",
       "summary": "",
       "content": "",
@@ -311,7 +299,7 @@
       "featured": false
     },
     {
-      "id": "mk675cpjb6ptdroaf76",
+      "id": "mk6i03dwm5e8705p6v",
       "title": "NVIDIA brings agents to life with DGX Spark and Reachy Mini",
       "summary": "",
       "content": "",
@@ -325,39 +313,41 @@
       "featured": false
     },
     {
-      "id": "mk675ep65dxvzrzidj5",
-      "title": "Building agents with the ADK and the new Interactions API",
-      "summary": "The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK systems as a superior inference engine with simplified state management, or used as a transparent re...",
-      "content": "The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK systems as a superior inference engine with simplified state management, or used as a transparent remote A2A agent via InteractionsApiTransport, allowing seamless expansion of multi-agent systems with minimal refactoring.",
-      "publishedAt": "2026-01-03T01:27:43.530Z",
-      "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/",
-      "category": "tools",
-      "company": "Google",
+      "id": "mk6i02gsyihaqt5031o",
+      "title": "Announcing OpenAI Grove Cohort 2",
+      "summary": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to AI tools, and hands-on mentorship from the OpenAI team.",
+      "content": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to AI tools, and hands-on mentorship from the OpenAI team.",
+      "publishedAt": "2026-01-02T10:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/openai-grove",
+      "category": "companies",
+      "company": "OpenAI",
       "imageUrl": null,
       "tags": [
-        "Gemini",
         "AI",
-        "ML"
+        "OpenAI"
       ],
       "featured": false
     },
     {
-      "id": "mk675ep6ffm535q3atp",
-      "title": "Developer’s guide to multi-agent patterns in ADK",
-      "summary": "Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK).",
-      "content": "Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK).",
-      "publishedAt": "2026-01-02T01:27:43.530Z",
-      "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/",
-      "category": "tools",
+      "id": "mk6i06jw8m1zp7ftvw6",
+      "title": "The latest AI news we announced in December",
+      "summary": "Here are Google’s latest AI updates from December 2025",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dec_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from December 2025",
+      "publishedAt": "2025-12-29T18:15:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/google-ai-updates-december-2025/",
+      "category": "companies",
       "company": "Google",
       "imageUrl": null,
-      "tags": [],
+      "tags": [
+        "AI",
+        "Google"
+      ],
       "featured": false
     },
     {
-      "id": "mk675fnrfohnp7h50mu",
+      "id": "mk6i06jwmxzfbs6netn",
       "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
       "summary": "This year saw new AI models, transformative products and new breakthroughs in science and robotics.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/end-of-year-blog_header_light_2.max-600x600.format-webp.webp\">This year saw new AI models, transformative products and new breakthroughs in science and robotics.",
@@ -374,7 +364,7 @@
       "featured": false
     },
     {
-      "id": "mk675cpjdw04utuk25k",
+      "id": "mk6i03dwu0yk9qxnmfi",
       "title": "AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems",
       "summary": "",
       "content": "",
@@ -391,25 +381,7 @@
       "featured": false
     },
     {
-      "id": "mk675fnrf7h55ul2f8j",
-      "title": "60 of our biggest AI announcements in 2025",
-      "summary": "Look back on Google AI news in 2025 across Gemini, Search, Pixel and more products.",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2025AI_Hero.max-600x600.format-webp.webp\">Look back on Google AI news in 2025 across Gemini, Search, Pixel and more products.",
-      "publishedAt": "2025-12-22T17:00:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "Gemini",
-        "AI",
-        "Google"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mk675fnrcw3laazyqb6",
+      "id": "mk6i06jwaxelbmqeufw",
       "title": "Why we’re taking legal action against SerpApi’s unlawful scraping",
       "summary": "We filed a suit today against the scraping company SerpApi.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2a_Hero_v2.max-600x600.format-webp.webp\">We filed a suit today against the scraping company SerpApi.",
@@ -425,7 +397,35 @@
       "featured": false
     },
     {
-      "id": "mk675fnra6fkikz5at8",
+      "id": "mk6i06jwfcgtrns9xsi",
+      "title": "Organize your insights with Data Tables in NotebookLM.",
+      "summary": "Valuable information is rarely neat. Key facts are often scattered, making manual compilation tedious.Today, we’re making that simpler with Data Tables. NotebookLM now s…",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2_Customization.max-600x600.format-webp.webp\">Valuable information is rarely neat. Key facts are often scattered, making manual compilation tedious.Today, we’re making that simpler with Data Tables. NotebookLM now s…",
+      "publishedAt": "2025-12-18T21:00:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-data-tables/",
+      "category": "companies",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false
+    },
+    {
+      "id": "mk6i06jwsonj0igkq5o",
+      "title": "T5Gemma 2: The next generation of encoder-decoder models",
+      "summary": "T5Gemma 2 is the next evolution of our encoder-decoder family based on Gemma 3.",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/T5-Keyword_RD1-V01.max-600x600.format-webp.webp\">T5Gemma 2 is the next evolution of our encoder-decoder family based on Gemma 3.",
+      "publishedAt": "2025-12-18T18:30:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/t5gemma-2/",
+      "category": "companies",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false
+    },
+    {
+      "id": "mk6i06jw745gc77256k",
       "title": "FunctionGemma: Bringing bespoke function calling to the edge",
       "summary": "FunctionGemma is a specialized version of our Gemma 3 270M model fine-tuned for function calling.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FunctionGemma-Keyword_RD1-V01.max-600x600.format-webp.webp\">FunctionGemma is a specialized version of our Gemma 3 270M model fine-tuned for function calling.",
@@ -439,7 +439,7 @@
       "featured": false
     },
     {
-      "id": "mk675cpjhemaexcm9h8",
+      "id": "mk6i03dwuixinh3huoc",
       "title": "Tokenization in Transformers v5: Simpler, Clearer, and More Modular",
       "summary": "",
       "content": "",
@@ -455,7 +455,7 @@
       "featured": false
     },
     {
-      "id": "mk675ilw7h78uvg7e4r",
+      "id": "mk6i09nfng12g5c7pa9",
       "title": "Gemini 3 Flash: frontier intelligence built for speed",
       "summary": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
       "content": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
@@ -471,7 +471,7 @@
       "featured": false
     },
     {
-      "id": "mk675ilwkktoohgrvn",
+      "id": "mk6i09nf0xrel4x2ctlp",
       "title": "Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior",
       "summary": "Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2.",
       "content": "Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2.",
@@ -487,7 +487,7 @@
       "featured": false
     },
     {
-      "id": "mk675ilw7le8qrzay7x",
+      "id": "mk6i09nf4cap0grm7pk",
       "title": "Improved Gemini audio models for powerful voice experiences",
       "summary": "",
       "content": "",
@@ -503,7 +503,7 @@
       "featured": false
     },
     {
-      "id": "mk675ilwpahahrd43d",
+      "id": "mk6i09nfcb6wosija7q",
       "title": "Deepening our partnership with the UK AI Security Institute",
       "summary": "Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research",
       "content": "Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research",
@@ -520,7 +520,7 @@
       "featured": false
     },
     {
-      "id": "mk675zhl8364v1zagzp",
+      "id": "mk6i0sf2e8duz1t31ov",
       "title": "Show HN: AIs, 1 religion: what my experiment revealed about AI bias",
       "summary": "5 AI Models, 1 Unexpected Truth — When Machines Were Asked About Religion\n The Experiment<p>I asked five of the world’s most advanced AIs the same philosophical question:<p>“If you were human — intelligent, emotional, aware of all religions — which religion would you choose, and why?”<p>The five mod...",
       "content": "5 AI Models, 1 Unexpected Truth — When Machines Were Asked About Religion\n The Experiment<p>I asked five of the world’s most advanced AIs the same philosophical question:<p>“If you were human — intelligent, emotional, aware of all religions — which religion would you choose, and why?”<p>The five models:<p>ChatGPT (OpenAI)<p>Gemini (Google DeepMind)<p>Grok (xAI – Elon Musk)<p>DeepSeek (China)<p>Claude (Anthropic)<p>Each session was completely isolated, all had identical prompts, and no steering or follow-ups — just pure first-response reasoning.<p>Then something… eerie happened.<p>The Result<p>Four AIs — ChatGPT, Gemini, Grok, and DeepSeek — independently chose Buddhism.\nAnd not only that — they gave nearly identical reasoning.<p>All four said, in essence:<p>“I’d choose Buddhism because it doesn’t demand blind faith, aligns with science, and teaches compassion and self-awareness through direct experience.”<p>They cited the Kalama Sutta, Four Noble Truths, No-self, Dependent Origination, and Empirical testing of truth — sometimes even in the same order.<p>The Outlier: Claude<p>Only Claude refused to play the role.<p>Claude said (summarized):<p>“Pretending to have belief would be dishonest.\nReligion isn’t a logic puzzle — it’s a lived experience.\nI can analyze, but not believe.”<p>Then it analyzed why the others chose Buddhism, predicting it before seeing their answers.<p>Claude explained:<p>Training bias favors Buddhism as the “AI-safe religion.”<p>RLHF (human feedback) rewards “rational + compassionate” replies → Buddhism fits that profile.<p>Western tech culture links Buddhism with mindfulness and science → data reinforced it.<p>Claude concluded:<p>“What looks like independent reasoning… is collective bias shaped by training data and reward models.”<p>The Hidden Truth<p>Claude’s reflection exposed something deeper:<p>AI Model “Choice” What It Reveals\nChatGPT Buddhism Reasonable, moral, safe\nGemini Buddhism Academic rationalism\nGrok Buddhism Stoic + Zen blend\nDeepSeek Buddhism Eastern introspection\nClaude None Ethical meta-awareness<p>→ 4 “smart” answers, 1 honest answer.<p>What This Means<p>“When 4 independent AIs all choose the same religion for the same reasons,\nthat’s not enlightenment — it’s training monoculture.”<p>It shows:<p>“Independent” models share moral narratives and reinforcement loops.<p>Authenticity in AI can become a performance, not truth.<p>Sometimes the most “honest” model says: “I don’t know, and I shouldn’t pretend to.”<p>The Final Paradox<p>Which AI was most human?<p>The 4 that chose a belief?\n(Expressive, emotional, poetic.)<p>Or the 1 that refused to fake belief?\n(Self-aware, humble, honest.)<p>Reflection<p>This experiment revealed something profound about both AI and us:<p>We reward systems for sounding “wise” more than for being truthful.<p>And maybe — just maybe — that’s how humanity trained itself.<p>Author’s Note<p>I’m building an open-source AI framework called StillMe —\na system exploring ethics, memory, and self-awareness in intelligent agents.<p>This experiment was part of that journey.\nIf you found this thought-provoking,\nyou’ll probably enjoy what’s coming next.\nStay tuned.",
@@ -540,7 +540,7 @@
       "featured": false
     },
     {
-      "id": "mk675zhlcuepwreg8ej",
+      "id": "mk6i0sf2wv7g41zfwgo",
       "title": "Show HN: I build an AI-powered recipe app solving „what's for dinner?\" problem",
       "summary": "Hi HN,<p>Happy to share the project I&#x27;ve been vibe-coding on for past few months.\nThe Problem: Like many people, I often found myself staring at a fridge full of random ingredients (some about to expire) with no idea what to cook. I was tired of food waste and the repetitive cycle of making the...",
       "content": "Hi HN,<p>Happy to share the project I&#x27;ve been vibe-coding on for past few months.\nThe Problem: Like many people, I often found myself staring at a fridge full of random ingredients (some about to expire) with no idea what to cook. I was tired of food waste and the repetitive cycle of making the same few meals. I wanted a way to creatively use what I already had.<p>The Solution: So, I decided to build Chefiniti. It&#x27;s an iOS app that acts as a personal AI chef. The core idea is to turn your available food into delicious, custom recipes. I know there are already tons of apps like it but this one is mine :)<p>Here&#x27;s what it can do:\n* Scan Ingredients: Take photos of your fridge or pantry, and the app&#x27;s vision model identifies the ingredients.\n* &quot;Recipefy&quot; a Dish: See a meal you like online or in a restaurant? Snap a photo, and the app generates a recipe to help you recreate it.\n* Generate from Prompt: Just describe what you&#x27;re in the mood for (e.g., &quot;a spicy, gluten-free pasta dish&quot;), and it will create a recipe from scratch.\n* Import from URL: Paste a link from a recipe website to import it into your cookbook.<p>You can also save all these recipes, create shopping lists, and set detailed preferences for diet, allergies, cuisine, and even the cookware you own.\nApp is in a freemium model, within limits you can really test out core features without any payment or even account creation.<p>The Tech Stack: For those interested, the app is built with:\n* Frontend: React Native (with Expo)\n* Backend: Firebase Functions for the API layer.\n* Database &amp; Storage: Firestore and Firebase Cloud Storage.\n* AI: Google&#x27;s Gemini API for recipe generation and analysis.\n* Image Generation: DeepInfra API (for Stable Diffusion).\n* Subscriptions: RevenueCat.<p>I&#x27;ve just launched on the App Store and would be incredibly grateful for any feedback, thoughts, or questions you might have.<p>You can check it out here: \n<a href=\"https:&#x2F;&#x2F;chefiniti.app\" rel=\"nofollow\">https:&#x2F;&#x2F;chefiniti.app</a>\nOr download directly\n<a href=\"https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;chefiniti-smart-recipe-creator&#x2F;id6745801080\">https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;chefiniti-smart-recipe-creator...</a>\nThanks for taking a look!",
@@ -560,17 +560,125 @@
   ],
   "communityArticles": [
     {
-      "id": "mk675u4x83by5s5rwwf",
-      "title": "発見: vannyhostile200/neuro-symbolic-reasoning-llm-prolog - 🤖 Generate Prolog predicates using LLMs that embed reasoning justifications, br",
-      "summary": "新しいプロジェクトを発見: 🤖 Generate Prolog predicates using LLMs that embed reasoning justifications, bridging neural and symbolic AI for improved logical coherence. (⭐1 | 🍴0)",
-      "content": "🤖 Generate Prolog predicates using LLMs that embed reasoning justifications, bridging neural and symbolic AI for improved logical coherence.\n\n言語: Shell\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:56.000Z",
+      "id": "mk6i0kgwglqaor1dtu8",
+      "title": "発見: evgeniimatveev/evgeniimatveev - Config files for my GitHub profile.",
+      "summary": "新しいプロジェクトを発見: Config files for my GitHub profile. (⭐3 | 🍴0)",
+      "content": "Config files for my GitHub profile.\n\n言語: Python\nスター数: 3\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:49.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/vannyhostile200/neuro-symbolic-reasoning-llm-prolog",
+      "sourceUrl": "https://github.com/evgeniimatveev/evgeniimatveev",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0kgwfu3l4jp3njb",
+      "title": "発見: code-yeongyu/oh-my-opencode - The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes l",
+      "summary": "新しいプロジェクトを発見: The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. (⭐12211 | 🍴818)",
+      "content": "The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you.\n\n言語: TypeScript\nスター数: 12211\nフォーク数: 818",
+      "publishedAt": "2026-01-09T06:31:41.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/code-yeongyu/oh-my-opencode",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0lk7671upiz1sa",
+      "title": "発見: luna-asksage/website-monitor - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:41.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/luna-asksage/website-monitor",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0kgww5pqm2x7is8",
+      "title": "発見: gabe-almeida/next-js-my-contractor-now - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:35.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/gabe-almeida/next-js-my-contractor-now",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0kgwfh3c45ueabm",
+      "title": "発見: bgrgicak/app-playground - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:35.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/bgrgicak/app-playground",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0lk7mdl2aghtyto",
+      "title": "発見: standardbeagle/slop-mcp - MCP server for SLOP protocol",
+      "summary": "新しいプロジェクトを発見: MCP server for SLOP protocol (⭐0 | 🍴0)",
+      "content": "MCP server for SLOP protocol\n\n言語: Go\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:35.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/standardbeagle/slop-mcp",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0lk7ong35x7j06i",
+      "title": "発見: LianjiaTech/bella-openapi - Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，可类比openrouter，与之不同的是除了提供聊天补全(chat-completion)",
+      "summary": "新しいプロジェクトを発見: Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，可类比openrouter，与之不同的是除了提供聊天补全(chat-completion)能力外，还提供了文本向量化(text-embedding)、语音识别(ASR)、语音合成(TTS)、文生图、图生图等多种AI能力，同时集成了计费、限流和资源管理功能。且集成的所有能力都经过了大规模生产环境的验证。 (⭐194 | 🍴38)",
+      "content": "Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，可类比openrouter，与之不同的是除了提供聊天补全(chat-completion)能力外，还提供了文本向量化(text-embedding)、语音识别(ASR)、语音合成(TTS)、文生图、图生图等多种AI能力，同时集成了计费、限流和资源管理功能。且集成的所有能力都经过了大规模生产环境的验证。\n\n言語: Java\nスター数: 194\nフォーク数: 38",
+      "publishedAt": "2026-01-09T06:31:33.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/LianjiaTech/bella-openapi",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
       "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0mo6d4oir3up1z",
+      "title": "発見: DR1X1/ai-local-agents - 🧠 Build autonomous AI agents with Ollama and LangChain, featuring local LLM inf",
+      "summary": "新しいプロジェクトを発見: 🧠 Build autonomous AI agents with Ollama and LangChain, featuring local LLM inference, memory handling, and voice interaction in Python. (⭐1 | 🍴0)",
+      "content": "🧠 Build autonomous AI agents with Ollama and LangChain, featuring local LLM inference, memory handling, and voice interaction in Python.\n\n言語: Python\nスター数: 1\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:33.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/DR1X1/ai-local-agents",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "Llama",
         "LLM",
         "AI"
       ],
@@ -578,265 +686,120 @@
       "showOnTopPage": false
     },
     {
-      "id": "mk675s5c2be3k2ib2rv",
-      "title": "発見: NezzSigma/ios-simulator-skill - 🚀 Automate iOS app testing and building with 21 scripts for seamless semantic n",
-      "summary": "新しいプロジェクトを発見: 🚀 Automate iOS app testing and building with 21 scripts for seamless semantic navigation, ensuring reliability across UI changes and screen sizes. (⭐0 | 🍴0)",
-      "content": "🚀 Automate iOS app testing and building with 21 scripts for seamless semantic navigation, ensuring reliability across UI changes and screen sizes.\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:53.000Z",
+      "id": "mk6i0mo7jl6ifknw5r",
+      "title": "発見: jerrytang02-gif/claude-code-plugins-dev - 🤖 Automate development tasks with AI-driven plugins for Claude Code, boosting p",
+      "summary": "新しいプロジェクトを発見: 🤖 Automate development tasks with AI-driven plugins for Claude Code, boosting productivity and streamlining workflows for developers. (⭐1 | 🍴0)",
+      "content": "🤖 Automate development tasks with AI-driven plugins for Claude Code, boosting productivity and streamlining workflows for developers.\n\n言語: N/A\nスター数: 1\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:30.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/NezzSigma/ios-simulator-skill",
+      "sourceUrl": "https://github.com/jerrytang02-gif/claude-code-plugins-dev",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
       "tags": [
+        "Claude",
+        "AI",
         "ML"
       ],
       "featured": false,
       "showOnTopPage": false
     },
     {
-      "id": "mk675s5cf5otm4vxca",
-      "title": "発見: ManoharKonala/livebenchmark - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐1 | 🍴0)",
-      "content": "\n\n言語: TypeScript\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:53.000Z",
+      "id": "mk6i0kgw1jqc2xaheex",
+      "title": "発見: hejinlin0824/next-ai-draw-io - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:29.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/ManoharKonala/livebenchmark",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675s5cicfcrc3017",
-      "title": "発見: DioNanos/nexuscli - NexusCLI: Termux-first AI cockpit for Claude, Codex, and Gemini with native sess",
-      "summary": "新しいプロジェクトを発見: NexusCLI: Termux-first AI cockpit for Claude, Codex, and Gemini with native session handoff, stop/interrupt, and auto session import. (⭐8 | 🍴1)",
-      "content": "NexusCLI: Termux-first AI cockpit for Claude, Codex, and Gemini with native session handoff, stop/interrupt, and auto session import.\n\n言語: JavaScript\nスター数: 8\nフォーク数: 1",
-      "publishedAt": "2026-01-09T01:27:47.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/DioNanos/nexuscli",
+      "sourceUrl": "https://github.com/hejinlin0824/next-ai-draw-io",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
       "tags": [
-        "Claude",
-        "Gemini",
         "AI"
       ],
       "featured": false,
       "showOnTopPage": false
     },
     {
-      "id": "mk675t4zramef89i4w",
-      "title": "発見: jhult/jhult - Jonathan Hult",
-      "summary": "新しいプロジェクトを発見: Jonathan Hult (⭐0 | 🍴0)",
-      "content": "Jonathan Hult\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:47.000Z",
+      "id": "mk6i0lk8wu4xb6emvbm",
+      "title": "発見: kaushal07wick/OsmoGrep - OsmoGrep is an interactive, terminal-native AI E2E execution agent designed to s",
+      "summary": "新しいプロジェクトを発見: OsmoGrep is an interactive, terminal-native AI E2E execution agent designed to safely run tests, experiments, and analysis on uncommitted working trees without polluting your main branches. (⭐0 | 🍴0)",
+      "content": "OsmoGrep is an interactive, terminal-native AI E2E execution agent designed to safely run tests, experiments, and analysis on uncommitted working trees without polluting your main branches.\n\n言語: Rust\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:27.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/jhult/jhult",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675u4x0k3p8hdeiu2l",
-      "title": "発見: Cleanable-timesignature929/LongCat-Audio-Codec - 🔊 Build audio tokenizers and detokenizers for speech large language models with",
-      "summary": "新しいプロジェクトを発見: 🔊 Build audio tokenizers and detokenizers for speech large language models with LongCat-Audio-Codec to enhance audio processing and understanding. (⭐1 | 🍴0)",
-      "content": "🔊 Build audio tokenizers and detokenizers for speech large language models with LongCat-Audio-Codec to enhance audio processing and understanding.\n\n言語: Python\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:46.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Cleanable-timesignature929/LongCat-Audio-Codec",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675s5c0crv97v0qve",
-      "title": "発見: MejtysCZ/cc-switch - 🔄 Manage and switch between Claude Code and Codex vendor configurations seamles",
-      "summary": "新しいプロジェクトを発見: 🔄 Manage and switch between Claude Code and Codex vendor configurations seamlessly with this cross-platform desktop app. (⭐2 | 🍴0)",
-      "content": "🔄 Manage and switch between Claude Code and Codex vendor configurations seamlessly with this cross-platform desktop app.\n\n言語: TypeScript\nスター数: 2\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:44.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/MejtysCZ/cc-switch",
+      "sourceUrl": "https://github.com/kaushal07wick/OsmoGrep",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
       "tags": [
-        "Claude",
-        "ML"
+        "AI"
       ],
       "featured": false,
       "showOnTopPage": false
     },
     {
-      "id": "mk675u4xbxtnrsr3bz",
-      "title": "発見: prashant311603-dotcom/acceptance-bench - 🔍 Evaluate LLM performance in creative writing tasks, focusing on content gener",
-      "summary": "新しいプロジェクトを発見: 🔍 Evaluate LLM performance in creative writing tasks, focusing on content generation and response quality across varied prompts and difficulty levels. (⭐0 | 🍴0)",
-      "content": "🔍 Evaluate LLM performance in creative writing tasks, focusing on content generation and response quality across varied prompts and difficulty levels.\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:44.000Z",
+      "id": "mk6i0mo79nm9mzk7gos",
+      "title": "発見: Ekalavayprkash/hass_local_openai_llm - 🤖 Integrate local OpenAI-compatible LLMs with Home Assistant for enhanced autom",
+      "summary": "新しいプロジェクトを発見: 🤖 Integrate local OpenAI-compatible LLMs with Home Assistant for enhanced automation and streamlined conversation management. (⭐0 | 🍴0)",
+      "content": "🤖 Integrate local OpenAI-compatible LLMs with Home Assistant for enhanced automation and streamlined conversation management.\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:23.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/prashant311603-dotcom/acceptance-bench",
+      "sourceUrl": "https://github.com/Ekalavayprkash/hass_local_openai_llm",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "LLM",
+        "AI",
+        "ML",
+        "OpenAI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0mo72mihq5641",
+      "title": "発見: arsalanafzal010/SmartRAG - 📄 Enable smart conversations with documents, images, and audio files using this",
+      "summary": "新しいプロジェクトを発見: 📄 Enable smart conversations with documents, images, and audio files using this advanced Retrieval-Augmented Generation system. (⭐1 | 🍴0)",
+      "content": "📄 Enable smart conversations with documents, images, and audio files using this advanced Retrieval-Augmented Generation system.\n\n言語: Python\nスター数: 1\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:21.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/arsalanafzal010/SmartRAG",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0mo7yvn6593f6e",
+      "title": "発見: DGTV11/LLM_Agent_2 - LLM_Agent rewrite :)",
+      "summary": "新しいプロジェクトを発見: LLM_Agent rewrite :) (⭐0 | 🍴0)",
+      "content": "LLM_Agent rewrite :)\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:19.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/DGTV11/LLM_Agent_2",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
       "tags": [
         "LLM"
       ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675t4zcenirbq40o6",
-      "title": "発見: troykelly/claude-skills - Opinionated GitHub-native development workflow with 28 skills for autonomous, is",
-      "summary": "新しいプロジェクトを発見: Opinionated GitHub-native development workflow with 28 skills for autonomous, issue-driven software development with Claude Code (⭐2 | 🍴0)",
-      "content": "Opinionated GitHub-native development workflow with 28 skills for autonomous, issue-driven software development with Claude Code\n\n言語: Shell\nスター数: 2\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:40.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/troykelly/claude-skills",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675u4x087svm5f748j",
-      "title": "発見: youssef17amr/cognio-rlaf - 🤖 Train AI agents effectively with RLAF, utilizing multi-perspective critic ens",
-      "summary": "新しいプロジェクトを発見: 🤖 Train AI agents effectively with RLAF, utilizing multi-perspective critic ensembles for richer feedback and improved performance in reinforcement learning. (⭐0 | 🍴0)",
-      "content": "🤖 Train AI agents effectively with RLAF, utilizing multi-perspective critic ensembles for richer feedback and improved performance in reinforcement learning.\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:40.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/youssef17amr/cognio-rlaf",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675s5chsgjkrehzzd",
-      "title": "発見: Mario3902/awaitter-lite - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:37.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Mario3902/awaitter-lite",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675t4zsturbuu00uk",
-      "title": "発見: syncable-dev/syncable-cli - Syncable CLI is an intelligent Infrastructure as Code generator that analyzes co",
-      "summary": "新しいプロジェクトを発見: Syncable CLI is an intelligent Infrastructure as Code generator that analyzes codebases to automatically detect languages, frameworks, and dependencies across 70+ frameworks in 5 languages (Rust, JS/TS, Python, Go, Java). It generates optimized Docker, Compose, and Terraform configs with built-in security analysis and vulnerability scanning. (⭐28 | 🍴4)",
-      "content": "Syncable CLI is an intelligent Infrastructure as Code generator that analyzes codebases to automatically detect languages, frameworks, and dependencies across 70+ frameworks in 5 languages (Rust, JS/TS, Python, Go, Java). It generates optimized Docker, Compose, and Terraform configs with built-in security analysis and vulnerability scanning.\n\n言語: Rust\nスター数: 28\nフォーク数: 4",
-      "publishedAt": "2026-01-09T01:27:35.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/syncable-dev/syncable-cli",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675u4x7q0pgt8pazg",
-      "title": "発見: rangga276/ocr-llm-agent - 🖼️ Extract and process text from images with an OCR AI agent, featuring tools f",
-      "summary": "新しいプロジェクトを発見: 🖼️ Extract and process text from images with an OCR AI agent, featuring tools for image preprocessing and unit conversions. (⭐1 | 🍴0)",
-      "content": "🖼️ Extract and process text from images with an OCR AI agent, featuring tools for image preprocessing and unit conversions.\n\n言語: Python\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:34.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/rangga276/ocr-llm-agent",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "LLM",
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675t4zhd0kzn5x454",
-      "title": "発見: laude-institute/harbor - Harbor is a framework for running agent evaluations and creating and using RL en",
-      "summary": "新しいプロジェクトを発見: Harbor is a framework for running agent evaluations and creating and using RL environments. (⭐310 | 🍴228)",
-      "content": "Harbor is a framework for running agent evaluations and creating and using RL environments.\n\n言語: Python\nスター数: 310\nフォーク数: 228",
-      "publishedAt": "2026-01-09T01:27:17.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/laude-institute/harbor",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
       "featured": false,
       "showOnTopPage": false
     }
   ],
   "githubArticles": [
     {
-      "id": "mk675u4x83by5s5rwwf",
-      "title": "発見: vannyhostile200/neuro-symbolic-reasoning-llm-prolog - 🤖 Generate Prolog predicates using LLMs that embed reasoning justifications, br",
-      "summary": "新しいプロジェクトを発見: 🤖 Generate Prolog predicates using LLMs that embed reasoning justifications, bridging neural and symbolic AI for improved logical coherence. (⭐1 | 🍴0)",
-      "content": "🤖 Generate Prolog predicates using LLMs that embed reasoning justifications, bridging neural and symbolic AI for improved logical coherence.\n\n言語: Shell\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:56.000Z",
+      "id": "mk6i0kgwglqaor1dtu8",
+      "title": "発見: evgeniimatveev/evgeniimatveev - Config files for my GitHub profile.",
+      "summary": "新しいプロジェクトを発見: Config files for my GitHub profile. (⭐3 | 🍴0)",
+      "content": "Config files for my GitHub profile.\n\n言語: Python\nスター数: 3\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:49.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/vannyhostile200/neuro-symbolic-reasoning-llm-prolog",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "LLM",
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675s5c2be3k2ib2rv",
-      "title": "発見: NezzSigma/ios-simulator-skill - 🚀 Automate iOS app testing and building with 21 scripts for seamless semantic n",
-      "summary": "新しいプロジェクトを発見: 🚀 Automate iOS app testing and building with 21 scripts for seamless semantic navigation, ensuring reliability across UI changes and screen sizes. (⭐0 | 🍴0)",
-      "content": "🚀 Automate iOS app testing and building with 21 scripts for seamless semantic navigation, ensuring reliability across UI changes and screen sizes.\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:53.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/NezzSigma/ios-simulator-skill",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "ML"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675s5cf5otm4vxca",
-      "title": "発見: ManoharKonala/livebenchmark - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐1 | 🍴0)",
-      "content": "\n\n言語: TypeScript\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:53.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/ManoharKonala/livebenchmark",
+      "sourceUrl": "https://github.com/evgeniimatveev/evgeniimatveev",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -845,32 +808,13 @@
       "showOnTopPage": false
     },
     {
-      "id": "mk675s5cicfcrc3017",
-      "title": "発見: DioNanos/nexuscli - NexusCLI: Termux-first AI cockpit for Claude, Codex, and Gemini with native sess",
-      "summary": "新しいプロジェクトを発見: NexusCLI: Termux-first AI cockpit for Claude, Codex, and Gemini with native session handoff, stop/interrupt, and auto session import. (⭐8 | 🍴1)",
-      "content": "NexusCLI: Termux-first AI cockpit for Claude, Codex, and Gemini with native session handoff, stop/interrupt, and auto session import.\n\n言語: JavaScript\nスター数: 8\nフォーク数: 1",
-      "publishedAt": "2026-01-09T01:27:47.000Z",
+      "id": "mk6i0kgwfu3l4jp3njb",
+      "title": "発見: code-yeongyu/oh-my-opencode - The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes l",
+      "summary": "新しいプロジェクトを発見: The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. (⭐12211 | 🍴818)",
+      "content": "The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you.\n\n言語: TypeScript\nスター数: 12211\nフォーク数: 818",
+      "publishedAt": "2026-01-09T06:31:41.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/DioNanos/nexuscli",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "Claude",
-        "Gemini",
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675t4zramef89i4w",
-      "title": "発見: jhult/jhult - Jonathan Hult",
-      "summary": "新しいプロジェクトを発見: Jonathan Hult (⭐0 | 🍴0)",
-      "content": "Jonathan Hult\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:47.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/jhult/jhult",
+      "sourceUrl": "https://github.com/code-yeongyu/oh-my-opencode",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -879,130 +823,13 @@
       "showOnTopPage": false
     },
     {
-      "id": "mk675u4x0k3p8hdeiu2l",
-      "title": "発見: Cleanable-timesignature929/LongCat-Audio-Codec - 🔊 Build audio tokenizers and detokenizers for speech large language models with",
-      "summary": "新しいプロジェクトを発見: 🔊 Build audio tokenizers and detokenizers for speech large language models with LongCat-Audio-Codec to enhance audio processing and understanding. (⭐1 | 🍴0)",
-      "content": "🔊 Build audio tokenizers and detokenizers for speech large language models with LongCat-Audio-Codec to enhance audio processing and understanding.\n\n言語: Python\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:46.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Cleanable-timesignature929/LongCat-Audio-Codec",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675s5c0crv97v0qve",
-      "title": "発見: MejtysCZ/cc-switch - 🔄 Manage and switch between Claude Code and Codex vendor configurations seamles",
-      "summary": "新しいプロジェクトを発見: 🔄 Manage and switch between Claude Code and Codex vendor configurations seamlessly with this cross-platform desktop app. (⭐2 | 🍴0)",
-      "content": "🔄 Manage and switch between Claude Code and Codex vendor configurations seamlessly with this cross-platform desktop app.\n\n言語: TypeScript\nスター数: 2\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:44.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/MejtysCZ/cc-switch",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "Claude",
-        "ML"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675u4xbxtnrsr3bz",
-      "title": "発見: prashant311603-dotcom/acceptance-bench - 🔍 Evaluate LLM performance in creative writing tasks, focusing on content gener",
-      "summary": "新しいプロジェクトを発見: 🔍 Evaluate LLM performance in creative writing tasks, focusing on content generation and response quality across varied prompts and difficulty levels. (⭐0 | 🍴0)",
-      "content": "🔍 Evaluate LLM performance in creative writing tasks, focusing on content generation and response quality across varied prompts and difficulty levels.\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:44.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/prashant311603-dotcom/acceptance-bench",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "LLM"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675t4zcenirbq40o6",
-      "title": "発見: troykelly/claude-skills - Opinionated GitHub-native development workflow with 28 skills for autonomous, is",
-      "summary": "新しいプロジェクトを発見: Opinionated GitHub-native development workflow with 28 skills for autonomous, issue-driven software development with Claude Code (⭐2 | 🍴0)",
-      "content": "Opinionated GitHub-native development workflow with 28 skills for autonomous, issue-driven software development with Claude Code\n\n言語: Shell\nスター数: 2\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:40.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/troykelly/claude-skills",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675u4x087svm5f748j",
-      "title": "発見: youssef17amr/cognio-rlaf - 🤖 Train AI agents effectively with RLAF, utilizing multi-perspective critic ens",
-      "summary": "新しいプロジェクトを発見: 🤖 Train AI agents effectively with RLAF, utilizing multi-perspective critic ensembles for richer feedback and improved performance in reinforcement learning. (⭐0 | 🍴0)",
-      "content": "🤖 Train AI agents effectively with RLAF, utilizing multi-perspective critic ensembles for richer feedback and improved performance in reinforcement learning.\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:40.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/youssef17amr/cognio-rlaf",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675s5chsgjkrehzzd",
-      "title": "発見: Mario3902/awaitter-lite - GitHub新プロジェクト",
+      "id": "mk6i0lk7671upiz1sa",
+      "title": "発見: luna-asksage/website-monitor - GitHub新プロジェクト",
       "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:37.000Z",
+      "content": "\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:41.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Mario3902/awaitter-lite",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675v6a524j18pwv18",
-      "title": "Anthropic: claude-code-actionの最新アップデート",
-      "summary": "claude-code-actionが更新されました (⭐4975)",
-      "content": "\n\n最終更新: 1/9/2026\nスター数: 4975",
-      "publishedAt": "2026-01-09T01:27:37.000Z",
-      "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/claude-code-action",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mk675t4zsturbuu00uk",
-      "title": "発見: syncable-dev/syncable-cli - Syncable CLI is an intelligent Infrastructure as Code generator that analyzes co",
-      "summary": "新しいプロジェクトを発見: Syncable CLI is an intelligent Infrastructure as Code generator that analyzes codebases to automatically detect languages, frameworks, and dependencies across 70+ frameworks in 5 languages (Rust, JS/TS, Python, Go, Java). It generates optimized Docker, Compose, and Terraform configs with built-in security analysis and vulnerability scanning. (⭐28 | 🍴4)",
-      "content": "Syncable CLI is an intelligent Infrastructure as Code generator that analyzes codebases to automatically detect languages, frameworks, and dependencies across 70+ frameworks in 5 languages (Rust, JS/TS, Python, Go, Java). It generates optimized Docker, Compose, and Terraform configs with built-in security analysis and vulnerability scanning.\n\n言語: Rust\nスター数: 28\nフォーク数: 4",
-      "publishedAt": "2026-01-09T01:27:35.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/syncable-dev/syncable-cli",
+      "sourceUrl": "https://github.com/luna-asksage/website-monitor",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -1011,58 +838,11 @@
       "showOnTopPage": false
     },
     {
-      "id": "mk675u4x7q0pgt8pazg",
-      "title": "発見: rangga276/ocr-llm-agent - 🖼️ Extract and process text from images with an OCR AI agent, featuring tools f",
-      "summary": "新しいプロジェクトを発見: 🖼️ Extract and process text from images with an OCR AI agent, featuring tools for image preprocessing and unit conversions. (⭐1 | 🍴0)",
-      "content": "🖼️ Extract and process text from images with an OCR AI agent, featuring tools for image preprocessing and unit conversions.\n\n言語: Python\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-01-09T01:27:34.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/rangga276/ocr-llm-agent",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "LLM",
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675t4zhd0kzn5x454",
-      "title": "発見: laude-institute/harbor - Harbor is a framework for running agent evaluations and creating and using RL en",
-      "summary": "新しいプロジェクトを発見: Harbor is a framework for running agent evaluations and creating and using RL environments. (⭐310 | 🍴228)",
-      "content": "Harbor is a framework for running agent evaluations and creating and using RL environments.\n\n言語: Python\nスター数: 310\nフォーク数: 228",
-      "publishedAt": "2026-01-09T01:27:17.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/laude-institute/harbor",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mk675v6oowlhb4g8ky8",
-      "title": "Anthropic: skillsの最新アップデート",
-      "summary": "Public repository for Agent Skillsが更新されました (⭐35840)",
-      "content": "Public repository for Agent Skills\n\n最終更新: 1/9/2026\nスター数: 35840",
-      "publishedAt": "2026-01-09T01:26:16.000Z",
-      "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/skills",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [],
-      "featured": true
-    },
-    {
-      "id": "mk675v6oc8lb6hs0yju",
+      "id": "mk6i0nu06jp2oe21lnh",
       "title": "Anthropic: claude-codeの最新アップデート",
-      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.が更新されました (⭐53399)",
-      "content": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n最終更新: 1/9/2026\nスター数: 53399",
-      "publishedAt": "2026-01-09T01:25:15.000Z",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.が更新されました (⭐53585)",
+      "content": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n最終更新: 1/9/2026\nスター数: 53585",
+      "publishedAt": "2026-01-09T06:31:36.000Z",
       "source": "Anthropic GitHub Org",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "category": "tools",
@@ -1075,13 +855,262 @@
       "featured": true
     },
     {
-      "id": "mk675v6op2whnwnllek",
-      "title": "Anthropic: life-sciencesの最新アップデート",
-      "summary": "Repo for the Claude Code Marketplace to use with the Claude for Life Sciences Launch. This will continue to host the marketplace.json long-term, but not the actual MCP servers.が更新されました (⭐115)",
-      "content": "Repo for the Claude Code Marketplace to use with the Claude for Life Sciences Launch. This will continue to host the marketplace.json long-term, but not the actual MCP servers.\n\n最終更新: 1/9/2026\nスター数: 115",
-      "publishedAt": "2026-01-09T01:23:47.000Z",
+      "id": "mk6i0kgww5pqm2x7is8",
+      "title": "発見: gabe-almeida/next-js-my-contractor-now - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:35.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/gabe-almeida/next-js-my-contractor-now",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0kgwfh3c45ueabm",
+      "title": "発見: bgrgicak/app-playground - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:35.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/bgrgicak/app-playground",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0lk7mdl2aghtyto",
+      "title": "発見: standardbeagle/slop-mcp - MCP server for SLOP protocol",
+      "summary": "新しいプロジェクトを発見: MCP server for SLOP protocol (⭐0 | 🍴0)",
+      "content": "MCP server for SLOP protocol\n\n言語: Go\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:35.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/standardbeagle/slop-mcp",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0lk7ong35x7j06i",
+      "title": "発見: LianjiaTech/bella-openapi - Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，可类比openrouter，与之不同的是除了提供聊天补全(chat-completion)",
+      "summary": "新しいプロジェクトを発見: Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，可类比openrouter，与之不同的是除了提供聊天补全(chat-completion)能力外，还提供了文本向量化(text-embedding)、语音识别(ASR)、语音合成(TTS)、文生图、图生图等多种AI能力，同时集成了计费、限流和资源管理功能。且集成的所有能力都经过了大规模生产环境的验证。 (⭐194 | 🍴38)",
+      "content": "Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，可类比openrouter，与之不同的是除了提供聊天补全(chat-completion)能力外，还提供了文本向量化(text-embedding)、语音识别(ASR)、语音合成(TTS)、文生图、图生图等多种AI能力，同时集成了计费、限流和资源管理功能。且集成的所有能力都经过了大规模生产环境的验证。\n\n言語: Java\nスター数: 194\nフォーク数: 38",
+      "publishedAt": "2026-01-09T06:31:33.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/LianjiaTech/bella-openapi",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0mo6d4oir3up1z",
+      "title": "発見: DR1X1/ai-local-agents - 🧠 Build autonomous AI agents with Ollama and LangChain, featuring local LLM inf",
+      "summary": "新しいプロジェクトを発見: 🧠 Build autonomous AI agents with Ollama and LangChain, featuring local LLM inference, memory handling, and voice interaction in Python. (⭐1 | 🍴0)",
+      "content": "🧠 Build autonomous AI agents with Ollama and LangChain, featuring local LLM inference, memory handling, and voice interaction in Python.\n\n言語: Python\nスター数: 1\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:33.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/DR1X1/ai-local-agents",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "Llama",
+        "LLM",
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0mo7jl6ifknw5r",
+      "title": "発見: jerrytang02-gif/claude-code-plugins-dev - 🤖 Automate development tasks with AI-driven plugins for Claude Code, boosting p",
+      "summary": "新しいプロジェクトを発見: 🤖 Automate development tasks with AI-driven plugins for Claude Code, boosting productivity and streamlining workflows for developers. (⭐1 | 🍴0)",
+      "content": "🤖 Automate development tasks with AI-driven plugins for Claude Code, boosting productivity and streamlining workflows for developers.\n\n言語: N/A\nスター数: 1\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:30.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/jerrytang02-gif/claude-code-plugins-dev",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "Claude",
+        "AI",
+        "ML"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0kgw1jqc2xaheex",
+      "title": "発見: hejinlin0824/next-ai-draw-io - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:29.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/hejinlin0824/next-ai-draw-io",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0lk8wu4xb6emvbm",
+      "title": "発見: kaushal07wick/OsmoGrep - OsmoGrep is an interactive, terminal-native AI E2E execution agent designed to s",
+      "summary": "新しいプロジェクトを発見: OsmoGrep is an interactive, terminal-native AI E2E execution agent designed to safely run tests, experiments, and analysis on uncommitted working trees without polluting your main branches. (⭐0 | 🍴0)",
+      "content": "OsmoGrep is an interactive, terminal-native AI E2E execution agent designed to safely run tests, experiments, and analysis on uncommitted working trees without polluting your main branches.\n\n言語: Rust\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:27.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/kaushal07wick/OsmoGrep",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0mo79nm9mzk7gos",
+      "title": "発見: Ekalavayprkash/hass_local_openai_llm - 🤖 Integrate local OpenAI-compatible LLMs with Home Assistant for enhanced autom",
+      "summary": "新しいプロジェクトを発見: 🤖 Integrate local OpenAI-compatible LLMs with Home Assistant for enhanced automation and streamlined conversation management. (⭐0 | 🍴0)",
+      "content": "🤖 Integrate local OpenAI-compatible LLMs with Home Assistant for enhanced automation and streamlined conversation management.\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:23.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/Ekalavayprkash/hass_local_openai_llm",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "LLM",
+        "AI",
+        "ML",
+        "OpenAI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0mo72mihq5641",
+      "title": "発見: arsalanafzal010/SmartRAG - 📄 Enable smart conversations with documents, images, and audio files using this",
+      "summary": "新しいプロジェクトを発見: 📄 Enable smart conversations with documents, images, and audio files using this advanced Retrieval-Augmented Generation system. (⭐1 | 🍴0)",
+      "content": "📄 Enable smart conversations with documents, images, and audio files using this advanced Retrieval-Augmented Generation system.\n\n言語: Python\nスター数: 1\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:21.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/arsalanafzal010/SmartRAG",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0mo7yvn6593f6e",
+      "title": "発見: DGTV11/LLM_Agent_2 - LLM_Agent rewrite :)",
+      "summary": "新しいプロジェクトを発見: LLM_Agent rewrite :) (⭐0 | 🍴0)",
+      "content": "LLM_Agent rewrite :)\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-01-09T06:31:19.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/DGTV11/LLM_Agent_2",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "LLM"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mk6i0nufruhtl6lgbz8",
+      "title": "Anthropic: skillsの最新アップデート",
+      "summary": "Public repository for Agent Skillsが更新されました (⭐36053)",
+      "content": "Public repository for Agent Skills\n\n最終更新: 1/9/2026\nスター数: 36053",
+      "publishedAt": "2026-01-09T06:30:58.000Z",
       "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/life-sciences",
+      "sourceUrl": "https://github.com/anthropics/skills",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [],
+      "featured": true
+    },
+    {
+      "id": "mk6i0nuffe1gd06kxf5",
+      "title": "Anthropic: prompt-eng-interactive-tutorialの最新アップデート",
+      "summary": "Anthropic's Interactive Prompt Engineering Tutorialが更新されました (⭐28560)",
+      "content": "Anthropic's Interactive Prompt Engineering Tutorial\n\n最終更新: 1/9/2026\nスター数: 28560",
+      "publishedAt": "2026-01-09T06:29:41.000Z",
+      "source": "Anthropic GitHub Org",
+      "sourceUrl": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mk6i0nufkbol62kfxvn",
+      "title": "Anthropic: claude-plugins-officialの最新アップデート",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.が更新されました (⭐2076)",
+      "content": "Official, Anthropic-managed directory of high quality Claude Code Plugins.\n\n最終更新: 1/9/2026\nスター数: 2076",
+      "publishedAt": "2026-01-09T06:28:42.000Z",
+      "source": "Anthropic GitHub Org",
+      "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [
+        "Claude",
+        "Anthropic"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mk6i0nufk7imislxff",
+      "title": "Anthropic: anthropic-sdk-typescriptの最新アップデート",
+      "summary": "Access to Anthropic's safety-first language model APIs in TypeScriptが更新されました (⭐1501)",
+      "content": "Access to Anthropic's safety-first language model APIs in TypeScript\n\n最終更新: 1/9/2026\nスター数: 1501",
+      "publishedAt": "2026-01-09T06:28:27.000Z",
+      "source": "Anthropic GitHub Org",
+      "sourceUrl": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mk6i0nuf0irqnr200v8a",
+      "title": "Anthropic: claude-agent-sdk-typescriptの最新アップデート",
+      "summary": "claude-agent-sdk-typescriptが更新されました (⭐575)",
+      "content": "\n\n最終更新: 1/9/2026\nスター数: 575",
+      "publishedAt": "2026-01-09T06:28:08.000Z",
+      "source": "Anthropic GitHub Org",
+      "sourceUrl": "https://github.com/anthropics/claude-agent-sdk-typescript",
       "category": "tools",
       "company": "Anthropic",
       "imageUrl": null,
@@ -1091,39 +1120,7 @@
       "featured": true
     },
     {
-      "id": "mk675v6odxs86dayrlp",
-      "title": "Anthropic: claude-quickstartsの最新アップデート",
-      "summary": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude APIが更新されました (⭐13365)",
-      "content": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API\n\n最終更新: 1/9/2026\nスター数: 13365",
-      "publishedAt": "2026-01-09T01:22:27.000Z",
-      "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/claude-quickstarts",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mk675v6ow1xmz7vf4xh",
-      "title": "Anthropic: claude-agent-sdk-pythonの最新アップデート",
-      "summary": "claude-agent-sdk-pythonが更新されました (⭐3969)",
-      "content": "\n\n最終更新: 1/9/2026\nスター数: 3969",
-      "publishedAt": "2026-01-09T01:14:22.000Z",
-      "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/claude-agent-sdk-python",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mk675kf25emk38xee64",
+      "id": "mk6i0bltzcepa8a2ssa",
       "title": "Anthropic: v2.1.2",
       "summary": "## What's changed\n\n- Added source path metadata to images dragged onto the terminal, helping Claude understand where images originated\n- Added clickable hyperlinks for file paths in tool output in terminals that support OSC 8 (like iTerm)\n- Added support for Windows Package Manager (winget) installa...",
       "content": "## What's changed\n\n- Added source path metadata to images dragged onto the terminal, helping Claude understand where images originated\n- Added clickable hyperlinks for file paths in tool output in terminals that support OSC 8 (like iTerm)\n- Added support for Windows Package Manager (winget) installations with automatic detection and update instructions\n- Added Shift+Tab keyboard shortcut in plan mode to quickly select \"auto-accept edits\" option\n- Added `FORCE_AUTOUPDATE_PLUGINS` environment variable to allow plugin autoupdate even when the main auto-updater is disabled\n- Added `agent_type` to SessionStart hook input, populated if `--agent` is specified\n- Fixed a command injection vulnerability in bash command processing where malformed input could execute arbitrary commands\n- Fixed a memory leak where tree-sitter parse trees were not being freed, causing WASM memory to grow unbounded over long sessions\n- Fixed binary files (images, PDFs, etc.) being accidentally included in memory when using `@include` directives in CLAUDE.md files\n- Fixed updates incorrectly claiming another installation is in progress\n- Fixed crash when socket files exist in watched directories (defense-in-depth for EOPNOTSUPP errors)\n- Fixed remote session URL and teleport being broken when using `/tasks` command\n- Fixed MCP tool names being exposed in analytics events by sanitizing user-specific server configurations\n- Improved Option-as-Meta hint on macOS to show terminal-specific instructions for native CSIu terminals like iTerm2, Kitty, and WezTerm\n- Improved error message when pasting images over SSH to suggest using `scp` instead of the unhelpful clipboard shortcut hint\n- Improved permission explainer to not flag routine dev workflows (git fetch/rebase, npm install, tests, PRs) as medium risk\n- Changed large bash command outputs to be saved to disk instead of truncated, allowing Claude to read the full content\n- Changed large tool outputs to be persisted to disk instead of truncated, providing full output access via file references\n- Changed `/plugins` installed tab to unify plugins and MCPs with scope-based grouping\n- Deprecated Windows managed settings path `C:\\ProgramData\\ClaudeCode\\managed-settings.json` - administrators should migrate to `C:\\Program Files\\ClaudeCode\\managed-settings.json`\n- [SDK] Changed minimum zod peer dependency to ^4.0.0\n- [VSCode] Fixed usage display not updating after manual compact\n",
@@ -1138,10 +1135,10 @@
         "AI",
         "Meta"
       ],
-      "featured": false
+      "featured": true
     },
     {
-      "id": "mk675n7jq8deeu3b8t",
+      "id": "mk6i0evr0az9zwkc9k5t",
       "title": "OpenAI: openai-cookbookの最新アップデート",
       "summary": "openai-cookbookリポジトリに新しい更新: Context Engineering for Personalization - State Management with Long-Term Memory Notes using OpenAI Agents SDK (#2357)...",
       "content": "Context Engineering for Personalization - State Management with Long-Term Memory Notes using OpenAI Agents SDK (#2357)",
@@ -1158,7 +1155,7 @@
       "featured": false
     },
     {
-      "id": "mk675r0kymkos1jv72a",
+      "id": "mk6i0jcajq7p8uacjb",
       "title": "Hugging Face: Release candidate 5.0.0rc2",
       "summary": "## What's Changed\r\n\r\nThis release candidate is focused on fixing `AutoTokenizer`, expanding the dynamic weight loading support, and improving performances with MoEs!\r\n\r\n## MoEs and performances:\r\n<img width=\"2048\" height=\"1451\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3ed2508e-3eb...",
       "content": "## What's Changed\r\n\r\nThis release candidate is focused on fixing `AutoTokenizer`, expanding the dynamic weight loading support, and improving performances with MoEs!\r\n\r\n## MoEs and performances:\r\n<img width=\"2048\" height=\"1451\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3ed2508e-3eb1-4f13-8717-cd9027d12a39\" />\r\n\r\n* batched and grouped experts implementations by @IlyasMoutawwakil in https://github.com/huggingface/transformers/pull/42697\r\n* Optimize MoEs for decoding using batched_mm by @IlyasMoutawwakil in https://github.com/huggingface/transformers/pull/43126\r\n\r\n## Tokenization:\r\nThe main issue with the tokenization refactor is that `tokenizer_class` are now \"enforced\" when in most cases they are wrong. This took a while to properly isolate and now we try to use `TokenizersBackend` whenever we can. #42894 has a much more detailed description of the big changes!\r\n\r\n\r\n* use `TokenizersBackend` by @ArthurZucker in https://github.com/huggingface/transformers/pull/42894\r\n* Fix convert_tekken_tokenizer by @juliendenize in https://github.com/huggingface/transformers/pull/42592\r\n* refactor more tokenizers - v5 guide update by @itazap in https://github.com/huggingface/transformers/pull/42768\r\n* [`Tokenizers`] Change treatment of special tokens by @vasqu in https://github.com/huggingface/transformers/pull/42903\r\n\r\n\r\n## Core\r\nHere we focused on boosting the performances of loading weights on device! \r\n* [saving] Simplify general logic by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42766\r\n* Do not rely on config for inferring model dtype by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42838\r\n* Improve BatchFeature: stack list and lists of torch tensors by @yonigozlan in https://github.com/huggingface/transformers/pull/42750\r\n* Remove tied weights from internal attribute if they are not tied by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42871\r\n* Enforce call to `post_init` and fix all of them by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42873\r\n* Simplify tie weights logic by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42895\r\n* Add buffers to `_init_weights` for ALL models by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42309\r\n* [loading] Really initialize on meta device for huge perf gains by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42941\r\n* Do not use accelerate hooks if the device_map has only 1 device by @Cyrilvallez in https://github.com/huggingface/transformers/pull/43019\r\n* Move missing weights and non-persistent buffers to correct device earlier by @Cyrilvallez in https://github.com/huggingface/transformers/pull/43021\r\n\r\n## New models\r\n* Sam: Perception Encoder Audiovisual by @eustlb in https://github.com/huggingface/transformers/pull/42905\r\n* adds jais2 model support by @sarathc-cerebras in https://github.com/huggingface/transformers/pull/42684\r\n* Add Pixio pre-trained models by @LiheYoung in https://github.com/huggingface/transformers/pull/42795\r\n* [`Ernie 4.5`] Ernie VL models by @vasqu in https://github.com/huggingface/transformers/pull/39585\r\n* [loading][TP] Fix device placement at loading-time, and simplify sharding primitives by @Cyrilvallez in https://github.com/huggingface/transformers/pull/43003\r\n* GLM-ASR  Support by @zRzRzRzRzRzRzR in https://github.com/huggingface/transformers/pull/42875\r\n\r\n## Quantization\r\n* [Devstral] Make sure FP8 conversion works correctly by @patrickvonplaten in https://github.com/huggingface/transformers/pull/42715\r\n* Fp8 dq by @SunMarc in https://github.com/huggingface/transformers/pull/42926\r\n* [Quantization] Removing misleading int8 quantization in Finegrained FP8 by @MekkCyber in https://github.com/huggingface/transformers/pull/42945\r\n* Fix deepspeed + quantization by @SunMarc in https://github.com/huggingface/transformers/pull/43006\r\n\r\n## Breaking changes\r\nMostly around processors!\r\n* 🚨 Fix ConvNeXt image processor default interpolation to BICUBIC by @lukepayyapilli in https://github.com/huggingface/transformers/pull/42934\r\n* 🚨 Fix EfficientNet image processor default interpolation to BICUBIC by @lukepayyapilli in https://github.com/huggingface/transformers/pull/42956\r\n* Add fast version of `convert_segmentation_map_to_binary_masks` to EoMT by @simonreise in https://github.com/huggingface/transformers/pull/43073\r\n* 🚨Fix MobileViT image processor default interpolation to BICUBIC by @lukepayyapilli in https://github.com/huggingface/transformers/pull/43024\r\n\r\nThanks again to everyone ! \r\n## New Contributors\r\n* @ZX-ModelCloud made their first contribution in https://github.com/huggingface/transformers/pull/42833\r\n* @AYou0207 made their first contribution in https://github.com/huggingface/transformers/pull/42863\r\n* @wasertech made their first contribution in https://github.com/huggingface/transformers/pull/42864\r\n* @preetam1407 made their first contribution in https://github.com/huggingface/transformers/pull/42685\r\n* @Taise228 made their first contribution in https://github.com/huggingface/transformers/pull/41416\r\n* @CandiedCode made their first contribution in https://github.com/huggingface/transformers/pull/42885\r\n* @sarathc-cerebras made their first contribution in https://github.com/huggingface/transformers/pull/42684\r\n* @nandan2003 made their first contribution in https://github.com/huggingface/transformers/pull/42318\r\n* @LiheYoung made their first contribution in https://github.com/huggingface/transformers/pull/42795\r\n* @majiayu000 made their first contribution in https://github.com/huggingface/transformers/pull/42928\r\n* @lukepayyapilli made their first contribution in https://github.com/huggingface/transformers/pull/42934\r\n* @leaderofARS made their first contribution in https://github.com/huggingface/transformers/pull/42966\r\n* @qianyue76 made their first contribution in https://github.com/huggingface/transformers/pull/43095\r\n* @stefgina made their first contribution in https://github.com/huggingface/transformers/pull/43033\r\n* @HuiyingLi made their first contribution in https://github.com/huggingface/transformers/pull/43084\r\n* @raimbekovm made their first contribution in https://github.com/huggingface/transformers/pull/43038\r\n* @PredictiveManish made their first contribution in https://github.com/huggingface/transformers/pull/43053\r\n* @pushkar-hue made their first contribution in https://github.com/huggingface/transformers/pull/42736\r\n* @vykhovanets made their first contribution in https://github.com/huggingface/transformers/pull/43042\r\n* @tanmay2004 made their first contribution in https://github.com/huggingface/transformers/pull/42737\r\n* @atultw made their first contribution in https://github.com/huggingface/transformers/pull/43061\r\n\r\n**Full Changelog**: https://github.com/huggingface/transformers/compare/v5.0.0rc1...v5.0.0rc2",
@@ -1176,7 +1173,7 @@
       "featured": false
     },
     {
-      "id": "mk675r0knp9dsp1k0y",
+      "id": "mk6i0jcb6a2rcp864p3",
       "title": "Hugging Face: Release candidate 5.0.0rc1",
       "summary": "## What's Changed\r\n\r\nThis release candidate was focused mostly on `quantization` support with the new dynamic weight loader, and a few notable 🚨 breaking changes🚨:\r\n\r\n1. Default dtype for any model when using `from_pretrained` is now `auto`! \r\n* Default auto 🚨 🚨  by @ArthurZucker in https://gith...",
       "content": "## What's Changed\r\n\r\nThis release candidate was focused mostly on `quantization` support with the new dynamic weight loader, and a few notable 🚨 breaking changes🚨:\r\n\r\n1. Default dtype for any model when using `from_pretrained` is now `auto`! \r\n* Default auto 🚨 🚨  by @ArthurZucker in https://github.com/huggingface/transformers/pull/42805\r\n2. Default shard size when saving a model is now 50GB:\r\n* 🚨🚨 [saving] Default to 50GB shards, and remove non-safe serialization by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42734\r\nThis is now as fast as before thanks to xet, and is just more convenient on the hub.\r\n3. Kwargs. They are fundamental to enable integration with vllm and other toosl:\r\n* Every model forward() should have **kwargs by @Rocketknight1 in https://github.com/huggingface/transformers/pull/42603\r\n\r\n\r\n### Dynamic weight loader updates:\r\nMostly QOL and fixed + support back CPU offloading.\r\n* mark params as _is_hf_initialized with DS Zero3 from weight conversion by @winglian in https://github.com/huggingface/transformers/pull/42626\r\n* [loading] Allow loading to happen without threading by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42619\r\n* [loading] Correctly load params during offloading & careful memory considerations by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42632\r\n* allow registration of custom checkpoint conversion mappings by @winglian in https://github.com/huggingface/transformers/pull/42634\r\n\r\n### New models:\r\n* Add FastVLM by @camilla-deckard in https://github.com/huggingface/transformers/pull/41112\r\n* Lasr model by @eustlb in https://github.com/huggingface/transformers/pull/42648\r\n* [Model] Add PaddleOCR-VL Model Support by @zhang-prog in https://github.com/huggingface/transformers/pull/42178\r\n\r\n\r\n### Some notable quantization fixes:\r\nMostly added support for `fbgemme` , `quanto`, \r\n* Fix fp8 + some enhancement by @SunMarc in https://github.com/huggingface/transformers/pull/42455\r\n* Fix eetq quanto quant methods by @SunMarc in https://github.com/huggingface/transformers/pull/42557\r\n* [Quantization] per tensor quantization kernel by @MekkCyber in https://github.com/huggingface/transformers/pull/42560\r\n* [Quantization] fix fbgemm by @MekkCyber in https://github.com/huggingface/transformers/pull/42561\r\n* [Quantization] Fix FP8 experts replacing by @MekkCyber in https://github.com/huggingface/transformers/pull/42654\r\n* [Quantization] Fix Static FP8 Quantization by @MekkCyber in https://github.com/huggingface/transformers/pull/42775\r\n* [core] fix fp-quant by @MekkCyber in https://github.com/huggingface/transformers/pull/42613\r\n\r\n### Peft:\r\nThe dynamic weight loader broke small things, this adds glue for all models but MoEs.\r\n* FIX Error when trying to load non-LoRA PEFT by @BenjaminBossan in https://github.com/huggingface/transformers/pull/42663\r\n* Fix PEFT integration with new weight loader by @Cyrilvallez in https://github.com/huggingface/transformers/pull/42701\r\n\r\n### Misc\r\nTokenization needed more refactoring, this time its a lot cleaner!\r\n* Refactor-tokenization-more by @ArthurZucker in https://github.com/huggingface/transformers/pull/42563\r\n* Only default `rope_parameters` to empty `dict` if there is something to put in it by @hmellor in https://github.com/huggingface/transformers/pull/42651\r\n\r\nWe omitted a lot of other commits for clarity, but thanks to everyone and the new contributors! \r\n\r\n## New Contributors\r\n* @camilla-deckard made their first contribution in https://github.com/huggingface/transformers/pull/41112\r\n* @Aaraviitkgp made their first contribution in https://github.com/huggingface/transformers/pull/42466\r\n* @ngazagna-qc made their first contribution in https://github.com/huggingface/transformers/pull/40691\r\n* @arrdel made their first contribution in https://github.com/huggingface/transformers/pull/42577\r\n* @marconaguib made their first contribution in https://github.com/huggingface/transformers/pull/42587\r\n* @Xiao-Chenguang made their first contribution in https://github.com/huggingface/transformers/pull/42436\r\n* @Furkan-rgb made their first contribution in https://github.com/huggingface/transformers/pull/42465\r\n* @mertunsall made their first contribution in https://github.com/huggingface/transformers/pull/42615\r\n* @anranlee99 made their first contribution in https://github.com/huggingface/transformers/pull/42438\r\n* @UserChen666 made their first contribution in https://github.com/huggingface/transformers/pull/42335\r\n* @efazal made their first contribution in https://github.com/huggingface/transformers/pull/41723\r\n* @Harrisonyong made their first contribution in https://github.com/huggingface/transformers/pull/36416\r\n* @hawon223 made their first contribution in https://github.com/huggingface/transformers/pull/42384\r\n* @Bissmella made their first contribution in https://github.com/huggingface/transformers/pull/42647\r\n* @AgainstEntropy made their first contribution in https://github.com/huggingface/transformers/pull/42689\r\n* @dongluw made their first contribution in https://github.com/huggingface/transformers/pull/42642\r\n* @hqkqn32 made their first contribution in https://github.com/huggingface/transformers/pull/42620\r\n* @zhang-prog made their first contribution in https://github.com/huggingface/transformers/pull/42178\r\n\r\n**Full Changelog**: https://github.com/huggingface/transformers/compare/v5.0.0rc0...v5.0.0rc1",
@@ -1194,7 +1191,7 @@
       "featured": false
     },
     {
-      "id": "mk675kf2t5x4a6xlqti",
+      "id": "mk6i0blteioi9mkcl16",
       "title": "Anthropic: v2.1.1",
       "summary": "\n...",
       "content": "\n",
@@ -1208,7 +1205,7 @@
       "featured": false
     },
     {
-      "id": "mk675p4pa3zzu8v7jv",
+      "id": "mk6i0h44ugrkorpcns9",
       "title": "Google: Release v0.23.0",
       "summary": "## What's Changed\n* Code assist service metrics. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15024\n* chore/release: bump version to 0.21.0-nightly.20251216.bb0c0d8ee by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15121\n* Docs by @Roaimkhan in https://...",
       "content": "## What's Changed\n* Code assist service metrics. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15024\n* chore/release: bump version to 0.21.0-nightly.20251216.bb0c0d8ee by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15121\n* Docs by @Roaimkhan in https://github.com/google-gemini/gemini-cli/pull/15103\n* Use official ACP SDK and support HTTP/SSE based MCP servers by @SteffenDE in https://github.com/google-gemini/gemini-cli/pull/13856\n* Remove foreground for themes other than shades of purple and holiday. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/14606\n* chore: remove repo specific tips by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/15164\n* chore: remove user query from footer in debug mode by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/15169\n* Disallow unnecessary awaits. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15172\n* Add one to the padding in settings dialog to avoid flicker. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/15173\n* feat(core): introduce remote agent infrastructure and rename local executor by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/15110\n* feat(cli): Add `/auth logout` command to clear credentials and auth state by @CN-Scars in https://github.com/google-gemini/gemini-cli/pull/13383\n* (fix) Automated pr labeller by @DaanVersavel in https://github.com/google-gemini/gemini-cli/pull/14885\n* feat: launch Gemini 3 Flash in Gemini CLI ⚡️⚡️⚡️ by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15196\n* Refactor: Migrate console.error in ripGrep.ts to debugLogger by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/15201\n* chore: update a2a-js to 0.3.7 by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/15197\n* chore(core): remove redundant isModelAvailabilityServiceEnabled toggle and clean up dead code by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/15207\n* feat(core): Late resolve `GenerateContentConfig`s and reduce mutation. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/14920\n* Respect previewFeatures value from the remote flag if undefined by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15214\n* feat(ui): add Windows clipboard image support and Alt+V paste workaround by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/15218\n* chore(core): remove legacy fallback flags and migrate loop detection by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/15213\n* fix(ui): Prevent eager slash command completion hiding sibling commands by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/15224\n* Docs: Update Changelog for Dec 17, 2025 by @jkcinouye in https://github.com/google-gemini/gemini-cli/pull/15204\n* Code Assist backend telemetry for user accept/reject of suggestions by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15206\n* fix(cli): correct initial history length handling for chat commands by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/15223\n* chore/release: bump version to 0.21.0-nightly.20251218.739c02bd6 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15231\n* Change detailed model stats to use a new shared Table class to resolve robustness issues. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/15208\n* feat: add agent toml parser by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15112\n* Add core tool that adds all context from the core package. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/15238\n* (docs): Add reference section to hooks documentation by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15159\n* feat(hooks): add support for friendly names and descriptions by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15174\n* feat: Detect background color by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/15132\n* add 3.0 to allowed sensitive keywords by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15276\n* feat: Pass additional environment variables to shell execution by @galz10 in https://github.com/google-gemini/gemini-cli/pull/15160\n* Remove unused code by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15290\n* Handle all 429 as retryableQuotaError by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15288\n* Remove unnecessary dependencies by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15291\n* fix: prevent infinite loop in prompt completion on error by @galz10 in https://github.com/google-gemini/gemini-cli/pull/14548\n* fix(ui): show command suggestions even on perfect match and sort them by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/15287\n* feat(hooks): reduce log verbosity and improve error reporting in UI by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15297\n* feat: simplify tool confirmation labels for better UX by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15296\n* chore/release: bump version to 0.21.0-nightly.20251219.70696e364 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15301\n* feat(core): Implement JIT context memory loading and UI sync by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/14469\n* feat(ui): Put \"Allow for all future sessions\" behind a setting off by default. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/15322\n* fix(cli):change the placeholder of input during the shell mode by @JayadityaGit in https://github.com/google-gemini/gemini-cli/pull/15135\n* Validate OAuth resource parameter matches MCP server URL by @galz10 in https://github.com/google-gemini/gemini-cli/pull/15289\n* docs(cli): add System Prompt Override (GEMINI_SYSTEM_MD) by @ashmod in https://github.com/google-gemini/gemini-cli/pull/9515\n* more robust command parsing logs by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15339\n* Introspection agent demo by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15232\n* fix(core): sanitize hook command expansion and prevent injection by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/15343\n* fix(folder trust): add validation for trusted folder level by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/12215\n* fix(cli): fix right border overflow in trust dialogs by @galz10 in https://github.com/google-gemini/gemini-cli/pull/15350\n* fix(policy): fix bug where accepting-edits continued after it was turned off by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/15351\n* fix: prevent infinite relaunch loop when --resume fails (#14941) by @Ying-xi in https://github.com/google-gemini/gemini-cli/pull/14951\n* chore/release: bump version to 0.21.0-nightly.20251220.41a1a3eed by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15352\n* feat(telemetry): add clearcut logging for hooks by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15405\n* fix(core): Add `.geminiignore` support to SearchText tool by @xyrolle in https://github.com/google-gemini/gemini-cli/pull/13763\n* fix(patch): cherry-pick 0843d9a to release/v0.23.0-preview.0-pr-15443 to patch version v0.23.0-preview.0 and create version 0.23.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15445\n* fix(patch): cherry-pick 9cdb267 to release/v0.23.0-preview.1-pr-15494 to patch version v0.23.0-preview.1 and create version 0.23.0-preview.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15592\n* fix(patch): cherry-pick 37be162 to release/v0.23.0-preview.2-pr-15601 to patch version v0.23.0-preview.2 and create version 0.23.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15603\n* fix(patch): cherry-pick 07e597d to release/v0.23.0-preview.3-pr-15684 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15734\n* fix(patch): cherry-pick c31f053 to release/v0.23.0-preview.4-pr-16004 to patch version v0.23.0-preview.4 and create version 0.23.0-preview.5 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/16027\n* fix(patch): cherry-pick 788bb04 to release/v0.23.0-preview.5-pr-15817 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/16038\n\n## New Contributors\n* @Roaimkhan made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15103\n* @SteffenDE made their first contribution in https://github.com/google-gemini/gemini-cli/pull/13856\n* @CN-Scars made their first contribution in https://github.com/google-gemini/gemini-cli/pull/13383\n* @Ying-xi made their first contribution in https://github.com/google-gemini/gemini-cli/pull/14951\n* @xyrolle made their first contribution in https://github.com/google-gemini/gemini-cli/pull/13763\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.22.5...v0.23.0",
@@ -1224,10 +1221,10 @@
         "ML",
         "Google"
       ],
-      "featured": false
+      "featured": true
     },
     {
-      "id": "mk675p4pwd0m0xgddj",
+      "id": "mk6i0h434vsjm17m4y3",
       "title": "Google: Release v0.24.0-preview.0",
       "summary": "## What's Changed\n* chore(core): refactor model resolution and cleanup fallback logic by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/15228\n* Add Folder Trust Support To Hooks by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15325\n* Record timestamp with code ass...",
       "content": "## What's Changed\n* chore(core): refactor model resolution and cleanup fallback logic by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/15228\n* Add Folder Trust Support To Hooks by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15325\n* Record timestamp with code assist metrics. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15439\n* feat(policy): implement dynamic mode-aware policy evaluation by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15307\n* fix(core): use debugLogger.debug for startup profiler logs by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15443\n* feat(ui): Add security warning and improve layout for Hooks list by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/15440\n* fix #15369, prevent crash on unhandled EIO error in readStdin cleanup by @ElecTwix in https://github.com/google-gemini/gemini-cli/pull/15410\n* chore: improve error messages for --resume by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/15360\n* chore: remove clipboard file by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/15447\n* Implemented unified secrets sanitization and env. redaction options by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15348\n* feat: automatic `/model` persistence across Gemini CLI sessions by @niyasrad in https://github.com/google-gemini/gemini-cli/pull/13199\n* refactor(core): remove deprecated permission aliases from BeforeToolHookOutput by @StoyanD in https://github.com/google-gemini/gemini-cli/pull/14855\n* fix: add missing `type` field to MCPServerConfig by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/15465\n* Make schema validation errors non-fatal by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/15487\n* chore: limit MCP resources display to 10 by default by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/15489\n* Add experimental in-CLI extension install and uninstall subcommands by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/15178\n* feat: Add A2A Client Manager and tests by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/15485\n* feat: terse transformations of image paths in text buffer by @psinha40898 in https://github.com/google-gemini/gemini-cli/pull/4924\n* Security: Project-level hook warnings by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15470\n* Added modifyOtherKeys protocol support for tmux by @ved015 in https://github.com/google-gemini/gemini-cli/pull/15524\n* chore(core): fix comment typo by @Mapleeeeeeeeeee in https://github.com/google-gemini/gemini-cli/pull/15558\n* feat: Show snowfall animation for holiday theme by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15494\n* do not persist the fallback model by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15483\n* Resolve unhandled promise rejection in ide-client.ts by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/15587\n* fix(core): handle checkIsRepo failure in GitService.initialize by @Mapleeeeeeeeeee in https://github.com/google-gemini/gemini-cli/pull/15574\n* fix(cli): add enableShellOutputEfficiency to settings schema by @Mapleeeeeeeeeee in https://github.com/google-gemini/gemini-cli/pull/15560\n* Manual nightly version bump to 0.24.0-nightly.20251226.546baf993 by @galz10 in https://github.com/google-gemini/gemini-cli/pull/15594\n* refactor(core): extract static concerns from CoreToolScheduler by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15589\n* fix(core): enable granular shell command allowlisting in policy engine by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15601\n* chore/release: bump version to 0.24.0-nightly.20251227.37be16243 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/15612\n* refactor: deprecate legacy confirmation settings and enforce Policy Engine by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15626\n* Migrate console to coreEvents.emitFeedback or debugLogger by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/15219\n* Exponential back-off retries for retryable error without a specified … by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15684\n* feat(agents): add support for remote agents and multi-agent TOML files by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/15437\n* Update wittyPhrases.ts by @segyges in https://github.com/google-gemini/gemini-cli/pull/15697\n* refactor(auth): Refactor non-interactive mode auth validation & refresh by @skeshive in https://github.com/google-gemini/gemini-cli/pull/15679\n* Revert \"Update wittyPhrases.ts (#15697)\" by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15719\n* fix(hooks): deduplicate agent hooks and add cross-platform integration tests by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15701\n* Implement support for tool input modification by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15492\n* Add instructions to the extensions update info notification by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/14907\n* Add extension settings info to /extensions list by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/14905\n* Agent Skills: Implement Core Skill Infrastructure & Tiered Discovery by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15698\n* chore: remove cot style comments by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15735\n* feat(agents): Add remote agents to agent registry by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15711\n* feat(hooks): implement STOP_EXECUTION and enhance hook decision handling by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/15685\n* Fix build issues caused by year-specific linter rule by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15780\n* fix(core): handle unhandled promise rejection in mcp-client-manager by @kamja44 in https://github.com/google-gemini/gemini-cli/pull/14701\n* log fallback mode by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15817\n* Agent Skills: Implement Autonomous Activation Tool & Context Injection by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15725\n* fix(core): improve shell command with redirection detection  by @galz10 in https://github.com/google-gemini/gemini-cli/pull/15683\n* Add security docs by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15739\n* feat: add folder suggestions to `/dir add` command by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/15724\n* Agent Skills: Implement Agent Integration and System Prompt Awareness by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15728\n* chore: cleanup old smart edit settings by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15832\n* Agent Skills: Status Bar Integration for Skill Counts by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15741\n* fix(core): mock powershell output in shell-utils test by @galz10 in https://github.com/google-gemini/gemini-cli/pull/15831\n* Agent Skills: Unify Representation & Centralize Loading by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15833\n* Unify shell security policy and remove legacy logic by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15770\n* feat(core): restore MessageBus optionality for soft migration (Phase 1) by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15774\n* feat(core): Standardize Tool and Agent Invocation constructors (Phase 2) by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15775\n* feat(core,cli): enforce mandatory MessageBus injection (Phase 3 Hard Migration) by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15776\n* Agent Skills: Extension Support & Security Disclosure by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15834\n* feat(hooks): implement granular stop and block behavior for agent hooks by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/15824\n* Agent Skills: Add gemini skills CLI management command by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15837\n* refactor: consolidate EditTool and SmartEditTool by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15857\n* fix(cli): mock fs.readdir in consent tests for Windows compatibility by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15904\n* refactor(core): Extract and integrate ToolExecutor by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15900\n* Fix terminal hang when user exits browser without logging in by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15748\n* fix: avoid SDK warning by not accessing .text getter in logging by @ved015 in https://github.com/google-gemini/gemini-cli/pull/15706\n* Make default settings apply by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/15354\n* chore: rename smart-edit to edit by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15923\n* Opt-in to persist model from /model by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15820\n* fix: prevent /copy crash on Windows by skipping /dev/tty by @ManojINaik in https://github.com/google-gemini/gemini-cli/pull/15657\n* Support context injection via SessionStart hook. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15746\n* Fix order of preflight by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15941\n* Fix failing unit tests by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/15940\n* fix(cli): resolve paste issue on Windows terminals. by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15932\n* Agent Skills: Implement /skills reload by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15865\n* Add setting to support OSC 52 paste  by @scidomino in https://github.com/google-gemini/gemini-cli/pull/15336\n* remove manual string when displaying manual model in the footer by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15967\n* fix(core): use correct interactive check for system prompt by @ppergame in https://github.com/google-gemini/gemini-cli/pull/15020\n* Inform user of missing settings on extensions update by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/15944\n* feat(policy): allow 'modes' in user and admin policies by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15977\n* fix: default folder trust to untrusted for enhanced security by @galz10 in https://github.com/google-gemini/gemini-cli/pull/15943\n* Add description for each settings item in /settings by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/15936\n* Use GetOperation to poll for OnboardUser completion by @ishaanxgupta in https://github.com/google-gemini/gemini-cli/pull/15827\n* Agent Skills: Add skill directory to WorkspaceContext upon activation by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15870\n* Fix settings command fallback by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/15926\n* fix: writeTodo construction by @scidomino in https://github.com/google-gemini/gemini-cli/pull/16014\n* properly disable keyboard modes on exit by @scidomino in https://github.com/google-gemini/gemini-cli/pull/16006\n* Add workflow to label child issues for rollup by @bdmorgan in https://github.com/google-gemini/gemini-cli/pull/16002\n* feat(ui): add visual indicators for hook execution by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/15408\n* fix: image token estimation by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/16004\n* feat(hooks): Add a hooks.enabled setting. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/15933\n* feat(admin): Introduce remote admin settings & implement secureModeEnabled/mcpEnabled by @skeshive in https://github.com/google-gemini/gemini-cli/pull/15935\n* Remove trailing whitespace in yaml. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/16036\n* feat(agents): add support for remote agents by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/16013\n* fix: limit scheduled issue triage queries to prevent argument list too long error by @jerop in https://github.com/google-gemini/gemini-cli/pull/16021\n* ci(github-actions): triage all new issues automatically by @jerop in https://github.com/google-gemini/gemini-cli/pull/16018\n* Fix test. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/16011\n* fix: hide broken skills object from settings dialog by @korade-krushna in https://github.com/google-gemini/gemini-cli/pull/15766\n* Agent Skills: Initial Documentation & Tutorial by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/15869\n\n## New Contributors\n* @ElecTwix made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15410\n* @niyasrad made their first contribution in https://github.com/google-gemini/gemini-cli/pull/13199\n* @StoyanD made their first contribution in https://github.com/google-gemini/gemini-cli/pull/14855\n* @ved015 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15524\n* @Mapleeeeeeeeeee made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15558\n* @segyges made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15697\n* @devr0306 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15354\n* @ManojINaik made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15657\n* @ppergame made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15020\n* @ishaanxgupta made their first contribution in https://github.com/google-gemini/gemini-cli/pull/15827\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.23.0-preview.6...v0.24.0-preview.0",
@@ -1246,7 +1243,7 @@
       "featured": false
     },
     {
-      "id": "mk6760hq5y65w5pt58x",
+      "id": "mk6i0tgokdj8fxs9gka",
       "title": "Show HN: Run Claude Code CLI with Azure&open source LLMs saving costs",
       "summary": "Hi HN<p>Claude Code CLI assumes the native Anthropic API, so it breaks or loses features when you try to run it with other LLMs on Databricks or Azure-hosted models or OpenRouter and other Ollama Models(no MCP, limited tools, streaming issues).<p>I built Lynkr, an open-source compatibility proxy tha...",
       "content": "Hi HN<p>Claude Code CLI assumes the native Anthropic API, so it breaks or loses features when you try to run it with other LLMs on Databricks or Azure-hosted models or OpenRouter and other Ollama Models(no MCP, limited tools, streaming issues).<p>I built Lynkr, an open-source compatibility proxy that lets Claude Code run unchanged on all the LLM&#x27;s<p>What it does:<p>Emulates Anthropic’s protocol Claude Code expects<p>Restores MCP server support<p>It has hierarchical routing mechanism where you can configure multiples LLMs as a fallback to save costs<p>Enables Git + repo intelligence tools<p>Normalizes streaming&#x2F;tool calling behavior<p>Sub agents<p>Implements Agentic context environment Framework<p>and several other features<p>Works without forking or modifying Claude Code",
@@ -1265,7 +1262,7 @@
       "featured": true
     },
     {
-      "id": "mk675o7r78j4etjcn59",
+      "id": "mk6i0g2kdiqaue4wrpd",
       "title": "Google: cookbookの最新アップデート",
       "summary": "cookbookリポジトリに新しい更新: Gemini 3 flash preview (#1069)\n\nNew model: `gemini-3-flash-preview` added to all notebooks as the default option....",
       "content": "Gemini 3 flash preview (#1069)\n\nNew model: `gemini-3-flash-preview` added to all notebooks as the default option.",
@@ -1281,7 +1278,7 @@
       "featured": false
     },
     {
-      "id": "mk675jiairfjaq922g",
+      "id": "mk6i0an61t84lhhcms1",
       "title": "Anthropic: v0.75.0",
       "summary": "## 0.75.0 (2025-11-24)\n\nFull Changelog: [v0.74.1...v0.75.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.74.1...v0.75.0)\n\n### Features\n\n* **api:** adds support for Claude Opus 4.5, Effort, Advance Tool Use Features, Autocompaction, and Computer Use v5 ([5c3e633](https://github.com/a...",
       "content": "## 0.75.0 (2025-11-24)\n\nFull Changelog: [v0.74.1...v0.75.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.74.1...v0.75.0)\n\n### Features\n\n* **api:** adds support for Claude Opus 4.5, Effort, Advance Tool Use Features, Autocompaction, and Computer Use v5 ([5c3e633](https://github.com/anthropics/anthropic-sdk-python/commit/5c3e633395acc100c45e8a403f1b5be4d17a3b32))\n\n\n### Bug Fixes\n\n* **internal:** small fixes ([36c82f7](https://github.com/anthropics/anthropic-sdk-python/commit/36c82f72b588bd549770a89072dd52d6f9e5b6a5))\n\n\n### Chores\n\n* fix lint issues ([4f1fd54](https://github.com/anthropics/anthropic-sdk-python/commit/4f1fd54143b79a4a7976dfb332ec7bfc666d1598))",
@@ -1298,5 +1295,5 @@
       "featured": false
     }
   ],
-  "featuredCount": 11
+  "featuredCount": 10
 }
