@@ -1,0 +1,14 @@
+{
+  "id": "mkpselxap5b7fo71xzk",
+  "title": "A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques",
+  "summary": "A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps f...",
+  "content": "A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps for compiler debugging, and the XProf suite for in-depth performance analysis.",
+  "publishedAt": "2026-01-15T18:30:22.078Z",
+  "source": "Google Developers Blog",
+  "sourceUrl": "https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/",
+  "category": "tools",
+  "company": "Google",
+  "imageUrl": null,
+  "tags": [],
+  "featured": false
+}
