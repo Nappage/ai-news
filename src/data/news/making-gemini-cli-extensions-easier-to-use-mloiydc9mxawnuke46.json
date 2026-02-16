@@ -1,0 +1,17 @@
+{
+  "id": "mloiydc9mxawnuke46",
+  "title": "Making Gemini CLI extensions easier to use",
+  "summary": "To simplify the user experience and prevent startup failures, the Gemini CLI has introduced structured extension settings that eliminate the need for manual environment variable configuration. This update enables extensions to automatically prompt users for required details during installation and s...",
+  "content": "To simplify the user experience and prevent startup failures, the Gemini CLI has introduced structured extension settings that eliminate the need for manual environment variable configuration. This update enables extensions to automatically prompt users for required details during installation and securely stores sensitive information, such as API keys, directly in the system keychain. Users can now easily manage and override these configurations globally or per project using the new Gemini extensions config command.",
+  "publishedAt": "2026-02-12T01:57:44.073Z",
+  "source": "Google Developers Blog",
+  "sourceUrl": "https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/",
+  "category": "tools",
+  "company": "Google",
+  "imageUrl": null,
+  "tags": [
+    "Gemini",
+    "AI"
+  ],
+  "featured": true
+}
