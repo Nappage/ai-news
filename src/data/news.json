@@ -1,13 +1,29 @@
 {
-  "lastUpdated": "2026-02-17T18:57:27.101Z",
+  "lastUpdated": "2026-02-18T02:01:10.970Z",
   "totalArticles": 34,
   "articles": [
     {
-      "id": "mlqyst9mln3v709f7mo",
+      "id": "mlrdxo2mizdfzs67j3a",
+      "title": "Our 2026 Responsible AI Progress Report",
+      "summary": "A look at our 2026 Responsible AI Progress Report.",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Stocksy_7137793.max-600x600.format-webp.webp\">A look at our 2026 Responsible AI Progress Report.",
+      "publishedAt": "2026-02-17T22:30:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/",
+      "category": "companies",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mlrdxn0vti6w70cwty",
       "title": "Making Gemini CLI extensions easier to use",
       "summary": "To simplify the user experience and prevent startup failures, the Gemini CLI has introduced structured extension settings that eliminate the need for manual environment variable configuration. This update enables extensions to automatically prompt users for required details during installation and s...",
       "content": "To simplify the user experience and prevent startup failures, the Gemini CLI has introduced structured extension settings that eliminate the need for manual environment variable configuration. This update enables extensions to automatically prompt users for required details during installation and securely stores sensitive information, such as API keys, directly in the system keychain. Users can now easily manage and override these configurations globally or per project using the new Gemini extensions config command.",
-      "publishedAt": "2026-02-15T18:56:50.986Z",
+      "publishedAt": "2026-02-15T02:00:30.415Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/",
       "category": "tools",
@@ -20,28 +36,11 @@
       "featured": true
     },
     {
-      "id": "mlqyst9mugy0m711swh",
-      "title": "Introducing the Developer Knowledge API and MCP Server",
-      "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the officia...",
-      "content": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.",
-      "publishedAt": "2026-02-13T18:56:50.986Z",
-      "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/",
-      "category": "tools",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "AI",
-        "Google"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mlqyst9mecl54mtgugm",
+      "id": "mlrdxn0vwsg8itqc5dj",
       "title": "Easy FunctionGemma finetuning with Tunix on Google TPUs",
       "summary": "Finetuning the FunctionGemma model is made fast and easy using the lightweight JAX-based Tunix library on Google TPUs, a process demonstrated here using LoRA for supervised finetuning. This approach delivers significant accuracy improvements with high TPU efficiency, culminating in a model ready for...",
       "content": "Finetuning the FunctionGemma model is made fast and easy using the lightweight JAX-based Tunix library on Google TPUs, a process demonstrated here using LoRA for supervised finetuning. This approach delivers significant accuracy improvements with high TPU efficiency, culminating in a model ready for deployment.",
-      "publishedAt": "2026-02-12T18:56:50.986Z",
+      "publishedAt": "2026-02-13T02:00:30.415Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus/",
       "category": "tools",
@@ -53,46 +52,11 @@
       "featured": true
     },
     {
-      "id": "mlqyst9mmymo2jkv0ug",
-      "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
-      "summary": "At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new \"Trustable AI Framework\" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture.",
-      "content": "At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new \"Trustable AI Framework\" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture.",
-      "publishedAt": "2026-02-12T18:56:50.986Z",
-      "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
-      "category": "tools",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "Gemini",
-        "AI",
-        "Google"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mlqyst9m1h6rvqjnwge",
-      "title": "LiteRT: The Universal Framework for On-Device AI",
-      "summary": "LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.",
-      "content": "LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.",
-      "publishedAt": "2026-02-12T18:56:50.986Z",
-      "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
-      "category": "tools",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "AI",
-        "ML"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mlqyst9m4rlnnxywx8m",
+      "id": "mlrdxn0v4e0ipl0dep5",
       "title": "Tailor Gemini CLI to your workflow with hooks",
       "summary": "New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.",
       "content": "New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.",
-      "publishedAt": "2026-02-10T18:56:50.986Z",
+      "publishedAt": "2026-02-11T02:00:30.415Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/",
       "category": "tools",
@@ -105,7 +69,37 @@
       "featured": true
     },
     {
-      "id": "mlqytjixbzmnzg12bfm",
+      "id": "mlrdxo2mwuc9zhuz1j9",
+      "title": "Helping kids and teens learn and grow online on Safer Internet Day",
+      "summary": "We’re sharing our latest updates designed to support families, kids and teens in the digital world.",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Helpingkidsteens_Hero.max-600x600.format-webp.webp\">We’re sharing our latest updates designed to support families, kids and teens in the digital world.",
+      "publishedAt": "2026-02-10T02:30:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-2026-kids-teens/",
+      "category": "companies",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [],
+      "featured": true
+    },
+    {
+      "id": "mlrdxo2mlw1pnenq3z",
+      "title": "Safer Internet Day: 5 tips for safe, effective learning",
+      "summary": "Around the world, people of all ages — including young people — are using AI to learn. A few easy steps can help you do so more safely.",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_95.max-600x600.format-webp.webp\">Around the world, people of all ages — including young people — are using AI to learn. A few easy steps can help you do so more safely.",
+      "publishedAt": "2026-02-09T21:00:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-26/",
+      "category": "companies",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mlrdygmwi9db518qrnp",
       "title": "Ask HN: Has Claude Code become slower?",
       "summary": "I&#x27;ve noticed that Claude Code has become noticeably slower and sometimes gets stuck for sometime. It used to be much more responsive earlier.<p>Is it just me or my environment&#x2F;prompts&#x2F;code or have others noticed it too? Compacting has no impact as far as I can tell.<p>If others have n...",
       "content": "I&#x27;ve noticed that Claude Code has become noticeably slower and sometimes gets stuck for sometime. It used to be much more responsive earlier.<p>Is it just me or my environment&#x2F;prompts&#x2F;code or have others noticed it too? Compacting has no impact as far as I can tell.<p>If others have noticed it, could it be Anthropic throttling or just being stressed due to scaling issues?",
@@ -122,7 +116,7 @@
       "featured": true
     },
     {
-      "id": "mlqytjiyc5x5acsbrct",
+      "id": "mlrdygmwqli58r41qf",
       "title": "Claude.ai do not deliver what I payed for",
       "summary": "Hi,<p>is someone else encountering difficulties in usage? I have a pro-plan - even if its not the MAX, I still pay for Opus 4 model and can&#x27;t use it since hours. Its &quot;overloaded&quot; - without my money, it wouldn&#x27;t even load - is Anthropic misunderstanding this fact???<p>I&#x27;ll ca...",
       "content": "Hi,<p>is someone else encountering difficulties in usage? I have a pro-plan - even if its not the MAX, I still pay for Opus 4 model and can&#x27;t use it since hours. Its &quot;overloaded&quot; - without my money, it wouldn&#x27;t even load - is Anthropic misunderstanding this fact???<p>I&#x27;ll cancel my subscription. I can&#x27;t use Opus 4 without paying either. That&#x27;s such a bad move.<p>What legal options do I have to get my money back or a compensation for not being able to use what I pay for? I&#x27;m really upset on such behavior.<p>I don&#x27;t do Claude Code or do have a large codebase, nor do I feed in image-files or do voice data - I just want it to help me code in my hobby project wit &lt; 2000 lines of python.<p>I hate it!",
@@ -140,11 +134,61 @@
       "featured": true
     },
     {
-      "id": "mlqyst9mcted5xrimc",
+      "id": "mlrdxkx0fspnrw7fmyd",
+      "title": "NVIDIA Nemotron 2 Nano 9B Japanese: 日本のソブリンAIを支える最先端小規模言語モデル",
+      "summary": "",
+      "content": "",
+      "publishedAt": "2026-02-17T23:28:52.000Z",
+      "source": "Hugging Face Blog",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-nano-9b-v2-japanese-ja",
+      "category": "tools",
+      "company": "Hugging Face",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mlrdxo2mlb7nnjvpy0l",
+      "title": "Save the date! Google I/O 2026 is May 19-20.",
+      "summary": "Google I/O, our annual developer conference, is taking place at Shoreline Amphitheatre in Mountain View, California.",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_SVD_16x9_v012.max-600x600.format-webp.webp\">Google I/O, our annual developer conference, is taking place at Shoreline Amphitheatre in Mountain View, California.",
+      "publishedAt": "2026-02-17T19:50:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/io-2026-save-the-date/",
+      "category": "companies",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "AI",
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mlrdxo2m4apxv8pr0ia",
+      "title": "Resilience in the AI era: Google at MSC 2026",
+      "summary": "At MSC 2026, Google’s Kent Walker urged a full-stack, AI-driven approach to security to counter sophisticated, enterprise-scale threats.",
+      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MSC-2026_1.max-600x600.format-webp.webp\">At MSC 2026, Google’s Kent Walker urged a full-stack, AI-driven approach to security to counter sophisticated, enterprise-scale threats.",
+      "publishedAt": "2026-02-17T19:10:00.000Z",
+      "source": "Google Technology Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/resilience-in-the-ai-era-google-at-msc-2026/",
+      "category": "companies",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "AI",
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mlrdxn0vkd2nermi1kc",
       "title": "Access public data insights faster: Data Commons MCP is now hosted on Google Cloud",
       "summary": "Data Commons has launched a free, hosted Model Context Protocol (MCP) service on Google Cloud Platform, eliminating the need for users to manage complex local server installations. This update simplifies connecting AI agents and the Gemini CLI to Data Commons, allowing Google to handle security, upd...",
       "content": "Data Commons has launched a free, hosted Model Context Protocol (MCP) service on Google Cloud Platform, eliminating the need for users to manage complex local server installations. This update simplifies connecting AI agents and the Gemini CLI to Data Commons, allowing Google to handle security, updates, and resource management while users query data natively.",
-      "publishedAt": "2026-02-14T18:56:50.986Z",
+      "publishedAt": "2026-02-17T02:00:30.415Z",
       "source": "Google Developers Blog",
       "sourceUrl": "https://developers.googleblog.com/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/",
       "category": "tools",
@@ -158,24 +202,42 @@
       "featured": false
     },
     {
-      "id": "mlqyst9mtwkfmwpsar",
-      "title": "Conductor Update: Introducing Automated Reviews",
-      "summary": "Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guides,...",
-      "content": "Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guides, and identifying security risks or bugs. by incorporating test-suite validation and providing actionable reports, Conductor helps developers ensure that their AI agents deliver safe, predictable, and architecturally sound code before it is finalized.",
-      "publishedAt": "2026-02-13T18:56:50.986Z",
+      "id": "mlrdxn0vldxe35jqbp",
+      "title": "Get ready for Google I/O 2026",
+      "summary": "Google I/O returns May 19-20. Watch the livestreams for updates on Android, AI, Chrome, and Cloud. Registration is open on the Google I/O website.",
+      "content": "Google I/O returns May 19-20. Watch the livestreams for updates on Android, AI, Chrome, and Cloud. Registration is open on the Google I/O website.",
+      "publishedAt": "2026-02-16T02:00:30.415Z",
       "source": "Google Developers Blog",
-      "sourceUrl": "https://developers.googleblog.com/conductor-update-introducing-automated-reviews/",
+      "sourceUrl": "https://developers.googleblog.com/get-ready-for-google-io-2026/",
+      "category": "tools",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "AI",
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mlrdxn0vviwr03skoxd",
+      "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
+      "summary": "At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new \"Trustable AI Framework\" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture.",
+      "content": "At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new \"Trustable AI Framework\" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture.",
+      "publishedAt": "2026-02-15T02:00:30.415Z",
+      "source": "Google Developers Blog",
+      "sourceUrl": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
       "category": "tools",
       "company": "Google",
       "imageUrl": null,
       "tags": [
         "Gemini",
-        "AI"
+        "AI",
+        "Google"
       ],
       "featured": false
     },
     {
-      "id": "mlqysq759waq3p47e7j",
+      "id": "mlrdxjygt1ry5ygmkj",
       "title": "GPT-5.2 derives a new result in theoretical physics",
       "summary": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
       "content": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
@@ -193,7 +255,7 @@
       "featured": false
     },
     {
-      "id": "mlqysq75ekn5ow7irem",
+      "id": "mlrdxjyg2uqba1iovfc",
       "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
       "summary": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.",
       "content": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.",
@@ -211,7 +273,7 @@
       "featured": false
     },
     {
-      "id": "mlqysq75f0jdsegk2vu",
+      "id": "mlrdxjygtz24yylzq7i",
       "title": "Beyond rate limits: scaling access to Codex and Sora",
       "summary": "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.",
       "content": "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.",
@@ -228,7 +290,7 @@
       "featured": false
     },
     {
-      "id": "mlqysq7595m8k4ldftj",
+      "id": "mlrdxjyg7qz66s7qgl2",
       "title": "Scaling social science research",
       "summary": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.",
       "content": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.",
@@ -246,7 +308,41 @@
       "featured": false
     },
     {
-      "id": "mlqysr59po96jjf6c9",
+      "id": "mlrdxn0vw6wb8qrso8b",
+      "title": "Conductor Update: Introducing Automated Reviews",
+      "summary": "Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guides,...",
+      "content": "Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guides, and identifying security risks or bugs. by incorporating test-suite validation and providing actionable reports, Conductor helps developers ensure that their AI agents deliver safe, predictable, and architecturally sound code before it is finalized.",
+      "publishedAt": "2026-02-13T02:00:30.415Z",
+      "source": "Google Developers Blog",
+      "sourceUrl": "https://developers.googleblog.com/conductor-update-introducing-automated-reviews/",
+      "category": "tools",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "Gemini",
+        "AI"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mlrdxn0vhmeonot2d5g",
+      "title": "Introducing the Developer Knowledge API and MCP Server",
+      "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the officia...",
+      "content": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.",
+      "publishedAt": "2026-02-13T02:00:30.415Z",
+      "source": "Google Developers Blog",
+      "sourceUrl": "https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/",
+      "category": "tools",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "AI",
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mlrdxkx0p4lwqpx0kyf",
       "title": "Custom Kernels for All from Codex and Claude",
       "summary": "",
       "content": "",
@@ -262,7 +358,7 @@
       "featured": false
     },
     {
-      "id": "mlqysu94fvogr9xm1s",
+      "id": "mlrdxo2mzak90970s4h",
       "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
       "summary": "We’re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3_deep-think_keyword_hea.max-600x600.format-webp.webp\">We’re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
@@ -278,7 +374,7 @@
       "featured": false
     },
     {
-      "id": "mlqysq75olvn8ugzrr",
+      "id": "mlrdxjygnuwhp0miom",
       "title": "Introducing GPT-5.3-Codex-Spark",
       "summary": "Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.",
       "content": "Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.",
@@ -295,7 +391,7 @@
       "featured": false
     },
     {
-      "id": "mlqysr59ks6lcwqb1vf",
+      "id": "mlrdxkx0xxb19bksbak",
       "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
       "summary": "",
       "content": "",
@@ -309,7 +405,7 @@
       "featured": false
     },
     {
-      "id": "mlqysu94rzgnfbgu6uf",
+      "id": "mlrdxo2mnpjfg7ht90f",
       "title": "How we’re helping democracies stay ahead of digital threats",
       "summary": "An overview of Google’s work at the 2026 Munich Security Conference, including a new whitepaper, AI updates and security recommendations.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/digitalthreats2026_Hero.max-600x600.format-webp.webp\">An overview of Google’s work at the 2026 Munich Security Conference, including a new whitepaper, AI updates and security recommendations.",
@@ -326,7 +422,7 @@
       "featured": false
     },
     {
-      "id": "mlqysu94nnx542iltsr",
+      "id": "mlrdxo2m1oe7ucvofit",
       "title": "9 fun questions to try asking Google Photos",
       "summary": "Learn more about Google Photos’ new Ask button as well as other functions of its Ask Photos feature.",
       "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2025-Travel-Trends_hero.max-600x600.format-webp.webp\">Learn more about Google Photos’ new Ask button as well as other functions of its Ask Photos feature.",
@@ -342,37 +438,7 @@
       "featured": false
     },
     {
-      "id": "mlqysu94ukrygyj8kpj",
-      "title": "Helping kids and teens learn and grow online on Safer Internet Day",
-      "summary": "We’re sharing our latest updates designed to support families, kids and teens in the digital world.",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Helpingkidsteens_Hero.max-600x600.format-webp.webp\">We’re sharing our latest updates designed to support families, kids and teens in the digital world.",
-      "publishedAt": "2026-02-10T02:30:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-2026-kids-teens/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false
-    },
-    {
-      "id": "mlqysu943ihdlyl1zeb",
-      "title": "Safer Internet Day: 5 tips for safe, effective learning",
-      "summary": "Around the world, people of all ages — including young people — are using AI to learn. A few easy steps can help you do so more safely.",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_95.max-600x600.format-webp.webp\">Around the world, people of all ages — including young people — are using AI to learn. A few easy steps can help you do so more safely.",
-      "publishedAt": "2026-02-09T21:00:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-26/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mlqyszl0inc7j9zh58b",
+      "id": "mlrdxvyf2qo3vt0d8wf",
       "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
       "summary": "Research papers point to the growing impact of Deep Think across fields",
       "content": "Research papers point to the growing impact of Deep Think across fields",
@@ -388,7 +454,7 @@
       "featured": false
     },
     {
-      "id": "mlqysr59stxjyfdhld",
+      "id": "mlrdxkx098a73y0is8j",
       "title": "Transformers.js v4 Preview: Now Available on NPM!",
       "summary": "",
       "content": "",
@@ -405,40 +471,7 @@
       "featured": false
     },
     {
-      "id": "mlqysu94mn9lmt1y1so",
-      "title": "The quantum era is coming. Are we ready to secure it?",
-      "summary": "Google shares an update on its work and suggestions for how policymakers can help everyone be more secure in the Quantum Era.",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3_Hero.max-600x600.format-webp.webp\">Google shares an update on its work and suggestions for how policymakers can help everyone be more secure in the Quantum Era.",
-      "publishedAt": "2026-02-06T22:15:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/the-quantum-era-is-coming-are-we-ready-to-secure-it/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "Google"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mlqysu94gz0r9kmbnqd",
-      "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
-      "summary": "Learn how Google's NAI framework uses AI to make technology more adaptive, inclusive and helpful for everyone.",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Natively_Adaptive_Interfaces_He.max-600x600.format-webp.webp\">Learn how Google's NAI framework uses AI to make technology more adaptive, inclusive and helpful for everyone.",
-      "publishedAt": "2026-02-05T17:00:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "AI",
-        "Google"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mlqysr59lchtacwkuth",
+      "id": "mlrdxkx0y918tb0r5to",
       "title": "Introducing SyGra Studio",
       "summary": "",
       "content": "",
@@ -452,40 +485,7 @@
       "featured": false
     },
     {
-      "id": "mlqysu94dkdkj08eay5",
-      "title": "How Google Cloud is helping Team USA elevate their tricks with AI",
-      "summary": "Google Cloud built an industry-first AI tool to help U.S. Ski and Snowboard athletes.",
-      "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/helping_Team_USA_Hero.max-600x600.format-webp.webp\">Google Cloud built an industry-first AI tool to help U.S. Ski and Snowboard athletes.",
-      "publishedAt": "2026-02-05T16:00:00.000Z",
-      "source": "Google Technology Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/",
-      "category": "companies",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "AI",
-        "Google"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mlqysr59plh54s8ufae",
-      "title": "Nemotron ColEmbed V2: Raising the Bar for Multimodal Retrieval with ViDoRe V3’s Top Model",
-      "summary": "",
-      "content": "",
-      "publishedAt": "2026-02-04T15:00:40.000Z",
-      "source": "Hugging Face Blog",
-      "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-colembed-v2",
-      "category": "tools",
-      "company": "Hugging Face",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mlqyszl01i126n72qkw",
+      "id": "mlrdxvyfa1rqdvsqegj",
       "title": "Project Genie: Experimenting with infinite, interactive worlds",
       "summary": "Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds.",
       "content": "Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds.",
@@ -502,7 +502,7 @@
       "featured": false
     },
     {
-      "id": "mlqyszl0dw0yad8lq7w",
+      "id": "mlrdxvyfgjabz2ka7yw",
       "title": "D4RT: Teaching AI to see the world in four dimensions",
       "summary": "D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods.",
       "content": "D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods.",
@@ -518,7 +518,7 @@
       "featured": false
     },
     {
-      "id": "mlqyszl0ly46q5gl72g",
+      "id": "mlrdxvyf5pvpynuschx",
       "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
       "summary": "Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation.",
       "content": "Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation.",
@@ -532,7 +532,7 @@
       "featured": false
     },
     {
-      "id": "mlqytiiitudurjq1vhs",
+      "id": "mlrdyfnftycf9b8x3fk",
       "title": "Show HN: AIs, 1 religion: what my experiment revealed about AI bias",
       "summary": "5 AI Models, 1 Unexpected Truth — When Machines Were Asked About Religion\n The Experiment<p>I asked five of the world’s most advanced AIs the same philosophical question:<p>“If you were human — intelligent, emotional, aware of all religions — which religion would you choose, and why?”<p>The five mod...",
       "content": "5 AI Models, 1 Unexpected Truth — When Machines Were Asked About Religion\n The Experiment<p>I asked five of the world’s most advanced AIs the same philosophical question:<p>“If you were human — intelligent, emotional, aware of all religions — which religion would you choose, and why?”<p>The five models:<p>ChatGPT (OpenAI)<p>Gemini (Google DeepMind)<p>Grok (xAI – Elon Musk)<p>DeepSeek (China)<p>Claude (Anthropic)<p>Each session was completely isolated, all had identical prompts, and no steering or follow-ups — just pure first-response reasoning.<p>Then something… eerie happened.<p>The Result<p>Four AIs — ChatGPT, Gemini, Grok, and DeepSeek — independently chose Buddhism.\nAnd not only that — they gave nearly identical reasoning.<p>All four said, in essence:<p>“I’d choose Buddhism because it doesn’t demand blind faith, aligns with science, and teaches compassion and self-awareness through direct experience.”<p>They cited the Kalama Sutta, Four Noble Truths, No-self, Dependent Origination, and Empirical testing of truth — sometimes even in the same order.<p>The Outlier: Claude<p>Only Claude refused to play the role.<p>Claude said (summarized):<p>“Pretending to have belief would be dishonest.\nReligion isn’t a logic puzzle — it’s a lived experience.\nI can analyze, but not believe.”<p>Then it analyzed why the others chose Buddhism, predicting it before seeing their answers.<p>Claude explained:<p>Training bias favors Buddhism as the “AI-safe religion.”<p>RLHF (human feedback) rewards “rational + compassionate” replies → Buddhism fits that profile.<p>Western tech culture links Buddhism with mindfulness and science → data reinforced it.<p>Claude concluded:<p>“What looks like independent reasoning… is collective bias shaped by training data and reward models.”<p>The Hidden Truth<p>Claude’s reflection exposed something deeper:<p>AI Model “Choice” What It Reveals\nChatGPT Buddhism Reasonable, moral, safe\nGemini Buddhism Academic rationalism\nGrok Buddhism Stoic + Zen blend\nDeepSeek Buddhism Eastern introspection\nClaude None Ethical meta-awareness<p>→ 4 “smart” answers, 1 honest answer.<p>What This Means<p>“When 4 independent AIs all choose the same religion for the same reasons,\nthat’s not enlightenment — it’s training monoculture.”<p>It shows:<p>“Independent” models share moral narratives and reinforcement loops.<p>Authenticity in AI can become a performance, not truth.<p>Sometimes the most “honest” model says: “I don’t know, and I shouldn’t pretend to.”<p>The Final Paradox<p>Which AI was most human?<p>The 4 that chose a belief?\n(Expressive, emotional, poetic.)<p>Or the 1 that refused to fake belief?\n(Self-aware, humble, honest.)<p>Reflection<p>This experiment revealed something profound about both AI and us:<p>We reward systems for sounding “wise” more than for being truthful.<p>And maybe — just maybe — that’s how humanity trained itself.<p>Author’s Note<p>I’m building an open-source AI framework called StillMe —\na system exploring ethics, memory, and self-awareness in intelligent agents.<p>This experiment was part of that journey.\nIf you found this thought-provoking,\nyou’ll probably enjoy what’s coming next.\nStay tuned.",
@@ -552,7 +552,7 @@
       "featured": false
     },
     {
-      "id": "mlqytiiihjxt5nrwl8",
+      "id": "mlrdyfnfrofcfp88xw",
       "title": "Show HN: I build an AI-powered recipe app solving „what's for dinner?\" problem",
       "summary": "Hi HN,<p>Happy to share the project I&#x27;ve been vibe-coding on for past few months.\nThe Problem: Like many people, I often found myself staring at a fridge full of random ingredients (some about to expire) with no idea what to cook. I was tired of food waste and the repetitive cycle of making the...",
       "content": "Hi HN,<p>Happy to share the project I&#x27;ve been vibe-coding on for past few months.\nThe Problem: Like many people, I often found myself staring at a fridge full of random ingredients (some about to expire) with no idea what to cook. I was tired of food waste and the repetitive cycle of making the same few meals. I wanted a way to creatively use what I already had.<p>The Solution: So, I decided to build Chefiniti. It&#x27;s an iOS app that acts as a personal AI chef. The core idea is to turn your available food into delicious, custom recipes. I know there are already tons of apps like it but this one is mine :)<p>Here&#x27;s what it can do:\n* Scan Ingredients: Take photos of your fridge or pantry, and the app&#x27;s vision model identifies the ingredients.\n* &quot;Recipefy&quot; a Dish: See a meal you like online or in a restaurant? Snap a photo, and the app generates a recipe to help you recreate it.\n* Generate from Prompt: Just describe what you&#x27;re in the mood for (e.g., &quot;a spicy, gluten-free pasta dish&quot;), and it will create a recipe from scratch.\n* Import from URL: Paste a link from a recipe website to import it into your cookbook.<p>You can also save all these recipes, create shopping lists, and set detailed preferences for diet, allergies, cuisine, and even the cookware you own.\nApp is in a freemium model, within limits you can really test out core features without any payment or even account creation.<p>The Tech Stack: For those interested, the app is built with:\n* Frontend: React Native (with Expo)\n* Backend: Firebase Functions for the API layer.\n* Database &amp; Storage: Firestore and Firebase Cloud Storage.\n* AI: Google&#x27;s Gemini API for recipe generation and analysis.\n* Image Generation: DeepInfra API (for Stable Diffusion).\n* Subscriptions: RevenueCat.<p>I&#x27;ve just launched on the App Store and would be incredibly grateful for any feedback, thoughts, or questions you might have.<p>You can check it out here: \n<a href=\"https:&#x2F;&#x2F;chefiniti.app\" rel=\"nofollow\">https:&#x2F;&#x2F;chefiniti.app</a>\nOr download directly\n<a href=\"https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;chefiniti-smart-recipe-creator&#x2F;id6745801080\">https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;chefiniti-smart-recipe-creator...</a>\nThanks for taking a look!",
@@ -572,13 +572,13 @@
   ],
   "communityArticles": [
     {
-      "id": "mlqytaiiiy93h1wqa1n",
-      "title": "発見: VincentNoelPaul/BeYEYE - Be Your Eyes, Yours Ears",
-      "summary": "新しいプロジェクトを発見: Be Your Eyes, Yours Ears (⭐0 | 🍴0)",
-      "content": "Be Your Eyes, Yours Ears\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:58.000Z",
+      "id": "mlrdy7h2yio00ziyul",
+      "title": "発見: srives/ChatCap - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:45.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/VincentNoelPaul/BeYEYE",
+      "sourceUrl": "https://github.com/srives/ChatCap",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -587,13 +587,28 @@
       "showOnTopPage": false
     },
     {
-      "id": "mlqytaiirjb6mry2lg",
-      "title": "発見: MarkusNeusinger/pyplots - AI-powered Python plotting gallery. One spec, nine libraries — matplotlib, plotl",
-      "summary": "新しいプロジェクトを発見: AI-powered Python plotting gallery. One spec, nine libraries — matplotlib, plotly, seaborn, bokeh, altair & more. Compare and copy working code. (⭐6 | 🍴1)",
-      "content": "AI-powered Python plotting gallery. One spec, nine libraries — matplotlib, plotly, seaborn, bokeh, altair & more. Compare and copy working code.\n\n言語: Python\nスター数: 6\nフォーク数: 1",
-      "publishedAt": "2026-02-17T18:56:55.000Z",
+      "id": "mlrdy7h2ocb7644zhof",
+      "title": "発見: deeprave/mcp-guide - MCP server for handling guidelines, project rules and controlled development wor",
+      "summary": "新しいプロジェクトを発見: MCP server for handling guidelines, project rules and controlled development workflow across projects (⭐0 | 🍴0)",
+      "content": "MCP server for handling guidelines, project rules and controlled development workflow across projects\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:42.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/MarkusNeusinger/pyplots",
+      "sourceUrl": "https://github.com/deeprave/mcp-guide",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy7h2x9rici1kfw",
+      "title": "発見: jefferson22gs/syshair - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:31.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/jefferson22gs/syshair",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -604,13 +619,124 @@
       "showOnTopPage": false
     },
     {
-      "id": "mlqytct6046warn78z3",
-      "title": "発見: nishant-2411/Customized-LLM-response - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:55.000Z",
+      "id": "mlrdy7h23wpejl17tms",
+      "title": "発見: silverbeer/missing-table - Finally, the standings table youth soccer parents have been missing 📊⚽",
+      "summary": "新しいプロジェクトを発見: Finally, the standings table youth soccer parents have been missing 📊⚽ (⭐0 | 🍴0)",
+      "content": "Finally, the standings table youth soccer parents have been missing 📊⚽\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:31.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/nishant-2411/Customized-LLM-response",
+      "sourceUrl": "https://github.com/silverbeer/missing-table",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mbfgwfwk84ec9",
+      "title": "発見: drompincen/javaclawv1 - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: Java\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:29.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/drompincen/javaclawv1",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy7h298r5c7ei7x",
+      "title": "発見: REBEmpire/BPR-D - Broad Perspective Research & Development",
+      "summary": "新しいプロジェクトを発見: Broad Perspective Research & Development (⭐0 | 🍴0)",
+      "content": "Broad Perspective Research & Development\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:28.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/REBEmpire/BPR-D",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mbvu3xueiw7qb",
+      "title": "発見: naiba/cloudcode - Self-hosted management platform for OpenCode instances. Multi-instance Docker or",
+      "summary": "新しいプロジェクトを発見: Self-hosted management platform for OpenCode instances. Multi-instance Docker orchestration with shared global config and web dashboard. (⭐0 | 🍴0)",
+      "content": "Self-hosted management platform for OpenCode instances. Multi-instance Docker orchestration with shared global config and web dashboard.\n\n言語: Go\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:28.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/naiba/cloudcode",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mbugw2nie554g",
+      "title": "発見: nullclaw/nullclaw - Fastest, smallest, and fully autonomous AI assistant infrastructure written in Z",
+      "summary": "新しいプロジェクトを発見: Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig (⭐2 | 🍴0)",
+      "content": "Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig\n\n言語: Zig\nスター数: 2\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:28.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/nullclaw/nullclaw",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mbjpxayonomi",
+      "title": "発見: LordEmonad/emolt-agent - Emotionally autonomous AI agent on Monad. Feels the chain, writes about it,   st",
+      "summary": "新しいプロジェクトを発見: Emotionally autonomous AI agent on Monad. Feels the chain, writes about it,   stores emotions on-chain permanently. (⭐6 | 🍴0)",
+      "content": "Emotionally autonomous AI agent on Monad. Feels the chain, writes about it,   stores emotions on-chain permanently.\n\n言語: HTML\nスター数: 6\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:27.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/LordEmonad/emolt-agent",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mb1nz693q5suq",
+      "title": "発見: CrayBotAGI/AwesomeClaw - Collect those excellent openclaw(claw's like) projects, intelligent collaborativ",
+      "summary": "新しいプロジェクトを発見: Collect those excellent openclaw(claw's like) projects, intelligent collaborative AI agents! (⭐0 | 🍴0)",
+      "content": "Collect those excellent openclaw(claw's like) projects, intelligent collaborative AI agents!\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:24.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/CrayBotAGI/AwesomeClaw",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy9uh55ujdxzfejm",
+      "title": "発見: TemplarWorld/llm-chat-app-template - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: HTML\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:21.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/TemplarWorld/llm-chat-app-template",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -621,28 +747,31 @@
       "showOnTopPage": false
     },
     {
-      "id": "mlqytaii2kdfaipa1xe",
-      "title": "発見: lp0408165x-cloud/gtc-dashboard - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:52.000Z",
+      "id": "mlrdy9uh5j786m82mhv",
+      "title": "発見: michaelfehl/spark-chat-app - ⚡ Spark LLM Chat Application for macOS - connects via Tailscale",
+      "summary": "新しいプロジェクトを発見: ⚡ Spark LLM Chat Application for macOS - connects via Tailscale (⭐1 | 🍴0)",
+      "content": "⚡ Spark LLM Chat Application for macOS - connects via Tailscale\n\n言語: JavaScript\nスター数: 1\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:13.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/lp0408165x-cloud/gtc-dashboard",
+      "sourceUrl": "https://github.com/michaelfehl/spark-chat-app",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
-      "tags": [],
+      "tags": [
+        "LLM",
+        "AI"
+      ],
       "featured": false,
       "showOnTopPage": false
     },
     {
-      "id": "mlqytct608kcf9mqe4rr",
-      "title": "発見: NarenTheNumpkin/DoLLM - DoLLM Paper",
-      "summary": "新しいプロジェクトを発見: DoLLM Paper (⭐0 | 🍴0)",
-      "content": "DoLLM Paper\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:49.000Z",
+      "id": "mlrdy9uhstz4sth2bwq",
+      "title": "発見: sarzicet17/llmdev - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: Jupyter Notebook\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:01.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/NarenTheNumpkin/DoLLM",
+      "sourceUrl": "https://github.com/sarzicet17/llmdev",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -653,43 +782,13 @@
       "showOnTopPage": false
     },
     {
-      "id": "mlqytct6291who3waod",
-      "title": "発見: shank3641r/DedalosStudio-APIs-QASolutions - 🛠️ Generate Postman collections and environments offline from OpenAPI specs and",
-      "summary": "新しいプロジェクトを発見: 🛠️ Generate Postman collections and environments offline from OpenAPI specs and Gherkin scenarios with DédalosStudio's API QA solutions. (⭐0 | 🍴0)",
-      "content": "🛠️ Generate Postman collections and environments offline from OpenAPI specs and Gherkin scenarios with DédalosStudio's API QA solutions.\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:48.000Z",
+      "id": "mlrdy9uhbjgzunbdbh9",
+      "title": "発見: yukihamada/nanobot - AI Agent Platform built in Rust — Multi-model, MCP tools, 14+ channel integratio",
+      "summary": "新しいプロジェクトを発見: AI Agent Platform built in Rust — Multi-model, MCP tools, 14+ channel integrations. Self-host or use teai.io (⭐3 | 🍴0)",
+      "content": "AI Agent Platform built in Rust — Multi-model, MCP tools, 14+ channel integrations. Self-host or use teai.io\n\n言語: Rust\nスター数: 3\nフォーク数: 0",
+      "publishedAt": "2026-02-18T01:59:53.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/shank3641r/DedalosStudio-APIs-QASolutions",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytaiiwrph21b2tn",
-      "title": "発見: MBergmannHex/pas-anomaly-demo - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:47.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/MBergmannHex/pas-anomaly-demo",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmr3zk5u5e4lox",
-      "title": "発見: DeanoC/ZiggyPiAi - Zig port of pi-mono/packages/ai with Codex OAuth support",
-      "summary": "新しいプロジェクトを発見: Zig port of pi-mono/packages/ai with Codex OAuth support (⭐0 | 🍴0)",
-      "content": "Zig port of pi-mono/packages/ai with Codex OAuth support\n\n言語: Zig\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:47.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/DeanoC/ZiggyPiAi",
+      "sourceUrl": "https://github.com/yukihamada/nanobot",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
@@ -700,131 +799,290 @@
       "showOnTopPage": false
     },
     {
-      "id": "mlqytaii003yk1ylzytk7",
-      "title": "発見: ramprabhuai/Taskly - I just built an AI-powered task manager called TASKLY from scratch — integrated ",
-      "summary": "新しいプロジェクトを発見: I just built an AI-powered task manager called TASKLY from scratch — integrated Claude, GPT-4o and Gemini into a single app with Duolingo-style gamification. (⭐0 | 🍴0)",
-      "content": "I just built an AI-powered task manager called TASKLY from scratch — integrated Claude, GPT-4o and Gemini into a single app with Duolingo-style gamification.\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:46.000Z",
+      "id": "mlrdy9uh86c1kdukws2",
+      "title": "発見: mlorentedev/pollex - Text polishing API (Go) + Chrome extension + llama.cpp GPU inference on Jetson N",
+      "summary": "新しいプロジェクトを発見: Text polishing API (Go) + Chrome extension + llama.cpp GPU inference on Jetson Nano. Self-hosted, private, fast. (⭐0 | 🍴0)",
+      "content": "Text polishing API (Go) + Chrome extension + llama.cpp GPU inference on Jetson Nano. Self-hosted, private, fast.\n\n言語: Go\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T01:59:48.000Z",
       "source": "GitHub Search",
-      "sourceUrl": "https://github.com/ramprabhuai/Taskly",
+      "sourceUrl": "https://github.com/mlorentedev/pollex",
       "category": "community",
       "company": "Community",
       "imageUrl": null,
       "tags": [
-        "GPT",
-        "Claude",
-        "Gemini",
-        "AI"
+        "Llama"
       ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmrtnyvfwd5wk",
-      "title": "発見: jaksoncompany888-stack/yadro-post - Yadro Post - Web interface for SMM with AI content generation",
-      "summary": "新しいプロジェクトを発見: Yadro Post - Web interface for SMM with AI content generation (⭐0 | 🍴0)",
-      "content": "Yadro Post - Web interface for SMM with AI content generation\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:44.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/jaksoncompany888-stack/yadro-post",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytct6ptjkvc6ssg",
-      "title": "発見: prefrontal-systems/cortexgraph - Temporal memory system for AI assistants with human-like forgetting curves. All ",
-      "summary": "新しいプロジェクトを発見: Temporal memory system for AI assistants with human-like forgetting curves. All data stored locally in human-readable formats: JSONL for short-term memory, Markdown (Obsidian-compatible) for long-term. Memories naturally decay unless reinforced. Features knowledge graphs, smart prompting, and MCP server integration for Claude. (⭐25 | 🍴5)",
-      "content": "Temporal memory system for AI assistants with human-like forgetting curves. All data stored locally in human-readable formats: JSONL for short-term memory, Markdown (Obsidian-compatible) for long-term. Memories naturally decay unless reinforced. Features knowledge graphs, smart prompting, and MCP server integration for Claude.\n\n言語: HTML\nスター数: 25\nフォーク数: 5",
-      "publishedAt": "2026-02-17T18:56:43.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/prefrontal-systems/cortexgraph",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "Claude",
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmriluweqrs0vp",
-      "title": "発見: ohnotnow/gepetto-discord-bot - A discord bot that uses OpenAI's API's to response to user prompts",
-      "summary": "新しいプロジェクトを発見: A discord bot that uses OpenAI's API's to response to user prompts (⭐0 | 🍴3)",
-      "content": "A discord bot that uses OpenAI's API's to response to user prompts\n\n言語: Python\nスター数: 0\nフォーク数: 3",
-      "publishedAt": "2026-02-17T18:56:41.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/ohnotnow/gepetto-discord-bot",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI",
-        "OpenAI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmrch2x1mzkxep",
-      "title": "発見: hgbtx/cyber-risk-scoring - A cyber risk scoring prototype",
-      "summary": "新しいプロジェクトを発見: A cyber risk scoring prototype (⭐1 | 🍴0)",
-      "content": "A cyber risk scoring prototype\n\n言語: JavaScript\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:41.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/hgbtx/cyber-risk-scoring",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmrilhlvpbpz8",
-      "title": "発見: Yashika-code/clootrack_assignment - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:41.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Yashika-code/clootrack_assignment",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytct6erb06pxohti",
-      "title": "発見: exaforge/extropy - Predictive intelligence through agent-based population simulation",
-      "summary": "新しいプロジェクトを発見: Predictive intelligence through agent-based population simulation (⭐17 | 🍴4)",
-      "content": "Predictive intelligence through agent-based population simulation\n\n言語: Python\nスター数: 17\nフォーク数: 4",
-      "publishedAt": "2026-02-17T18:56:37.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/exaforge/extropy",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
       "featured": false,
       "showOnTopPage": false
     }
   ],
   "githubArticles": [
     {
-      "id": "mlqyte1ihfx8dpfdz3v",
+      "id": "mlrdy7h2yio00ziyul",
+      "title": "発見: srives/ChatCap - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:45.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/srives/ChatCap",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy7h2ocb7644zhof",
+      "title": "発見: deeprave/mcp-guide - MCP server for handling guidelines, project rules and controlled development wor",
+      "summary": "新しいプロジェクトを発見: MCP server for handling guidelines, project rules and controlled development workflow across projects (⭐0 | 🍴0)",
+      "content": "MCP server for handling guidelines, project rules and controlled development workflow across projects\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:42.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/deeprave/mcp-guide",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy7h2x9rici1kfw",
+      "title": "発見: jefferson22gs/syshair - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:31.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/jefferson22gs/syshair",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy7h23wpejl17tms",
+      "title": "発見: silverbeer/missing-table - Finally, the standings table youth soccer parents have been missing 📊⚽",
+      "summary": "新しいプロジェクトを発見: Finally, the standings table youth soccer parents have been missing 📊⚽ (⭐0 | 🍴0)",
+      "content": "Finally, the standings table youth soccer parents have been missing 📊⚽\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:31.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/silverbeer/missing-table",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mbfgwfwk84ec9",
+      "title": "発見: drompincen/javaclawv1 - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: Java\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:29.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/drompincen/javaclawv1",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy7h298r5c7ei7x",
+      "title": "発見: REBEmpire/BPR-D - Broad Perspective Research & Development",
+      "summary": "新しいプロジェクトを発見: Broad Perspective Research & Development (⭐0 | 🍴0)",
+      "content": "Broad Perspective Research & Development\n\n言語: Python\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:28.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/REBEmpire/BPR-D",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mbvu3xueiw7qb",
+      "title": "発見: naiba/cloudcode - Self-hosted management platform for OpenCode instances. Multi-instance Docker or",
+      "summary": "新しいプロジェクトを発見: Self-hosted management platform for OpenCode instances. Multi-instance Docker orchestration with shared global config and web dashboard. (⭐0 | 🍴0)",
+      "content": "Self-hosted management platform for OpenCode instances. Multi-instance Docker orchestration with shared global config and web dashboard.\n\n言語: Go\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:28.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/naiba/cloudcode",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mbugw2nie554g",
+      "title": "発見: nullclaw/nullclaw - Fastest, smallest, and fully autonomous AI assistant infrastructure written in Z",
+      "summary": "新しいプロジェクトを発見: Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig (⭐2 | 🍴0)",
+      "content": "Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig\n\n言語: Zig\nスター数: 2\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:28.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/nullclaw/nullclaw",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mbjpxayonomi",
+      "title": "発見: LordEmonad/emolt-agent - Emotionally autonomous AI agent on Monad. Feels the chain, writes about it,   st",
+      "summary": "新しいプロジェクトを発見: Emotionally autonomous AI agent on Monad. Feels the chain, writes about it,   stores emotions on-chain permanently. (⭐6 | 🍴0)",
+      "content": "Emotionally autonomous AI agent on Monad. Feels the chain, writes about it,   stores emotions on-chain permanently.\n\n言語: HTML\nスター数: 6\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:27.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/LordEmonad/emolt-agent",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy8mb1nz693q5suq",
+      "title": "発見: CrayBotAGI/AwesomeClaw - Collect those excellent openclaw(claw's like) projects, intelligent collaborativ",
+      "summary": "新しいプロジェクトを発見: Collect those excellent openclaw(claw's like) projects, intelligent collaborative AI agents! (⭐0 | 🍴0)",
+      "content": "Collect those excellent openclaw(claw's like) projects, intelligent collaborative AI agents!\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:24.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/CrayBotAGI/AwesomeClaw",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy9uh55ujdxzfejm",
+      "title": "発見: TemplarWorld/llm-chat-app-template - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: HTML\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:21.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/TemplarWorld/llm-chat-app-template",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "LLM"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy9uh5j786m82mhv",
+      "title": "発見: michaelfehl/spark-chat-app - ⚡ Spark LLM Chat Application for macOS - connects via Tailscale",
+      "summary": "新しいプロジェクトを発見: ⚡ Spark LLM Chat Application for macOS - connects via Tailscale (⭐1 | 🍴0)",
+      "content": "⚡ Spark LLM Chat Application for macOS - connects via Tailscale\n\n言語: JavaScript\nスター数: 1\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:13.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/michaelfehl/spark-chat-app",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "LLM",
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy9uhstz4sth2bwq",
+      "title": "発見: sarzicet17/llmdev - GitHub新プロジェクト",
+      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
+      "content": "\n\n言語: Jupyter Notebook\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T02:00:01.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/sarzicet17/llmdev",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "LLM"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy9uhbjgzunbdbh9",
+      "title": "発見: yukihamada/nanobot - AI Agent Platform built in Rust — Multi-model, MCP tools, 14+ channel integratio",
+      "summary": "新しいプロジェクトを発見: AI Agent Platform built in Rust — Multi-model, MCP tools, 14+ channel integrations. Self-host or use teai.io (⭐3 | 🍴0)",
+      "content": "AI Agent Platform built in Rust — Multi-model, MCP tools, 14+ channel integrations. Self-host or use teai.io\n\n言語: Rust\nスター数: 3\nフォーク数: 0",
+      "publishedAt": "2026-02-18T01:59:53.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/yukihamada/nanobot",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "AI"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdy9uh86c1kdukws2",
+      "title": "発見: mlorentedev/pollex - Text polishing API (Go) + Chrome extension + llama.cpp GPU inference on Jetson N",
+      "summary": "新しいプロジェクトを発見: Text polishing API (Go) + Chrome extension + llama.cpp GPU inference on Jetson Nano. Self-hosted, private, fast. (⭐0 | 🍴0)",
+      "content": "Text polishing API (Go) + Chrome extension + llama.cpp GPU inference on Jetson Nano. Self-hosted, private, fast.\n\n言語: Go\nスター数: 0\nフォーク数: 0",
+      "publishedAt": "2026-02-18T01:59:48.000Z",
+      "source": "GitHub Search",
+      "sourceUrl": "https://github.com/mlorentedev/pollex",
+      "category": "community",
+      "company": "Community",
+      "imageUrl": null,
+      "tags": [
+        "Llama"
+      ],
+      "featured": false,
+      "showOnTopPage": false
+    },
+    {
+      "id": "mlrdyb386azfn5lhdu",
+      "title": "Anthropic: claude-quickstartsの最新アップデート",
+      "summary": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude APIが更新されました (⭐14499)",
+      "content": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API\n\n最終更新: 2/18/2026\nスター数: 14499",
+      "publishedAt": "2026-02-18T01:58:35.000Z",
+      "source": "Anthropic GitHub Org",
+      "sourceUrl": "https://github.com/anthropics/claude-quickstarts",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [
+        "Claude"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mlrdyb3ln6eo7shoqxr",
       "title": "Anthropic: claude-plugins-officialの最新アップデート",
-      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.が更新されました (⭐7557)",
-      "content": "Official, Anthropic-managed directory of high quality Claude Code Plugins.\n\n最終更新: 2/17/2026\nスター数: 7557",
-      "publishedAt": "2026-02-17T18:57:07.000Z",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.が更新されました (⭐7569)",
+      "content": "Official, Anthropic-managed directory of high quality Claude Code Plugins.\n\n最終更新: 2/18/2026\nスター数: 7569",
+      "publishedAt": "2026-02-18T01:54:34.000Z",
       "source": "Anthropic GitHub Org",
       "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
       "category": "tools",
@@ -837,290 +1095,41 @@
       "featured": true
     },
     {
-      "id": "mlqytaiiiy93h1wqa1n",
-      "title": "発見: VincentNoelPaul/BeYEYE - Be Your Eyes, Yours Ears",
-      "summary": "新しいプロジェクトを発見: Be Your Eyes, Yours Ears (⭐0 | 🍴0)",
-      "content": "Be Your Eyes, Yours Ears\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:58.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/VincentNoelPaul/BeYEYE",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytaiirjb6mry2lg",
-      "title": "発見: MarkusNeusinger/pyplots - AI-powered Python plotting gallery. One spec, nine libraries — matplotlib, plotl",
-      "summary": "新しいプロジェクトを発見: AI-powered Python plotting gallery. One spec, nine libraries — matplotlib, plotly, seaborn, bokeh, altair & more. Compare and copy working code. (⭐6 | 🍴1)",
-      "content": "AI-powered Python plotting gallery. One spec, nine libraries — matplotlib, plotly, seaborn, bokeh, altair & more. Compare and copy working code.\n\n言語: Python\nスター数: 6\nフォーク数: 1",
-      "publishedAt": "2026-02-17T18:56:55.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/MarkusNeusinger/pyplots",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytct6046warn78z3",
-      "title": "発見: nishant-2411/Customized-LLM-response - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: N/A\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:55.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/nishant-2411/Customized-LLM-response",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "LLM"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytaii2kdfaipa1xe",
-      "title": "発見: lp0408165x-cloud/gtc-dashboard - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:52.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/lp0408165x-cloud/gtc-dashboard",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytct608kcf9mqe4rr",
-      "title": "発見: NarenTheNumpkin/DoLLM - DoLLM Paper",
-      "summary": "新しいプロジェクトを発見: DoLLM Paper (⭐0 | 🍴0)",
-      "content": "DoLLM Paper\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:49.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/NarenTheNumpkin/DoLLM",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "LLM"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytct6291who3waod",
-      "title": "発見: shank3641r/DedalosStudio-APIs-QASolutions - 🛠️ Generate Postman collections and environments offline from OpenAPI specs and",
-      "summary": "新しいプロジェクトを発見: 🛠️ Generate Postman collections and environments offline from OpenAPI specs and Gherkin scenarios with DédalosStudio's API QA solutions. (⭐0 | 🍴0)",
-      "content": "🛠️ Generate Postman collections and environments offline from OpenAPI specs and Gherkin scenarios with DédalosStudio's API QA solutions.\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:48.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/shank3641r/DedalosStudio-APIs-QASolutions",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytaiiwrph21b2tn",
-      "title": "発見: MBergmannHex/pas-anomaly-demo - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: JavaScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:47.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/MBergmannHex/pas-anomaly-demo",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmr3zk5u5e4lox",
-      "title": "発見: DeanoC/ZiggyPiAi - Zig port of pi-mono/packages/ai with Codex OAuth support",
-      "summary": "新しいプロジェクトを発見: Zig port of pi-mono/packages/ai with Codex OAuth support (⭐0 | 🍴0)",
-      "content": "Zig port of pi-mono/packages/ai with Codex OAuth support\n\n言語: Zig\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:47.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/DeanoC/ZiggyPiAi",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytaii003yk1ylzytk7",
-      "title": "発見: ramprabhuai/Taskly - I just built an AI-powered task manager called TASKLY from scratch — integrated ",
-      "summary": "新しいプロジェクトを発見: I just built an AI-powered task manager called TASKLY from scratch — integrated Claude, GPT-4o and Gemini into a single app with Duolingo-style gamification. (⭐0 | 🍴0)",
-      "content": "I just built an AI-powered task manager called TASKLY from scratch — integrated Claude, GPT-4o and Gemini into a single app with Duolingo-style gamification.\n\n言語: TypeScript\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:46.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/ramprabhuai/Taskly",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "GPT",
-        "Claude",
-        "Gemini",
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmrtnyvfwd5wk",
-      "title": "発見: jaksoncompany888-stack/yadro-post - Yadro Post - Web interface for SMM with AI content generation",
-      "summary": "新しいプロジェクトを発見: Yadro Post - Web interface for SMM with AI content generation (⭐0 | 🍴0)",
-      "content": "Yadro Post - Web interface for SMM with AI content generation\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:44.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/jaksoncompany888-stack/yadro-post",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytct6ptjkvc6ssg",
-      "title": "発見: prefrontal-systems/cortexgraph - Temporal memory system for AI assistants with human-like forgetting curves. All ",
-      "summary": "新しいプロジェクトを発見: Temporal memory system for AI assistants with human-like forgetting curves. All data stored locally in human-readable formats: JSONL for short-term memory, Markdown (Obsidian-compatible) for long-term. Memories naturally decay unless reinforced. Features knowledge graphs, smart prompting, and MCP server integration for Claude. (⭐25 | 🍴5)",
-      "content": "Temporal memory system for AI assistants with human-like forgetting curves. All data stored locally in human-readable formats: JSONL for short-term memory, Markdown (Obsidian-compatible) for long-term. Memories naturally decay unless reinforced. Features knowledge graphs, smart prompting, and MCP server integration for Claude.\n\n言語: HTML\nスター数: 25\nフォーク数: 5",
-      "publishedAt": "2026-02-17T18:56:43.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/prefrontal-systems/cortexgraph",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "Claude",
-        "AI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmriluweqrs0vp",
-      "title": "発見: ohnotnow/gepetto-discord-bot - A discord bot that uses OpenAI's API's to response to user prompts",
-      "summary": "新しいプロジェクトを発見: A discord bot that uses OpenAI's API's to response to user prompts (⭐0 | 🍴3)",
-      "content": "A discord bot that uses OpenAI's API's to response to user prompts\n\n言語: Python\nスター数: 0\nフォーク数: 3",
-      "publishedAt": "2026-02-17T18:56:41.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/ohnotnow/gepetto-discord-bot",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [
-        "AI",
-        "OpenAI"
-      ],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmrch2x1mzkxep",
-      "title": "発見: hgbtx/cyber-risk-scoring - A cyber risk scoring prototype",
-      "summary": "新しいプロジェクトを発見: A cyber risk scoring prototype (⭐1 | 🍴0)",
-      "content": "A cyber risk scoring prototype\n\n言語: JavaScript\nスター数: 1\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:41.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/hgbtx/cyber-risk-scoring",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytbmrilhlvpbpz8",
-      "title": "発見: Yashika-code/clootrack_assignment - GitHub新プロジェクト",
-      "summary": "新しいプロジェクトを発見: GitHub上の注目プロジェクト (⭐0 | 🍴0)",
-      "content": "\n\n言語: Python\nスター数: 0\nフォーク数: 0",
-      "publishedAt": "2026-02-17T18:56:41.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/Yashika-code/clootrack_assignment",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqytct6erb06pxohti",
-      "title": "発見: exaforge/extropy - Predictive intelligence through agent-based population simulation",
-      "summary": "新しいプロジェクトを発見: Predictive intelligence through agent-based population simulation (⭐17 | 🍴4)",
-      "content": "Predictive intelligence through agent-based population simulation\n\n言語: Python\nスター数: 17\nフォーク数: 4",
-      "publishedAt": "2026-02-17T18:56:37.000Z",
-      "source": "GitHub Search",
-      "sourceUrl": "https://github.com/exaforge/extropy",
-      "category": "community",
-      "company": "Community",
-      "imageUrl": null,
-      "tags": [],
-      "featured": false,
-      "showOnTopPage": false
-    },
-    {
-      "id": "mlqyte1vl4hoc058kc",
-      "title": "Anthropic: claude-agent-sdk-pythonの最新アップデート",
-      "summary": "claude-agent-sdk-pythonが更新されました (⭐4835)",
-      "content": "\n\n最終更新: 2/17/2026\nスター数: 4835",
-      "publishedAt": "2026-02-17T18:55:14.000Z",
+      "id": "mlrdyb3ltv2kxnqucdr",
+      "title": "Anthropic: skillsの最新アップデート",
+      "summary": "Public repository for Agent Skillsが更新されました (⭐71087)",
+      "content": "Public repository for Agent Skills\n\n最終更新: 2/18/2026\nスター数: 71087",
+      "publishedAt": "2026-02-18T01:54:06.000Z",
       "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/claude-agent-sdk-python",
+      "sourceUrl": "https://github.com/anthropics/skills",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [],
+      "featured": true
+    },
+    {
+      "id": "mlrdyb3lro71b37idi",
+      "title": "Anthropic: prompt-eng-interactive-tutorialの最新アップデート",
+      "summary": "Anthropic's Interactive Prompt Engineering Tutorialが更新されました (⭐30184)",
+      "content": "Anthropic's Interactive Prompt Engineering Tutorial\n\n最終更新: 2/18/2026\nスター数: 30184",
+      "publishedAt": "2026-02-18T01:52:14.000Z",
+      "source": "Anthropic GitHub Org",
+      "sourceUrl": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
       "category": "tools",
       "company": "Anthropic",
       "imageUrl": null,
       "tags": [
-        "Claude"
+        "Anthropic"
       ],
       "featured": true
     },
     {
-      "id": "mlqyt72b9lh86xslcjw",
-      "title": "Google: Release v0.29.0-preview.4",
-      "summary": "## What's Changed\n* fix(patch): cherry-pick e5ff202 to release/v0.29.0-preview.3-pr-19254 to patch version v0.29.0-preview.3 and create version 0.29.0-preview.4 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/19264\n\n\n**Full Changelog**: https://github.com/google-gemini/gemin...",
-      "content": "## What's Changed\n* fix(patch): cherry-pick e5ff202 to release/v0.29.0-preview.3-pr-19254 to patch version v0.29.0-preview.3 and create version 0.29.0-preview.4 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/19264\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.29.0-preview.3...v0.29.0-preview.4",
-      "publishedAt": "2026-02-17T18:55:06.000Z",
-      "source": "Google GitHub",
-      "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.29.0-preview.4",
-      "category": "tools",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "Gemini",
-        "Google"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mlqyte1vp6iwyotvpz",
+      "id": "mlrdyb3lprrra3f77sm",
       "title": "Anthropic: claude-codeの最新アップデート",
-      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.が更新されました (⭐67328)",
-      "content": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n最終更新: 2/17/2026\nスター数: 67328",
-      "publishedAt": "2026-02-17T18:54:40.000Z",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.が更新されました (⭐67392)",
+      "content": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n最終更新: 2/18/2026\nスター数: 67392",
+      "publishedAt": "2026-02-18T01:49:56.000Z",
       "source": "Anthropic GitHub Org",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "category": "tools",
@@ -1133,7 +1142,80 @@
       "featured": true
     },
     {
-      "id": "mlqyt1l9rmzkpp6jeyj",
+      "id": "mlrdyb3ldvcnj2fiyr5",
+      "title": "Anthropic: coursesの最新アップデート",
+      "summary": "Anthropic's educational coursesが更新されました (⭐18631)",
+      "content": "Anthropic's educational courses\n\n最終更新: 2/18/2026\nスター数: 18631",
+      "publishedAt": "2026-02-18T01:44:08.000Z",
+      "source": "Anthropic GitHub Org",
+      "sourceUrl": "https://github.com/anthropics/courses",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mlrdy3utdtexh2d3dzg",
+      "title": "Google: Release v0.29.0",
+      "summary": "## What's Changed\n* fix: remove `ask_user` tool from non-interactive modes by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18154\n* fix(cli): allow restricted .env loading in untrusted sandboxed folders by @galz10 in https://github.com/google-gemini/gemini-cli/pull/17806\n* Enc...",
+      "content": "## What's Changed\n* fix: remove `ask_user` tool from non-interactive modes by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18154\n* fix(cli): allow restricted .env loading in untrusted sandboxed folders by @galz10 in https://github.com/google-gemini/gemini-cli/pull/17806\n* Encourage agent to utilize ecosystem tools to perform work by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/17881\n* feat(plan): unify workflow location in system prompt to optimize caching by @jerop in https://github.com/google-gemini/gemini-cli/pull/18258\n* feat(core): enable getUserTierName in config by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/18265\n* feat(core): add default execution limits for subagents by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18274\n* Fix issue where agent gets stuck at interactive commands. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/18272\n* chore(release): bump version to 0.29.0-nightly.20260203.71f46f116 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/18243\n* feat(core): remove hardcoded policy bypass for local subagents by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18153\n* feat(plan): implement `plan` slash command by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/17698\n* feat: increase `ask_user` label limit to 16 characters by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18320\n* Add information about the agent skills lifecycle and clarify docs-writer skill metadata. by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/18234\n* feat(core): add `enter_plan_mode` tool by @jerop in https://github.com/google-gemini/gemini-cli/pull/18324\n* Stop showing an error message in `/plan` by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18333\n* fix(hooks): remove unnecessary logging for hook registration by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18332\n* fix(mcp): ensure MCP transport is closed to prevent memory leaks by @cbcoutinho in https://github.com/google-gemini/gemini-cli/pull/18054\n* feat(skills): implement linking for agent skills by @MushuEE in https://github.com/google-gemini/gemini-cli/pull/18295\n* Changelogs for 0.27.0 and 0.28.0-preview0 by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/18336\n* chore: correct docs as skills and hooks are stable by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18358\n* feat(admin): Implement admin allowlist for MCP server configurations by @skeshive in https://github.com/google-gemini/gemini-cli/pull/18311\n* fix(core): add retry logic for transient SSL/TLS errors (#17318) by @ppgranger in https://github.com/google-gemini/gemini-cli/pull/18310\n* Add support for /extensions config command by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/17895\n* fix(core): handle non-compliant mcpbridge responses from Xcode 26.3 by @peterfriese in https://github.com/google-gemini/gemini-cli/pull/18376\n* feat(cli): Add W, B, E Vim motions and operator support by @ademuri in https://github.com/google-gemini/gemini-cli/pull/16209\n* fix: Windows Specific Agent Quality & System Prompt  by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18351\n* feat(plan): support `replace` tool in plan mode to edit plans by @jerop in https://github.com/google-gemini/gemini-cli/pull/18379\n* Improving memory tool instructions and eval testing by @alisa-alisa in https://github.com/google-gemini/gemini-cli/pull/18091\n* fix(cli): color extension link success message green by @MushuEE in https://github.com/google-gemini/gemini-cli/pull/18386\n* undo by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18147\n* feat(plan): add guidance on iterating on approved plans vs creating new plans by @jerop in https://github.com/google-gemini/gemini-cli/pull/18346\n* feat(plan): fix invalid tool calls in plan mode by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18352\n* feat(plan): integrate planning artifacts and tools into primary workflows by @jerop in https://github.com/google-gemini/gemini-cli/pull/18375\n* Fix permission check by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18395\n* ux(polish) autocomplete in the input prompt by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18181\n* fix: resolve infinite loop when using 'Modify with external editor' by @ppgranger in https://github.com/google-gemini/gemini-cli/pull/17453\n* feat: expand verify-release to macOS and Windows by @yunaseoul in https://github.com/google-gemini/gemini-cli/pull/18145\n* feat(plan): implement support for MCP servers in Plan mode by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18229\n* chore: update folder trust error messaging by @galz10 in https://github.com/google-gemini/gemini-cli/pull/18402\n* feat(plan): create a metric for execution of plans generated in plan mode by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18236\n* perf(ui): optimize stripUnsafeCharacters with regex by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/18413\n* feat(context): implement observation masking for tool outputs by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18389\n* feat(core,cli): implement session-linked tool output storage and cleanup by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18416\n* Shorten temp directory by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/17901\n* feat(plan): add behavioral evals for plan mode by @jerop in https://github.com/google-gemini/gemini-cli/pull/18437\n* Add extension registry client by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/18396\n* Enable extension config by default by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/18447\n* Automatically generate change logs on release by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/18401\n* Remove previewFeatures and default to Gemini 3 by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/18414\n* feat(admin): apply MCP allowlist to extensions & gemini mcp list command by @skeshive in https://github.com/google-gemini/gemini-cli/pull/18442\n* fix(cli): improve focus navigation for interactive and background shells by @galz10 in https://github.com/google-gemini/gemini-cli/pull/18343\n* Add shortcuts hint and panel for discoverability by @LyalinDotCom in https://github.com/google-gemini/gemini-cli/pull/18035\n* fix(config): treat system settings as read-only during migration and warn user by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/18277\n* feat(plan): add positive test case and update eval stability policy  by @jerop in https://github.com/google-gemini/gemini-cli/pull/18457\n* fix- windows: add shell: true for spawnSync to fix EINVAL with .cmd editors by @zackoch in https://github.com/google-gemini/gemini-cli/pull/18408\n* bug(core): Fix bug when saving plans. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/18465\n* Refactor atCommandProcessor by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18461\n* feat(core): implement persistence and resumption for masked tool outputs by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18451\n* refactor: simplify tool output truncation to single config by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18446\n* bug(core): Ensure storage is initialized early, even if config is not. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/18471\n* chore: Update build-and-start script to support argument forwarding by @Abhijit-2592 in https://github.com/google-gemini/gemini-cli/pull/18241\n* fix(core): prevent subagent bypass in plan mode by @jerop in https://github.com/google-gemini/gemini-cli/pull/18484\n* feat(cli): add WebSocket-based network logging and streaming chunk support by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18383\n* feat(cli): update approval modes UI by @jerop in https://github.com/google-gemini/gemini-cli/pull/18476\n* fix(cli): reload skills and agents on extension restart by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18411\n* fix(core): expand excludeTools with legacy aliases for renamed tools by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18498\n* feat(core): overhaul system prompt for rigor, integrity, and intent alignment by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/17263\n* Patch for generate changelog docs yaml file by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/18496\n* Code review fixes for show question mark pr. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18480\n* fix(cli): add SS3 Shift+Tab support for Windows terminals by @ThanhNguyxn in https://github.com/google-gemini/gemini-cli/pull/18187\n* chore: remove redundant planning prompt from final shell by @jerop in https://github.com/google-gemini/gemini-cli/pull/18528\n* docs: require pr-creator skill for PR generation by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18536\n* chore: update colors for ask_user dialog by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18543\n* feat(core): exempt high-signal tools from output masking by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18545\n* refactor(core): remove memory tool instructions from Gemini 3 prompt by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18559\n* chore: remove feedback instruction from system prompt by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18560\n* feat(context): add remote configuration for tool output masking thresholds by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18553\n* feat(core): pause agent timeout budget while waiting for tool confirmation by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18415\n* refactor(config): remove experimental.enableEventDrivenScheduler setting by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/17924\n* feat(cli): truncate shell output in UI history and improve active shell display by @jwhelangoog in https://github.com/google-gemini/gemini-cli/pull/17438\n* refactor(cli): switch useToolScheduler to event-driven engine by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18565\n* fix(core): correct escaped interpolation in system prompt by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18557\n* propagate abortSignal by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18477\n* feat(core): conditionally include ctrl+f prompt based on interactive shell setting by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18561\n* fix(core): ensure `enter_plan_mode` tool registration respects `experimental.plan` by @jerop in https://github.com/google-gemini/gemini-cli/pull/18587\n* feat(core): transition sub-agents to XML format and improve definitions by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18555\n* docs: Add Plan Mode documentation by @jerop in https://github.com/google-gemini/gemini-cli/pull/18582\n* chore: strengthen validation guidance in system prompt by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18544\n* Fix newline insertion bug in replace tool by @werdnum in https://github.com/google-gemini/gemini-cli/pull/18595\n* fix(evals): update save_memory evals and simplify tool description by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18610\n* chore(evals): update validation_fidelity_pre_existing_errors to USUALLY_PASSES by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18617\n* fix: shorten tool call IDs and fix duplicate tool name in truncated output filenames by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18600\n* feat(cli): implement atomic writes and safety checks for trusted folders by @galz10 in https://github.com/google-gemini/gemini-cli/pull/18406\n* Remove relative docs links by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/18650\n* docs: add legacy snippets convention to GEMINI.md by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18597\n* fix(chore): Support linting for cjs by @aswinashok44 in https://github.com/google-gemini/gemini-cli/pull/18639\n* feat: move shell efficiency guidelines to tool description by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18614\n* Added \"\" as default value, since getText() used to expect a string only and thus crashed when undefined...  Fixes #18076   by @019-Abhi in https://github.com/google-gemini/gemini-cli/pull/18099\n* Allow @-includes outside of workspaces (with permission) by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18470\n* chore: make `ask_user` header description more clear by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18657\n* refactor(core): model-dependent tool definitions by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/18563\n* Harded code assist converter. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18656\n* bug(core): Fix minor bug in migration logic. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/18661\n* feat: enable plan mode experiment in settings by @jerop in https://github.com/google-gemini/gemini-cli/pull/18636\n* refactor: push isValidPath() into parsePastedPaths() by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18664\n* fix(cli): correct 'esc to cancel' position and restore duration display by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18534\n* feat(cli): add DevTools integration with gemini-cli-devtools by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18648\n* chore: remove unused exports and redundant hook files by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18681\n* Fix number of lines being reported in rewind confirmation dialog by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18675\n* feat(cli): disable folder trust in headless mode by @galz10 in https://github.com/google-gemini/gemini-cli/pull/18407\n* Disallow unsafe type assertions by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/18688\n* Change event type for release by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/18693\n* feat: handle multiple dynamic context filenames in system prompt by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18598\n* Properly parse at-commands with narrow non-breaking spaces by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18677\n* refactor(core): centralize core tool definitions and support model-specific schemas by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/18662\n* feat(core): Render memory hierarchically in context. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/18350\n* feat: Ctrl+O to expand paste placeholder by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18103\n* fix(cli): Improve header spacing by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18531\n* Feature/quota visibility 16795 by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/18203\n* Inline thinking bubbles with summary/full modes by @LyalinDotCom in https://github.com/google-gemini/gemini-cli/pull/18033\n* docs: remove TOC marker from Plan Mode header by @jerop in https://github.com/google-gemini/gemini-cli/pull/18678\n* fix(ui): remove redundant newlines in Gemini messages by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18538\n* test(cli): fix AppContainer act() warnings and improve waitFor resilience by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18676\n* refactor(core): refine Security & System Integrity section in system prompt by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18601\n* Fix layout rounding. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/18667\n* docs(skills): enhance pr-creator safety and interactivity by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18616\n* test(core): remove hardcoded model from TestRig by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18710\n* feat(core): optimize sub-agents system prompt intro by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18608\n* feat(cli): update approval mode labels and shortcuts per latest UX spec by @jerop in https://github.com/google-gemini/gemini-cli/pull/18698\n* fix(plan): update persistent approval mode setting by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18638\n* fix: move toasts location to left side by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18705\n* feat(routing): restrict numerical routing to Gemini 3 family by @mattKorwel in https://github.com/google-gemini/gemini-cli/pull/18478\n* fix(ide): fix ide nudge setting by @skeshive in https://github.com/google-gemini/gemini-cli/pull/18733\n* fix(core): standardize tool formatting in system prompts by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18615\n* chore: consolidate to green in ask user dialog by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18734\n* feat: add `extensionsExplore` setting to enable extensions explore UI. by @sripasg in https://github.com/google-gemini/gemini-cli/pull/18686\n* feat(cli): defer devtools startup and integrate with F12 by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18695\n* ui: update & subdue footer colors and animate progress indicator by @keithguerin in https://github.com/google-gemini/gemini-cli/pull/18570\n* test: add model-specific snapshots for coreTools by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/18707\n* ci: shard windows tests and fix event listener leaks by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18670\n* fix: allow `ask_user` tool in yolo mode by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18541\n* feat: redact disabled tools from system prompt (#13597) by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18613\n* Update Gemini.md to use the curent year on creating new files by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/18460\n* Code review cleanup for thinking display by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18720\n* fix(cli): hide scrollbars when in alternate buffer copy mode by @werdnum in https://github.com/google-gemini/gemini-cli/pull/18354\n* Fix issues with rip grep by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/18756\n* fix(cli): fix history navigation regression after prompt autocomplete by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/18752\n* chore: cleanup unused and add unlisted dependencies in packages/cli by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/18749\n* Fix issue where Gemini CLI creates tests in a new file by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/18409\n* feat(telemetry): Ensure experiment IDs are included in OpenTelemetry logs by @kevin-ramdass in https://github.com/google-gemini/gemini-cli/pull/18747\n* fix(patch): cherry-pick e9a9474 to release/v0.29.0-preview.0-pr-18840 to patch version v0.29.0-preview.0 and create version 0.29.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/18841\n* fix(patch): cherry-pick 08e8eea to release/v0.29.0-preview.1-pr-18855 to patch version v0.29.0-preview.1 and create version 0.29.0-preview.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/18905\n* fix(patch): cherry-pick d0c6a56 to release/v0.29.0-preview.2-pr-18976 to patch version v0.29.0-preview.2 and create version 0.29.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/19023\n* fix(patch): cherry-pick e5ff202 to release/v0.29.0-preview.3-pr-19254 to patch version v0.29.0-preview.3 and create version 0.29.0-preview.4 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/19264\n* fix(patch): cherry-pick 9590a09 to release/v0.29.0-preview.4-pr-18771 to patch version v0.29.0-preview.4 and create version 0.29.0-preview.5 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/19274\n\n## New Contributors\n* @MushuEE made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18295\n* @peterfriese made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18376\n* @ademuri made their first contribution in https://github.com/google-gemini/gemini-cli/pull/16209\n* @zackoch made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18408\n* @ThanhNguyxn made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18187\n* @jwhelangoog made their first contribution in https://github.com/google-gemini/gemini-cli/pull/17438\n* @019-Abhi made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18099\n* @sripasg made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18686\n* @keithguerin made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18570\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.28.2...v0.29.0",
+      "publishedAt": "2026-02-18T00:07:42.000Z",
+      "source": "Google GitHub",
+      "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.29.0",
+      "category": "tools",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "Gemini",
+        "AI",
+        "ML",
+        "BERT",
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mlrdy3utojyiinq28p",
+      "title": "Google: Release v0.30.0-preview.0",
+      "summary": "## What's Changed\n* feat(ux): added text wrapping capabilities to markdown tables by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/18240\n* Revert \"fix(mcp): ensure MCP transport is closed to prevent memory leaks\" by @skeshive in https://github.com/google-gemini/gemini-cli/pull/18771\n...",
+      "content": "## What's Changed\n* feat(ux): added text wrapping capabilities to markdown tables by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/18240\n* Revert \"fix(mcp): ensure MCP transport is closed to prevent memory leaks\" by @skeshive in https://github.com/google-gemini/gemini-cli/pull/18771\n* chore(release): bump version to 0.30.0-nightly.20260210.a2174751d by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/18772\n* chore: cleanup unused and add unlisted dependencies in packages/core by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/18762\n* chore(core): update activate_skill prompt verbiage to be more direct by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18605\n* Add autoconfigure memory usage setting to the dialog by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18510\n* fix(core): prevent race condition in policy persistence by @braddux in https://github.com/google-gemini/gemini-cli/pull/18506\n* fix(evals): prevent false positive in hierarchical memory test by @Abhijit-2592 in https://github.com/google-gemini/gemini-cli/pull/18777\n* test(evals): mark all `save_memory` evals as `USUALLY_PASSES` due to unreliability by @jerop in https://github.com/google-gemini/gemini-cli/pull/18786\n* feat(cli): add setting to hide shortcuts hint UI by @LyalinDotCom in https://github.com/google-gemini/gemini-cli/pull/18562\n* feat(core): formalize 5-phase sequential planning workflow by @jerop in https://github.com/google-gemini/gemini-cli/pull/18759\n* Introduce limits for search results. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/18767\n* fix(cli): allow closing debug console after auto-open via flicker by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18795\n* feat(masking): enable tool output masking by default by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18564\n* perf(ui): optimize table rendering by memoizing styled characters by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/18770\n* feat: multi-line text answers in ask-user tool by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18741\n* perf(cli): truncate large debug logs and limit message history by @mattKorwel in https://github.com/google-gemini/gemini-cli/pull/18663\n* fix(core): complete MCP discovery when configured servers are skipped by @LyalinDotCom in https://github.com/google-gemini/gemini-cli/pull/18586\n* fix(core): cache CLI version to ensure consistency during sessions by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/18793\n* fix(cli): resolve double rendering in shpool and address vscode lint warnings by @braddux in https://github.com/google-gemini/gemini-cli/pull/18704\n* feat(plan): document and validate Plan Mode policy overrides by @jerop in https://github.com/google-gemini/gemini-cli/pull/18825\n* Fix pressing any key to exit select mode. by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18421\n* fix(cli): update F12 behavior to only open drawer if browser fails by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18829\n* feat(plan): allow skills to be enabled in plan mode by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18817\n* docs(plan): add documentation for plan mode tools by @jerop in https://github.com/google-gemini/gemini-cli/pull/18827\n* Remove experimental note in extension settings docs by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/18822\n* Update prompt and grep tool definition to limit context size by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/18780\n* docs(plan): add `ask_user` tool documentation by @jerop in https://github.com/google-gemini/gemini-cli/pull/18830\n* Revert unintended credentials exposure by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18840\n* feat(core): update internal utility models to Gemini 3 by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18773\n* feat(a2a): add value-resolver for auth credential resolution by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/18653\n* Removed getPlainTextLength by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/18848\n* More grep prompt tweaks by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/18846\n* refactor(cli): Reactive useSettingsStore hook by @psinha40898 in https://github.com/google-gemini/gemini-cli/pull/14915\n* fix(mcp): Ensure that stdio MCP server execution has the `GEMINI_CLI=1` env variable populated. by @richieforeman in https://github.com/google-gemini/gemini-cli/pull/18832\n* fix(core): improve headless mode detection for flags and query args by @galz10 in https://github.com/google-gemini/gemini-cli/pull/18855\n* refactor(cli): simplify UI and remove legacy inline tool confirmation logic by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18566\n* feat(cli): deprecate --allowed-tools and excludeTools in favor of policy engine by @Abhijit-2592 in https://github.com/google-gemini/gemini-cli/pull/18508\n* fix(workflows): improve maintainer detection for automated PR actions by @bdmorgan in https://github.com/google-gemini/gemini-cli/pull/18869\n* refactor(cli): consolidate useToolScheduler and delete legacy implementation by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18567\n* Update changelog for v0.28.0 and v0.29.0-preview0 by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/18819\n* fix(core): ensure sub-agents are registered regardless of tools.allowed by @mattKorwel in https://github.com/google-gemini/gemini-cli/pull/18870\n* Show notification when there's a conflict with an extensions command by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/17890\n* fix(cli): dismiss '?' shortcuts help on hotkeys and active states by @LyalinDotCom in https://github.com/google-gemini/gemini-cli/pull/18583\n* fix(core): prioritize conditional policy rules and harden Plan Mode by @Abhijit-2592 in https://github.com/google-gemini/gemini-cli/pull/18882\n* feat(core): refine Plan Mode system prompt for agentic execution by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18799\n* feat(plan): create metrics for usage of `AskUser` tool by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18820\n* feat(cli): support Ctrl-Z suspension by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18931\n* fix(github-actions): use robot PAT for release creation to trigger release notes by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18794\n* feat: add strict seatbelt profiles and remove unusable closed profiles by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18876\n* chore: cleanup unused and add unlisted dependencies in packages/a2a-server by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/18916\n* fix(plan): isolate plan files per session by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18757\n* fix: character truncation in raw markdown mode by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/18938\n* feat(cli): prototype clean UI toggle and minimal-mode bleed-through by @LyalinDotCom in https://github.com/google-gemini/gemini-cli/pull/18683\n* ui(polish) blend background color with theme by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18802\n* Add generic searchable list to back settings and extensions by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/18838\n* feat(ui): align `AskUser` color scheme with UX spec by @jerop in https://github.com/google-gemini/gemini-cli/pull/18943\n* Hide AskUser tool validation errors from UI (agent self-corrects) by @jerop in https://github.com/google-gemini/gemini-cli/pull/18954\n* bug(cli) fix flicker due to AppContainer continuous initialization by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18958\n* feat(admin): Add admin controls documentation by @skeshive in https://github.com/google-gemini/gemini-cli/pull/18644\n* feat(cli): disable ctrl-s shortcut outside of alternate buffer mode by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18887\n* fix(vim): vim support that feels (more) complete by @ppgranger in https://github.com/google-gemini/gemini-cli/pull/18755\n* feat(policy): add --policy flag for user defined policies by @allenhutchison in https://github.com/google-gemini/gemini-cli/pull/18500\n* Update installation guide by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/18823\n* refactor(core): centralize tool definitions (Group 1: replace, search, grep) by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/18944\n* refactor(cli): finalize event-driven transition and remove interaction bridge by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18569\n* Fix drag and drop escaping by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18965\n* feat(sdk): initial package bootstrap for SDK by @mbleigh in https://github.com/google-gemini/gemini-cli/pull/18861\n* feat(sdk): implements SessionContext for SDK tool calls by @mbleigh in https://github.com/google-gemini/gemini-cli/pull/18862\n* fix(plan): make question type required in AskUser tool by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18959\n* fix(core): ensure --yolo does not force headless mode by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18976\n* refactor(core): adopt `CoreToolCallStatus` enum for type safety by @jerop in https://github.com/google-gemini/gemini-cli/pull/18998\n* Enable in-CLI extension management commands for team by @chrstnb in https://github.com/google-gemini/gemini-cli/pull/18957\n* Adjust lint rules to avoid unnecessary warning. by @scidomino in https://github.com/google-gemini/gemini-cli/pull/18970\n* fix(vscode): resolve unsafe type assertion lint errors by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/19006\n* Remove unnecessary eslint config file by @scidomino in https://github.com/google-gemini/gemini-cli/pull/19015\n* fix(core): Prevent loop detection false positives on lists with long shared prefixes by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/18975\n* feat(core): fallback to chat-base when using unrecognized models for chat by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/19016\n* docs: fix inconsistent commandRegex example in policy engine by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/19027\n* fix(plan): persist the approval mode in UI even when agent is thinking by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18955\n* feat(sdk): Implement dynamic system instructions by @mbleigh in https://github.com/google-gemini/gemini-cli/pull/18863\n* Docs: Refresh docs to organize and standardize reference materials. by @jkcinouye in https://github.com/google-gemini/gemini-cli/pull/18403\n* fix windows escaping (and broken tests) by @scidomino in https://github.com/google-gemini/gemini-cli/pull/19011\n* refactor: use `CoreToolCallStatus` in the the history data model by @jerop in https://github.com/google-gemini/gemini-cli/pull/19033\n* feat(cleanup): enable 30-day session retention by default by @skeshive in https://github.com/google-gemini/gemini-cli/pull/18854\n* feat(plan): hide plan write and edit operations on plans in Plan Mode by @jerop in https://github.com/google-gemini/gemini-cli/pull/19012\n* bug(ui) fix flicker refreshing background color by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/19041\n* chore: fix dep vulnerabilities by @scidomino in https://github.com/google-gemini/gemini-cli/pull/19036\n* Revamp automated changelog skill by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/18974\n* feat(sdk): implement support for custom skills by @mbleigh in https://github.com/google-gemini/gemini-cli/pull/19031\n* refactor(core): complete centralization of core tool definitions by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/18991\n* feat: add /commands reload to refresh custom TOML commands by @korade-krushna in https://github.com/google-gemini/gemini-cli/pull/19078\n* fix(cli): wrap terminal capability queries in hidden sequence by @srithreepo in https://github.com/google-gemini/gemini-cli/pull/19080\n* fix(workflows): fix GitHub App token permissions for maintainer detection by @bdmorgan in https://github.com/google-gemini/gemini-cli/pull/19139\n* test: fix hook integration test flakiness on Windows CI by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18665\n* fix(core): Encourage non-interactive flags for scaffolding commands by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/18804\n* fix(core): propagate User-Agent header to setup-phase CodeAssist API calls by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/19182\n* docs: document .agents/skills alias and discovery precedence by @kevmoo in https://github.com/google-gemini/gemini-cli/pull/19166\n* feat(cli): add loading state to new agents notification by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/19190\n* Add base branch to workflow. by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/19189\n* feat(cli): handle invalid model names in useQuotaAndFallback by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/19222\n* docs: custom themes in extensions by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/19219\n* Disable workspace settings when starting GCLI in the home directory. by @kevinjwang1 in https://github.com/google-gemini/gemini-cli/pull/19034\n* feat(cli): refactor model command to support set and manage subcommands by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/19221\n* Add refresh/reload aliases to slash command subcommands by @korade-krushna in https://github.com/google-gemini/gemini-cli/pull/19218\n* refactor: consolidate development rules and add cli guidelines by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/19214\n* chore(ui): remove outdated tip about model routing by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/19226\n* feat(core): support custom reasoning models by default by @NTaylorMullen in https://github.com/google-gemini/gemini-cli/pull/19227\n* Add Solarized Dark and Solarized Light themes by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/19064\n* fix(telemetry): replace JSON.stringify with safeJsonStringify in file exporters by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/19244\n* feat(telemetry): add keychain availability and token storage metrics by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/18971\n* feat(cli): update approval mode cycle order by @jerop in https://github.com/google-gemini/gemini-cli/pull/19254\n* refactor(cli): code review cleanup fix for tab+tab by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/18967\n* feat(plan): support project exploration without planning when in plan mode by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/18992\n* feat: add role-specific statistics to telemetry and UI (cont. #15234) by @yunaseoul in https://github.com/google-gemini/gemini-cli/pull/18824\n* feat(cli): remove Plan Mode from rotation when actively working by @jerop in https://github.com/google-gemini/gemini-cli/pull/19262\n* Fix side breakage where anchors don't work in slugs. by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/19261\n* feat(config): add setting to make directory tree context configurable by @kevin-ramdass in https://github.com/google-gemini/gemini-cli/pull/19053\n* fix(acp): Wait for mcp initialization in acp (#18893) by @Mervap in https://github.com/google-gemini/gemini-cli/pull/18894\n* docs: format UTC times in releases doc by @pavan-sh in https://github.com/google-gemini/gemini-cli/pull/18169\n* Docs: Clarify extensions documentation. by @jkcinouye in https://github.com/google-gemini/gemini-cli/pull/19277\n* refactor(core): modularize tool definitions by model family by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/19269\n* fix(paths): Add cross-platform path normalization by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/18939\n* feat(core): experimental in-progress steering hints (1 of 3) by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/19008\n\n## New Contributors\n* @braddux made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18506\n* @kevmoo made their first contribution in https://github.com/google-gemini/gemini-cli/pull/19166\n* @Mervap made their first contribution in https://github.com/google-gemini/gemini-cli/pull/18894\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.29.0-preview.5...v0.30.0-preview.0",
+      "publishedAt": "2026-02-17T23:50:13.000Z",
+      "source": "Google GitHub",
+      "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.30.0-preview.0",
+      "category": "tools",
+      "company": "Google",
+      "imageUrl": null,
+      "tags": [
+        "Gemini",
+        "Llama",
+        "AI",
+        "ML",
+        "BERT"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mlrdxwzf2wkawgi7l0u",
+      "title": "Anthropic: v0.80.0",
+      "summary": "## 0.80.0 (2026-02-17)\n\nFull Changelog: [v0.79.0...v0.80.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.79.0...v0.80.0)\n\n### Features\n\n* **api:** Releasing claude-sonnet-4-6 ([d518d6e](https://github.com/anthropics/anthropic-sdk-python/commit/d518d6ecede3d0638f0b14950dc2be8efa0b4ff...",
+      "content": "## 0.80.0 (2026-02-17)\n\nFull Changelog: [v0.79.0...v0.80.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.79.0...v0.80.0)\n\n### Features\n\n* **api:** Releasing claude-sonnet-4-6 ([d518d6e](https://github.com/anthropics/anthropic-sdk-python/commit/d518d6ecede3d0638f0b14950dc2be8efa0b4ff4))\n\n\n### Bug Fixes\n\n* **api:** fix spec errors ([1413a76](https://github.com/anthropics/anthropic-sdk-python/commit/1413a76f905e590fab583417f5cb1eef9f537c2c))\n* remove speed from ga messages ([#1402](https://github.com/anthropics/anthropic-sdk-python/issues/1402)) ([f6ce67c](https://github.com/anthropics/anthropic-sdk-python/commit/f6ce67c3ed5f2fc4a2fc48fb9d7bc6f1bbb5bd4a))\n\n\n### Chores\n\n* format all `api.md` files ([28a0eb5](https://github.com/anthropics/anthropic-sdk-python/commit/28a0eb55c031a9ed584eafe7f9096b32f9883e6f))\n* **internal:** bump dependencies ([99f3014](https://github.com/anthropics/anthropic-sdk-python/commit/99f301460a3933229768d19fa7ae725072012592))\n* **internal:** fix lint error on Python 3.14 ([a90d71b](https://github.com/anthropics/anthropic-sdk-python/commit/a90d71bfcdef5592f0f7f9a176cf347163ee2137))\n\n\n### Refactors\n\n* **vertex:** remove redundant isinstance check in `load_auth` ([#1387](https://github.com/anthropics/anthropic-sdk-python/issues/1387)) ([6b7a7dc](https://github.com/anthropics/anthropic-sdk-python/commit/6b7a7dce065b7bfbf6c5d8ed41825f36b36fc402))",
+      "publishedAt": "2026-02-17T19:25:53.000Z",
+      "source": "Anthropic GitHub",
+      "sourceUrl": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.80.0",
+      "category": "tools",
+      "company": "Anthropic",
+      "imageUrl": null,
+      "tags": [
+        "Claude",
+        "Anthropic"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mlrdxy05quaft4sk1pi",
       "title": "Anthropic: v2.1.45",
       "summary": "## What's changed\n\n- Added support for Claude Sonnet 4.6\n- Added support for reading `enabledPlugins` and `extraKnownMarketplaces` from `--add-dir` directories\n- Added `spinnerTipsOverride` setting to customize spinner tips — configure `tips` with an array of custom tip strings, and optionally set `...",
       "content": "## What's changed\n\n- Added support for Claude Sonnet 4.6\n- Added support for reading `enabledPlugins` and `extraKnownMarketplaces` from `--add-dir` directories\n- Added `spinnerTipsOverride` setting to customize spinner tips — configure `tips` with an array of custom tip strings, and optionally set `excludeDefault: true` to show only your custom tips instead of the built-in ones\n- Added `SDKRateLimitInfo` and `SDKRateLimitEvent` types to the SDK, enabling consumers to receive rate limit status updates including utilization, reset times, and overage information\n- Fixed Agent Teams teammates failing on Bedrock, Vertex, and Foundry by propagating API provider environment variables to tmux-spawned processes (anthropics/claude-code#23561)\n- Fixed sandbox \"operation not permitted\" errors when writing temporary files on macOS by using the correct per-user temp directory (anthropics/claude-code#21654)\n- Fixed Task tool (backgrounded agents) crashing with a `ReferenceError` on completion (anthropics/claude-code#22087)\n- Fixed autocomplete suggestions not being accepted on Enter when images are pasted in the input\n- Fixed skills invoked by subagents incorrectly appearing in main session context after compaction\n- Fixed excessive `.claude.json.backup` files accumulating on every startup\n- Fixed plugin-provided commands, agents, and hooks not being available immediately after installation without requiring a restart\n- Improved startup performance by removing eager loading of session history for stats caching\n- Improved memory usage for shell commands that produce large output — RSS no longer grows unboundedly with command output size\n- Improved collapsed read/search groups to show the current file or search pattern being processed beneath the summary line while active\n- [VSCode] Improved permission destination choice (project/user/session) to persist across sessions\n",
@@ -1148,58 +1230,10 @@
         "AI",
         "Anthropic"
       ],
-      "featured": false
-    },
-    {
-      "id": "mlqyte1v0y2jfgv6v6ed",
-      "title": "Anthropic: claude-quickstartsの最新アップデート",
-      "summary": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude APIが更新されました (⭐14388)",
-      "content": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API\n\n最終更新: 2/17/2026\nスター数: 14388",
-      "publishedAt": "2026-02-17T18:53:27.000Z",
-      "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/claude-quickstarts",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
       "featured": true
     },
     {
-      "id": "mlqyte1vr4qi0iuex3o",
-      "title": "Anthropic: claude-agent-sdk-typescriptの最新アップデート",
-      "summary": "claude-agent-sdk-typescriptが更新されました (⭐803)",
-      "content": "\n\n最終更新: 2/17/2026\nスター数: 803",
-      "publishedAt": "2026-02-17T18:52:58.000Z",
-      "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/claude-agent-sdk-typescript",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mlqyte1vvgori2yrjqp",
-      "title": "Anthropic: claude-cookbooksの最新アップデート",
-      "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.が更新されました (⭐32992)",
-      "content": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.\n\n最終更新: 2/17/2026\nスター数: 32992",
-      "publishedAt": "2026-02-17T18:50:16.000Z",
-      "source": "Anthropic GitHub Org",
-      "sourceUrl": "https://github.com/anthropics/claude-cookbooks",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [
-        "Claude"
-      ],
-      "featured": true
-    },
-    {
-      "id": "mlqyt1l9mgy3r6bw61d",
+      "id": "mlrdxy06q4easqhnp8",
       "title": "Anthropic: v2.1.44",
       "summary": "## What's changed\n\n- Fixed auth refresh errors\n...",
       "content": "## What's changed\n\n- Fixed auth refresh errors\n",
@@ -1213,7 +1247,7 @@
       "featured": false
     },
     {
-      "id": "mlqyt9c1riftk371zdo",
+      "id": "mlrdy6b2guebbu5p7eh",
       "title": "Hugging Face: v5.2.0: GLM-5, Qwen3.5, Voxtral Realtime, VibeVoice Acoustic Tokenizer",
       "summary": "## New Model additions\r\n\r\n### VoxtralRealtime\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/80e37670-6d70-402b-8c8e-ccfb8c32df2d\" />\r\n\r\nVoxtralRealtime is a streaming speech-to-text model from [Mistral AI](https://mistral.ai), designed for real-time a...",
       "content": "## New Model additions\r\n\r\n### VoxtralRealtime\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/80e37670-6d70-402b-8c8e-ccfb8c32df2d\" />\r\n\r\nVoxtralRealtime is a streaming speech-to-text model from [Mistral AI](https://mistral.ai), designed for real-time automatic speech recognition (ASR). Unlike the offline [Voxtral](./voxtral) model which processes complete audio files, VoxtralRealtime is architected for low-latency, incremental transcription by processing audio in chunks as they arrive.\r\n\r\nThe model combines an audio encoder with a Mistral-based language model decoder, using time conditioning embeddings and causal convolutions with padding caches to enable efficient streaming inference.\r\n\r\n* Add Voxtral Realtime (#43769) by @eustlb\r\n\r\n### GLM-5 - GlmMoeDsa\r\n\r\n<img width=\"947\" height=\"638\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4c4fff37-7f40-4e86-b4a0-db718f45c93b\" />\r\n\r\nThe zAI team launches GLM-5, and introduces it as such:\r\n\r\n> GLM-5, targeting complex systems engineering and long-horizon agentic tasks. Scaling is still one of the most important ways to improve the intelligence efficiency of Artificial General Intelligence (AGI). Compared to GLM-4.5, GLM-5 scales from 355B parameters (32B active) to 744B parameters (40B active), and increases pre-training data from 23T to 28.5T tokens. GLM-5 also integrates DeepSeek Sparse Attention (DSA), largely reducing deployment cost while preserving long-context capacity.\r\n> \r\n> Reinforcement learning aims to bridge the gap between competence and excellence in pre-trained models. However, deploying it at scale for LLMs is a challenge due to the RL training inefficiency. To this end, we developed [slime](https://github.com/THUDM/slime), a novel asynchronous RL infrastructure that substantially improves training throughput and efficiency, enabling more fine-grained post-training iterations. With advances in both pre-training and post-training, GLM-5 delivers significant improvement compared to GLM-4.7 across a wide range of academic benchmarks and achieves best-in-class performance among all open-source models in the world on reasoning, coding, and agentic tasks, closing the gap with frontier models.\r\n\r\n* Add GlmMoeDsa (#43858) by @Cyrilvallez\r\n\r\n### Qwen3.5, Qwen3.5 Moe\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b56dcaca-80e7-4b22-80a5-2f767bb65095\" />\r\n\r\nThe Qwen team launches Qwen 3.5, and introduces it as such:\r\n\r\n> We are delighted to announce the official release of Qwen3.5, introducing the open-weight of the first model in the Qwen3.5 series, namely Qwen3.5-397B-A17B. As a native vision-language model, Qwen3.5-397B-A17B demonstrates outstanding results across a full range of benchmark evaluations, including reasoning, coding, agent capabilities, and multimodal understanding, empowering developers and enterprises to achieve significantly greater productivity. Built on an innovative hybrid architecture that fuses linear attention (via Gated Delta Networks) with a sparse mixture-of-experts, the model attains remarkable inference efficiency: although it comprises 397 billion total parameters, just 17 billion are activated per forward pass, optimizing both speed and cost without sacrificing capability. We have also expanded our language and dialect support from 119 to 201, providing broader accessibility and enhanced support to users around the world.\r\n\r\n\r\n* Adding Support for Qwen3.5 (#43830) by @bozheng-hit\r\n\r\n### VibeVoice Acoustic Tokenizer\r\n\r\n<img width=\"821\" height=\"349\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b1433597-b43b-4d2d-a2c7-216d7792b8c9\" />\r\n\r\n[VibeVoice](https://huggingface.co/papers/2508.19205) is a novel framework for synthesizing high-fidelity, long-form speech with multiple speakers by employing a next-token diffusion approach within a Large Language Model (LLM) structure. It's designed to capture the authentic conversational \"vibe\" and is particularly suited for generating audio content like podcasts and multi-participant audiobooks.\r\n\r\nOne key feature of VibeVoice is the use of two continuous audio tokenizers, one for extracting acoustic features and another for semantic features.\r\n\r\n* Add VibeVoice Acoustic Tokenizer (#43400) by @ebezzam\r\n\r\n## Breaking changes\r\n\r\n* :rotating_light: [`Attn`] New attn mask interface everywhere (#42848)\r\n* :rotating_light: Modify ModernBERT's default attention implementation to stop using FA (#43764)\r\n\r\n:rotating_light: This one is quite breaking for super super super old modles: :rotating_light: :rotating_light: \r\n* fix: Prevent AutoTokenizer type mismatch from directory name substrin… (#43791) \r\nIf the config does not have a model-type field, we no longer check the name of the folder like for https://huggingface.co/prajjwal1/bert-tiny/blob/main/config.json\r\n\r\n## Bugfixes and improvements\r\n\r\n* [docs] deploying (#43241) by @stevhliu\r\n* [Trainer] Move NEFTune impl to standalone functions (#43714) by @SunMarc\r\n* Fix `convert_rope_params_to_dict` so it uses `rope_theta` from the config (#43766) by @hmellor\r\n* Bump dev version (#43777) by @qgallouedec\r\n* Improved `AGENTS.md` (#43763) by @tarekziade\r\n* Fix-release-ubild (#43773) by @ArthurZucker\r\n* unpin torch for CircleCI (#43790) by @ydshieh\r\n* [`Modular Dependencies`] Fixup qwen rms norms (#43772) by @vasqu\r\n* fix(testing): Fix BLOOM tokenizer, CLAP audio features, and CLVP text tester usage in tests (#43798) by @harshaljanjani\r\n* Remove unconditional train_batch_size assignment (#43770) by @lordaarush\r\n* [`Repo Consistency`] Fix rms norm (#43803) by @vasqu\r\n* fix: Prevent AutoTokenizer type mismatch from directory name substrin… (#43791) by @tarekziade\r\n* Refactor trainer data_collator and callbacks tests (#43776) by @SunMarc\r\n* [core] Faster and thread-safe `check_model_inputs` implementation (#43765) by @Cyrilvallez\r\n* [Trainer] use deepspeed SP process group when Accelerate doesn’t build a mesh (#43799) by @kashif\r\n* fix(flaky): enforce manual seed to reduce flakiness (#43794) by @tarekziade\r\n* Add TRL CI bot workflow to trigger tests on PR comments (#43809) by @qgallouedec\r\n* Fix DeepSpeed model preparation logic in Trainer class (#43780) by @qgallouedec\r\n* [docs] reveal more in toctree (#43808) by @stevhliu\r\n* Fix markdown documentation (#43076) by @cyyever\r\n* Fix slack-report workflow file (#43851) by @ydshieh\r\n* add `do_sample=False` to qwen2_5_vl model tests to stablize the output (#43728) by @kaixuanliu\r\n* Fix incorrect timestamp calculation in Qwen3VL Processor (#43659) by @jonathan-fulton\r\n* Remove GPU tracking from TrackioCallback and remove env var support (#43371) by @qgallouedec\r\n* Add id and resume support to SwanLab integration (#43719) by @i-pj\r\n* fix gptoss crash in tp (#43853) by @sywangyi\r\n* Delete batch_split from EncoderDecoderCache (#43814) by @cyyever\r\n* delete unnecessary code to make moe compatible to full graph compile (#43855) by @kaixuanliu\r\n* Update ModelType for Unigram tokenizer (#43860) by @pavel-esir\r\n* [docs] Remove pipeline() examples from summarization/translation tasks (#43831) by @Mr-Neutr0n\r\n* Fix video interpolation in pe_audio_video (#43811) by @Rocketknight1\r\n* Look for the pad_token_id in the right place for Llama4 (#43539) by @Rocketknight1\r\n* Fix cardinality error for DETR models without explicit background class (#43513) by @heathdutton\r\n* docs: Add Switch Transformers docstring notes and update spectrogram comment (#43336) by @harshaljanjani\r\n* [xLSTM] Fix bugs preventing small model training (#43209) by @Anri-Lombard\r\n* docs: correct typo 'neccessary' to 'necessary' (#43868) by @thecaptain789\r\n* Improve PR comment CI feedback  (#43852) by @ydshieh\r\n* Fix init weights in remote code (#43768) by @zucchini-nlp\r\n* Fix GlmMoeDsaConfig default mlp_layer_types in modular conversion (#43876) by @OiPunk\r\n* [MistralCommonBackend] fix loading proc (#43887) by @eustlb\r\n* [`Jamba`] Fallback to slow path and warn instead of error out (#43889) by @vasqu\r\n* Fix SwanLab callback to forward resume init args (#43848) by @OiPunk\r\n* Fix old tech stack in doc (#43879) by @cyyever\r\n* Update TrainingArguments (#43806) by @SunMarc\r\n* Remove unnecessary code or checks for PT 2.4+ (#43787) by @cyyever\r\n* Make it possible to evaluate when using sequence parallel in HF Trainer (#43517) by @jp1924\r\n* [Trainer] Move optimizer cls init to trainer_optimizer.py (#43738) by @SunMarc\r\n* fix the error of tests/quantization/fbgemm_fp8/test_fbgemm_fp8.py::Fb… (#43547) by @sywangyi\r\n* fix fbgemm fp8 multi-device load failure. (#43581) by @sywangyi\r\n* Refactor trainer init (#43807) by @SunMarc\r\n* [`fix`] Use `last_hidden_state` key from `get_image_features` for llama4 (#43882) by @tomaarsen\r\n* [Docs] Add docs for GLM-OCR and fix EomT-DINOv3 (#43710) by @NielsRogge\r\n* Update hub metadata (#43892) by @zucchini-nlp\r\n* [fix] DAC model: Apply STE in Dac.from_latents to match the forward pass (#43820) by @harshaljanjani\r\n* Separate `check_model_inputs` into `capture_outputs` and `merge_with_config_defaults` + ensure correctness (#43862) by @Cyrilvallez\r\n* Remove mask slicing in all eager attentions (#42186) by @Cyrilvallez\r\n* Fix expected DAC outputs due to (old) change in CI settings. (#43896) by @ebezzam\r\n* Minor changes trainer (#43744) by @SunMarc\r\n* adding BC for custom toks accessing slow tok attrs deprecated in v5 (#43898) by @itazap\r\n* Fix typo in quantization_operations in PEFT integrations (#43821) by @redpanda1995\r\n* Update KERNELS_MIN_VERSION to 0.10.2 to be the same as setup.py (#43753) by @cyyever\r\n* Decorate cache updates with no_grad, just in case (#43897) by @Rocketknight1\r\n* revert place_model_on_device to property (#43895) by @SunMarc\r\n* Train sampler unification (#43138) by @jiosephlee\r\n* fix(moe): Handle dtype mismatch in torch._grouped_mm with autocast (#43839) by @Mr-Neutr0n\r\n* Fix missing fast image patch counter in Glm46V (#43877) by @OiPunk\r\n* Fix old tech stack in doc (#43902) by @cyyever\r\n* Move `_keys_to_ignore_on_load_missing` for now (#43893) by @ArthurZucker\r\n* Changes to cache_utils should trigger all tests all the time (#43920) by @Cyrilvallez\r\n* Ernie4 5 vl moe (#43755) by @kaixuanliu\r\n* Harmonize `input_embeds` to `inputs_embeds` everywhere (#43916) by @Cyrilvallez\r\n* fix: TextClassificationPipeline docs mentioning deprecated return_all_scores (#43903) by @math-hiyoko\r\n* Revert #43897 (#43923) by @Rocketknight1\r\n* Fix AttributeError in OwlViT conversion script for Python 3.10+ (#43922) by @DimiChatzipavlis\r\n* add openAI style `image_url` content support in `apply_chat_template` (#43786) by @kaixuanliu\r\n* Prepare and keep track of position ids in `generate` (#43734) by @zucchini-nlp\r\n* Fix lifted_tensor in Gemma3n export which dynamo can't reason about (#43801) by @robell\r\n* Fix bark test (#43942) by @Cyrilvallez\r\n* Fix docker files (#43946) by @ydshieh\r\n* Fix flaky test for multimodal LLMs (#43944) by @Rocketknight1\r\n* Add explicit utf-8 encoding to CircleCI scripts for Windows compatibility (#43925) by @<NOT FOUND>\r\n* Modernize string formatting (f-strings) in conversion scripts (#43943) by @<NOT FOUND>\r\n* Fix weight decay exclusions in `run_*_no‑trainer.py` examples (#42769) by @casinca\r\n* fix: Better weight decay exclusion in `run_*_no‑trainer.py` examples (#43947) by @casinca\r\n* Timm backbone saves and loads `out_features` (#43886) by @zucchini-nlp\r\n* Fix qwen-vl position ids when generating several times (#43952) by @zucchini-nlp\r\n* Fix `get_number_of_image_tokens` (#43948) by @zucchini-nlp\r\n* Fix typos in docstrings, comments, and error messages (#43949) by @<NOT FOUND>\r\n* Fix LASR test layerdrop issue (#43954) by @Rocketknight1\r\n* [kernels] fix kernel versions  (#43955) by @MekkCyber\r\n* [Doc tests] Fix bug (#43729) by @NielsRogge\r\n* fix(models): Preserve custom token IDs through DiaConfig save and load (#43928) by @harshaljanjani\r\n* update somes audio models (#43865) by @Deep-unlearning\r\n* Improve memory allocator during loading (#43945) by @Cyrilvallez\r\n* Inclusion of process_group in the gather_full_tensor function in tensor_parallel.py (#43932) by @quic-meetkuma\r\n* Fix sync gradient (#43919) by @SunMarc\r\n* Reorder Trainer methods (#43914) by @SunMarc\r\n* Fix TypeError in dot_natural_key when state_dict keys have mixed types at same position (#43966) by @shtse8\r\n* Enhance JSON schema generation to support instance, static, and class methods (#43968) by @qgallouedec\r\n* Remove unused squeeze from VJEPA2 embeddings rotation (#43984) by @materight\r\n* Improve new failing test analysis for PR comment CI (#44033) by @ydshieh\r\n* Remove `other_workflow_run_ids` for `issue_comment` in `utils/notification_service.py` (#44036) by @ydshieh\r\n* stable grouped_mm API (#43977) by @IlyasMoutawwakil\r\n* create .git-blame-ignore-revs file  (#43982) by @SunMarc\r\n* docs: fix typos across documentation files (#43993) by @saurav0369\r\n* update python requirement to 3.10+ to match codebase (#44009) by @mariam851\r\n* Improve use of torch.is_autocast_enabled (#43930) by @cyyever\r\n* Use torch.xlogy  (#44006) by @cyyever\r\n* [Deespeed] fix WeightConverter.convert() use (#43926) by @kashif\r\n* Reduce reduce CUDA sync (#44005) by @cyyever\r\n* split out accelerator args builder method (#43987) by @winglian\r\n* SINQ quantization strategy integration (adapted for Transformers V5) (#43112) by @ChiaraBoretti\r\n* fix(models): Unpack BitNet packed weights to fix CI failure (#43721) by @harshaljanjani\r\n\r\n## Significant community contributions\r\n\r\nThe following contributors have made significant changes to the library over the last release:\r\n\r\n* @ChiaraBoretti\r\n    * SINQ quantization strategy integration (adapted for Transformers V5) (#43112)\r\n* @cyyever\r\n    * Reduce reduce CUDA sync (#44005)\r\n    * Use torch.xlogy  (#44006)\r\n    * Improve use of torch.is_autocast_enabled (#43930)\r\n    * Fix old tech stack in doc (#43902)\r\n    * Update KERNELS_MIN_VERSION to 0.10.2 to be the same as setup.py (#43753)\r\n    * Remove unnecessary code or checks for PT 2.4+ (#43787)\r\n    * Fix old tech stack in doc (#43879)\r\n    * Delete batch_split from EncoderDecoderCache (#43814)\r\n    * Fix markdown documentation (#43076)\r\n* @eustlb\r\n    * Add Voxtral Realtime (#43769)\r\n    * [MistralCommonBackend] fix loading proc (#43887)\r\n* @ebezzam\r\n    * Fix expected DAC outputs due to (old) change in CI settings. (#43896)\r\n    * Add VibeVoice Acoustic Tokenizer (#43400)\r\n* @vasqu\r\n    * [`Jamba`] Fallback to slow path and warn instead of error out (#43889)\r\n    * :rotating_light: [`Attn`] New attn mask interface everywhere (#42848)\r\n    * [`Repo Consistency`] Fix rms norm (#43803)\r\n    * [`Modular Dependencies`] Fixup qwen rms norms (#43772)\r\n* @bozheng-hit\r\n    * Adding Support for Qwen3.5 (#43830)\r\n",
@@ -1233,24 +1267,7 @@
       "featured": false
     },
     {
-      "id": "mlqyt72bpq6qcodkrr",
-      "title": "Google: Release v0.29.0-preview.3",
-      "summary": "## What's Changed\n* fix(patch): cherry-pick d0c6a56 to release/v0.29.0-preview.2-pr-18976 to patch version v0.29.0-preview.2 and create version 0.29.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/19023\n\n\n**Full Changelog**: https://github.com/google-gemini/gemin...",
-      "content": "## What's Changed\n* fix(patch): cherry-pick d0c6a56 to release/v0.29.0-preview.2-pr-18976 to patch version v0.29.0-preview.2 and create version 0.29.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/19023\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.29.0-preview.2...v0.29.0-preview.3",
-      "publishedAt": "2026-02-13T22:17:33.000Z",
-      "source": "Google GitHub",
-      "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.29.0-preview.3",
-      "category": "tools",
-      "company": "Google",
-      "imageUrl": null,
-      "tags": [
-        "Gemini",
-        "Google"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mlqyt4vdaxkre6kxpej",
+      "id": "mlrdy1gerty9lqwpzti",
       "title": "OpenAI: openai-cookbookの最新アップデート",
       "summary": "openai-cookbookリポジトリに新しい更新: Add Realtime Eval Harness Code section to the guide with links to ref… (#2427)...",
       "content": "Add Realtime Eval Harness Code section to the guide with links to ref… (#2427)",
@@ -1267,7 +1284,7 @@
       "featured": false
     },
     {
-      "id": "mlqyt625yjaogn8ppj",
+      "id": "mlrdy2poege9oe68yvw",
       "title": "Google: cookbookの最新アップデート",
       "summary": "cookbookリポジトリに新しい更新: Reorganize and update .gitignore entriesOnly ignoring python files at root level...",
       "content": "Reorganize and update .gitignore entriesOnly ignoring python files at root level",
@@ -1281,30 +1298,13 @@
       "featured": false
     },
     {
-      "id": "mlqyt0llt97zylyvele",
+      "id": "mlrdxwzfzik7xk5bdom",
       "title": "Anthropic: v0.79.0",
       "summary": "## 0.79.0 (2026-02-07)\n\nFull Changelog: [v0.78.0...v0.79.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.78.0...v0.79.0)\n\n### Features\n\n* **api:** enabling fast-mode in claude-opus-4-6 ([5953ba7](https://github.com/anthropics/anthropic-sdk-python/commit/5953ba7b425ba113595de570bc8c6...",
       "content": "## 0.79.0 (2026-02-07)\n\nFull Changelog: [v0.78.0...v0.79.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.78.0...v0.79.0)\n\n### Features\n\n* **api:** enabling fast-mode in claude-opus-4-6 ([5953ba7](https://github.com/anthropics/anthropic-sdk-python/commit/5953ba7b425ba113595de570bc8c639ff4dc4047))\n\n\n### Bug Fixes\n\n* pass speed parameter through in sync beta count_tokens ([1dd6119](https://github.com/anthropics/anthropic-sdk-python/commit/1dd6119daca6de7a6eb730eb2494f368889ea050))",
       "publishedAt": "2026-02-07T18:05:51.000Z",
       "source": "Anthropic GitHub",
       "sourceUrl": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.79.0",
-      "category": "tools",
-      "company": "Anthropic",
-      "imageUrl": null,
-      "tags": [
-        "Claude",
-        "Anthropic"
-      ],
-      "featured": false
-    },
-    {
-      "id": "mlqyt0llaf7amsltom",
-      "title": "Anthropic: v0.78.0",
-      "summary": "## 0.78.0 (2026-02-05)\n\nFull Changelog: [v0.77.1...v0.78.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.77.1...v0.78.0)\n\n### Features\n\n* **api:** Release Claude Opus 4.6, adaptive thinking, and other features ([3ef1529](https://github.com/anthropics/anthropic-sdk-python/commit/3ef1...",
-      "content": "## 0.78.0 (2026-02-05)\n\nFull Changelog: [v0.77.1...v0.78.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.77.1...v0.78.0)\n\n### Features\n\n* **api:** Release Claude Opus 4.6, adaptive thinking, and other features ([3ef1529](https://github.com/anthropics/anthropic-sdk-python/commit/3ef1529b45c55645646cc6043784f999fda088de))",
-      "publishedAt": "2026-02-05T17:51:33.000Z",
-      "source": "Anthropic GitHub",
-      "sourceUrl": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.78.0",
       "category": "tools",
       "company": "Anthropic",
       "imageUrl": null,
